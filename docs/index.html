@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>每日商用英文單字回顧</title>
+<style>
+  :root {
+    --bg: #f6f7fb;
+    --card-bg: #ffffff;
+    --text: #1c1e26;
+    --muted: #6b7280;
+    --accent: #2f6fed;
+    --accent-soft: #e8effe;
+    --border: #e5e7eb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14151c;
+      --card-bg: #1d1f29;
+      --text: #f0f1f5;
+      --muted: #9096a6;
+      --accent: #6d9bff;
+      --accent-soft: #24304d;
+      --border: #2c2f3a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+  }
+  header { margin-bottom: 24px; }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; }
+  .subtitle { color: var(--muted); font-size: 0.9rem; }
+
+  .stats {
+    display: flex;
+    gap: 12px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+  }
+  .stat-tile {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 12px 16px;
+    flex: 1;
+    min-width: 100px;
+  }
+  .stat-tile .num { font-size: 1.4rem; font-weight: 700; }
+  .stat-tile .label { font-size: 0.78rem; color: var(--muted); }
+
+  .controls {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  input[type="search"] {
+    flex: 1;
+    min-width: 180px;
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: var(--card-bg);
+    color: var(--text);
+    font-size: 0.95rem;
+  }
+  input[type="search"]:focus { outline: 2px solid var(--accent); }
+  button {
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: var(--card-bg);
+    color: var(--text);
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  button.primary {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+  button:hover { filter: brightness(0.97); }
+
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 18px 20px;
+    margin-bottom: 14px;
+  }
+  .card .row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .word { font-size: 1.15rem; font-weight: 700; }
+  .pos {
+    font-size: 0.75rem;
+    color: var(--accent);
+    background: var(--accent-soft);
+    padding: 2px 8px;
+    border-radius: 999px;
+    margin-left: 8px;
+  }
+  .date { font-size: 0.78rem; color: var(--muted); }
+  .meaning { margin-top: 6px; }
+  .example {
+    margin-top: 6px;
+    color: var(--muted);
+    font-style: italic;
+    font-size: 0.92rem;
+  }
+
+  #reviewCard { display: none; text-align: center; }
+  #reviewCard .word { font-size: 1.8rem; }
+  #reviewCard .reveal-btn { margin-top: 14px; }
+  #reviewCard .hidden-part { display: none; margin-top: 10px; }
+
+  .empty {
+    text-align: center;
+    color: var(--muted);
+    padding: 40px 0;
+  }
+  .tabs {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 16px;
+  }
+  .tabs button { flex: 1; }
+  .tabs button.active {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>📘 每日商用英文單字回顧</h1>
+    <div class="subtitle">資料來源：history.json（每日 LINE 推播紀錄）</div>
+  </header>
+
+  <div class="stats">
+    <div class="stat-tile"><div class="num" id="statTotal">0</div><div class="label">累積單字數</div></div>
+    <div class="stat-tile"><div class="num" id="statDays">0</div><div class="label">推播天數</div></div>
+    <div class="stat-tile"><div class="num" id="statLatest">-</div><div class="label">最新一則日期</div></div>
+  </div>
+
+  <div class="tabs">
+    <button id="tabBrowse" class="active">瀏覽 / 搜尋</button>
+    <button id="tabReview">隨機複習</button>
+  </div>
+
+  <div id="browseView">
+    <div class="controls">
+      <input type="search" id="searchInput" placeholder="搜尋單字或中文意思…" />
+      <button id="sortToggle">依日期：新→舊</button>
+    </div>
+    <div id="list"></div>
+  </div>
+
+  <div id="reviewView" style="display:none;">
+    <div class="card" id="reviewCard">
+      <div class="date" id="reviewDate"></div>
+      <div class="word" id="reviewWord">-</div>
+      <span class="pos" id="reviewPos"></span>
+      <div class="hidden-part" id="reviewHidden">
+        <div class="meaning" id="reviewMeaning"></div>
+        <div class="example" id="reviewExample"></div>
+      </div>
+      <div class="reveal-btn">
+        <button class="primary" id="revealBtn">顯示意思與例句</button>
+        <button id="nextBtn">換下一個</button>
+      </div>
+    </div>
+    <div class="empty" id="reviewEmpty" style="display:none;">目前還沒有任何推播紀錄可以複習。</div>
+  </div>
+</div>
+
+<script>
+let historyData = [];
+let sortDesc = true;
+
+async function loadHistory() {
+  try {
+    const res = await fetch('../history.json', { cache: 'no-store' });
+    historyData = await res.json();
+  } catch (e) {
+    historyData = [];
+  }
+  renderStats();
+  renderList();
+}
+
+function renderStats() {
+  document.getElementById('statTotal').textContent = historyData.length;
+  const days = new Set(historyData.map(h => h.date)).size;
+  document.getElementById('statDays').textContent = days;
+  const latest = historyData.reduce((max, h) => (!max || h.date > max) ? h.date : max, null);
+  document.getElementById('statLatest').textContent = latest || '-';
+}
+
+function renderList() {
+  const list = document.getElementById('list');
+  const query = document.getElementById('searchInput').value.trim().toLowerCase();
+
+  let items = historyData.filter(h =>
+    !query ||
+    h.word.toLowerCase().includes(query) ||
+    (h.meaning || '').toLowerCase().includes(query)
+  );
+
+  items = items.slice().sort((a, b) => sortDesc ? b.date.localeCompare(a.date) : a.date.localeCompare(b.date));
+
+  if (items.length === 0) {
+    list.innerHTML = '<div class="empty">找不到符合的單字，或尚無推播紀錄。</div>';
+    return;
+  }
+
+  list.innerHTML = items.map(h => `
+    <div class="card">
+      <div class="row1">
+        <div><span class="word">${escapeHtml(h.word)}</span><span class="pos">${escapeHtml(h.pos || '')}</span></div>
+        <div class="date">${escapeHtml(h.date)}</div>
+      </div>
+      <div class="meaning">${escapeHtml(h.meaning || '')}</div>
+      <div class="example">${escapeHtml(h.example || '')}</div>
+    </div>
+  `).join('');
+}
+
+function escapeHtml(str) {
+  return String(str)
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;');
+}
+
+document.getElementById('searchInput').addEventListener('input', renderList);
+document.getElementById('sortToggle').addEventListener('click', () => {
+  sortDesc = !sortDesc;
+  document.getElementById('sortToggle').textContent = sortDesc ? '依日期：新→舊' : '依日期：舊→新';
+  renderList();
+});
+
+// Tabs
+const tabBrowse = document.getElementById('tabBrowse');
+const tabReview = document.getElementById('tabReview');
+const browseView = document.getElementById('browseView');
+const reviewView = document.getElementById('reviewView');
+
+tabBrowse.addEventListener('click', () => {
+  tabBrowse.classList.add('active');
+  tabReview.classList.remove('active');
+  browseView.style.display = '';
+  reviewView.style.display = 'none';
+});
+tabReview.addEventListener('click', () => {
+  tabReview.classList.add('active');
+  tabBrowse.classList.remove('active');
+  reviewView.style.display = '';
+  browseView.style.display = 'none';
+  pickRandom();
+});
+
+// Random review
+let currentPick = null;
+
+function pickRandom() {
+  const card = document.getElementById('reviewCard');
+  const empty = document.getElementById('reviewEmpty');
+  if (historyData.length === 0) {
+    card.style.display = 'none';
+    empty.style.display = '';
+    return;
+  }
+  card.style.display = '';
+  empty.style.display = 'none';
+
+  currentPick = historyData[Math.floor(Math.random() * historyData.length)];
+  document.getElementById('reviewDate').textContent = currentPick.date;
+  document.getElementById('reviewWord').textContent = currentPick.word;
+  document.getElementById('reviewPos').textContent = currentPick.pos || '';
+  document.getElementById('reviewMeaning').textContent = currentPick.meaning || '';
+  document.getElementById('reviewExample').textContent = currentPick.example || '';
+  document.getElementById('reviewHidden').style.display = 'none';
+  document.getElementById('revealBtn').textContent = '顯示意思與例句';
+}
+
+document.getElementById('revealBtn').addEventListener('click', () => {
+  const hidden = document.getElementById('reviewHidden');
+  const showing = hidden.style.display === 'block';
+  hidden.style.display = showing ? 'none' : 'block';
+  document.getElementById('revealBtn').textContent = showing ? '顯示意思與例句' : '隱藏';
+});
+document.getElementById('nextBtn').addEventListener('click', pickRandom);
+
+loadHistory();
+</script>
+</body>
+</html>
