@@ -67,6 +67,17 @@ def norm(w: str) -> str:
     return w.strip().lower()
 
 
+def root_key(root: str | None) -> str | None:
+    """字根標籤只比對詞綴本身（括號前的部分），忽略中文解釋文字的出入。
+
+    例如 "-ary (性質)" 和 "-ary (與…有關)" 視為同一個字根，
+    這樣即使不同批次生成時解釋寫法不一致，也還是能湊成同一組。
+    """
+    if not root:
+        return None
+    return root.split("(")[0].strip().lower()
+
+
 # ---------------------------------------------------------------------------
 # 單字庫聚類挑選
 # ---------------------------------------------------------------------------
@@ -110,13 +121,13 @@ def pick_cluster(words: list[dict], used_words: set[str], mode: str):
 
     elif mode == "root":
         for seed in shuffled:
-            root = seed.get("root")
-            if not root:
+            key = root_key(seed.get("root"))
+            if not key:
                 continue
-            group = [w for w in available if w.get("root") == root]
+            group = [w for w in available if root_key(w.get("root")) == key]
             if group:
                 cluster = fill_cluster(group[:CLUSTER_SIZE], available, seed.get("theme"))
-                return cluster, ("root", root)
+                return cluster, ("root", seed.get("root"))
 
     elif mode == "synonym":
         for seed in shuffled:

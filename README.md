@@ -35,8 +35,18 @@
 ```
 
 - `theme`：固定分類 slug（negotiation、finance、marketing、hr… 共 20 種），用來找同主題的字
-- `root`：字根/字首/字尾標籤（例如 `"re- (再次)"`），沒有明顯字根則為 `null`
+- `root`：字根/字首/字尾標籤（例如 `"re- (再次)"`），沒有明顯字根則為 `null`。這個清單是開放式的，不限定只能用某幾個固定詞綴——`push.py` 聚類時只比對括號前的詞綴本身（見 `root_key()`），忽略括號內中文解釋的寫法差異，所以新字根只要格式一致（`"詞綴 (解釋)"`），累積到 2 個以上就能被抽出來湊一組
 - `synonyms` / `antonyms`：純英文字串，不需要保證在單字庫裡也找得到，推播時程式會自動比對是否存在
+
+## 擴充單字庫
+
+想自己去其他 LLM（ChatGPT、Gemini…）生成更多單字補進來，可以用 [PROMPT_TEMPLATE.md](./PROMPT_TEMPLATE.md) 裡現成的提示詞，拿到 JSON 後執行：
+
+```bash
+python3 scripts/merge_words.py new_batch.json
+```
+
+這支腳本會驗證格式、自動去除跟現有單字庫重複的字，並印出新增/跳過的統計。
 
 ## 設定步驟
 

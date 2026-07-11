@@ -32907,5 +32907,242 @@
     "root": null,
     "synonyms": [],
     "antonyms": []
+  },
+  {
+    "word": "align",
+    "pos": "v.",
+    "meaning": "使一致",
+    "example": "We need to align our strategy with customer expectations.",
+    "level": "中階",
+    "theme": "strategy",
+    "root": null,
+    "synonyms": [
+      "coordinate",
+      "match",
+      "harmonize"
+    ],
+    "antonyms": [
+      "misalign"
+    ]
+  },
+  {
+    "word": "reconciliation",
+    "pos": "n.",
+    "meaning": "帳務核對",
+    "example": "Monthly reconciliation ensures financial accuracy.",
+    "level": "中高階",
+    "theme": "accounting",
+    "root": "re- (再次)",
+    "synonyms": [
+      "matching",
+      "balancing"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "break-even",
+    "pos": "adj.",
+    "meaning": "損益兩平",
+    "example": "The project reached break-even in six months.",
+    "level": "中階",
+    "theme": "finance",
+    "root": null,
+    "synonyms": [
+      "cost-neutral"
+    ],
+    "antonyms": [
+      "loss-making"
+    ]
+  },
+  {
+    "word": "conversion rate",
+    "pos": "phr.",
+    "meaning": "轉換率",
+    "example": "The campaign improved our conversion rate.",
+    "level": "中階",
+    "theme": "marketing",
+    "root": null,
+    "synonyms": [
+      "conversion"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "market penetration",
+    "pos": "phr.",
+    "meaning": "市場滲透",
+    "example": "The strategy increased market penetration.",
+    "level": "中高階",
+    "theme": "marketing",
+    "root": null,
+    "synonyms": [
+      "market reach"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "restructure",
+    "pos": "v.",
+    "meaning": "重組",
+    "example": "The company will restructure its divisions.",
+    "level": "中高階",
+    "theme": "management",
+    "root": "re- (再次)",
+    "synonyms": [
+      "reorganize"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "configuration",
+    "pos": "n.",
+    "meaning": "設定配置",
+    "example": "The default configuration works well.",
+    "level": "中階",
+    "theme": "technology_it",
+    "root": null,
+    "synonyms": [
+      "setup"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "overestimate",
+    "pos": "v.",
+    "meaning": "高估",
+    "example": "Don't overestimate market demand.",
+    "level": "中階",
+    "theme": "strategy",
+    "root": "over- (過度)",
+    "synonyms": [
+      "overrate"
+    ],
+    "antonyms": [
+      "underestimate"
+    ]
+  },
+  {
+    "word": "underestimate",
+    "pos": "v.",
+    "meaning": "低估",
+    "example": "We underestimated implementation costs.",
+    "level": "中階",
+    "theme": "finance",
+    "root": "under- (不足)",
+    "synonyms": [
+      "undervalue"
+    ],
+    "antonyms": [
+      "overestimate"
+    ]
+  },
+  {
+    "word": "reassess",
+    "pos": "v.",
+    "meaning": "重新評估",
+    "example": "We need to reassess the timeline.",
+    "level": "中階",
+    "theme": "strategy",
+    "root": "re- (再次)",
+    "synonyms": [
+      "reevaluate"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "noncompliant",
+    "pos": "adj.",
+    "meaning": "不合規",
+    "example": "Noncompliant vendors were removed.",
+    "level": "中高階",
+    "theme": "compliance_risk",
+    "root": null,
+    "synonyms": [
+      "nonconforming"
+    ],
+    "antonyms": [
+      "compliant"
+    ]
+  },
+  {
+    "word": "optimization",
+    "pos": "n.",
+    "meaning": "最佳化",
+    "example": "Optimization reduced operating costs.",
+    "level": "中高階",
+    "theme": "operations",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "improvement"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "fulfillment",
+    "pos": "n.",
+    "meaning": "訂單履行",
+    "example": "Order fulfillment has improved.",
+    "level": "中高階",
+    "theme": "supply_chain",
+    "root": "-ment (名詞化:狀態結果)",
+    "synonyms": [
+      "order processing"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "inventory turnover",
+    "pos": "phr.",
+    "meaning": "存貨週轉率",
+    "example": "Inventory turnover increased this quarter.",
+    "level": "中高階",
+    "theme": "supply_chain",
+    "root": null,
+    "synonyms": [
+      "stock turnover"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "competitive advantage",
+    "pos": "phr.",
+    "meaning": "競爭優勢",
+    "example": "Innovation creates competitive advantage.",
+    "level": "中高階",
+    "theme": "strategy",
+    "root": null,
+    "synonyms": [
+      "strategic edge"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "economic outlook",
+    "pos": "phr.",
+    "meaning": "經濟展望",
+    "example": "The economic outlook remains uncertain.",
+    "level": "中高階",
+    "theme": "economics",
+    "root": null,
+    "synonyms": [
+      "economic forecast"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "inflationary",
+    "pos": "adj.",
+    "meaning": "通貨膨脹的",
+    "example": "Inflationary pressure pushed prices higher this quarter.",
+    "level": "中高階",
+    "theme": "economics",
+    "root": "-ary (性質的)",
+    "synonyms": [
+      "rising",
+      "escalating"
+    ],
+    "antonyms": [
+      "deflationary"
+    ]
   }
 ]

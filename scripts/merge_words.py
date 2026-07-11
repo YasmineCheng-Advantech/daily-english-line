@@ -9,7 +9,9 @@
 - word/pos/meaning/example 必須是非空字串
 - level 必須是 "中階" 或 "中高階"
 - theme 必須是固定清單裡的其中一個
-- root 必須是 null 或固定清單裡的其中一個
+- root 必須是 null 或非空字串（字根清單是開放式的，不限定在原本 22 個裡；
+  push.py 聚類時只會比對「字根本身」（括號前的部分），不管括號裡的中文解釋
+  寫法是否每次一致，所以同一個字根即使解釋文字略有出入也還是能湊成一組）
 - synonyms / antonyms 必須是字串陣列（可以是空陣列）
 
 去重規則：
@@ -30,15 +32,6 @@ VALID_THEMES = {
     "operations", "supply_chain", "project_management", "technology_it",
     "strategy", "compliance_risk", "economics", "trade", "communication",
     "presentations",
-}
-
-VALID_ROOTS = {
-    "co-/con- (共同)", "counter- (相反/反制)", "over- (過度)", "under- (不足)",
-    "re- (再次)", "de- (去除/相反)", "dis- (不/相反)", "sub- (次要/下)",
-    "inter- (之間/相互)", "trans- (轉移/跨越)", "multi- (多)", "mono-/uni- (單一)",
-    "pre- (事前)", "post- (事後)", "pro- (支持/向前)", "auto- (自動)",
-    "-ize/-ise (使成為)", "-tion/-sion (名詞化:動作結果)", "-ment (名詞化:狀態結果)",
-    "-able/-ible (可…的)", "-ship (身分狀態)", "-ance/-ence (性質狀態)",
 }
 
 VALID_LEVELS = {"中階", "中高階"}
@@ -63,8 +56,8 @@ def validate_entry(entry: dict) -> str | None:
     if entry.get("theme") not in VALID_THEMES:
         return f"theme 不合法: {entry.get('theme')!r}"
     root = entry.get("root")
-    if root is not None and root not in VALID_ROOTS:
-        return f"root 不合法: {root!r}"
+    if root is not None and (not isinstance(root, str) or not root.strip()):
+        return f"root 必須是 null 或非空字串: {root!r}"
     for field in ("synonyms", "antonyms"):
         val = entry.get(field)
         if not isinstance(val, list) or not all(isinstance(x, str) for x in val):
