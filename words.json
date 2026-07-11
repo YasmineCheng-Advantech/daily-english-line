@@ -3,1800 +3,4526 @@
     "word": "leverage",
     "pos": "n.",
     "meaning": "談判籌碼；優勢",
-    "example": "Having multiple suppliers gives us leverage in price negotiations."
+    "example": "Having multiple suppliers gives us leverage in price negotiations.",
+    "level": "中高階",
+    "theme": "negotiation",
+    "root": null,
+    "synonyms": [
+      "influence",
+      "clout",
+      "bargaining power"
+    ],
+    "antonyms": []
   },
   {
     "word": "concession",
     "pos": "n.",
     "meaning": "讓步",
-    "example": "Neither side was willing to make a concession on price."
+    "example": "Neither side was willing to make a concession on price.",
+    "level": "中階",
+    "theme": "negotiation",
+    "root": "co-/con- (共同)",
+    "synonyms": [
+      "compromise",
+      "trade-off"
+    ],
+    "antonyms": [
+      "demand"
+    ]
   },
   {
     "word": "stipulate",
     "pos": "v.",
     "meaning": "明文規定",
-    "example": "The contract stipulates that payment must be made within 30 days."
+    "example": "The contract stipulates that payment must be made within 30 days.",
+    "level": "中高階",
+    "theme": "contracts_legal",
+    "root": null,
+    "synonyms": [
+      "specify",
+      "require",
+      "set forth"
+    ],
+    "antonyms": []
   },
   {
     "word": "clause",
     "pos": "n.",
     "meaning": "條款",
-    "example": "Please review the termination clause before signing."
+    "example": "Please review the termination clause before signing.",
+    "level": "中階",
+    "theme": "contracts_legal",
+    "root": null,
+    "synonyms": [
+      "provision",
+      "term"
+    ],
+    "antonyms": []
   },
   {
     "word": "breach",
     "pos": "n./v.",
     "meaning": "違反(合約)",
-    "example": "Failing to deliver on time constitutes a breach of contract."
+    "example": "Failing to deliver on time constitutes a breach of contract.",
+    "level": "中階",
+    "theme": "contracts_legal",
+    "root": null,
+    "synonyms": [
+      "violation",
+      "infringement"
+    ],
+    "antonyms": [
+      "compliance"
+    ]
   },
   {
     "word": "waiver",
     "pos": "n.",
     "meaning": "棄權聲明",
-    "example": "The client signed a waiver releasing us from liability."
+    "example": "The client signed a waiver releasing us from liability.",
+    "level": "中高階",
+    "theme": "contracts_legal",
+    "root": null,
+    "synonyms": [
+      "release",
+      "exemption"
+    ],
+    "antonyms": []
   },
   {
     "word": "addendum",
     "pos": "n.",
     "meaning": "附加條款",
-    "example": "An addendum was attached to extend the delivery deadline."
+    "example": "An addendum was attached to extend the delivery deadline.",
+    "level": "中高階",
+    "theme": "contracts_legal",
+    "root": null,
+    "synonyms": [
+      "amendment",
+      "supplement",
+      "attachment"
+    ],
+    "antonyms": []
   },
   {
     "word": "arbitration",
     "pos": "n.",
     "meaning": "仲裁",
-    "example": "The dispute was resolved through binding arbitration."
+    "example": "The dispute was resolved through binding arbitration.",
+    "level": "中高階",
+    "theme": "contracts_legal",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "mediation",
+      "adjudication"
+    ],
+    "antonyms": [
+      "litigation"
+    ]
   },
   {
     "word": "indemnity",
     "pos": "n.",
     "meaning": "賠償條款",
-    "example": "The supplier provided an indemnity against product defects."
+    "example": "The supplier provided an indemnity against product defects.",
+    "level": "中高階",
+    "theme": "contracts_legal",
+    "root": null,
+    "synonyms": [
+      "compensation",
+      "reimbursement"
+    ],
+    "antonyms": []
   },
   {
     "word": "non-disclosure",
     "pos": "phr.",
     "meaning": "保密協議",
-    "example": "Both parties signed a non-disclosure agreement before sharing data."
+    "example": "Both parties signed a non-disclosure agreement before sharing data.",
+    "level": "中高階",
+    "theme": "contracts_legal",
+    "root": "dis- (不/相反)",
+    "synonyms": [
+      "confidentiality agreement",
+      "NDA"
+    ],
+    "antonyms": []
   },
   {
     "word": "counteroffer",
     "pos": "n.",
     "meaning": "還價",
-    "example": "The seller rejected our bid and sent a counteroffer."
+    "example": "The seller rejected our bid and sent a counteroffer.",
+    "level": "中階",
+    "theme": "negotiation",
+    "root": "counter- (相反/反制)",
+    "synonyms": [
+      "counterproposal",
+      "rebid"
+    ],
+    "antonyms": [
+      "initial offer"
+    ]
   },
   {
     "word": "covenant",
     "pos": "n.",
     "meaning": "契約承諾",
-    "example": "The loan agreement includes a covenant restricting further borrowing."
+    "example": "The loan agreement includes a covenant restricting further borrowing.",
+    "level": "中高階",
+    "theme": "contracts_legal",
+    "root": null,
+    "synonyms": [
+      "agreement",
+      "pledge"
+    ],
+    "antonyms": []
   },
   {
     "word": "rescind",
     "pos": "v.",
     "meaning": "撤銷(合約)",
-    "example": "The buyer decided to rescind the contract after due diligence."
+    "example": "The buyer decided to rescind the contract after due diligence.",
+    "level": "中高階",
+    "theme": "contracts_legal",
+    "root": null,
+    "synonyms": [
+      "revoke",
+      "annul",
+      "cancel"
+    ],
+    "antonyms": [
+      "ratify",
+      "affirm"
+    ]
   },
   {
     "word": "binding",
     "pos": "adj.",
     "meaning": "具約束力的",
-    "example": "Once signed, the agreement becomes legally binding."
+    "example": "Once signed, the agreement becomes legally binding.",
+    "level": "中階",
+    "theme": "contracts_legal",
+    "root": null,
+    "synonyms": [
+      "obligatory",
+      "enforceable"
+    ],
+    "antonyms": [
+      "non-binding"
+    ]
   },
   {
     "word": "ratify",
     "pos": "v.",
     "meaning": "正式批准",
-    "example": "The board must ratify the merger agreement before it takes effect."
+    "example": "The board must ratify the merger agreement before it takes effect.",
+    "level": "中高階",
+    "theme": "contracts_legal",
+    "root": null,
+    "synonyms": [
+      "approve",
+      "endorse",
+      "authorize"
+    ],
+    "antonyms": [
+      "reject",
+      "veto"
+    ]
   },
   {
     "word": "terminate",
     "pos": "v.",
     "meaning": "終止(合約)",
-    "example": "Either party may terminate the contract with 60 days' notice."
+    "example": "Either party may terminate the contract with 60 days' notice.",
+    "level": "中階",
+    "theme": "contracts_legal",
+    "root": null,
+    "synonyms": [
+      "end",
+      "cancel",
+      "dissolve"
+    ],
+    "antonyms": [
+      "renew",
+      "initiate"
+    ]
   },
   {
     "word": "draft",
     "pos": "v.",
     "meaning": "起草",
-    "example": "Our legal team will draft the licensing agreement."
+    "example": "Our legal team will draft the licensing agreement.",
+    "level": "中階",
+    "theme": "contracts_legal",
+    "root": null,
+    "synonyms": [
+      "compose",
+      "write up"
+    ],
+    "antonyms": [
+      "finalize"
+    ]
   },
   {
     "word": "jurisdiction",
     "pos": "n.",
     "meaning": "管轄權",
-    "example": "The contract specifies that disputes fall under Taiwan's jurisdiction."
+    "example": "The contract specifies that disputes fall under Taiwan's jurisdiction.",
+    "level": "中高階",
+    "theme": "contracts_legal",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "authority",
+      "legal power"
+    ],
+    "antonyms": []
   },
   {
     "word": "mediation",
     "pos": "n.",
     "meaning": "調解",
-    "example": "The two firms opted for mediation instead of a lawsuit."
+    "example": "The two firms opted for mediation instead of a lawsuit.",
+    "level": "中階",
+    "theme": "negotiation",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "arbitration",
+      "conciliation"
+    ],
+    "antonyms": [
+      "litigation"
+    ]
   },
   {
     "word": "impasse",
     "pos": "n.",
     "meaning": "談判僵局",
-    "example": "Talks reached an impasse over pricing terms."
+    "example": "Talks reached an impasse over pricing terms.",
+    "level": "中高階",
+    "theme": "negotiation",
+    "root": null,
+    "synonyms": [
+      "deadlock",
+      "stalemate"
+    ],
+    "antonyms": [
+      "breakthrough"
+    ]
   },
   {
     "word": "contingency clause",
     "pos": "phr.",
     "meaning": "或有條款",
-    "example": "The contingency clause voids the deal if financing falls through."
+    "example": "The contingency clause voids the deal if financing falls through.",
+    "level": "中高階",
+    "theme": "contracts_legal",
+    "root": "co-/con- (共同)",
+    "synonyms": [
+      "conditional clause",
+      "escape clause"
+    ],
+    "antonyms": []
   },
   {
     "word": "good faith",
     "pos": "phr.",
     "meaning": "誠信",
-    "example": "Both sides negotiated in good faith to reach an agreement."
+    "example": "Both sides negotiated in good faith to reach an agreement.",
+    "level": "中階",
+    "theme": "negotiation",
+    "root": null,
+    "synonyms": [
+      "sincerity",
+      "honest intent"
+    ],
+    "antonyms": [
+      "bad faith"
+    ]
   },
   {
     "word": "deadlock",
     "pos": "n.",
     "meaning": "僵局",
-    "example": "Negotiations hit a deadlock after three rounds of talks."
+    "example": "Negotiations hit a deadlock after three rounds of talks.",
+    "level": "中階",
+    "theme": "negotiation",
+    "root": null,
+    "synonyms": [
+      "impasse",
+      "stalemate"
+    ],
+    "antonyms": [
+      "resolution",
+      "breakthrough"
+    ]
   },
   {
     "word": "bargaining chip",
     "pos": "phr.",
     "meaning": "談判籌碼",
-    "example": "Exclusive distribution rights became our main bargaining chip."
+    "example": "Exclusive distribution rights became our main bargaining chip.",
+    "level": "中階",
+    "theme": "negotiation",
+    "root": null,
+    "synonyms": [
+      "leverage",
+      "trump card"
+    ],
+    "antonyms": []
   },
   {
     "word": "tender",
     "pos": "n.",
     "meaning": "投標",
-    "example": "The company submitted a tender for the construction project."
+    "example": "The company submitted a tender for the construction project.",
+    "level": "中階",
+    "theme": "negotiation",
+    "root": null,
+    "synonyms": [
+      "bid",
+      "proposal"
+    ],
+    "antonyms": []
   },
   {
     "word": "renegotiate",
     "pos": "v.",
     "meaning": "重新談判",
-    "example": "Rising costs forced both parties to renegotiate the terms."
+    "example": "Rising costs forced both parties to renegotiate the terms.",
+    "level": "中階",
+    "theme": "negotiation",
+    "root": "re- (再次)",
+    "synonyms": [
+      "revise terms",
+      "rework a deal"
+    ],
+    "antonyms": []
   },
   {
     "word": "escrow",
     "pos": "n.",
     "meaning": "第三方保管帳戶",
-    "example": "Funds were held in escrow until the conditions were met."
+    "example": "Funds were held in escrow until the conditions were met.",
+    "level": "中高階",
+    "theme": "contracts_legal",
+    "root": null,
+    "synonyms": [
+      "trust account",
+      "holding account"
+    ],
+    "antonyms": []
   },
   {
     "word": "proviso",
     "pos": "n.",
     "meaning": "附帶條件",
-    "example": "The offer came with a proviso that approval be obtained first."
+    "example": "The offer came with a proviso that approval be obtained first.",
+    "level": "中高階",
+    "theme": "contracts_legal",
+    "root": "pro- (支持/向前)",
+    "synonyms": [
+      "condition",
+      "stipulation"
+    ],
+    "antonyms": []
   },
   {
     "word": "null and void",
     "pos": "phr.",
     "meaning": "無效的",
-    "example": "Any amendment made without written consent is null and void."
+    "example": "Any amendment made without written consent is null and void.",
+    "level": "中階",
+    "theme": "contracts_legal",
+    "root": null,
+    "synonyms": [
+      "invalid",
+      "unenforceable"
+    ],
+    "antonyms": [
+      "valid",
+      "binding"
+    ]
   },
   {
     "word": "undersigned",
     "pos": "n.",
     "meaning": "簽署人",
-    "example": "The undersigned agree to the terms outlined above."
+    "example": "The undersigned agree to the terms outlined above.",
+    "level": "中階",
+    "theme": "contracts_legal",
+    "root": null,
+    "synonyms": [
+      "signatory",
+      "signer"
+    ],
+    "antonyms": []
   },
   {
     "word": "liquidity",
     "pos": "n.",
     "meaning": "流動性",
-    "example": "The company maintained strong liquidity to cover short-term debts."
+    "example": "The company maintained strong liquidity to cover short-term debts.",
+    "level": "中高階",
+    "theme": "finance",
+    "root": null,
+    "synonyms": [
+      "cash availability",
+      "solvency"
+    ],
+    "antonyms": [
+      "illiquidity"
+    ]
   },
   {
     "word": "amortize",
     "pos": "v.",
     "meaning": "分期攤銷",
-    "example": "The firm will amortize the software cost over five years."
+    "example": "The firm will amortize the software cost over five years.",
+    "level": "中高階",
+    "theme": "accounting",
+    "root": "-ize/-ise (使成為)",
+    "synonyms": [
+      "write off gradually",
+      "spread out cost"
+    ],
+    "antonyms": []
   },
   {
     "word": "depreciation",
     "pos": "n.",
     "meaning": "折舊",
-    "example": "Depreciation of equipment is recorded annually on the balance sheet."
+    "example": "Depreciation of equipment is recorded annually on the balance sheet.",
+    "level": "中階",
+    "theme": "accounting",
+    "root": "de- (去除/相反)",
+    "synonyms": [
+      "devaluation",
+      "amortization"
+    ],
+    "antonyms": [
+      "appreciation"
+    ]
   },
   {
     "word": "equity",
     "pos": "n.",
     "meaning": "股權",
-    "example": "Investors received equity in exchange for early funding."
+    "example": "Investors received equity in exchange for early funding.",
+    "level": "中階",
+    "theme": "finance",
+    "root": null,
+    "synonyms": [
+      "ownership stake",
+      "shares"
+    ],
+    "antonyms": [
+      "debt"
+    ]
   },
   {
     "word": "dividend",
     "pos": "n.",
     "meaning": "股利",
-    "example": "The board approved a dividend increase for shareholders."
+    "example": "The board approved a dividend increase for shareholders.",
+    "level": "中階",
+    "theme": "finance",
+    "root": null,
+    "synonyms": [
+      "payout",
+      "distribution"
+    ],
+    "antonyms": []
   },
   {
     "word": "ledger",
     "pos": "n.",
     "meaning": "分類帳",
-    "example": "All transactions are recorded in the general ledger."
+    "example": "All transactions are recorded in the general ledger.",
+    "level": "中階",
+    "theme": "accounting",
+    "root": null,
+    "synonyms": [
+      "account book",
+      "register"
+    ],
+    "antonyms": []
   },
   {
     "word": "overhead",
     "pos": "n.",
     "meaning": "營運成本",
-    "example": "Cutting overhead helped improve the company's profit margin."
+    "example": "Cutting overhead helped improve the company's profit margin.",
+    "level": "中階",
+    "theme": "accounting",
+    "root": null,
+    "synonyms": [
+      "operating costs",
+      "fixed costs"
+    ],
+    "antonyms": []
   },
   {
     "word": "audit",
     "pos": "n.",
     "meaning": "審計",
-    "example": "An external audit confirmed the accuracy of the financial statements."
+    "example": "An external audit confirmed the accuracy of the financial statements.",
+    "level": "中階",
+    "theme": "accounting",
+    "root": null,
+    "synonyms": [
+      "examination",
+      "review",
+      "inspection"
+    ],
+    "antonyms": []
   },
   {
     "word": "solvency",
     "pos": "n.",
     "meaning": "償債能力",
-    "example": "The bank reviewed the firm's solvency before approving the loan."
+    "example": "The bank reviewed the firm's solvency before approving the loan.",
+    "level": "中高階",
+    "theme": "finance",
+    "root": "-ance/-ence (性質狀態)",
+    "synonyms": [
+      "financial stability",
+      "creditworthiness"
+    ],
+    "antonyms": [
+      "insolvency"
+    ]
   },
   {
     "word": "accrual",
     "pos": "n.",
     "meaning": "應計項目",
-    "example": "Accrual accounting records revenue when it is earned, not received."
+    "example": "Accrual accounting records revenue when it is earned, not received.",
+    "level": "中高階",
+    "theme": "accounting",
+    "root": null,
+    "synonyms": [
+      "accumulation",
+      "accrued amount"
+    ],
+    "antonyms": []
   },
   {
     "word": "asset",
     "pos": "n.",
     "meaning": "資產",
-    "example": "The company's most valuable asset is its patent portfolio."
+    "example": "The company's most valuable asset is its patent portfolio.",
+    "level": "中階",
+    "theme": "finance",
+    "root": null,
+    "synonyms": [
+      "resource",
+      "holding"
+    ],
+    "antonyms": [
+      "liability"
+    ]
   },
   {
     "word": "book value",
     "pos": "phr.",
     "meaning": "帳面價值",
-    "example": "The machinery's book value has declined due to depreciation."
+    "example": "The machinery's book value has declined due to depreciation.",
+    "level": "中階",
+    "theme": "accounting",
+    "root": null,
+    "synonyms": [
+      "net asset value",
+      "carrying value"
+    ],
+    "antonyms": [
+      "market value"
+    ]
   },
   {
     "word": "cash flow",
     "pos": "phr.",
     "meaning": "現金流",
-    "example": "Positive cash flow is essential for day-to-day operations."
+    "example": "Positive cash flow is essential for day-to-day operations.",
+    "level": "中階",
+    "theme": "finance",
+    "root": null,
+    "synonyms": [
+      "cash movement",
+      "liquidity flow"
+    ],
+    "antonyms": []
   },
   {
     "word": "revenue",
     "pos": "n.",
     "meaning": "營收",
-    "example": "Quarterly revenue exceeded analysts' expectations."
+    "example": "Quarterly revenue exceeded analysts' expectations.",
+    "level": "中階",
+    "theme": "finance",
+    "root": null,
+    "synonyms": [
+      "income",
+      "turnover",
+      "sales"
+    ],
+    "antonyms": [
+      "expenditure"
+    ]
   },
   {
     "word": "margin",
     "pos": "n.",
     "meaning": "利潤率",
-    "example": "The retailer operates on a thin profit margin."
+    "example": "The retailer operates on a thin profit margin.",
+    "level": "中階",
+    "theme": "finance",
+    "root": null,
+    "synonyms": [
+      "profit margin",
+      "markup"
+    ],
+    "antonyms": []
   },
   {
     "word": "capital expenditure",
     "pos": "phr.",
     "meaning": "資本支出",
-    "example": "Capital expenditure on new factories rose sharply this year."
+    "example": "Capital expenditure on new factories rose sharply this year.",
+    "level": "中高階",
+    "theme": "finance",
+    "root": null,
+    "synonyms": [
+      "capex",
+      "investment spending"
+    ],
+    "antonyms": [
+      "operating expenditure"
+    ]
   },
   {
     "word": "fiscal year",
     "pos": "phr.",
     "meaning": "會計年度",
-    "example": "The company's fiscal year ends in December."
+    "example": "The company's fiscal year ends in December.",
+    "level": "中階",
+    "theme": "accounting",
+    "root": null,
+    "synonyms": [
+      "financial year",
+      "tax year"
+    ],
+    "antonyms": []
   },
   {
     "word": "write-off",
     "pos": "n.",
     "meaning": "沖銷",
-    "example": "The bad debt was recorded as a write-off."
+    "example": "The bad debt was recorded as a write-off.",
+    "level": "中階",
+    "theme": "accounting",
+    "root": null,
+    "synonyms": [
+      "cancellation",
+      "bad debt deduction"
+    ],
+    "antonyms": []
   },
   {
     "word": "underwrite",
     "pos": "v.",
     "meaning": "承銷；擔保",
-    "example": "The bank agreed to underwrite the corporate bond issue."
+    "example": "The bank agreed to underwrite the corporate bond issue.",
+    "level": "中高階",
+    "theme": "finance",
+    "root": null,
+    "synonyms": [
+      "insure",
+      "guarantee",
+      "back financially"
+    ],
+    "antonyms": []
   },
   {
     "word": "valuation",
     "pos": "n.",
     "meaning": "估值",
-    "example": "The startup's valuation doubled after the latest funding round."
+    "example": "The startup's valuation doubled after the latest funding round.",
+    "level": "中階",
+    "theme": "finance",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "appraisal",
+      "assessment"
+    ],
+    "antonyms": []
   },
   {
     "word": "arrears",
     "pos": "n.",
     "meaning": "拖欠款項",
-    "example": "The tenant's rent payments were three months in arrears."
+    "example": "The tenant's rent payments were three months in arrears.",
+    "level": "中高階",
+    "theme": "finance",
+    "root": null,
+    "synonyms": [
+      "overdue payment",
+      "outstanding debt"
+    ],
+    "antonyms": []
   },
   {
     "word": "collateral",
     "pos": "n.",
     "meaning": "抵押品",
-    "example": "The loan was secured against real estate as collateral."
+    "example": "The loan was secured against real estate as collateral.",
+    "level": "中高階",
+    "theme": "finance",
+    "root": "co-/con- (共同)",
+    "synonyms": [
+      "security",
+      "pledge"
+    ],
+    "antonyms": []
   },
   {
     "word": "hedge",
     "pos": "v.",
     "meaning": "對沖風險",
-    "example": "The firm used futures contracts to hedge against currency risk."
+    "example": "The firm used futures contracts to hedge against currency risk.",
+    "level": "中階",
+    "theme": "finance",
+    "root": null,
+    "synonyms": [
+      "offset risk",
+      "protect against loss"
+    ],
+    "antonyms": [
+      "speculate"
+    ]
   },
   {
     "word": "portfolio",
     "pos": "n.",
     "meaning": "投資組合",
-    "example": "Her investment portfolio includes stocks, bonds, and real estate."
+    "example": "Her investment portfolio includes stocks, bonds, and real estate.",
+    "level": "中階",
+    "theme": "finance",
+    "root": null,
+    "synonyms": [
+      "investment mix",
+      "holdings"
+    ],
+    "antonyms": []
   },
   {
     "word": "yield",
     "pos": "n.",
     "meaning": "收益率",
-    "example": "Bond yields rose amid expectations of higher interest rates."
+    "example": "Bond yields rose amid expectations of higher interest rates.",
+    "level": "中階",
+    "theme": "finance",
+    "root": null,
+    "synonyms": [
+      "return",
+      "payout rate"
+    ],
+    "antonyms": []
   },
   {
     "word": "insolvent",
     "pos": "adj.",
     "meaning": "無力償債的",
-    "example": "The retailer was declared insolvent after years of losses."
+    "example": "The retailer was declared insolvent after years of losses.",
+    "level": "中高階",
+    "theme": "finance",
+    "root": null,
+    "synonyms": [
+      "bankrupt",
+      "broke"
+    ],
+    "antonyms": [
+      "solvent"
+    ]
   },
   {
     "word": "reconcile",
     "pos": "v.",
     "meaning": "對帳",
-    "example": "The accountant reconciled the bank statement with the ledger."
+    "example": "The accountant reconciled the bank statement with the ledger.",
+    "level": "中階",
+    "theme": "accounting",
+    "root": "re- (再次)",
+    "synonyms": [
+      "match records",
+      "balance"
+    ],
+    "antonyms": []
   },
   {
     "word": "appreciation",
     "pos": "n.",
     "meaning": "資產增值",
-    "example": "The property saw significant appreciation over the decade."
+    "example": "The property saw significant appreciation over the decade.",
+    "level": "中階",
+    "theme": "finance",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "increase in value",
+      "gain"
+    ],
+    "antonyms": [
+      "depreciation"
+    ]
   },
   {
     "word": "principal",
     "pos": "n.",
     "meaning": "本金",
-    "example": "Monthly payments cover both interest and principal."
+    "example": "Monthly payments cover both interest and principal.",
+    "level": "中階",
+    "theme": "finance",
+    "root": null,
+    "synonyms": [
+      "capital sum",
+      "original amount"
+    ],
+    "antonyms": [
+      "interest"
+    ]
   },
   {
     "word": "leverage ratio",
     "pos": "phr.",
     "meaning": "槓桿比率",
-    "example": "Regulators require banks to maintain a minimum leverage ratio."
+    "example": "Regulators require banks to maintain a minimum leverage ratio.",
+    "level": "中高階",
+    "theme": "finance",
+    "root": null,
+    "synonyms": [
+      "debt ratio",
+      "gearing ratio"
+    ],
+    "antonyms": []
   },
   {
     "word": "differentiate",
     "pos": "v.",
     "meaning": "差異化",
-    "example": "The brand differentiates itself through sustainable packaging."
+    "example": "The brand differentiates itself through sustainable packaging.",
+    "level": "中階",
+    "theme": "marketing",
+    "root": null,
+    "synonyms": [
+      "distinguish",
+      "set apart"
+    ],
+    "antonyms": [
+      "standardize"
+    ]
   },
   {
     "word": "positioning",
     "pos": "n.",
     "meaning": "市場定位",
-    "example": "Strong positioning helped the product stand out from competitors."
+    "example": "Strong positioning helped the product stand out from competitors.",
+    "level": "中階",
+    "theme": "marketing",
+    "root": null,
+    "synonyms": [
+      "placement",
+      "market position"
+    ],
+    "antonyms": []
   },
   {
     "word": "conversion",
     "pos": "n.",
     "meaning": "轉換率",
-    "example": "The new landing page improved the conversion rate significantly."
+    "example": "The new landing page improved the conversion rate significantly.",
+    "level": "中階",
+    "theme": "marketing",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "conversion rate",
+      "sign-up rate"
+    ],
+    "antonyms": []
   },
   {
     "word": "churn",
     "pos": "n.",
     "meaning": "客戶流失率",
-    "example": "High churn among subscribers hurt monthly recurring revenue."
+    "example": "High churn among subscribers hurt monthly recurring revenue.",
+    "level": "中階",
+    "theme": "sales",
+    "root": null,
+    "synonyms": [
+      "attrition",
+      "customer loss"
+    ],
+    "antonyms": [
+      "retention"
+    ]
   },
   {
     "word": "upsell",
     "pos": "v.",
     "meaning": "追加銷售",
-    "example": "Sales reps are trained to upsell premium service plans."
+    "example": "Sales reps are trained to upsell premium service plans.",
+    "level": "中階",
+    "theme": "sales",
+    "root": null,
+    "synonyms": [
+      "upgrade sell",
+      "sell more"
+    ],
+    "antonyms": [
+      "downsell"
+    ]
   },
   {
     "word": "benchmark",
     "pos": "n.",
     "meaning": "基準",
-    "example": "We use industry benchmarks to evaluate our performance."
+    "example": "We use industry benchmarks to evaluate our performance.",
+    "level": "中階",
+    "theme": "management",
+    "root": null,
+    "synonyms": [
+      "standard",
+      "reference point"
+    ],
+    "antonyms": []
   },
   {
     "word": "segmentation",
     "pos": "n.",
     "meaning": "市場區隔",
-    "example": "Customer segmentation allows for more targeted campaigns."
+    "example": "Customer segmentation allows for more targeted campaigns.",
+    "level": "中高階",
+    "theme": "marketing",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "market segmentation",
+      "customer categorization"
+    ],
+    "antonyms": []
   },
   {
     "word": "endorsement",
     "pos": "n.",
     "meaning": "代言；背書",
-    "example": "The athlete's endorsement boosted the brand's visibility."
+    "example": "The athlete's endorsement boosted the brand's visibility.",
+    "level": "中階",
+    "theme": "marketing",
+    "root": "-ment (名詞化:狀態結果)",
+    "synonyms": [
+      "sponsorship",
+      "backing"
+    ],
+    "antonyms": []
   },
   {
     "word": "cross-sell",
     "pos": "v.",
     "meaning": "交叉銷售",
-    "example": "The bank tried to cross-sell insurance products to loan customers."
+    "example": "The bank tried to cross-sell insurance products to loan customers.",
+    "level": "中階",
+    "theme": "sales",
+    "root": null,
+    "synonyms": [
+      "sell additional products",
+      "bundle sell"
+    ],
+    "antonyms": []
   },
   {
     "word": "brand equity",
     "pos": "phr.",
     "meaning": "品牌價值",
-    "example": "Decades of consistent quality built strong brand equity."
+    "example": "Decades of consistent quality built strong brand equity.",
+    "level": "中高階",
+    "theme": "marketing",
+    "root": null,
+    "synonyms": [
+      "brand value",
+      "brand strength"
+    ],
+    "antonyms": []
   },
   {
     "word": "target demographic",
     "pos": "phr.",
     "meaning": "目標客群",
-    "example": "The campaign was tailored to a younger target demographic."
+    "example": "The campaign was tailored to a younger target demographic.",
+    "level": "中階",
+    "theme": "marketing",
+    "root": null,
+    "synonyms": [
+      "target audience",
+      "target market"
+    ],
+    "antonyms": []
   },
   {
     "word": "outreach",
     "pos": "n.",
     "meaning": "推廣接觸",
-    "example": "The team launched an outreach program to attract new clients."
+    "example": "The team launched an outreach program to attract new clients.",
+    "level": "中階",
+    "theme": "marketing",
+    "root": null,
+    "synonyms": [
+      "engagement",
+      "promotion effort"
+    ],
+    "antonyms": []
   },
   {
     "word": "lead generation",
     "pos": "phr.",
     "meaning": "潛在客戶開發",
-    "example": "Webinars became a key channel for lead generation."
+    "example": "Webinars became a key channel for lead generation.",
+    "level": "中階",
+    "theme": "sales",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "prospecting",
+      "demand generation"
+    ],
+    "antonyms": []
   },
   {
     "word": "call to action",
     "pos": "phr.",
     "meaning": "行動呼籲",
-    "example": "Every email ends with a clear call to action."
+    "example": "Every email ends with a clear call to action.",
+    "level": "中階",
+    "theme": "marketing",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "CTA",
+      "prompt to act"
+    ],
+    "antonyms": []
   },
   {
     "word": "market saturation",
     "pos": "phr.",
     "meaning": "市場飽和",
-    "example": "Market saturation made it harder to acquire new customers."
+    "example": "Market saturation made it harder to acquire new customers.",
+    "level": "中高階",
+    "theme": "marketing",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "market glut",
+      "oversupply"
+    ],
+    "antonyms": [
+      "market gap"
+    ]
   },
   {
     "word": "niche",
     "pos": "n.",
     "meaning": "利基市場",
-    "example": "The company found success by targeting a profitable niche."
+    "example": "The company found success by targeting a profitable niche.",
+    "level": "中階",
+    "theme": "marketing",
+    "root": null,
+    "synonyms": [
+      "specialized market",
+      "segment"
+    ],
+    "antonyms": [
+      "mass market"
+    ]
   },
   {
     "word": "viral",
     "pos": "adj.",
     "meaning": "病毒式的",
-    "example": "The video campaign went viral within days of launch."
+    "example": "The video campaign went viral within days of launch.",
+    "level": "中階",
+    "theme": "marketing",
+    "root": null,
+    "synonyms": [
+      "widely shared",
+      "trending"
+    ],
+    "antonyms": []
   },
   {
     "word": "testimonial",
     "pos": "n.",
     "meaning": "客戶見證",
-    "example": "Customer testimonials were featured prominently on the site."
+    "example": "Customer testimonials were featured prominently on the site.",
+    "level": "中階",
+    "theme": "marketing",
+    "root": null,
+    "synonyms": [
+      "endorsement",
+      "review"
+    ],
+    "antonyms": []
   },
   {
     "word": "loyalty program",
     "pos": "phr.",
     "meaning": "忠誠度計畫",
-    "example": "The loyalty program rewards frequent shoppers with discounts."
+    "example": "The loyalty program rewards frequent shoppers with discounts.",
+    "level": "中階",
+    "theme": "marketing",
+    "root": null,
+    "synonyms": [
+      "rewards program",
+      "membership scheme"
+    ],
+    "antonyms": []
   },
   {
     "word": "impression",
     "pos": "n.",
     "meaning": "曝光次數",
-    "example": "The ad generated over a million impressions online."
+    "example": "The ad generated over a million impressions online.",
+    "level": "中階",
+    "theme": "marketing",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "ad view",
+      "exposure"
+    ],
+    "antonyms": []
   },
   {
     "word": "click-through rate",
     "pos": "phr.",
     "meaning": "點閱率",
-    "example": "A compelling headline can raise the click-through rate."
+    "example": "A compelling headline can raise the click-through rate.",
+    "level": "中階",
+    "theme": "marketing",
+    "root": null,
+    "synonyms": [
+      "CTR",
+      "clickthrough"
+    ],
+    "antonyms": []
   },
   {
     "word": "brand awareness",
     "pos": "phr.",
     "meaning": "品牌知名度",
-    "example": "The campaign was designed to increase brand awareness."
+    "example": "The campaign was designed to increase brand awareness.",
+    "level": "中階",
+    "theme": "marketing",
+    "root": null,
+    "synonyms": [
+      "brand recognition",
+      "visibility"
+    ],
+    "antonyms": []
   },
   {
     "word": "promotional",
     "pos": "adj.",
     "meaning": "促銷的",
-    "example": "Promotional pricing drove a spike in holiday sales."
+    "example": "Promotional pricing drove a spike in holiday sales.",
+    "level": "中階",
+    "theme": "marketing",
+    "root": "pro- (支持/向前)",
+    "synonyms": [
+      "discounted",
+      "marketing-related"
+    ],
+    "antonyms": []
   },
   {
     "word": "penetration",
     "pos": "n.",
     "meaning": "市場滲透",
-    "example": "The firm aims for deeper market penetration in Asia."
+    "example": "The firm aims for deeper market penetration in Asia.",
+    "level": "中高階",
+    "theme": "marketing",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "market penetration",
+      "inroads"
+    ],
+    "antonyms": []
   },
   {
     "word": "word-of-mouth",
     "pos": "phr.",
     "meaning": "口碑",
-    "example": "Word-of-mouth referrals remain a powerful sales driver."
+    "example": "Word-of-mouth referrals remain a powerful sales driver.",
+    "level": "中階",
+    "theme": "marketing",
+    "root": null,
+    "synonyms": [
+      "referral",
+      "buzz"
+    ],
+    "antonyms": []
   },
   {
     "word": "rebrand",
     "pos": "v.",
     "meaning": "品牌重塑",
-    "example": "The company decided to rebrand after the merger."
+    "example": "The company decided to rebrand after the merger.",
+    "level": "中階",
+    "theme": "marketing",
+    "root": "re- (再次)",
+    "synonyms": [
+      "reposition",
+      "relaunch"
+    ],
+    "antonyms": []
   },
   {
     "word": "value proposition",
     "pos": "phr.",
     "meaning": "價值主張",
-    "example": "A clear value proposition sets the product apart."
+    "example": "A clear value proposition sets the product apart.",
+    "level": "中高階",
+    "theme": "marketing",
+    "root": "pro- (支持/向前)",
+    "synonyms": [
+      "unique selling point",
+      "value statement"
+    ],
+    "antonyms": []
   },
   {
     "word": "affiliate marketing",
     "pos": "phr.",
     "meaning": "聯盟行銷",
-    "example": "Affiliate marketing drives a significant share of online sales."
+    "example": "Affiliate marketing drives a significant share of online sales.",
+    "level": "中高階",
+    "theme": "marketing",
+    "root": null,
+    "synonyms": [
+      "partner marketing",
+      "referral marketing"
+    ],
+    "antonyms": []
   },
   {
     "word": "footfall",
     "pos": "n.",
     "meaning": "到店人流",
-    "example": "The new storefront design increased footfall by 20 percent."
+    "example": "The new storefront design increased footfall by 20 percent.",
+    "level": "中階",
+    "theme": "marketing",
+    "root": null,
+    "synonyms": [
+      "foot traffic",
+      "store visits"
+    ],
+    "antonyms": []
   },
   {
     "word": "premium pricing",
     "pos": "phr.",
     "meaning": "溢價策略",
-    "example": "The brand relies on premium pricing to signal quality."
+    "example": "The brand relies on premium pricing to signal quality.",
+    "level": "中高階",
+    "theme": "marketing",
+    "root": "pre- (事前)",
+    "synonyms": [
+      "prestige pricing",
+      "high-end pricing"
+    ],
+    "antonyms": [
+      "discount pricing"
+    ]
   },
   {
     "word": "delegate",
     "pos": "v.",
     "meaning": "授權；委派",
-    "example": "Effective managers know how to delegate tasks."
+    "example": "Effective managers know how to delegate tasks.",
+    "level": "中階",
+    "theme": "management",
+    "root": null,
+    "synonyms": [
+      "assign",
+      "hand off"
+    ],
+    "antonyms": [
+      "retain",
+      "micromanage"
+    ]
   },
   {
     "word": "streamline",
     "pos": "v.",
     "meaning": "簡化流程",
-    "example": "The new software helped streamline the approval process."
+    "example": "The new software helped streamline the approval process.",
+    "level": "中階",
+    "theme": "operations",
+    "root": null,
+    "synonyms": [
+      "simplify",
+      "optimize"
+    ],
+    "antonyms": [
+      "complicate"
+    ]
   },
   {
     "word": "spearhead",
     "pos": "v.",
     "meaning": "率先推動",
-    "example": "She spearheaded the company's digital transformation."
+    "example": "She spearheaded the company's digital transformation.",
+    "level": "中高階",
+    "theme": "leadership",
+    "root": null,
+    "synonyms": [
+      "lead",
+      "pioneer",
+      "head up"
+    ],
+    "antonyms": [
+      "follow"
+    ]
   },
   {
     "word": "accountability",
     "pos": "n.",
     "meaning": "當責",
-    "example": "The new policy increases accountability at every level."
+    "example": "The new policy increases accountability at every level.",
+    "level": "中階",
+    "theme": "management",
+    "root": "-able/-ible (可…的)",
+    "synonyms": [
+      "responsibility",
+      "answerability"
+    ],
+    "antonyms": []
   },
   {
     "word": "initiative",
     "pos": "n.",
     "meaning": "主動性；新計畫",
-    "example": "He took the initiative to redesign the workflow."
+    "example": "He took the initiative to redesign the workflow.",
+    "level": "中階",
+    "theme": "management",
+    "root": null,
+    "synonyms": [
+      "proactivity",
+      "new project"
+    ],
+    "antonyms": []
   },
   {
     "word": "mentorship",
     "pos": "n.",
     "meaning": "指導關係",
-    "example": "The mentorship program pairs new hires with senior staff."
+    "example": "The mentorship program pairs new hires with senior staff.",
+    "level": "中階",
+    "theme": "hr",
+    "root": "-ship (身分狀態)",
+    "synonyms": [
+      "guidance",
+      "coaching"
+    ],
+    "antonyms": []
   },
   {
     "word": "empower",
     "pos": "v.",
     "meaning": "賦權",
-    "example": "The company empowers employees to make independent decisions."
+    "example": "The company empowers employees to make independent decisions.",
+    "level": "中階",
+    "theme": "leadership",
+    "root": null,
+    "synonyms": [
+      "authorize",
+      "enable"
+    ],
+    "antonyms": [
+      "restrict"
+    ]
   },
   {
     "word": "oversight",
     "pos": "n.",
     "meaning": "監督",
-    "example": "The committee provides oversight of budget spending."
+    "example": "The committee provides oversight of budget spending.",
+    "level": "中階",
+    "theme": "management",
+    "root": null,
+    "synonyms": [
+      "supervision",
+      "monitoring"
+    ],
+    "antonyms": [
+      "neglect"
+    ]
   },
   {
     "word": "autonomy",
     "pos": "n.",
     "meaning": "自主權",
-    "example": "Remote teams are given considerable autonomy over their schedules."
+    "example": "Remote teams are given considerable autonomy over their schedules.",
+    "level": "中高階",
+    "theme": "management",
+    "root": "auto- (自動)",
+    "synonyms": [
+      "independence",
+      "self-governance"
+    ],
+    "antonyms": [
+      "dependence"
+    ]
   },
   {
     "word": "proactive",
     "pos": "adj.",
     "meaning": "主動積極的",
-    "example": "A proactive approach to risk helped avoid major setbacks."
+    "example": "A proactive approach to risk helped avoid major setbacks.",
+    "level": "中階",
+    "theme": "management",
+    "root": "pro- (支持/向前)",
+    "synonyms": [
+      "forward-thinking",
+      "initiative-taking"
+    ],
+    "antonyms": [
+      "reactive"
+    ]
   },
   {
     "word": "consensus",
     "pos": "n.",
     "meaning": "共識",
-    "example": "The team reached a consensus after a lengthy discussion."
+    "example": "The team reached a consensus after a lengthy discussion.",
+    "level": "中階",
+    "theme": "management",
+    "root": "co-/con- (共同)",
+    "synonyms": [
+      "agreement",
+      "unanimity"
+    ],
+    "antonyms": [
+      "disagreement",
+      "dissent"
+    ]
   },
   {
     "word": "chain of command",
     "pos": "phr.",
     "meaning": "指揮系統",
-    "example": "Requests must follow the proper chain of command."
+    "example": "Requests must follow the proper chain of command.",
+    "level": "中階",
+    "theme": "management",
+    "root": null,
+    "synonyms": [
+      "hierarchy",
+      "reporting structure"
+    ],
+    "antonyms": []
   },
   {
     "word": "micromanage",
     "pos": "v.",
     "meaning": "微觀管理",
-    "example": "Employees resented being micromanaged on every task."
+    "example": "Employees resented being micromanaged on every task.",
+    "level": "中階",
+    "theme": "management",
+    "root": null,
+    "synonyms": [
+      "oversee closely",
+      "control every detail"
+    ],
+    "antonyms": [
+      "delegate",
+      "empower"
+    ]
   },
   {
     "word": "cross-functional",
     "pos": "adj.",
     "meaning": "跨部門的",
-    "example": "A cross-functional team was formed to launch the product."
+    "example": "A cross-functional team was formed to launch the product.",
+    "level": "中階",
+    "theme": "management",
+    "root": null,
+    "synonyms": [
+      "interdepartmental",
+      "multidisciplinary"
+    ],
+    "antonyms": []
   },
   {
     "word": "stakeholder",
     "pos": "n.",
     "meaning": "利害關係人",
-    "example": "All stakeholders were consulted before the policy change."
+    "example": "All stakeholders were consulted before the policy change.",
+    "level": "中階",
+    "theme": "management",
+    "root": null,
+    "synonyms": [
+      "interested party",
+      "shareholder"
+    ],
+    "antonyms": []
   },
   {
     "word": "visionary",
     "pos": "adj.",
     "meaning": "有遠見的",
-    "example": "The visionary CEO transformed the struggling company."
+    "example": "The visionary CEO transformed the struggling company.",
+    "level": "中階",
+    "theme": "leadership",
+    "root": null,
+    "synonyms": [
+      "forward-looking",
+      "innovative"
+    ],
+    "antonyms": [
+      "shortsighted"
+    ]
   },
   {
     "word": "task force",
     "pos": "phr.",
     "meaning": "專案小組",
-    "example": "A task force was assembled to address the supply crisis."
+    "example": "A task force was assembled to address the supply crisis.",
+    "level": "中階",
+    "theme": "management",
+    "root": null,
+    "synonyms": [
+      "working group",
+      "committee"
+    ],
+    "antonyms": []
   },
   {
     "word": "accountable",
     "pos": "adj.",
     "meaning": "負責任的",
-    "example": "Managers are held accountable for their team's results."
+    "example": "Managers are held accountable for their team's results.",
+    "level": "中階",
+    "theme": "management",
+    "root": "-able/-ible (可…的)",
+    "synonyms": [
+      "responsible",
+      "answerable"
+    ],
+    "antonyms": [
+      "unaccountable"
+    ]
   },
   {
     "word": "hands-on",
     "pos": "adj.",
     "meaning": "親力親為的",
-    "example": "Her hands-on management style earned employee trust."
+    "example": "Her hands-on management style earned employee trust.",
+    "level": "中階",
+    "theme": "management",
+    "root": null,
+    "synonyms": [
+      "involved",
+      "practical"
+    ],
+    "antonyms": [
+      "hands-off"
+    ]
   },
   {
     "word": "strategic foresight",
     "pos": "phr.",
     "meaning": "策略遠見",
-    "example": "Strategic foresight helped the firm anticipate market shifts."
+    "example": "Strategic foresight helped the firm anticipate market shifts.",
+    "level": "中高階",
+    "theme": "strategy",
+    "root": null,
+    "synonyms": [
+      "forward planning",
+      "strategic vision"
+    ],
+    "antonyms": []
   },
   {
     "word": "galvanize",
     "pos": "v.",
     "meaning": "激勵；鼓舞",
-    "example": "The speech galvanized the team ahead of the product launch."
+    "example": "The speech galvanized the team ahead of the product launch.",
+    "level": "中高階",
+    "theme": "leadership",
+    "root": null,
+    "synonyms": [
+      "inspire",
+      "motivate",
+      "energize"
+    ],
+    "antonyms": [
+      "discourage"
+    ]
   },
   {
     "word": "mobilize",
     "pos": "v.",
     "meaning": "動員",
-    "example": "Management mobilized resources quickly after the setback."
+    "example": "Management mobilized resources quickly after the setback.",
+    "level": "中階",
+    "theme": "management",
+    "root": "-ize/-ise (使成為)",
+    "synonyms": [
+      "deploy",
+      "rally",
+      "organize"
+    ],
+    "antonyms": [
+      "demobilize"
+    ]
   },
   {
     "word": "executive",
     "pos": "n.",
     "meaning": "高階主管",
-    "example": "The executive team approved the expansion plan."
+    "example": "The executive team approved the expansion plan.",
+    "level": "中階",
+    "theme": "management",
+    "root": null,
+    "synonyms": [
+      "senior manager",
+      "officer"
+    ],
+    "antonyms": []
   },
   {
     "word": "governance",
     "pos": "n.",
     "meaning": "治理",
-    "example": "Strong governance reduces the risk of corporate scandals."
+    "example": "Strong governance reduces the risk of corporate scandals.",
+    "level": "中高階",
+    "theme": "management",
+    "root": "-ance/-ence (性質狀態)",
+    "synonyms": [
+      "administration",
+      "oversight"
+    ],
+    "antonyms": []
   },
   {
     "word": "capitalize on",
     "pos": "phr.",
     "meaning": "善用；把握",
-    "example": "The firm capitalized on the market gap early on."
+    "example": "The firm capitalized on the market gap early on.",
+    "level": "中階",
+    "theme": "strategy",
+    "root": "-ize/-ise (使成為)",
+    "synonyms": [
+      "take advantage of",
+      "leverage"
+    ],
+    "antonyms": [
+      "miss out on"
+    ]
   },
   {
     "word": "foster",
     "pos": "v.",
     "meaning": "培養；促進",
-    "example": "Leadership training aims to foster collaboration across teams."
+    "example": "Leadership training aims to foster collaboration across teams.",
+    "level": "中階",
+    "theme": "leadership",
+    "root": null,
+    "synonyms": [
+      "cultivate",
+      "nurture",
+      "promote"
+    ],
+    "antonyms": [
+      "hinder"
+    ]
   },
   {
     "word": "resilience",
     "pos": "n.",
     "meaning": "韌性",
-    "example": "The organization's resilience was tested during the downturn."
+    "example": "The organization's resilience was tested during the downturn.",
+    "level": "中階",
+    "theme": "leadership",
+    "root": "-ance/-ence (性質狀態)",
+    "synonyms": [
+      "toughness",
+      "adaptability"
+    ],
+    "antonyms": [
+      "fragility"
+    ]
   },
   {
     "word": "decisive",
     "pos": "adj.",
     "meaning": "果斷的",
-    "example": "A decisive leader kept the project on schedule."
+    "example": "A decisive leader kept the project on schedule.",
+    "level": "中階",
+    "theme": "leadership",
+    "root": "de- (去除/相反)",
+    "synonyms": [
+      "resolute",
+      "firm"
+    ],
+    "antonyms": [
+      "indecisive"
+    ]
   },
   {
     "word": "trailblazer",
     "pos": "n.",
     "meaning": "先驅者",
-    "example": "The founder is regarded as a trailblazer in the industry."
+    "example": "The founder is regarded as a trailblazer in the industry.",
+    "level": "中高階",
+    "theme": "leadership",
+    "root": null,
+    "synonyms": [
+      "pioneer",
+      "innovator"
+    ],
+    "antonyms": [
+      "follower"
+    ]
   },
   {
     "word": "authoritative",
     "pos": "adj.",
     "meaning": "有權威的",
-    "example": "Her authoritative tone reassured investors during the crisis."
+    "example": "Her authoritative tone reassured investors during the crisis.",
+    "level": "中高階",
+    "theme": "leadership",
+    "root": null,
+    "synonyms": [
+      "commanding",
+      "assertive"
+    ],
+    "antonyms": [
+      "submissive"
+    ]
   },
   {
     "word": "onboarding",
     "pos": "n.",
     "meaning": "新人導入",
-    "example": "The onboarding process helps new hires adjust quickly."
+    "example": "The onboarding process helps new hires adjust quickly.",
+    "level": "中階",
+    "theme": "hr",
+    "root": null,
+    "synonyms": [
+      "orientation",
+      "induction"
+    ],
+    "antonyms": [
+      "offboarding"
+    ]
   },
   {
     "word": "attrition",
     "pos": "n.",
     "meaning": "人員流失",
-    "example": "High attrition rates prompted a review of employee benefits."
+    "example": "High attrition rates prompted a review of employee benefits.",
+    "level": "中高階",
+    "theme": "hr",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "turnover",
+      "churn"
+    ],
+    "antonyms": [
+      "retention"
+    ]
   },
   {
     "word": "severance",
     "pos": "n.",
     "meaning": "資遣費",
-    "example": "Laid-off staff received a severance package."
+    "example": "Laid-off staff received a severance package.",
+    "level": "中高階",
+    "theme": "hr",
+    "root": "-ance/-ence (性質狀態)",
+    "synonyms": [
+      "severance pay",
+      "termination package"
+    ],
+    "antonyms": []
   },
   {
     "word": "grievance",
     "pos": "n.",
     "meaning": "申訴",
-    "example": "Employees can file a grievance with the HR department."
+    "example": "Employees can file a grievance with the HR department.",
+    "level": "中階",
+    "theme": "hr",
+    "root": "-ance/-ence (性質狀態)",
+    "synonyms": [
+      "complaint",
+      "dispute"
+    ],
+    "antonyms": []
   },
   {
     "word": "appraisal",
     "pos": "n.",
     "meaning": "績效考核",
-    "example": "Annual appraisals determine eligibility for a raise."
+    "example": "Annual appraisals determine eligibility for a raise.",
+    "level": "中階",
+    "theme": "hr",
+    "root": null,
+    "synonyms": [
+      "evaluation",
+      "review"
+    ],
+    "antonyms": []
   },
   {
     "word": "retention",
     "pos": "n.",
     "meaning": "留才",
-    "example": "Better benefits improved employee retention significantly."
+    "example": "Better benefits improved employee retention significantly.",
+    "level": "中階",
+    "theme": "hr",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "retaining staff",
+      "keeping talent"
+    ],
+    "antonyms": [
+      "attrition",
+      "turnover"
+    ]
   },
   {
     "word": "compliance",
     "pos": "n.",
     "meaning": "法規遵循",
-    "example": "The HR team ensures compliance with labor laws."
+    "example": "The HR team ensures compliance with labor laws.",
+    "level": "中階",
+    "theme": "hr",
+    "root": "-ance/-ence (性質狀態)",
+    "synonyms": [
+      "adherence",
+      "conformity"
+    ],
+    "antonyms": [
+      "non-compliance",
+      "violation"
+    ]
   },
   {
     "word": "succession planning",
     "pos": "phr.",
     "meaning": "接班規劃",
-    "example": "Succession planning ensures leadership continuity."
+    "example": "Succession planning ensures leadership continuity.",
+    "level": "中高階",
+    "theme": "hr",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "leadership pipeline",
+      "replacement planning"
+    ],
+    "antonyms": []
   },
   {
     "word": "recruitment",
     "pos": "n.",
     "meaning": "招募",
-    "example": "The recruitment drive targeted recent graduates."
+    "example": "The recruitment drive targeted recent graduates.",
+    "level": "中階",
+    "theme": "hr",
+    "root": "-ment (名詞化:狀態結果)",
+    "synonyms": [
+      "hiring",
+      "talent acquisition"
+    ],
+    "antonyms": [
+      "layoff"
+    ]
   },
   {
     "word": "headhunter",
     "pos": "n.",
     "meaning": "獵頭",
-    "example": "A headhunter approached her about the executive role."
+    "example": "A headhunter approached her about the executive role.",
+    "level": "中階",
+    "theme": "hr",
+    "root": null,
+    "synonyms": [
+      "recruiter",
+      "talent scout"
+    ],
+    "antonyms": []
   },
   {
     "word": "probation period",
     "pos": "phr.",
     "meaning": "試用期",
-    "example": "New employees undergo a three-month probation period."
+    "example": "New employees undergo a three-month probation period.",
+    "level": "中階",
+    "theme": "hr",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "trial period",
+      "probationary period"
+    ],
+    "antonyms": []
   },
   {
     "word": "incentive",
     "pos": "n.",
     "meaning": "激勵措施",
-    "example": "Performance incentives boosted overall productivity."
+    "example": "Performance incentives boosted overall productivity.",
+    "level": "中階",
+    "theme": "hr",
+    "root": null,
+    "synonyms": [
+      "reward",
+      "motivator"
+    ],
+    "antonyms": [
+      "deterrent"
+    ]
   },
   {
     "word": "workforce",
     "pos": "n.",
     "meaning": "勞動力",
-    "example": "The company plans to expand its workforce next year."
+    "example": "The company plans to expand its workforce next year.",
+    "level": "中階",
+    "theme": "hr",
+    "root": null,
+    "synonyms": [
+      "staff",
+      "labor force",
+      "personnel"
+    ],
+    "antonyms": []
   },
   {
     "word": "layoff",
     "pos": "n.",
     "meaning": "裁員",
-    "example": "The layoffs affected nearly ten percent of staff."
+    "example": "The layoffs affected nearly ten percent of staff.",
+    "level": "中階",
+    "theme": "hr",
+    "root": null,
+    "synonyms": [
+      "downsizing",
+      "redundancy"
+    ],
+    "antonyms": [
+      "hiring"
+    ]
   },
   {
     "word": "disciplinary action",
     "pos": "phr.",
     "meaning": "懲戒行動",
-    "example": "Repeated violations may result in disciplinary action."
+    "example": "Repeated violations may result in disciplinary action.",
+    "level": "中階",
+    "theme": "hr",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "reprimand",
+      "sanction"
+    ],
+    "antonyms": [
+      "commendation"
+    ]
   },
   {
     "word": "tenure",
     "pos": "n.",
     "meaning": "任期；年資",
-    "example": "Employees with longer tenure receive additional benefits."
+    "example": "Employees with longer tenure receive additional benefits.",
+    "level": "中高階",
+    "theme": "hr",
+    "root": null,
+    "synonyms": [
+      "length of service",
+      "term"
+    ],
+    "antonyms": []
   },
   {
     "word": "diversity and inclusion",
     "pos": "phr.",
     "meaning": "多元共融",
-    "example": "The firm launched a diversity and inclusion initiative."
+    "example": "The firm launched a diversity and inclusion initiative.",
+    "level": "中階",
+    "theme": "hr",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "D&I",
+      "equity and inclusion"
+    ],
+    "antonyms": []
   },
   {
     "word": "exit interview",
     "pos": "phr.",
     "meaning": "離職面談",
-    "example": "The exit interview revealed concerns about management."
+    "example": "The exit interview revealed concerns about management.",
+    "level": "中階",
+    "theme": "hr",
+    "root": null,
+    "synonyms": [
+      "departure interview"
+    ],
+    "antonyms": [
+      "onboarding interview"
+    ]
   },
   {
     "word": "talent pool",
     "pos": "phr.",
     "meaning": "人才庫",
-    "example": "The internship program expands the company's talent pool."
+    "example": "The internship program expands the company's talent pool.",
+    "level": "中階",
+    "theme": "hr",
+    "root": null,
+    "synonyms": [
+      "candidate pool",
+      "workforce pipeline"
+    ],
+    "antonyms": []
   },
   {
     "word": "performance review",
     "pos": "phr.",
     "meaning": "績效評估",
-    "example": "Her performance review highlighted strong leadership skills."
+    "example": "Her performance review highlighted strong leadership skills.",
+    "level": "中階",
+    "theme": "hr",
+    "root": null,
+    "synonyms": [
+      "appraisal",
+      "evaluation"
+    ],
+    "antonyms": []
   },
   {
     "word": "remuneration",
     "pos": "n.",
     "meaning": "薪酬",
-    "example": "The remuneration package includes stock options."
+    "example": "The remuneration package includes stock options.",
+    "level": "中高階",
+    "theme": "hr",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "compensation",
+      "pay",
+      "salary"
+    ],
+    "antonyms": []
   },
   {
     "word": "fringe benefits",
     "pos": "phr.",
     "meaning": "額外福利",
-    "example": "Fringe benefits include gym memberships and meal allowances."
+    "example": "Fringe benefits include gym memberships and meal allowances.",
+    "level": "中階",
+    "theme": "hr",
+    "root": null,
+    "synonyms": [
+      "perks",
+      "employee benefits"
+    ],
+    "antonyms": []
   },
   {
     "word": "nepotism",
     "pos": "n.",
     "meaning": "裙帶關係",
-    "example": "The company was criticized for nepotism in hiring."
+    "example": "The company was criticized for nepotism in hiring.",
+    "level": "中高階",
+    "theme": "hr",
+    "root": null,
+    "synonyms": [
+      "favoritism",
+      "cronyism"
+    ],
+    "antonyms": [
+      "meritocracy"
+    ]
   },
   {
     "word": "whistleblower",
     "pos": "n.",
     "meaning": "檢舉人",
-    "example": "The whistleblower reported the accounting irregularities."
+    "example": "The whistleblower reported the accounting irregularities.",
+    "level": "中階",
+    "theme": "compliance_risk",
+    "root": null,
+    "synonyms": [
+      "informant",
+      "tipster"
+    ],
+    "antonyms": []
   },
   {
     "word": "workplace harassment",
     "pos": "phr.",
     "meaning": "職場騷擾",
-    "example": "The firm adopted a zero-tolerance policy on workplace harassment."
+    "example": "The firm adopted a zero-tolerance policy on workplace harassment.",
+    "level": "中階",
+    "theme": "hr",
+    "root": null,
+    "synonyms": [
+      "workplace bullying",
+      "misconduct"
+    ],
+    "antonyms": []
   },
   {
     "word": "staffing",
     "pos": "n.",
     "meaning": "人力配置",
-    "example": "Seasonal staffing needs increase during the holidays."
+    "example": "Seasonal staffing needs increase during the holidays.",
+    "level": "中階",
+    "theme": "hr",
+    "root": null,
+    "synonyms": [
+      "personnel allocation",
+      "manning"
+    ],
+    "antonyms": []
   },
   {
     "word": "redundancy",
     "pos": "n.",
     "meaning": "職位冗餘",
-    "example": "Automation led to redundancy for several positions."
+    "example": "Automation led to redundancy for several positions.",
+    "level": "中階",
+    "theme": "hr",
+    "root": null,
+    "synonyms": [
+      "layoff",
+      "job cut"
+    ],
+    "antonyms": []
   },
   {
     "word": "credential",
     "pos": "n.",
     "meaning": "資格證明",
-    "example": "Applicants must present valid professional credentials."
+    "example": "Applicants must present valid professional credentials.",
+    "level": "中階",
+    "theme": "hr",
+    "root": null,
+    "synonyms": [
+      "qualification",
+      "certification"
+    ],
+    "antonyms": []
   },
   {
     "word": "competency",
     "pos": "n.",
     "meaning": "職能；能力",
-    "example": "The assessment measures core managerial competencies."
+    "example": "The assessment measures core managerial competencies.",
+    "level": "中階",
+    "theme": "hr",
+    "root": "-ance/-ence (性質狀態)",
+    "synonyms": [
+      "skill",
+      "capability"
+    ],
+    "antonyms": [
+      "incompetency"
+    ]
   },
   {
     "word": "induction",
     "pos": "n.",
     "meaning": "新進人員訓練",
-    "example": "The induction session covers company policies and culture."
+    "example": "The induction session covers company policies and culture.",
+    "level": "中階",
+    "theme": "hr",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "orientation",
+      "onboarding"
+    ],
+    "antonyms": []
   },
   {
     "word": "procurement",
     "pos": "n.",
     "meaning": "採購",
-    "example": "The procurement team negotiated lower prices with suppliers."
+    "example": "The procurement team negotiated lower prices with suppliers.",
+    "level": "中階",
+    "theme": "supply_chain",
+    "root": "pro- (支持/向前)",
+    "synonyms": [
+      "purchasing",
+      "sourcing"
+    ],
+    "antonyms": []
   },
   {
     "word": "logistics",
     "pos": "n.",
     "meaning": "物流",
-    "example": "Efficient logistics reduced delivery times by half."
+    "example": "Efficient logistics reduced delivery times by half.",
+    "level": "中階",
+    "theme": "supply_chain",
+    "root": null,
+    "synonyms": [
+      "distribution",
+      "supply management"
+    ],
+    "antonyms": []
   },
   {
     "word": "vendor",
     "pos": "n.",
     "meaning": "供應商",
-    "example": "The company switched to a more reliable vendor."
+    "example": "The company switched to a more reliable vendor.",
+    "level": "中階",
+    "theme": "supply_chain",
+    "root": null,
+    "synonyms": [
+      "supplier",
+      "seller"
+    ],
+    "antonyms": [
+      "buyer",
+      "client"
+    ]
   },
   {
     "word": "inventory",
     "pos": "n.",
     "meaning": "庫存",
-    "example": "Inventory levels are monitored to avoid stockouts."
+    "example": "Inventory levels are monitored to avoid stockouts.",
+    "level": "中階",
+    "theme": "operations",
+    "root": null,
+    "synonyms": [
+      "stock",
+      "goods on hand"
+    ],
+    "antonyms": []
   },
   {
     "word": "throughput",
     "pos": "n.",
     "meaning": "產出量",
-    "example": "The new machinery increased factory throughput."
+    "example": "The new machinery increased factory throughput.",
+    "level": "中高階",
+    "theme": "operations",
+    "root": null,
+    "synonyms": [
+      "output",
+      "production rate"
+    ],
+    "antonyms": []
   },
   {
     "word": "outsource",
     "pos": "v.",
     "meaning": "外包",
-    "example": "The firm decided to outsource its customer support."
+    "example": "The firm decided to outsource its customer support.",
+    "level": "中階",
+    "theme": "operations",
+    "root": null,
+    "synonyms": [
+      "contract out",
+      "subcontract"
+    ],
+    "antonyms": [
+      "insource"
+    ]
   },
   {
     "word": "freight",
     "pos": "n.",
     "meaning": "貨運",
-    "example": "Rising freight costs squeezed profit margins."
+    "example": "Rising freight costs squeezed profit margins.",
+    "level": "中階",
+    "theme": "supply_chain",
+    "root": null,
+    "synonyms": [
+      "cargo",
+      "shipping"
+    ],
+    "antonyms": []
   },
   {
     "word": "contingency",
     "pos": "n.",
     "meaning": "應變計畫",
-    "example": "A contingency plan was prepared for supply disruptions."
+    "example": "A contingency plan was prepared for supply disruptions.",
+    "level": "中高階",
+    "theme": "operations",
+    "root": "co-/con- (共同)",
+    "synonyms": [
+      "backup plan",
+      "fallback"
+    ],
+    "antonyms": []
   },
   {
     "word": "supply chain",
     "pos": "phr.",
     "meaning": "供應鏈",
-    "example": "The pandemic exposed weaknesses in the global supply chain."
+    "example": "The pandemic exposed weaknesses in the global supply chain.",
+    "level": "中階",
+    "theme": "supply_chain",
+    "root": null,
+    "synonyms": [
+      "supply network",
+      "distribution chain"
+    ],
+    "antonyms": []
   },
   {
     "word": "lead time",
     "pos": "phr.",
     "meaning": "前置時間",
-    "example": "Longer lead times delayed the product launch."
+    "example": "Longer lead times delayed the product launch.",
+    "level": "中階",
+    "theme": "supply_chain",
+    "root": null,
+    "synonyms": [
+      "turnaround time",
+      "processing time"
+    ],
+    "antonyms": []
   },
   {
     "word": "bottleneck",
     "pos": "n.",
     "meaning": "瓶頸",
-    "example": "The approval process became a major bottleneck."
+    "example": "The approval process became a major bottleneck.",
+    "level": "中階",
+    "theme": "operations",
+    "root": null,
+    "synonyms": [
+      "obstruction",
+      "constraint"
+    ],
+    "antonyms": []
   },
   {
     "word": "warehouse",
     "pos": "n.",
     "meaning": "倉庫",
-    "example": "The company built a new warehouse near the port."
+    "example": "The company built a new warehouse near the port.",
+    "level": "中階",
+    "theme": "supply_chain",
+    "root": null,
+    "synonyms": [
+      "storage facility",
+      "depot"
+    ],
+    "antonyms": []
   },
   {
     "word": "distribution channel",
     "pos": "phr.",
     "meaning": "配銷通路",
-    "example": "Online sales opened a new distribution channel."
+    "example": "Online sales opened a new distribution channel.",
+    "level": "中階",
+    "theme": "supply_chain",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "sales channel",
+      "distribution network"
+    ],
+    "antonyms": []
   },
   {
     "word": "just-in-time",
     "pos": "phr.",
     "meaning": "及時生產",
-    "example": "The factory adopted a just-in-time inventory system."
+    "example": "The factory adopted a just-in-time inventory system.",
+    "level": "中高階",
+    "theme": "operations",
+    "root": null,
+    "synonyms": [
+      "JIT",
+      "lean inventory"
+    ],
+    "antonyms": []
   },
   {
     "word": "quality assurance",
     "pos": "phr.",
     "meaning": "品質保證",
-    "example": "The quality assurance team inspects every batch."
+    "example": "The quality assurance team inspects every batch.",
+    "level": "中階",
+    "theme": "operations",
+    "root": "-ance/-ence (性質狀態)",
+    "synonyms": [
+      "QA",
+      "quality control"
+    ],
+    "antonyms": []
   },
   {
     "word": "downtime",
     "pos": "n.",
     "meaning": "停機時間",
-    "example": "Scheduled maintenance minimizes unexpected downtime."
+    "example": "Scheduled maintenance minimizes unexpected downtime.",
+    "level": "中階",
+    "theme": "operations",
+    "root": null,
+    "synonyms": [
+      "outage",
+      "idle time"
+    ],
+    "antonyms": [
+      "uptime"
+    ]
   },
   {
     "word": "scalability",
     "pos": "n.",
     "meaning": "可擴展性",
-    "example": "The platform was built with scalability in mind."
+    "example": "The platform was built with scalability in mind.",
+    "level": "中高階",
+    "theme": "technology_it",
+    "root": "-able/-ible (可…的)",
+    "synonyms": [
+      "expandability",
+      "growth capacity"
+    ],
+    "antonyms": []
   },
   {
     "word": "workflow",
     "pos": "n.",
     "meaning": "工作流程",
-    "example": "Automating the workflow reduced processing errors."
+    "example": "Automating the workflow reduced processing errors.",
+    "level": "中階",
+    "theme": "operations",
+    "root": null,
+    "synonyms": [
+      "process",
+      "procedure"
+    ],
+    "antonyms": []
   },
   {
     "word": "turnaround time",
     "pos": "phr.",
     "meaning": "週轉時間",
-    "example": "Customers expect a faster order turnaround time."
+    "example": "Customers expect a faster order turnaround time.",
+    "level": "中階",
+    "theme": "operations",
+    "root": null,
+    "synonyms": [
+      "processing time",
+      "completion time"
+    ],
+    "antonyms": []
   },
   {
     "word": "stockpile",
     "pos": "v.",
     "meaning": "囤積庫存",
-    "example": "Retailers stockpiled goods ahead of the holiday season."
+    "example": "Retailers stockpiled goods ahead of the holiday season.",
+    "level": "中階",
+    "theme": "supply_chain",
+    "root": null,
+    "synonyms": [
+      "hoard",
+      "accumulate stock"
+    ],
+    "antonyms": [
+      "deplete"
+    ]
   },
   {
     "word": "sourcing",
     "pos": "n.",
     "meaning": "尋找供應商",
-    "example": "Ethical sourcing is now a key company priority."
+    "example": "Ethical sourcing is now a key company priority.",
+    "level": "中階",
+    "theme": "supply_chain",
+    "root": null,
+    "synonyms": [
+      "procurement",
+      "supplier selection"
+    ],
+    "antonyms": []
   },
   {
     "word": "shipment",
     "pos": "n.",
     "meaning": "裝運；貨物",
-    "example": "The shipment was delayed due to customs inspection."
+    "example": "The shipment was delayed due to customs inspection.",
+    "level": "中階",
+    "theme": "supply_chain",
+    "root": "-ment (名詞化:狀態結果)",
+    "synonyms": [
+      "delivery",
+      "consignment"
+    ],
+    "antonyms": []
   },
   {
     "word": "backlog",
     "pos": "n.",
     "meaning": "積壓工作",
-    "example": "The team worked overtime to clear the order backlog."
+    "example": "The team worked overtime to clear the order backlog.",
+    "level": "中階",
+    "theme": "operations",
+    "root": null,
+    "synonyms": [
+      "pending work",
+      "accumulated orders"
+    ],
+    "antonyms": []
   },
   {
     "word": "optimize",
     "pos": "v.",
     "meaning": "優化",
-    "example": "The software helps optimize delivery routes."
+    "example": "The software helps optimize delivery routes.",
+    "level": "中階",
+    "theme": "operations",
+    "root": "-ize/-ise (使成為)",
+    "synonyms": [
+      "improve",
+      "maximize efficiency"
+    ],
+    "antonyms": [
+      "degrade"
+    ]
   },
   {
     "word": "capacity",
     "pos": "n.",
     "meaning": "產能",
-    "example": "The plant is operating near full capacity."
+    "example": "The plant is operating near full capacity.",
+    "level": "中階",
+    "theme": "operations",
+    "root": null,
+    "synonyms": [
+      "output potential",
+      "production capability"
+    ],
+    "antonyms": []
   },
   {
     "word": "commissioning",
     "pos": "n.",
     "meaning": "啟用；試運轉",
-    "example": "Commissioning of the new plant is scheduled for spring."
+    "example": "Commissioning of the new plant is scheduled for spring.",
+    "level": "中高階",
+    "theme": "operations",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "start-up",
+      "activation"
+    ],
+    "antonyms": [
+      "decommissioning"
+    ]
   },
   {
     "word": "defect rate",
     "pos": "phr.",
     "meaning": "瑕疵率",
-    "example": "The defect rate dropped after the process overhaul."
+    "example": "The defect rate dropped after the process overhaul.",
+    "level": "中階",
+    "theme": "operations",
+    "root": "de- (去除/相反)",
+    "synonyms": [
+      "error rate",
+      "fault rate"
+    ],
+    "antonyms": []
   },
   {
     "word": "overstock",
     "pos": "n.",
     "meaning": "庫存過剩",
-    "example": "Discounts were offered to clear the overstock."
+    "example": "Discounts were offered to clear the overstock.",
+    "level": "中階",
+    "theme": "supply_chain",
+    "root": "over- (過度)",
+    "synonyms": [
+      "excess inventory",
+      "surplus stock"
+    ],
+    "antonyms": [
+      "understock"
+    ]
   },
   {
     "word": "dispatch",
     "pos": "v.",
     "meaning": "派送；調度",
-    "example": "Orders are dispatched within 24 hours of purchase."
+    "example": "Orders are dispatched within 24 hours of purchase.",
+    "level": "中階",
+    "theme": "supply_chain",
+    "root": null,
+    "synonyms": [
+      "send out",
+      "deploy"
+    ],
+    "antonyms": [
+      "receive"
+    ]
   },
   {
     "word": "replenishment",
     "pos": "n.",
     "meaning": "補貨",
-    "example": "Automated replenishment keeps shelves consistently stocked."
+    "example": "Automated replenishment keeps shelves consistently stocked.",
+    "level": "中高階",
+    "theme": "supply_chain",
+    "root": "re- (再次)",
+    "synonyms": [
+      "restocking",
+      "resupply"
+    ],
+    "antonyms": [
+      "depletion"
+    ]
   },
   {
     "word": "synergy",
     "pos": "n.",
     "meaning": "綜效",
-    "example": "The merger was expected to create significant synergy."
+    "example": "The merger was expected to create significant synergy.",
+    "level": "中高階",
+    "theme": "strategy",
+    "root": null,
+    "synonyms": [
+      "collaboration effect",
+      "combined effect"
+    ],
+    "antonyms": []
   },
   {
     "word": "diversify",
     "pos": "v.",
     "meaning": "多角化經營",
-    "example": "The conglomerate diversified into renewable energy."
+    "example": "The conglomerate diversified into renewable energy.",
+    "level": "中階",
+    "theme": "strategy",
+    "root": null,
+    "synonyms": [
+      "expand into new areas",
+      "branch out"
+    ],
+    "antonyms": [
+      "consolidate",
+      "specialize"
+    ]
   },
   {
     "word": "consolidate",
     "pos": "v.",
     "meaning": "整併",
-    "example": "The two divisions were consolidated to cut costs."
+    "example": "The two divisions were consolidated to cut costs.",
+    "level": "中階",
+    "theme": "strategy",
+    "root": "co-/con- (共同)",
+    "synonyms": [
+      "merge",
+      "combine",
+      "unify"
+    ],
+    "antonyms": [
+      "separate",
+      "split"
+    ]
   },
   {
     "word": "conglomerate",
     "pos": "n.",
     "meaning": "企業集團",
-    "example": "The conglomerate operates businesses across many industries."
+    "example": "The conglomerate operates businesses across many industries.",
+    "level": "中高階",
+    "theme": "strategy",
+    "root": "co-/con- (共同)",
+    "synonyms": [
+      "corporate group",
+      "multinational group"
+    ],
+    "antonyms": []
   },
   {
     "word": "subsidiary",
     "pos": "n.",
     "meaning": "子公司",
-    "example": "The subsidiary reports directly to the parent company."
+    "example": "The subsidiary reports directly to the parent company.",
+    "level": "中階",
+    "theme": "strategy",
+    "root": "sub- (次要/下)",
+    "synonyms": [
+      "affiliate",
+      "branch company"
+    ],
+    "antonyms": [
+      "parent company"
+    ]
   },
   {
     "word": "merger",
     "pos": "n.",
     "meaning": "合併",
-    "example": "The merger created the largest firm in the sector."
+    "example": "The merger created the largest firm in the sector.",
+    "level": "中階",
+    "theme": "strategy",
+    "root": null,
+    "synonyms": [
+      "consolidation",
+      "amalgamation"
+    ],
+    "antonyms": [
+      "divestiture",
+      "spin-off"
+    ]
   },
   {
     "word": "acquisition",
     "pos": "n.",
     "meaning": "收購",
-    "example": "The acquisition expanded the company's product line."
+    "example": "The acquisition expanded the company's product line.",
+    "level": "中階",
+    "theme": "strategy",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "takeover",
+      "buyout"
+    ],
+    "antonyms": [
+      "divestiture"
+    ]
   },
   {
     "word": "pivot",
     "pos": "v.",
     "meaning": "轉型；調整方向",
-    "example": "The startup pivoted to a subscription-based model."
+    "example": "The startup pivoted to a subscription-based model.",
+    "level": "中階",
+    "theme": "strategy",
+    "root": null,
+    "synonyms": [
+      "shift direction",
+      "change course"
+    ],
+    "antonyms": []
   },
   {
     "word": "holding company",
     "pos": "phr.",
     "meaning": "控股公司",
-    "example": "The holding company owns stakes in several subsidiaries."
+    "example": "The holding company owns stakes in several subsidiaries.",
+    "level": "中階",
+    "theme": "strategy",
+    "root": null,
+    "synonyms": [
+      "parent company",
+      "umbrella company"
+    ],
+    "antonyms": [
+      "subsidiary"
+    ]
   },
   {
     "word": "joint venture",
     "pos": "phr.",
     "meaning": "合資企業",
-    "example": "The joint venture combined resources from both firms."
+    "example": "The joint venture combined resources from both firms.",
+    "level": "中階",
+    "theme": "strategy",
+    "root": null,
+    "synonyms": [
+      "partnership",
+      "business alliance"
+    ],
+    "antonyms": []
   },
   {
     "word": "divestiture",
     "pos": "n.",
     "meaning": "資產剝離",
-    "example": "The divestiture of non-core assets improved cash flow."
+    "example": "The divestiture of non-core assets improved cash flow.",
+    "level": "中高階",
+    "theme": "strategy",
+    "root": "de- (去除/相反)",
+    "synonyms": [
+      "disposal",
+      "sell-off"
+    ],
+    "antonyms": [
+      "acquisition"
+    ]
   },
   {
     "word": "market share",
     "pos": "phr.",
     "meaning": "市場佔有率",
-    "example": "Aggressive pricing helped the company gain market share."
+    "example": "Aggressive pricing helped the company gain market share.",
+    "level": "中階",
+    "theme": "strategy",
+    "root": null,
+    "synonyms": [
+      "market portion",
+      "market position"
+    ],
+    "antonyms": []
   },
   {
     "word": "competitive edge",
     "pos": "phr.",
     "meaning": "競爭優勢",
-    "example": "Innovation gives the firm a competitive edge."
+    "example": "Innovation gives the firm a competitive edge.",
+    "level": "中階",
+    "theme": "strategy",
+    "root": null,
+    "synonyms": [
+      "competitive advantage",
+      "upper hand"
+    ],
+    "antonyms": [
+      "disadvantage"
+    ]
   },
   {
     "word": "scalable",
     "pos": "adj.",
     "meaning": "可擴展的",
-    "example": "Investors favored the startup's scalable business model."
+    "example": "Investors favored the startup's scalable business model.",
+    "level": "中階",
+    "theme": "strategy",
+    "root": "-able/-ible (可…的)",
+    "synonyms": [
+      "expandable",
+      "adaptable"
+    ],
+    "antonyms": []
   },
   {
     "word": "disruptive",
     "pos": "adj.",
     "meaning": "顛覆性的",
-    "example": "The disruptive technology reshaped the entire industry."
+    "example": "The disruptive technology reshaped the entire industry.",
+    "level": "中階",
+    "theme": "strategy",
+    "root": "dis- (不/相反)",
+    "synonyms": [
+      "groundbreaking",
+      "game-changing"
+    ],
+    "antonyms": [
+      "conventional"
+    ]
   },
   {
     "word": "restructuring",
     "pos": "n.",
     "meaning": "企業重組",
-    "example": "The company underwent restructuring to reduce debt."
+    "example": "The company underwent restructuring to reduce debt.",
+    "level": "中高階",
+    "theme": "strategy",
+    "root": "re- (再次)",
+    "synonyms": [
+      "reorganization",
+      "overhaul"
+    ],
+    "antonyms": []
   },
   {
     "word": "vertical integration",
     "pos": "phr.",
     "meaning": "垂直整合",
-    "example": "Vertical integration gave the firm control over its supply chain."
+    "example": "Vertical integration gave the firm control over its supply chain.",
+    "level": "中高階",
+    "theme": "strategy",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "supply chain integration"
+    ],
+    "antonyms": [
+      "horizontal integration"
+    ]
   },
   {
     "word": "portfolio diversification",
     "pos": "phr.",
     "meaning": "投資組合多元化",
-    "example": "Portfolio diversification reduced overall investment risk."
+    "example": "Portfolio diversification reduced overall investment risk.",
+    "level": "中高階",
+    "theme": "strategy",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "risk spreading",
+      "asset diversification"
+    ],
+    "antonyms": [
+      "concentration"
+    ]
   },
   {
     "word": "spin-off",
     "pos": "n.",
     "meaning": "分拆子公司",
-    "example": "The spin-off allowed each unit to focus on its core business."
+    "example": "The spin-off allowed each unit to focus on its core business.",
+    "level": "中階",
+    "theme": "strategy",
+    "root": null,
+    "synonyms": [
+      "divestiture",
+      "separated unit"
+    ],
+    "antonyms": [
+      "merger"
+    ]
   },
   {
     "word": "blue-chip",
     "pos": "adj.",
     "meaning": "績優的",
-    "example": "The fund invests primarily in blue-chip stocks."
+    "example": "The fund invests primarily in blue-chip stocks.",
+    "level": "中高階",
+    "theme": "strategy",
+    "root": null,
+    "synonyms": [
+      "top-tier",
+      "established"
+    ],
+    "antonyms": []
   },
   {
     "word": "first-mover advantage",
     "pos": "phr.",
     "meaning": "先發優勢",
-    "example": "Entering the market early gave the firm a first-mover advantage."
+    "example": "Entering the market early gave the firm a first-mover advantage.",
+    "level": "中高階",
+    "theme": "strategy",
+    "root": null,
+    "synonyms": [
+      "early entrant edge",
+      "pioneer advantage"
+    ],
+    "antonyms": [
+      "late-mover disadvantage"
+    ]
   },
   {
     "word": "economies of scale",
     "pos": "phr.",
     "meaning": "規模經濟",
-    "example": "Economies of scale lowered the cost per unit."
+    "example": "Economies of scale lowered the cost per unit.",
+    "level": "中高階",
+    "theme": "strategy",
+    "root": null,
+    "synonyms": [
+      "scale efficiencies",
+      "cost advantages of size"
+    ],
+    "antonyms": [
+      "diseconomies of scale"
+    ]
   },
   {
     "word": "corporate governance",
     "pos": "phr.",
     "meaning": "公司治理",
-    "example": "Investors praised the firm's transparent corporate governance."
+    "example": "Investors praised the firm's transparent corporate governance.",
+    "level": "中高階",
+    "theme": "strategy",
+    "root": "-ance/-ence (性質狀態)",
+    "synonyms": [
+      "corporate oversight",
+      "board governance"
+    ],
+    "antonyms": []
   },
   {
     "word": "long-term viability",
     "pos": "phr.",
     "meaning": "長期可行性",
-    "example": "Analysts questioned the long-term viability of the business model."
+    "example": "Analysts questioned the long-term viability of the business model.",
+    "level": "中高階",
+    "theme": "strategy",
+    "root": "-able/-ible (可…的)",
+    "synonyms": [
+      "sustainability",
+      "durability"
+    ],
+    "antonyms": []
   },
   {
     "word": "strategic alliance",
     "pos": "phr.",
     "meaning": "策略聯盟",
-    "example": "The two firms formed a strategic alliance to enter new markets."
+    "example": "The two firms formed a strategic alliance to enter new markets.",
+    "level": "中階",
+    "theme": "strategy",
+    "root": "-ance/-ence (性質狀態)",
+    "synonyms": [
+      "partnership",
+      "cooperative agreement"
+    ],
+    "antonyms": []
   },
   {
     "word": "turnaround",
     "pos": "n.",
     "meaning": "業績轉虧為盈",
-    "example": "The new CEO engineered a remarkable turnaround."
+    "example": "The new CEO engineered a remarkable turnaround.",
+    "level": "中階",
+    "theme": "strategy",
+    "root": null,
+    "synonyms": [
+      "recovery",
+      "rebound"
+    ],
+    "antonyms": [
+      "decline"
+    ]
   },
   {
     "word": "footprint",
     "pos": "n.",
     "meaning": "市場版圖",
-    "example": "The company expanded its footprint across Southeast Asia."
+    "example": "The company expanded its footprint across Southeast Asia.",
+    "level": "中階",
+    "theme": "strategy",
+    "root": null,
+    "synonyms": [
+      "presence",
+      "reach"
+    ],
+    "antonyms": []
   },
   {
     "word": "franchise",
     "pos": "n.",
     "meaning": "加盟；特許經營",
-    "example": "The brand grew rapidly through franchise agreements."
+    "example": "The brand grew rapidly through franchise agreements.",
+    "level": "中階",
+    "theme": "strategy",
+    "root": null,
+    "synonyms": [
+      "licensed business",
+      "chain outlet"
+    ],
+    "antonyms": []
   },
   {
     "word": "core competency",
     "pos": "phr.",
     "meaning": "核心競爭力",
-    "example": "Manufacturing efficiency is the firm's core competency."
+    "example": "Manufacturing efficiency is the firm's core competency.",
+    "level": "中高階",
+    "theme": "strategy",
+    "root": "-ance/-ence (性質狀態)",
+    "synonyms": [
+      "key strength",
+      "core capability"
+    ],
+    "antonyms": []
   },
   {
     "word": "market leader",
     "pos": "phr.",
     "meaning": "市場領導者",
-    "example": "The company remains the market leader in cloud services."
+    "example": "The company remains the market leader in cloud services.",
+    "level": "中階",
+    "theme": "strategy",
+    "root": null,
+    "synonyms": [
+      "industry leader",
+      "top player"
+    ],
+    "antonyms": [
+      "market follower"
+    ]
   },
   {
     "word": "liability",
     "pos": "n.",
     "meaning": "法律責任",
-    "example": "The company faces liability for the defective product."
+    "example": "The company faces liability for the defective product.",
+    "level": "中階",
+    "theme": "compliance_risk",
+    "root": "-able/-ible (可…的)",
+    "synonyms": [
+      "responsibility",
+      "obligation"
+    ],
+    "antonyms": [
+      "asset"
+    ]
   },
   {
     "word": "litigation",
     "pos": "n.",
     "meaning": "訴訟",
-    "example": "The dispute resulted in years of costly litigation."
+    "example": "The dispute resulted in years of costly litigation.",
+    "level": "中高階",
+    "theme": "compliance_risk",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "lawsuit",
+      "legal action"
+    ],
+    "antonyms": [
+      "settlement"
+    ]
   },
   {
     "word": "regulatory",
     "pos": "adj.",
     "meaning": "法規的",
-    "example": "New regulatory requirements increased compliance costs."
+    "example": "New regulatory requirements increased compliance costs.",
+    "level": "中階",
+    "theme": "compliance_risk",
+    "root": null,
+    "synonyms": [
+      "legislative",
+      "statutory"
+    ],
+    "antonyms": []
   },
   {
     "word": "fiduciary",
     "pos": "adj.",
     "meaning": "受託人的",
-    "example": "Directors have a fiduciary duty to shareholders."
+    "example": "Directors have a fiduciary duty to shareholders.",
+    "level": "中高階",
+    "theme": "compliance_risk",
+    "root": null,
+    "synonyms": [
+      "trust-based",
+      "in trust"
+    ],
+    "antonyms": []
   },
   {
     "word": "proprietary",
     "pos": "adj.",
     "meaning": "專有的",
-    "example": "The formula is protected as proprietary information."
+    "example": "The formula is protected as proprietary information.",
+    "level": "中高階",
+    "theme": "compliance_risk",
+    "root": null,
+    "synonyms": [
+      "exclusive",
+      "patented"
+    ],
+    "antonyms": [
+      "public",
+      "open-source"
+    ]
   },
   {
     "word": "infringement",
     "pos": "n.",
     "meaning": "侵權",
-    "example": "The lawsuit alleged patent infringement."
+    "example": "The lawsuit alleged patent infringement.",
+    "level": "中高階",
+    "theme": "compliance_risk",
+    "root": "-ment (名詞化:狀態結果)",
+    "synonyms": [
+      "violation",
+      "breach"
+    ],
+    "antonyms": [
+      "compliance"
+    ]
   },
   {
     "word": "mitigate",
     "pos": "v.",
     "meaning": "減輕風險",
-    "example": "Insurance helps mitigate financial losses from disasters."
+    "example": "Insurance helps mitigate financial losses from disasters.",
+    "level": "中階",
+    "theme": "compliance_risk",
+    "root": null,
+    "synonyms": [
+      "reduce",
+      "alleviate",
+      "lessen"
+    ],
+    "antonyms": [
+      "aggravate",
+      "worsen"
+    ]
   },
   {
     "word": "due diligence",
     "pos": "phr.",
     "meaning": "盡職調查",
-    "example": "Investors conducted due diligence before the acquisition."
+    "example": "Investors conducted due diligence before the acquisition.",
+    "level": "中高階",
+    "theme": "compliance_risk",
+    "root": "-ance/-ence (性質狀態)",
+    "synonyms": [
+      "background check",
+      "thorough investigation"
+    ],
+    "antonyms": []
   },
   {
     "word": "injunction",
     "pos": "n.",
     "meaning": "禁制令",
-    "example": "The court issued an injunction to halt production."
+    "example": "The court issued an injunction to halt production.",
+    "level": "中高階",
+    "theme": "compliance_risk",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "court order",
+      "legal restraint"
+    ],
+    "antonyms": []
   },
   {
     "word": "statute",
     "pos": "n.",
     "meaning": "法規；法令",
-    "example": "The statute requires annual financial disclosures."
+    "example": "The statute requires annual financial disclosures.",
+    "level": "中階",
+    "theme": "compliance_risk",
+    "root": null,
+    "synonyms": [
+      "law",
+      "legislation"
+    ],
+    "antonyms": []
   },
   {
     "word": "negligence",
     "pos": "n.",
     "meaning": "疏失",
-    "example": "The company was sued for negligence in handling data."
+    "example": "The company was sued for negligence in handling data.",
+    "level": "中階",
+    "theme": "compliance_risk",
+    "root": "-ance/-ence (性質狀態)",
+    "synonyms": [
+      "carelessness",
+      "oversight"
+    ],
+    "antonyms": [
+      "diligence"
+    ]
   },
   {
     "word": "defendant",
     "pos": "n.",
     "meaning": "被告",
-    "example": "The defendant argued the contract was never binding."
+    "example": "The defendant argued the contract was never binding.",
+    "level": "中階",
+    "theme": "compliance_risk",
+    "root": null,
+    "synonyms": [
+      "accused",
+      "respondent"
+    ],
+    "antonyms": [
+      "plaintiff"
+    ]
   },
   {
     "word": "plaintiff",
     "pos": "n.",
     "meaning": "原告",
-    "example": "The plaintiff sought damages for breach of contract."
+    "example": "The plaintiff sought damages for breach of contract.",
+    "level": "中階",
+    "theme": "compliance_risk",
+    "root": null,
+    "synonyms": [
+      "claimant",
+      "complainant"
+    ],
+    "antonyms": [
+      "defendant"
+    ]
   },
   {
     "word": "settlement",
     "pos": "n.",
     "meaning": "和解",
-    "example": "Both parties reached a settlement outside of court."
+    "example": "Both parties reached a settlement outside of court.",
+    "level": "中階",
+    "theme": "compliance_risk",
+    "root": "-ment (名詞化:狀態結果)",
+    "synonyms": [
+      "resolution",
+      "agreement"
+    ],
+    "antonyms": [
+      "litigation"
+    ]
   },
   {
     "word": "malpractice",
     "pos": "n.",
     "meaning": "失職；瀆職",
-    "example": "The firm was accused of professional malpractice."
+    "example": "The firm was accused of professional malpractice.",
+    "level": "中高階",
+    "theme": "compliance_risk",
+    "root": null,
+    "synonyms": [
+      "professional negligence",
+      "misconduct"
+    ],
+    "antonyms": []
   },
   {
     "word": "compliance officer",
     "pos": "phr.",
     "meaning": "法遵主管",
-    "example": "The compliance officer reviewed the new trading policy."
+    "example": "The compliance officer reviewed the new trading policy.",
+    "level": "中階",
+    "theme": "compliance_risk",
+    "root": "-ance/-ence (性質狀態)",
+    "synonyms": [
+      "regulatory officer",
+      "compliance manager"
+    ],
+    "antonyms": []
   },
   {
     "word": "tort",
     "pos": "n.",
     "meaning": "侵權行為",
-    "example": "The case involved a tort claim for damages."
+    "example": "The case involved a tort claim for damages.",
+    "level": "中高階",
+    "theme": "compliance_risk",
+    "root": null,
+    "synonyms": [
+      "civil wrong",
+      "wrongdoing"
+    ],
+    "antonyms": []
   },
   {
     "word": "subpoena",
     "pos": "n.",
     "meaning": "傳票",
-    "example": "The executive was served a subpoena to testify."
+    "example": "The executive was served a subpoena to testify.",
+    "level": "中高階",
+    "theme": "compliance_risk",
+    "root": "sub- (次要/下)",
+    "synonyms": [
+      "summons",
+      "court order"
+    ],
+    "antonyms": []
   },
   {
     "word": "indictment",
     "pos": "n.",
     "meaning": "起訴",
-    "example": "The indictment accused the firm of fraud."
+    "example": "The indictment accused the firm of fraud.",
+    "level": "中高階",
+    "theme": "compliance_risk",
+    "root": "-ment (名詞化:狀態結果)",
+    "synonyms": [
+      "charge",
+      "accusation"
+    ],
+    "antonyms": [
+      "acquittal"
+    ]
   },
   {
     "word": "regulatory framework",
     "pos": "phr.",
     "meaning": "法規架構",
-    "example": "The new regulatory framework tightened data protection rules."
+    "example": "The new regulatory framework tightened data protection rules.",
+    "level": "中高階",
+    "theme": "compliance_risk",
+    "root": null,
+    "synonyms": [
+      "legal framework",
+      "regulatory structure"
+    ],
+    "antonyms": []
   },
   {
     "word": "antitrust",
     "pos": "adj.",
     "meaning": "反壟斷的",
-    "example": "Regulators launched an antitrust investigation into the merger."
+    "example": "Regulators launched an antitrust investigation into the merger.",
+    "level": "中高階",
+    "theme": "compliance_risk",
+    "root": null,
+    "synonyms": [
+      "anti-monopoly",
+      "competition-related"
+    ],
+    "antonyms": []
   },
   {
     "word": "patent",
     "pos": "n.",
     "meaning": "專利",
-    "example": "The company holds several patents on its technology."
+    "example": "The company holds several patents on its technology.",
+    "level": "中階",
+    "theme": "compliance_risk",
+    "root": null,
+    "synonyms": [
+      "intellectual property right",
+      "exclusive right"
+    ],
+    "antonyms": []
   },
   {
     "word": "class action",
     "pos": "phr.",
     "meaning": "集體訴訟",
-    "example": "Customers filed a class action over hidden fees."
+    "example": "Customers filed a class action over hidden fees.",
+    "level": "中高階",
+    "theme": "compliance_risk",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "group lawsuit",
+      "collective suit"
+    ],
+    "antonyms": []
   },
   {
     "word": "exposure",
     "pos": "n.",
     "meaning": "風險暴露",
-    "example": "The bank reduced its exposure to volatile markets."
+    "example": "The bank reduced its exposure to volatile markets.",
+    "level": "中階",
+    "theme": "compliance_risk",
+    "root": null,
+    "synonyms": [
+      "risk level",
+      "vulnerability"
+    ],
+    "antonyms": [
+      "protection"
+    ]
   },
   {
     "word": "culpable",
     "pos": "adj.",
     "meaning": "應負責的",
-    "example": "The audit found the manager culpable for the error."
+    "example": "The audit found the manager culpable for the error.",
+    "level": "中高階",
+    "theme": "compliance_risk",
+    "root": "-able/-ible (可…的)",
+    "synonyms": [
+      "guilty",
+      "blameworthy"
+    ],
+    "antonyms": [
+      "innocent"
+    ]
   },
   {
     "word": "sanction",
     "pos": "n.",
     "meaning": "制裁",
-    "example": "Trade sanctions restricted exports to the region."
+    "example": "Trade sanctions restricted exports to the region.",
+    "level": "中階",
+    "theme": "compliance_risk",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "penalty",
+      "restriction"
+    ],
+    "antonyms": [
+      "reward"
+    ]
   },
   {
     "word": "non-compliance",
     "pos": "phr.",
     "meaning": "未遵循規定",
-    "example": "Non-compliance with the policy can result in fines."
+    "example": "Non-compliance with the policy can result in fines.",
+    "level": "中階",
+    "theme": "compliance_risk",
+    "root": "-ance/-ence (性質狀態)",
+    "synonyms": [
+      "violation",
+      "breach of rules"
+    ],
+    "antonyms": [
+      "compliance"
+    ]
   },
   {
     "word": "audit trail",
     "pos": "phr.",
     "meaning": "稽核軌跡",
-    "example": "An audit trail ensures every transaction can be verified."
+    "example": "An audit trail ensures every transaction can be verified.",
+    "level": "中高階",
+    "theme": "compliance_risk",
+    "root": null,
+    "synonyms": [
+      "record trail",
+      "paper trail"
+    ],
+    "antonyms": []
   },
   {
     "word": "risk appetite",
     "pos": "phr.",
     "meaning": "風險偏好",
-    "example": "The board defined the company's risk appetite for new ventures."
+    "example": "The board defined the company's risk appetite for new ventures.",
+    "level": "中高階",
+    "theme": "compliance_risk",
+    "root": null,
+    "synonyms": [
+      "risk tolerance",
+      "risk threshold"
+    ],
+    "antonyms": [
+      "risk aversion"
+    ]
   },
   {
     "word": "indemnify",
     "pos": "v.",
     "meaning": "使免於承擔賠償",
-    "example": "The supplier agreed to indemnify the retailer against claims."
+    "example": "The supplier agreed to indemnify the retailer against claims.",
+    "level": "中高階",
+    "theme": "compliance_risk",
+    "root": null,
+    "synonyms": [
+      "compensate",
+      "insure against loss"
+    ],
+    "antonyms": []
   },
   {
     "word": "articulate",
     "pos": "v.",
     "meaning": "清楚表達",
-    "example": "She articulated the strategy clearly to the board."
+    "example": "She articulated the strategy clearly to the board.",
+    "level": "中階",
+    "theme": "communication",
+    "root": null,
+    "synonyms": [
+      "express clearly",
+      "voice"
+    ],
+    "antonyms": [
+      "mumble"
+    ]
   },
   {
     "word": "elaborate",
     "pos": "v.",
     "meaning": "詳細說明",
-    "example": "Could you elaborate on the budget projections?"
+    "example": "Could you elaborate on the budget projections?",
+    "level": "中階",
+    "theme": "communication",
+    "root": null,
+    "synonyms": [
+      "expand on",
+      "detail"
+    ],
+    "antonyms": [
+      "simplify"
+    ]
   },
   {
     "word": "concise",
     "pos": "adj.",
     "meaning": "簡潔的",
-    "example": "Keep the executive summary concise and to the point."
+    "example": "Keep the executive summary concise and to the point.",
+    "level": "中階",
+    "theme": "communication",
+    "root": null,
+    "synonyms": [
+      "brief",
+      "succinct"
+    ],
+    "antonyms": [
+      "verbose",
+      "wordy"
+    ]
   },
   {
     "word": "rapport",
     "pos": "n.",
     "meaning": "融洽關係",
-    "example": "The sales rep built rapport with the client quickly."
+    "example": "The sales rep built rapport with the client quickly.",
+    "level": "中階",
+    "theme": "communication",
+    "root": null,
+    "synonyms": [
+      "connection",
+      "relationship"
+    ],
+    "antonyms": []
   },
   {
     "word": "persuasive",
     "pos": "adj.",
     "meaning": "有說服力的",
-    "example": "His persuasive pitch won over the investors."
+    "example": "His persuasive pitch won over the investors.",
+    "level": "中階",
+    "theme": "communication",
+    "root": null,
+    "synonyms": [
+      "convincing",
+      "compelling"
+    ],
+    "antonyms": [
+      "unconvincing"
+    ]
   },
   {
     "word": "facilitate",
     "pos": "v.",
     "meaning": "促進；協助",
-    "example": "The consultant facilitated discussions between departments."
+    "example": "The consultant facilitated discussions between departments.",
+    "level": "中階",
+    "theme": "communication",
+    "root": null,
+    "synonyms": [
+      "enable",
+      "assist",
+      "ease"
+    ],
+    "antonyms": [
+      "hinder"
+    ]
   },
   {
     "word": "liaise",
     "pos": "v.",
     "meaning": "聯繫；協調",
-    "example": "She liaises with vendors to confirm delivery schedules."
+    "example": "She liaises with vendors to confirm delivery schedules.",
+    "level": "中高階",
+    "theme": "communication",
+    "root": null,
+    "synonyms": [
+      "coordinate",
+      "communicate"
+    ],
+    "antonyms": []
   },
   {
     "word": "eloquent",
     "pos": "adj.",
     "meaning": "口才流利的",
-    "example": "The eloquent speech impressed the entire audience."
+    "example": "The eloquent speech impressed the entire audience.",
+    "level": "中高階",
+    "theme": "presentations",
+    "root": null,
+    "synonyms": [
+      "articulate",
+      "fluent"
+    ],
+    "antonyms": [
+      "inarticulate"
+    ]
   },
   {
     "word": "succinct",
     "pos": "adj.",
     "meaning": "簡明扼要的",
-    "example": "The report was succinct yet covered all key points."
+    "example": "The report was succinct yet covered all key points.",
+    "level": "中高階",
+    "theme": "communication",
+    "root": null,
+    "synonyms": [
+      "concise",
+      "brief"
+    ],
+    "antonyms": [
+      "verbose"
+    ]
   },
   {
     "word": "coherent",
     "pos": "adj.",
     "meaning": "連貫的",
-    "example": "The proposal presented a coherent growth strategy."
+    "example": "The proposal presented a coherent growth strategy.",
+    "level": "中階",
+    "theme": "communication",
+    "root": "co-/con- (共同)",
+    "synonyms": [
+      "logical",
+      "consistent"
+    ],
+    "antonyms": [
+      "incoherent"
+    ]
   },
   {
     "word": "keynote",
     "pos": "n.",
     "meaning": "主題演講",
-    "example": "The CEO delivered the keynote at the conference."
+    "example": "The CEO delivered the keynote at the conference.",
+    "level": "中階",
+    "theme": "presentations",
+    "root": null,
+    "synonyms": [
+      "headline speech",
+      "main address"
+    ],
+    "antonyms": []
   },
   {
     "word": "rebuttal",
     "pos": "n.",
     "meaning": "反駁",
-    "example": "The legal team prepared a rebuttal to the claims."
+    "example": "The legal team prepared a rebuttal to the claims.",
+    "level": "中高階",
+    "theme": "communication",
+    "root": null,
+    "synonyms": [
+      "counterargument",
+      "refutation"
+    ],
+    "antonyms": [
+      "agreement"
+    ]
   },
   {
     "word": "paraphrase",
     "pos": "v.",
     "meaning": "改述",
-    "example": "He paraphrased the client's concerns to confirm understanding."
+    "example": "He paraphrased the client's concerns to confirm understanding.",
+    "level": "中階",
+    "theme": "communication",
+    "root": null,
+    "synonyms": [
+      "reword",
+      "restate"
+    ],
+    "antonyms": [
+      "quote directly"
+    ]
   },
   {
     "word": "digress",
     "pos": "v.",
     "meaning": "離題",
-    "example": "Please don't digress from the meeting agenda."
+    "example": "Please don't digress from the meeting agenda.",
+    "level": "中高階",
+    "theme": "communication",
+    "root": null,
+    "synonyms": [
+      "stray off-topic",
+      "wander"
+    ],
+    "antonyms": [
+      "stay on point"
+    ]
   },
   {
     "word": "deliberate",
     "pos": "adj.",
     "meaning": "深思熟慮的",
-    "example": "The decision was deliberate and carefully researched."
+    "example": "The decision was deliberate and carefully researched.",
+    "level": "中階",
+    "theme": "communication",
+    "root": null,
+    "synonyms": [
+      "intentional",
+      "careful"
+    ],
+    "antonyms": [
+      "impulsive"
+    ]
   },
   {
     "word": "candid",
     "pos": "adj.",
     "meaning": "坦率的",
-    "example": "The manager gave candid feedback on the proposal."
+    "example": "The manager gave candid feedback on the proposal.",
+    "level": "中階",
+    "theme": "communication",
+    "root": null,
+    "synonyms": [
+      "frank",
+      "honest"
+    ],
+    "antonyms": [
+      "evasive"
+    ]
   },
   {
     "word": "ambiguous",
     "pos": "adj.",
     "meaning": "模糊不清的",
-    "example": "The ambiguous wording in the contract caused confusion."
+    "example": "The ambiguous wording in the contract caused confusion.",
+    "level": "中階",
+    "theme": "communication",
+    "root": null,
+    "synonyms": [
+      "unclear",
+      "vague"
+    ],
+    "antonyms": [
+      "clear",
+      "explicit"
+    ]
   },
   {
     "word": "constructive feedback",
     "pos": "phr.",
     "meaning": "建設性回饋",
-    "example": "Managers should give constructive feedback regularly."
+    "example": "Managers should give constructive feedback regularly.",
+    "level": "中階",
+    "theme": "communication",
+    "root": null,
+    "synonyms": [
+      "helpful criticism",
+      "actionable feedback"
+    ],
+    "antonyms": [
+      "destructive criticism"
+    ]
   },
   {
     "word": "active listening",
     "pos": "phr.",
     "meaning": "主動傾聽",
-    "example": "Active listening improves client relationships."
+    "example": "Active listening improves client relationships.",
+    "level": "中階",
+    "theme": "communication",
+    "root": null,
+    "synonyms": [
+      "attentive listening",
+      "engaged listening"
+    ],
+    "antonyms": []
   },
   {
     "word": "nonverbal cues",
     "pos": "phr.",
     "meaning": "非語言暗示",
-    "example": "Skilled negotiators pay attention to nonverbal cues."
+    "example": "Skilled negotiators pay attention to nonverbal cues.",
+    "level": "中高階",
+    "theme": "communication",
+    "root": null,
+    "synonyms": [
+      "body language signals",
+      "gestures"
+    ],
+    "antonyms": []
   },
   {
     "word": "tactful",
     "pos": "adj.",
     "meaning": "圓融得體的",
-    "example": "She was tactful when addressing the client's complaint."
+    "example": "She was tactful when addressing the client's complaint.",
+    "level": "中階",
+    "theme": "communication",
+    "root": null,
+    "synonyms": [
+      "diplomatic",
+      "considerate"
+    ],
+    "antonyms": [
+      "tactless"
+    ]
   },
   {
     "word": "assertive",
     "pos": "adj.",
     "meaning": "果斷自信的",
-    "example": "Being assertive helped him negotiate a better deal."
+    "example": "Being assertive helped him negotiate a better deal.",
+    "level": "中階",
+    "theme": "communication",
+    "root": null,
+    "synonyms": [
+      "confident",
+      "forceful"
+    ],
+    "antonyms": [
+      "passive"
+    ]
   },
   {
     "word": "diplomatic",
     "pos": "adj.",
     "meaning": "圓滑的",
-    "example": "A diplomatic response avoided further conflict."
+    "example": "A diplomatic response avoided further conflict.",
+    "level": "中階",
+    "theme": "communication",
+    "root": null,
+    "synonyms": [
+      "tactful",
+      "politic"
+    ],
+    "antonyms": [
+      "blunt"
+    ]
   },
   {
     "word": "clarify",
     "pos": "v.",
     "meaning": "澄清",
-    "example": "Let me clarify the terms before we proceed."
+    "example": "Let me clarify the terms before we proceed.",
+    "level": "中階",
+    "theme": "communication",
+    "root": null,
+    "synonyms": [
+      "explain",
+      "make clear"
+    ],
+    "antonyms": [
+      "confuse"
+    ]
   },
   {
     "word": "summarize",
     "pos": "v.",
     "meaning": "總結",
-    "example": "She summarized the quarterly results for the board."
+    "example": "She summarized the quarterly results for the board.",
+    "level": "中階",
+    "theme": "communication",
+    "root": "-ize/-ise (使成為)",
+    "synonyms": [
+      "sum up",
+      "recap"
+    ],
+    "antonyms": [
+      "elaborate"
+    ]
   },
   {
     "word": "anecdote",
     "pos": "n.",
     "meaning": "軼事",
-    "example": "He used a personal anecdote to illustrate the point."
+    "example": "He used a personal anecdote to illustrate the point.",
+    "level": "中階",
+    "theme": "presentations",
+    "root": null,
+    "synonyms": [
+      "story",
+      "account"
+    ],
+    "antonyms": []
   },
   {
     "word": "rhetorical",
     "pos": "adj.",
     "meaning": "修辭的",
-    "example": "The question was rhetorical, not meant to be answered."
+    "example": "The question was rhetorical, not meant to be answered.",
+    "level": "中高階",
+    "theme": "presentations",
+    "root": null,
+    "synonyms": [
+      "stylistic",
+      "persuasive-language"
+    ],
+    "antonyms": []
   },
   {
     "word": "condescending",
     "pos": "adj.",
     "meaning": "高高在上的",
-    "example": "His condescending tone alienated the junior staff."
+    "example": "His condescending tone alienated the junior staff.",
+    "level": "中高階",
+    "theme": "communication",
+    "root": null,
+    "synonyms": [
+      "patronizing",
+      "superior"
+    ],
+    "antonyms": [
+      "respectful"
+    ]
   },
   {
     "word": "body language",
     "pos": "phr.",
     "meaning": "肢體語言",
-    "example": "Confident body language matters during negotiations."
+    "example": "Confident body language matters during negotiations.",
+    "level": "中階",
+    "theme": "communication",
+    "root": null,
+    "synonyms": [
+      "nonverbal communication",
+      "gestures"
+    ],
+    "antonyms": []
   },
   {
     "word": "compelling",
     "pos": "adj.",
     "meaning": "引人入勝的",
-    "example": "The presentation made a compelling case for investment."
+    "example": "The presentation made a compelling case for investment.",
+    "level": "中階",
+    "theme": "presentations",
+    "root": null,
+    "synonyms": [
+      "persuasive",
+      "captivating"
+    ],
+    "antonyms": [
+      "unconvincing"
+    ]
   },
   {
     "word": "tariff",
     "pos": "n.",
     "meaning": "關稅",
-    "example": "New tariffs raised the cost of imported steel."
+    "example": "New tariffs raised the cost of imported steel.",
+    "level": "中階",
+    "theme": "trade",
+    "root": null,
+    "synonyms": [
+      "duty",
+      "import tax"
+    ],
+    "antonyms": [
+      "subsidy"
+    ]
   },
   {
     "word": "embargo",
     "pos": "n.",
     "meaning": "禁運",
-    "example": "The trade embargo halted exports to the country."
+    "example": "The trade embargo halted exports to the country.",
+    "level": "中高階",
+    "theme": "trade",
+    "root": null,
+    "synonyms": [
+      "trade ban",
+      "blockade"
+    ],
+    "antonyms": []
   },
   {
     "word": "subsidy",
     "pos": "n.",
     "meaning": "補貼",
-    "example": "Government subsidies support the renewable energy sector."
+    "example": "Government subsidies support the renewable energy sector.",
+    "level": "中階",
+    "theme": "economics",
+    "root": "sub- (次要/下)",
+    "synonyms": [
+      "grant",
+      "financial support"
+    ],
+    "antonyms": [
+      "tax"
+    ]
   },
   {
     "word": "recession",
     "pos": "n.",
     "meaning": "經濟衰退",
-    "example": "The recession led to widespread layoffs."
+    "example": "The recession led to widespread layoffs.",
+    "level": "中階",
+    "theme": "economics",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "downturn",
+      "slump"
+    ],
+    "antonyms": [
+      "boom",
+      "recovery"
+    ]
   },
   {
     "word": "inflation",
     "pos": "n.",
     "meaning": "通貨膨脹",
-    "example": "Rising inflation eroded consumers' purchasing power."
+    "example": "Rising inflation eroded consumers' purchasing power.",
+    "level": "中階",
+    "theme": "economics",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "price rise",
+      "cost increase"
+    ],
+    "antonyms": [
+      "deflation"
+    ]
   },
   {
     "word": "volatility",
     "pos": "n.",
     "meaning": "波動性",
-    "example": "Market volatility made investors cautious."
+    "example": "Market volatility made investors cautious.",
+    "level": "中階",
+    "theme": "economics",
+    "root": null,
+    "synonyms": [
+      "fluctuation",
+      "instability"
+    ],
+    "antonyms": [
+      "stability"
+    ]
   },
   {
     "word": "arbitrage",
     "pos": "n.",
     "meaning": "套利",
-    "example": "Traders profited from arbitrage between two exchanges."
+    "example": "Traders profited from arbitrage between two exchanges.",
+    "level": "中高階",
+    "theme": "finance",
+    "root": null,
+    "synonyms": [
+      "price exploitation",
+      "spread trading"
+    ],
+    "antonyms": []
   },
   {
     "word": "quota",
     "pos": "n.",
     "meaning": "配額",
-    "example": "The import quota limited the volume of foreign goods."
+    "example": "The import quota limited the volume of foreign goods.",
+    "level": "中階",
+    "theme": "trade",
+    "root": null,
+    "synonyms": [
+      "limit",
+      "allocation"
+    ],
+    "antonyms": []
   },
   {
     "word": "deflation",
     "pos": "n.",
     "meaning": "通貨緊縮",
-    "example": "Deflation can discourage consumer spending."
+    "example": "Deflation can discourage consumer spending.",
+    "level": "中階",
+    "theme": "economics",
+    "root": "de- (去除/相反)",
+    "synonyms": [
+      "price decline",
+      "disinflation"
+    ],
+    "antonyms": [
+      "inflation"
+    ]
   },
   {
     "word": "stagflation",
     "pos": "n.",
     "meaning": "停滯性通膨",
-    "example": "Stagflation combines high inflation with stagnant growth."
+    "example": "Stagflation combines high inflation with stagnant growth.",
+    "level": "中高階",
+    "theme": "economics",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "economic stagnation with inflation"
+    ],
+    "antonyms": []
   },
   {
     "word": "trade deficit",
     "pos": "phr.",
     "meaning": "貿易逆差",
-    "example": "The country's trade deficit widened last quarter."
+    "example": "The country's trade deficit widened last quarter.",
+    "level": "中階",
+    "theme": "trade",
+    "root": "de- (去除/相反)",
+    "synonyms": [
+      "trade gap",
+      "negative trade balance"
+    ],
+    "antonyms": [
+      "trade surplus"
+    ]
   },
   {
     "word": "trade surplus",
     "pos": "phr.",
     "meaning": "貿易順差",
-    "example": "A trade surplus boosted the nation's currency reserves."
+    "example": "A trade surplus boosted the nation's currency reserves.",
+    "level": "中階",
+    "theme": "trade",
+    "root": null,
+    "synonyms": [
+      "positive trade balance"
+    ],
+    "antonyms": [
+      "trade deficit"
+    ]
   },
   {
     "word": "exchange rate",
     "pos": "phr.",
     "meaning": "匯率",
-    "example": "A weaker exchange rate made exports more competitive."
+    "example": "A weaker exchange rate made exports more competitive.",
+    "level": "中階",
+    "theme": "trade",
+    "root": null,
+    "synonyms": [
+      "currency rate",
+      "conversion rate"
+    ],
+    "antonyms": []
   },
   {
     "word": "protectionism",
     "pos": "n.",
     "meaning": "保護主義",
-    "example": "Rising protectionism threatens global trade."
+    "example": "Rising protectionism threatens global trade.",
+    "level": "中高階",
+    "theme": "trade",
+    "root": "pro- (支持/向前)",
+    "synonyms": [
+      "trade barriers",
+      "economic nationalism"
+    ],
+    "antonyms": [
+      "free trade"
+    ]
   },
   {
     "word": "GDP",
     "pos": "n.",
     "meaning": "國內生產毛額",
-    "example": "GDP growth slowed amid weaker consumer demand."
+    "example": "GDP growth slowed amid weaker consumer demand.",
+    "level": "中階",
+    "theme": "economics",
+    "root": null,
+    "synonyms": [
+      "gross domestic product",
+      "national output"
+    ],
+    "antonyms": []
   },
   {
     "word": "monetary policy",
     "pos": "phr.",
     "meaning": "貨幣政策",
-    "example": "The central bank tightened monetary policy to curb inflation."
+    "example": "The central bank tightened monetary policy to curb inflation.",
+    "level": "中階",
+    "theme": "economics",
+    "root": null,
+    "synonyms": [
+      "central bank policy",
+      "money supply policy"
+    ],
+    "antonyms": [
+      "fiscal policy"
+    ]
   },
   {
     "word": "fiscal policy",
     "pos": "phr.",
     "meaning": "財政政策",
-    "example": "Expansionary fiscal policy increased government spending."
+    "example": "Expansionary fiscal policy increased government spending.",
+    "level": "中階",
+    "theme": "economics",
+    "root": null,
+    "synonyms": [
+      "government spending policy",
+      "tax policy"
+    ],
+    "antonyms": [
+      "monetary policy"
+    ]
   },
   {
     "word": "interest rate hike",
     "pos": "phr.",
     "meaning": "升息",
-    "example": "The interest rate hike raised borrowing costs for businesses."
+    "example": "The interest rate hike raised borrowing costs for businesses.",
+    "level": "中階",
+    "theme": "economics",
+    "root": "inter- (之間/相互)",
+    "synonyms": [
+      "rate increase",
+      "tightening"
+    ],
+    "antonyms": [
+      "rate cut"
+    ]
   },
   {
     "word": "currency devaluation",
     "pos": "phr.",
     "meaning": "貨幣貶值",
-    "example": "Currency devaluation made imports significantly more expensive."
+    "example": "Currency devaluation made imports significantly more expensive.",
+    "level": "中高階",
+    "theme": "trade",
+    "root": "de- (去除/相反)",
+    "synonyms": [
+      "currency depreciation",
+      "weakening currency"
+    ],
+    "antonyms": [
+      "currency appreciation",
+      "revaluation"
+    ]
   },
   {
     "word": "free trade agreement",
     "pos": "phr.",
     "meaning": "自由貿易協定",
-    "example": "The free trade agreement removed tariffs between the two nations."
+    "example": "The free trade agreement removed tariffs between the two nations.",
+    "level": "中階",
+    "theme": "trade",
+    "root": "-ment (名詞化:狀態結果)",
+    "synonyms": [
+      "FTA",
+      "trade pact"
+    ],
+    "antonyms": [
+      "trade barrier"
+    ]
   },
   {
     "word": "import duty",
     "pos": "phr.",
     "meaning": "進口關稅",
-    "example": "Import duties on electronics were reduced this year."
+    "example": "Import duties on electronics were reduced this year.",
+    "level": "中階",
+    "theme": "trade",
+    "root": null,
+    "synonyms": [
+      "import tax",
+      "customs duty"
+    ],
+    "antonyms": [
+      "export subsidy"
+    ]
   },
   {
     "word": "commodity",
     "pos": "n.",
     "meaning": "大宗商品",
-    "example": "Oil is one of the world's most traded commodities."
+    "example": "Oil is one of the world's most traded commodities.",
+    "level": "中階",
+    "theme": "trade",
+    "root": "co-/con- (共同)",
+    "synonyms": [
+      "raw material",
+      "staple good"
+    ],
+    "antonyms": []
   },
   {
     "word": "supply and demand",
     "pos": "phr.",
     "meaning": "供需",
-    "example": "Prices are determined by supply and demand."
+    "example": "Prices are determined by supply and demand.",
+    "level": "中階",
+    "theme": "economics",
+    "root": null,
+    "synonyms": [
+      "market forces"
+    ],
+    "antonyms": []
   },
   {
     "word": "purchasing power",
     "pos": "phr.",
     "meaning": "購買力",
-    "example": "Wage stagnation reduced consumers' purchasing power."
+    "example": "Wage stagnation reduced consumers' purchasing power.",
+    "level": "中階",
+    "theme": "economics",
+    "root": null,
+    "synonyms": [
+      "buying power",
+      "spending power"
+    ],
+    "antonyms": []
   },
   {
     "word": "macroeconomic",
     "pos": "adj.",
     "meaning": "總體經濟的",
-    "example": "Macroeconomic indicators pointed to a slowing economy."
+    "example": "Macroeconomic indicators pointed to a slowing economy.",
+    "level": "中高階",
+    "theme": "economics",
+    "root": null,
+    "synonyms": [
+      "economy-wide",
+      "aggregate"
+    ],
+    "antonyms": [
+      "microeconomic"
+    ]
   },
   {
     "word": "microeconomic",
     "pos": "adj.",
     "meaning": "個體經濟的",
-    "example": "Microeconomic factors affect individual firm pricing."
+    "example": "Microeconomic factors affect individual firm pricing.",
+    "level": "中高階",
+    "theme": "economics",
+    "root": null,
+    "synonyms": [
+      "firm-level economic",
+      "individual market"
+    ],
+    "antonyms": [
+      "macroeconomic"
+    ]
   },
   {
     "word": "bull market",
     "pos": "phr.",
     "meaning": "牛市",
-    "example": "Investors grew confident during the prolonged bull market."
+    "example": "Investors grew confident during the prolonged bull market.",
+    "level": "中階",
+    "theme": "finance",
+    "root": null,
+    "synonyms": [
+      "rising market",
+      "upward market"
+    ],
+    "antonyms": [
+      "bear market"
+    ]
   },
   {
     "word": "bear market",
     "pos": "phr.",
     "meaning": "熊市",
-    "example": "The bear market wiped out months of investment gains."
+    "example": "The bear market wiped out months of investment gains.",
+    "level": "中階",
+    "theme": "finance",
+    "root": null,
+    "synonyms": [
+      "declining market",
+      "downward market"
+    ],
+    "antonyms": [
+      "bull market"
+    ]
   },
   {
     "word": "austerity",
     "pos": "n.",
     "meaning": "撙節政策",
-    "example": "The government introduced austerity measures to cut debt."
+    "example": "The government introduced austerity measures to cut debt.",
+    "level": "中高階",
+    "theme": "economics",
+    "root": null,
+    "synonyms": [
+      "spending cuts",
+      "fiscal restraint"
+    ],
+    "antonyms": [
+      "stimulus"
+    ]
   },
   {
     "word": "globalization",
     "pos": "n.",
     "meaning": "全球化",
-    "example": "Globalization has increased competition across industries."
+    "example": "Globalization has increased competition across industries.",
+    "level": "中階",
+    "theme": "economics",
+    "root": "-ize/-ise (使成為)",
+    "synonyms": [
+      "global integration",
+      "internationalization"
+    ],
+    "antonyms": [
+      "deglobalization",
+      "protectionism"
+    ]
   }
 ]

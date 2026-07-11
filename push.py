@@ -1,11 +1,13 @@
 """每日商用英文單字推播主程式。
 
 流程：
-1. 讀 words.json（單字庫）與 history.json（推播紀錄）
-2. 優先呼叫 Gemini 即時生成一個「未推播過」的中高階商用英文新字
-3. 若 Gemini 失敗（無金鑰、額度用盡、格式錯誤等），退回從 words.json 抽一個未推播過的字
-4. append 進 history.json
-5. 呼叫 LINE Messaging API 推播（若未設定 LINE 金鑰，僅在本機印出結果，方便測試）
+1. 讀 words.json（單字庫，含 theme/root/synonyms/antonyms 標籤）與 history.json（推播紀錄）
+2. 決定今天的「關聯模式」（主題 / 字根字首 / 相似字 / 反義字，四種輪替）
+3. 依模式從單字庫挑出 5 個彼此相關、且尚未推播過的字組成一組
+4. 若單字庫可用字不足 5 個，退回呼叫 Gemini 生成一組新字（極少數情況才會發生）
+5. append 5 筆進 history.json
+6. 用 LINE_CHANNEL_ID + LINE_CHANNEL_SECRET 換一個短期 access token，
+   把 5 個字合併成一則訊息推播到 LINE（若未設定 LINE 金鑰，僅在本機印出結果方便測試）
 """
 
 import json
@@ -26,14 +28,22 @@ LINE_CHANNEL_ID = os.environ.get("LINE_CHANNEL_ID")
 LINE_CHANNEL_SECRET = os.environ.get("LINE_CHANNEL_SECRET")
 LINE_USER_ID = os.environ.get("LINE_USER_ID")
 
-LINE_TOKEN_URL = "https://api.line.me/v2/oauth/accessToken"
-
 GEMINI_MODEL = "gemini-2.0-flash"
 GEMINI_URL = (
     f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
 )
+LINE_TOKEN_URL = "https://api.line.me/v2/oauth/accessToken"
 
 REQUIRED_KEYS = {"word", "pos", "meaning", "example"}
+CLUSTER_SIZE = 5
+CLUSTER_MODES = ["theme", "root", "synonym", "antonym"]
+MODE_LABELS = {
+    "theme": "主題",
+    "root": "字根字首字尾",
+    "synonym": "相似字",
+    "antonym": "反義字",
+    "random": "精選",
+}
 
 
 def load_json(path: Path, default):
@@ -53,19 +63,110 @@ def today_taiwan() -> str:
     return datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
 
 
-def generate_word_with_gemini(used_words: set[str]):
+def norm(w: str) -> str:
+    return w.strip().lower()
+
+
+# ---------------------------------------------------------------------------
+# 單字庫聚類挑選
+# ---------------------------------------------------------------------------
+
+
+def determine_mode(history: list[dict]) -> str:
+    day_count = len({h["date"] for h in history})
+    return CLUSTER_MODES[day_count % len(CLUSTER_MODES)]
+
+
+def fill_cluster(cluster: list[dict], available: list[dict], prefer_theme: str | None) -> list[dict]:
+    have = {w["word"] for w in cluster}
+    pool = [w for w in available if w["word"] not in have]
+    if prefer_theme:
+        pool.sort(key=lambda w: 0 if w.get("theme") == prefer_theme else 1)
+    for w in pool:
+        if len(cluster) >= CLUSTER_SIZE:
+            break
+        cluster.append(w)
+    return cluster
+
+
+def pick_cluster(words: list[dict], used_words: set[str], mode: str):
+    index = {norm(w["word"]): w for w in words}
+    available = [w for w in words if norm(w["word"]) not in used_words]
+    if not available:
+        return None, (None, None)
+
+    shuffled = available[:]
+    random.shuffle(shuffled)
+
+    if mode == "theme":
+        for seed in shuffled:
+            theme = seed.get("theme")
+            if not theme:
+                continue
+            group = [w for w in available if w.get("theme") == theme]
+            if group:
+                cluster = fill_cluster(group[:CLUSTER_SIZE], available, theme)
+                return cluster, ("theme", theme)
+
+    elif mode == "root":
+        for seed in shuffled:
+            root = seed.get("root")
+            if not root:
+                continue
+            group = [w for w in available if w.get("root") == root]
+            if group:
+                cluster = fill_cluster(group[:CLUSTER_SIZE], available, seed.get("theme"))
+                return cluster, ("root", root)
+
+    elif mode == "synonym":
+        for seed in shuffled:
+            related = [
+                index[norm(s)]
+                for s in seed.get("synonyms", [])
+                if norm(s) in index and norm(s) not in used_words
+            ]
+            group = [seed] + [w for w in related if w["word"] != seed["word"]]
+            if len(group) >= 2:
+                cluster = fill_cluster(group[:CLUSTER_SIZE], available, seed.get("theme"))
+                return cluster, ("synonym", seed["word"])
+
+    elif mode == "antonym":
+        for seed in shuffled:
+            related = [
+                index[norm(s)]
+                for s in seed.get("antonyms", [])
+                if norm(s) in index and norm(s) not in used_words
+            ]
+            group = [seed] + [w for w in related if w["word"] != seed["word"]]
+            if len(group) >= 2:
+                cluster = fill_cluster(group[:CLUSTER_SIZE], available, seed.get("theme"))
+                return cluster, ("antonym", seed["word"])
+
+    # 找不到符合當天模式的關聯組合（例如標籤資料不足），退回隨機挑選但仍優先同主題
+    seed = shuffled[0]
+    cluster = fill_cluster([seed], available, seed.get("theme"))
+    return cluster, ("random", None)
+
+
+# ---------------------------------------------------------------------------
+# Gemini 備援（單字庫完全用完時才會觸發）
+# ---------------------------------------------------------------------------
+
+
+def generate_cluster_with_gemini(used_words: set[str]):
     if not GEMINI_API_KEY:
         return None
 
     prompt = (
-        "你是商用英文教材編輯。請生成一個「中高階」程度的商用英文單字或片語"
+        "你是商用英文教材編輯。請生成 5 個「中階到中高階」程度、彼此主題相關的商用英文單字或片語"
         "（不要過於基礎，例如不要 meeting、email 這類簡單字），"
         "且不可以是以下已經使用過的單字："
         + ", ".join(sorted(used_words))
         + "。"
-        "只回傳一個 JSON 物件，不要加任何說明文字或 markdown 標記，格式為："
+        "只回傳一個 JSON 陣列，不要加任何說明文字或 markdown 標記，陣列中每個物件格式為："
         '{"word": "英文單字", "pos": "詞性縮寫，如 n./v./adj./adv./phr.", '
-        '"meaning": "繁體中文意思（簡短）", "example": "一句英文商用情境例句"}'
+        '"meaning": "繁體中文意思（簡短）", "example": "一句英文商用情境例句", '
+        '"theme": "這 5 個字共通的主題（英文 slug）"}'
     )
 
     try:
@@ -84,27 +185,22 @@ def generate_word_with_gemini(used_words: set[str]):
                 text = text[4:]
             text = text.strip()
 
-        word_entry = json.loads(text)
+        cluster = json.loads(text)
+        cluster = [w for w in cluster if REQUIRED_KEYS.issubset(w.keys())]
+        cluster = [w for w in cluster if norm(w["word"]) not in used_words]
 
-        if not REQUIRED_KEYS.issubset(word_entry.keys()):
-            print(f"[warn] Gemini 回傳缺少必要欄位: {word_entry}")
+        if not cluster:
             return None
-
-        if word_entry["word"].strip().lower() in used_words:
-            print(f"[warn] Gemini 生成了重複單字: {word_entry['word']}")
-            return None
-
-        return word_entry
-    except Exception as e:  # noqa: BLE001 - 任何失敗都應該安全退回單字庫
-        print(f"[warn] Gemini 生成失敗，改用單字庫: {e}")
+        theme = cluster[0].get("theme")
+        return cluster[:CLUSTER_SIZE], ("theme", theme)
+    except Exception as e:  # noqa: BLE001
+        print(f"[warn] Gemini 生成失敗: {e}")
         return None
 
 
-def pick_from_bank(words: list[dict], used_words: set[str]):
-    candidates = [w for w in words if w["word"].strip().lower() not in used_words]
-    if not candidates:
-        return None
-    return random.choice(candidates)
+# ---------------------------------------------------------------------------
+# LINE 推播
+# ---------------------------------------------------------------------------
 
 
 def get_line_access_token() -> str | None:
@@ -134,22 +230,31 @@ def get_line_access_token() -> str | None:
         return None
 
 
-def push_line(word_entry: dict) -> None:
+def build_message(cluster: list[dict], mode: str, key: str | None) -> str:
+    label = MODE_LABELS.get(mode, "精選")
+    header = f"📘 今日 5 個商用英文單字（關聯：{label}"
+    header += f" - {key}）" if key else "）"
+
+    lines = [header, ""]
+    for i, w in enumerate(cluster, start=1):
+        lines.append(f"{i}. {w['word']} ({w['pos']})")
+        lines.append(f"   意思：{w['meaning']}")
+        lines.append(f"   例句：{w['example']}")
+        lines.append("")
+    return "\n".join(lines).rstrip()
+
+
+def push_line(message: str) -> None:
     if not LINE_USER_ID:
         print("[info] 尚未設定 LINE_USER_ID，略過推播（本機測試模式）")
+        print(message)
         return
 
     access_token = get_line_access_token()
     if not access_token:
         print("[info] 尚未設定 LINE 金鑰或換取 token 失敗，略過推播（本機測試模式）")
+        print(message)
         return
-
-    message = (
-        "📘 今日商用英文單字\n\n"
-        f"{word_entry['word']} ({word_entry['pos']})\n"
-        f"意思：{word_entry['meaning']}\n"
-        f"例句：{word_entry['example']}"
-    )
 
     resp = requests.post(
         "https://api.line.me/v2/bot/message/push",
@@ -164,41 +269,55 @@ def push_line(word_entry: dict) -> None:
     print("[info] LINE 推播成功")
 
 
+# ---------------------------------------------------------------------------
+# 主流程
+# ---------------------------------------------------------------------------
+
+
 def main() -> None:
     words = load_json(WORDS_PATH, [])
     history = load_json(HISTORY_PATH, [])
-    used_words = {h["word"].strip().lower() for h in history}
+    used_words = {norm(h["word"]) for h in history}
 
     date_str = today_taiwan()
     if any(h["date"] == date_str for h in history):
         print(f"[info] {date_str} 已經推播過，略過重複執行。")
         return
 
-    word_entry = generate_word_with_gemini(used_words)
-    source = "gemini"
+    mode = determine_mode(history)
+    cluster, (cluster_mode, cluster_key) = pick_cluster(words, used_words, mode)
+    source = "bank"
 
-    if word_entry is None:
-        word_entry = pick_from_bank(words, used_words)
-        source = "bank"
+    if not cluster or len(cluster) < CLUSTER_SIZE:
+        gemini_result = generate_cluster_with_gemini(used_words)
+        if gemini_result:
+            cluster, (cluster_mode, cluster_key) = gemini_result
+            source = "gemini"
 
-    if word_entry is None:
+    if not cluster:
         print("[error] 單字庫已用完且 Gemini 生成失敗，請補充 words.json 或檢查 API 金鑰。")
         sys.exit(1)
 
-    history.append(
-        {
-            "date": date_str,
-            "word": word_entry["word"],
-            "pos": word_entry["pos"],
-            "meaning": word_entry["meaning"],
-            "example": word_entry["example"],
-            "source": source,
-        }
-    )
+    for w in cluster:
+        history.append(
+            {
+                "date": date_str,
+                "word": w["word"],
+                "pos": w["pos"],
+                "meaning": w["meaning"],
+                "example": w["example"],
+                "source": source,
+                "cluster_mode": cluster_mode,
+                "cluster_key": cluster_key,
+            }
+        )
     save_json(HISTORY_PATH, history)
 
-    print(f"[info] 今日單字（來源: {source}）: {word_entry['word']} - {word_entry['meaning']}")
-    push_line(word_entry)
+    words_summary = "、".join(w["word"] for w in cluster)
+    print(f"[info] 今日單字組（來源: {source}, 模式: {cluster_mode}/{cluster_key}）: {words_summary}")
+
+    message = build_message(cluster, cluster_mode, cluster_key)
+    push_line(message)
 
 
 if __name__ == "__main__":

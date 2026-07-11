@@ -123,6 +123,16 @@
     font-style: italic;
     font-size: 0.92rem;
   }
+  .word-row {
+    padding-top: 12px;
+    margin-top: 12px;
+    border-top: 1px solid var(--border);
+  }
+  .word-row:first-of-type {
+    padding-top: 0;
+    margin-top: 10px;
+    border-top: none;
+  }
 
   #reviewCard { display: none; text-align: center; }
   #reviewCard .word { font-size: 1.8rem; }
@@ -214,6 +224,14 @@ function renderStats() {
   document.getElementById('statLatest').textContent = latest || '-';
 }
 
+const MODE_LABELS = {
+  theme: '主題',
+  root: '字根字首字尾',
+  synonym: '相似字',
+  antonym: '反義字',
+  random: '精選',
+};
+
 function renderList() {
   const list = document.getElementById('list');
   const query = document.getElementById('searchInput').value.trim().toLowerCase();
@@ -224,23 +242,46 @@ function renderList() {
     (h.meaning || '').toLowerCase().includes(query)
   );
 
-  items = items.slice().sort((a, b) => sortDesc ? b.date.localeCompare(a.date) : a.date.localeCompare(b.date));
-
   if (items.length === 0) {
     list.innerHTML = '<div class="empty">找不到符合的單字，或尚無推播紀錄。</div>';
     return;
   }
 
-  list.innerHTML = items.map(h => `
-    <div class="card">
-      <div class="row1">
-        <div><span class="word">${escapeHtml(h.word)}</span><span class="pos">${escapeHtml(h.pos || '')}</span></div>
-        <div class="date">${escapeHtml(h.date)}</div>
+  const byDate = new Map();
+  for (const h of items) {
+    if (!byDate.has(h.date)) byDate.set(h.date, []);
+    byDate.get(h.date).push(h);
+  }
+
+  let dates = Array.from(byDate.keys());
+  dates.sort((a, b) => sortDesc ? b.localeCompare(a) : a.localeCompare(b));
+
+  list.innerHTML = dates.map(date => {
+    const group = byDate.get(date);
+    const first = group[0];
+    const modeLabel = MODE_LABELS[first.cluster_mode] || '';
+    const keyLabel = first.cluster_key ? `${modeLabel} - ${escapeHtml(first.cluster_key)}` : modeLabel;
+
+    const wordsHtml = group.map(h => `
+      <div class="word-row">
+        <div class="row1">
+          <div><span class="word">${escapeHtml(h.word)}</span><span class="pos">${escapeHtml(h.pos || '')}</span></div>
+        </div>
+        <div class="meaning">${escapeHtml(h.meaning || '')}</div>
+        <div class="example">${escapeHtml(h.example || '')}</div>
       </div>
-      <div class="meaning">${escapeHtml(h.meaning || '')}</div>
-      <div class="example">${escapeHtml(h.example || '')}</div>
-    </div>
-  `).join('');
+    `).join('');
+
+    return `
+      <div class="card">
+        <div class="row1">
+          <div class="date">${escapeHtml(date)}</div>
+          ${keyLabel ? `<span class="pos">${keyLabel}</span>` : ''}
+        </div>
+        ${wordsHtml}
+      </div>
+    `;
+  }).join('');
 }
 
 function escapeHtml(str) {
