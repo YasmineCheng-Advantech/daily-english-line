@@ -1,0 +1,1802 @@
+[
+  {
+    "word": "leverage",
+    "pos": "n.",
+    "meaning": "談判籌碼；優勢",
+    "example": "Having multiple suppliers gives us leverage in price negotiations."
+  },
+  {
+    "word": "concession",
+    "pos": "n.",
+    "meaning": "讓步",
+    "example": "Neither side was willing to make a concession on price."
+  },
+  {
+    "word": "stipulate",
+    "pos": "v.",
+    "meaning": "明文規定",
+    "example": "The contract stipulates that payment must be made within 30 days."
+  },
+  {
+    "word": "clause",
+    "pos": "n.",
+    "meaning": "條款",
+    "example": "Please review the termination clause before signing."
+  },
+  {
+    "word": "breach",
+    "pos": "n./v.",
+    "meaning": "違反(合約)",
+    "example": "Failing to deliver on time constitutes a breach of contract."
+  },
+  {
+    "word": "waiver",
+    "pos": "n.",
+    "meaning": "棄權聲明",
+    "example": "The client signed a waiver releasing us from liability."
+  },
+  {
+    "word": "addendum",
+    "pos": "n.",
+    "meaning": "附加條款",
+    "example": "An addendum was attached to extend the delivery deadline."
+  },
+  {
+    "word": "arbitration",
+    "pos": "n.",
+    "meaning": "仲裁",
+    "example": "The dispute was resolved through binding arbitration."
+  },
+  {
+    "word": "indemnity",
+    "pos": "n.",
+    "meaning": "賠償條款",
+    "example": "The supplier provided an indemnity against product defects."
+  },
+  {
+    "word": "non-disclosure",
+    "pos": "phr.",
+    "meaning": "保密協議",
+    "example": "Both parties signed a non-disclosure agreement before sharing data."
+  },
+  {
+    "word": "counteroffer",
+    "pos": "n.",
+    "meaning": "還價",
+    "example": "The seller rejected our bid and sent a counteroffer."
+  },
+  {
+    "word": "covenant",
+    "pos": "n.",
+    "meaning": "契約承諾",
+    "example": "The loan agreement includes a covenant restricting further borrowing."
+  },
+  {
+    "word": "rescind",
+    "pos": "v.",
+    "meaning": "撤銷(合約)",
+    "example": "The buyer decided to rescind the contract after due diligence."
+  },
+  {
+    "word": "binding",
+    "pos": "adj.",
+    "meaning": "具約束力的",
+    "example": "Once signed, the agreement becomes legally binding."
+  },
+  {
+    "word": "ratify",
+    "pos": "v.",
+    "meaning": "正式批准",
+    "example": "The board must ratify the merger agreement before it takes effect."
+  },
+  {
+    "word": "terminate",
+    "pos": "v.",
+    "meaning": "終止(合約)",
+    "example": "Either party may terminate the contract with 60 days' notice."
+  },
+  {
+    "word": "draft",
+    "pos": "v.",
+    "meaning": "起草",
+    "example": "Our legal team will draft the licensing agreement."
+  },
+  {
+    "word": "jurisdiction",
+    "pos": "n.",
+    "meaning": "管轄權",
+    "example": "The contract specifies that disputes fall under Taiwan's jurisdiction."
+  },
+  {
+    "word": "mediation",
+    "pos": "n.",
+    "meaning": "調解",
+    "example": "The two firms opted for mediation instead of a lawsuit."
+  },
+  {
+    "word": "impasse",
+    "pos": "n.",
+    "meaning": "談判僵局",
+    "example": "Talks reached an impasse over pricing terms."
+  },
+  {
+    "word": "contingency clause",
+    "pos": "phr.",
+    "meaning": "或有條款",
+    "example": "The contingency clause voids the deal if financing falls through."
+  },
+  {
+    "word": "good faith",
+    "pos": "phr.",
+    "meaning": "誠信",
+    "example": "Both sides negotiated in good faith to reach an agreement."
+  },
+  {
+    "word": "deadlock",
+    "pos": "n.",
+    "meaning": "僵局",
+    "example": "Negotiations hit a deadlock after three rounds of talks."
+  },
+  {
+    "word": "bargaining chip",
+    "pos": "phr.",
+    "meaning": "談判籌碼",
+    "example": "Exclusive distribution rights became our main bargaining chip."
+  },
+  {
+    "word": "tender",
+    "pos": "n.",
+    "meaning": "投標",
+    "example": "The company submitted a tender for the construction project."
+  },
+  {
+    "word": "renegotiate",
+    "pos": "v.",
+    "meaning": "重新談判",
+    "example": "Rising costs forced both parties to renegotiate the terms."
+  },
+  {
+    "word": "escrow",
+    "pos": "n.",
+    "meaning": "第三方保管帳戶",
+    "example": "Funds were held in escrow until the conditions were met."
+  },
+  {
+    "word": "proviso",
+    "pos": "n.",
+    "meaning": "附帶條件",
+    "example": "The offer came with a proviso that approval be obtained first."
+  },
+  {
+    "word": "null and void",
+    "pos": "phr.",
+    "meaning": "無效的",
+    "example": "Any amendment made without written consent is null and void."
+  },
+  {
+    "word": "undersigned",
+    "pos": "n.",
+    "meaning": "簽署人",
+    "example": "The undersigned agree to the terms outlined above."
+  },
+  {
+    "word": "liquidity",
+    "pos": "n.",
+    "meaning": "流動性",
+    "example": "The company maintained strong liquidity to cover short-term debts."
+  },
+  {
+    "word": "amortize",
+    "pos": "v.",
+    "meaning": "分期攤銷",
+    "example": "The firm will amortize the software cost over five years."
+  },
+  {
+    "word": "depreciation",
+    "pos": "n.",
+    "meaning": "折舊",
+    "example": "Depreciation of equipment is recorded annually on the balance sheet."
+  },
+  {
+    "word": "equity",
+    "pos": "n.",
+    "meaning": "股權",
+    "example": "Investors received equity in exchange for early funding."
+  },
+  {
+    "word": "dividend",
+    "pos": "n.",
+    "meaning": "股利",
+    "example": "The board approved a dividend increase for shareholders."
+  },
+  {
+    "word": "ledger",
+    "pos": "n.",
+    "meaning": "分類帳",
+    "example": "All transactions are recorded in the general ledger."
+  },
+  {
+    "word": "overhead",
+    "pos": "n.",
+    "meaning": "營運成本",
+    "example": "Cutting overhead helped improve the company's profit margin."
+  },
+  {
+    "word": "audit",
+    "pos": "n.",
+    "meaning": "審計",
+    "example": "An external audit confirmed the accuracy of the financial statements."
+  },
+  {
+    "word": "solvency",
+    "pos": "n.",
+    "meaning": "償債能力",
+    "example": "The bank reviewed the firm's solvency before approving the loan."
+  },
+  {
+    "word": "accrual",
+    "pos": "n.",
+    "meaning": "應計項目",
+    "example": "Accrual accounting records revenue when it is earned, not received."
+  },
+  {
+    "word": "asset",
+    "pos": "n.",
+    "meaning": "資產",
+    "example": "The company's most valuable asset is its patent portfolio."
+  },
+  {
+    "word": "book value",
+    "pos": "phr.",
+    "meaning": "帳面價值",
+    "example": "The machinery's book value has declined due to depreciation."
+  },
+  {
+    "word": "cash flow",
+    "pos": "phr.",
+    "meaning": "現金流",
+    "example": "Positive cash flow is essential for day-to-day operations."
+  },
+  {
+    "word": "revenue",
+    "pos": "n.",
+    "meaning": "營收",
+    "example": "Quarterly revenue exceeded analysts' expectations."
+  },
+  {
+    "word": "margin",
+    "pos": "n.",
+    "meaning": "利潤率",
+    "example": "The retailer operates on a thin profit margin."
+  },
+  {
+    "word": "capital expenditure",
+    "pos": "phr.",
+    "meaning": "資本支出",
+    "example": "Capital expenditure on new factories rose sharply this year."
+  },
+  {
+    "word": "fiscal year",
+    "pos": "phr.",
+    "meaning": "會計年度",
+    "example": "The company's fiscal year ends in December."
+  },
+  {
+    "word": "write-off",
+    "pos": "n.",
+    "meaning": "沖銷",
+    "example": "The bad debt was recorded as a write-off."
+  },
+  {
+    "word": "underwrite",
+    "pos": "v.",
+    "meaning": "承銷；擔保",
+    "example": "The bank agreed to underwrite the corporate bond issue."
+  },
+  {
+    "word": "valuation",
+    "pos": "n.",
+    "meaning": "估值",
+    "example": "The startup's valuation doubled after the latest funding round."
+  },
+  {
+    "word": "arrears",
+    "pos": "n.",
+    "meaning": "拖欠款項",
+    "example": "The tenant's rent payments were three months in arrears."
+  },
+  {
+    "word": "collateral",
+    "pos": "n.",
+    "meaning": "抵押品",
+    "example": "The loan was secured against real estate as collateral."
+  },
+  {
+    "word": "hedge",
+    "pos": "v.",
+    "meaning": "對沖風險",
+    "example": "The firm used futures contracts to hedge against currency risk."
+  },
+  {
+    "word": "portfolio",
+    "pos": "n.",
+    "meaning": "投資組合",
+    "example": "Her investment portfolio includes stocks, bonds, and real estate."
+  },
+  {
+    "word": "yield",
+    "pos": "n.",
+    "meaning": "收益率",
+    "example": "Bond yields rose amid expectations of higher interest rates."
+  },
+  {
+    "word": "insolvent",
+    "pos": "adj.",
+    "meaning": "無力償債的",
+    "example": "The retailer was declared insolvent after years of losses."
+  },
+  {
+    "word": "reconcile",
+    "pos": "v.",
+    "meaning": "對帳",
+    "example": "The accountant reconciled the bank statement with the ledger."
+  },
+  {
+    "word": "appreciation",
+    "pos": "n.",
+    "meaning": "資產增值",
+    "example": "The property saw significant appreciation over the decade."
+  },
+  {
+    "word": "principal",
+    "pos": "n.",
+    "meaning": "本金",
+    "example": "Monthly payments cover both interest and principal."
+  },
+  {
+    "word": "leverage ratio",
+    "pos": "phr.",
+    "meaning": "槓桿比率",
+    "example": "Regulators require banks to maintain a minimum leverage ratio."
+  },
+  {
+    "word": "differentiate",
+    "pos": "v.",
+    "meaning": "差異化",
+    "example": "The brand differentiates itself through sustainable packaging."
+  },
+  {
+    "word": "positioning",
+    "pos": "n.",
+    "meaning": "市場定位",
+    "example": "Strong positioning helped the product stand out from competitors."
+  },
+  {
+    "word": "conversion",
+    "pos": "n.",
+    "meaning": "轉換率",
+    "example": "The new landing page improved the conversion rate significantly."
+  },
+  {
+    "word": "churn",
+    "pos": "n.",
+    "meaning": "客戶流失率",
+    "example": "High churn among subscribers hurt monthly recurring revenue."
+  },
+  {
+    "word": "upsell",
+    "pos": "v.",
+    "meaning": "追加銷售",
+    "example": "Sales reps are trained to upsell premium service plans."
+  },
+  {
+    "word": "benchmark",
+    "pos": "n.",
+    "meaning": "基準",
+    "example": "We use industry benchmarks to evaluate our performance."
+  },
+  {
+    "word": "segmentation",
+    "pos": "n.",
+    "meaning": "市場區隔",
+    "example": "Customer segmentation allows for more targeted campaigns."
+  },
+  {
+    "word": "endorsement",
+    "pos": "n.",
+    "meaning": "代言；背書",
+    "example": "The athlete's endorsement boosted the brand's visibility."
+  },
+  {
+    "word": "cross-sell",
+    "pos": "v.",
+    "meaning": "交叉銷售",
+    "example": "The bank tried to cross-sell insurance products to loan customers."
+  },
+  {
+    "word": "brand equity",
+    "pos": "phr.",
+    "meaning": "品牌價值",
+    "example": "Decades of consistent quality built strong brand equity."
+  },
+  {
+    "word": "target demographic",
+    "pos": "phr.",
+    "meaning": "目標客群",
+    "example": "The campaign was tailored to a younger target demographic."
+  },
+  {
+    "word": "outreach",
+    "pos": "n.",
+    "meaning": "推廣接觸",
+    "example": "The team launched an outreach program to attract new clients."
+  },
+  {
+    "word": "lead generation",
+    "pos": "phr.",
+    "meaning": "潛在客戶開發",
+    "example": "Webinars became a key channel for lead generation."
+  },
+  {
+    "word": "call to action",
+    "pos": "phr.",
+    "meaning": "行動呼籲",
+    "example": "Every email ends with a clear call to action."
+  },
+  {
+    "word": "market saturation",
+    "pos": "phr.",
+    "meaning": "市場飽和",
+    "example": "Market saturation made it harder to acquire new customers."
+  },
+  {
+    "word": "niche",
+    "pos": "n.",
+    "meaning": "利基市場",
+    "example": "The company found success by targeting a profitable niche."
+  },
+  {
+    "word": "viral",
+    "pos": "adj.",
+    "meaning": "病毒式的",
+    "example": "The video campaign went viral within days of launch."
+  },
+  {
+    "word": "testimonial",
+    "pos": "n.",
+    "meaning": "客戶見證",
+    "example": "Customer testimonials were featured prominently on the site."
+  },
+  {
+    "word": "loyalty program",
+    "pos": "phr.",
+    "meaning": "忠誠度計畫",
+    "example": "The loyalty program rewards frequent shoppers with discounts."
+  },
+  {
+    "word": "impression",
+    "pos": "n.",
+    "meaning": "曝光次數",
+    "example": "The ad generated over a million impressions online."
+  },
+  {
+    "word": "click-through rate",
+    "pos": "phr.",
+    "meaning": "點閱率",
+    "example": "A compelling headline can raise the click-through rate."
+  },
+  {
+    "word": "brand awareness",
+    "pos": "phr.",
+    "meaning": "品牌知名度",
+    "example": "The campaign was designed to increase brand awareness."
+  },
+  {
+    "word": "promotional",
+    "pos": "adj.",
+    "meaning": "促銷的",
+    "example": "Promotional pricing drove a spike in holiday sales."
+  },
+  {
+    "word": "penetration",
+    "pos": "n.",
+    "meaning": "市場滲透",
+    "example": "The firm aims for deeper market penetration in Asia."
+  },
+  {
+    "word": "word-of-mouth",
+    "pos": "phr.",
+    "meaning": "口碑",
+    "example": "Word-of-mouth referrals remain a powerful sales driver."
+  },
+  {
+    "word": "rebrand",
+    "pos": "v.",
+    "meaning": "品牌重塑",
+    "example": "The company decided to rebrand after the merger."
+  },
+  {
+    "word": "value proposition",
+    "pos": "phr.",
+    "meaning": "價值主張",
+    "example": "A clear value proposition sets the product apart."
+  },
+  {
+    "word": "affiliate marketing",
+    "pos": "phr.",
+    "meaning": "聯盟行銷",
+    "example": "Affiliate marketing drives a significant share of online sales."
+  },
+  {
+    "word": "footfall",
+    "pos": "n.",
+    "meaning": "到店人流",
+    "example": "The new storefront design increased footfall by 20 percent."
+  },
+  {
+    "word": "premium pricing",
+    "pos": "phr.",
+    "meaning": "溢價策略",
+    "example": "The brand relies on premium pricing to signal quality."
+  },
+  {
+    "word": "delegate",
+    "pos": "v.",
+    "meaning": "授權；委派",
+    "example": "Effective managers know how to delegate tasks."
+  },
+  {
+    "word": "streamline",
+    "pos": "v.",
+    "meaning": "簡化流程",
+    "example": "The new software helped streamline the approval process."
+  },
+  {
+    "word": "spearhead",
+    "pos": "v.",
+    "meaning": "率先推動",
+    "example": "She spearheaded the company's digital transformation."
+  },
+  {
+    "word": "accountability",
+    "pos": "n.",
+    "meaning": "當責",
+    "example": "The new policy increases accountability at every level."
+  },
+  {
+    "word": "initiative",
+    "pos": "n.",
+    "meaning": "主動性；新計畫",
+    "example": "He took the initiative to redesign the workflow."
+  },
+  {
+    "word": "mentorship",
+    "pos": "n.",
+    "meaning": "指導關係",
+    "example": "The mentorship program pairs new hires with senior staff."
+  },
+  {
+    "word": "empower",
+    "pos": "v.",
+    "meaning": "賦權",
+    "example": "The company empowers employees to make independent decisions."
+  },
+  {
+    "word": "oversight",
+    "pos": "n.",
+    "meaning": "監督",
+    "example": "The committee provides oversight of budget spending."
+  },
+  {
+    "word": "autonomy",
+    "pos": "n.",
+    "meaning": "自主權",
+    "example": "Remote teams are given considerable autonomy over their schedules."
+  },
+  {
+    "word": "proactive",
+    "pos": "adj.",
+    "meaning": "主動積極的",
+    "example": "A proactive approach to risk helped avoid major setbacks."
+  },
+  {
+    "word": "consensus",
+    "pos": "n.",
+    "meaning": "共識",
+    "example": "The team reached a consensus after a lengthy discussion."
+  },
+  {
+    "word": "chain of command",
+    "pos": "phr.",
+    "meaning": "指揮系統",
+    "example": "Requests must follow the proper chain of command."
+  },
+  {
+    "word": "micromanage",
+    "pos": "v.",
+    "meaning": "微觀管理",
+    "example": "Employees resented being micromanaged on every task."
+  },
+  {
+    "word": "cross-functional",
+    "pos": "adj.",
+    "meaning": "跨部門的",
+    "example": "A cross-functional team was formed to launch the product."
+  },
+  {
+    "word": "stakeholder",
+    "pos": "n.",
+    "meaning": "利害關係人",
+    "example": "All stakeholders were consulted before the policy change."
+  },
+  {
+    "word": "visionary",
+    "pos": "adj.",
+    "meaning": "有遠見的",
+    "example": "The visionary CEO transformed the struggling company."
+  },
+  {
+    "word": "task force",
+    "pos": "phr.",
+    "meaning": "專案小組",
+    "example": "A task force was assembled to address the supply crisis."
+  },
+  {
+    "word": "accountable",
+    "pos": "adj.",
+    "meaning": "負責任的",
+    "example": "Managers are held accountable for their team's results."
+  },
+  {
+    "word": "hands-on",
+    "pos": "adj.",
+    "meaning": "親力親為的",
+    "example": "Her hands-on management style earned employee trust."
+  },
+  {
+    "word": "strategic foresight",
+    "pos": "phr.",
+    "meaning": "策略遠見",
+    "example": "Strategic foresight helped the firm anticipate market shifts."
+  },
+  {
+    "word": "galvanize",
+    "pos": "v.",
+    "meaning": "激勵；鼓舞",
+    "example": "The speech galvanized the team ahead of the product launch."
+  },
+  {
+    "word": "mobilize",
+    "pos": "v.",
+    "meaning": "動員",
+    "example": "Management mobilized resources quickly after the setback."
+  },
+  {
+    "word": "executive",
+    "pos": "n.",
+    "meaning": "高階主管",
+    "example": "The executive team approved the expansion plan."
+  },
+  {
+    "word": "governance",
+    "pos": "n.",
+    "meaning": "治理",
+    "example": "Strong governance reduces the risk of corporate scandals."
+  },
+  {
+    "word": "capitalize on",
+    "pos": "phr.",
+    "meaning": "善用；把握",
+    "example": "The firm capitalized on the market gap early on."
+  },
+  {
+    "word": "foster",
+    "pos": "v.",
+    "meaning": "培養；促進",
+    "example": "Leadership training aims to foster collaboration across teams."
+  },
+  {
+    "word": "resilience",
+    "pos": "n.",
+    "meaning": "韌性",
+    "example": "The organization's resilience was tested during the downturn."
+  },
+  {
+    "word": "decisive",
+    "pos": "adj.",
+    "meaning": "果斷的",
+    "example": "A decisive leader kept the project on schedule."
+  },
+  {
+    "word": "trailblazer",
+    "pos": "n.",
+    "meaning": "先驅者",
+    "example": "The founder is regarded as a trailblazer in the industry."
+  },
+  {
+    "word": "authoritative",
+    "pos": "adj.",
+    "meaning": "有權威的",
+    "example": "Her authoritative tone reassured investors during the crisis."
+  },
+  {
+    "word": "onboarding",
+    "pos": "n.",
+    "meaning": "新人導入",
+    "example": "The onboarding process helps new hires adjust quickly."
+  },
+  {
+    "word": "attrition",
+    "pos": "n.",
+    "meaning": "人員流失",
+    "example": "High attrition rates prompted a review of employee benefits."
+  },
+  {
+    "word": "severance",
+    "pos": "n.",
+    "meaning": "資遣費",
+    "example": "Laid-off staff received a severance package."
+  },
+  {
+    "word": "grievance",
+    "pos": "n.",
+    "meaning": "申訴",
+    "example": "Employees can file a grievance with the HR department."
+  },
+  {
+    "word": "appraisal",
+    "pos": "n.",
+    "meaning": "績效考核",
+    "example": "Annual appraisals determine eligibility for a raise."
+  },
+  {
+    "word": "retention",
+    "pos": "n.",
+    "meaning": "留才",
+    "example": "Better benefits improved employee retention significantly."
+  },
+  {
+    "word": "compliance",
+    "pos": "n.",
+    "meaning": "法規遵循",
+    "example": "The HR team ensures compliance with labor laws."
+  },
+  {
+    "word": "succession planning",
+    "pos": "phr.",
+    "meaning": "接班規劃",
+    "example": "Succession planning ensures leadership continuity."
+  },
+  {
+    "word": "recruitment",
+    "pos": "n.",
+    "meaning": "招募",
+    "example": "The recruitment drive targeted recent graduates."
+  },
+  {
+    "word": "headhunter",
+    "pos": "n.",
+    "meaning": "獵頭",
+    "example": "A headhunter approached her about the executive role."
+  },
+  {
+    "word": "probation period",
+    "pos": "phr.",
+    "meaning": "試用期",
+    "example": "New employees undergo a three-month probation period."
+  },
+  {
+    "word": "incentive",
+    "pos": "n.",
+    "meaning": "激勵措施",
+    "example": "Performance incentives boosted overall productivity."
+  },
+  {
+    "word": "workforce",
+    "pos": "n.",
+    "meaning": "勞動力",
+    "example": "The company plans to expand its workforce next year."
+  },
+  {
+    "word": "layoff",
+    "pos": "n.",
+    "meaning": "裁員",
+    "example": "The layoffs affected nearly ten percent of staff."
+  },
+  {
+    "word": "disciplinary action",
+    "pos": "phr.",
+    "meaning": "懲戒行動",
+    "example": "Repeated violations may result in disciplinary action."
+  },
+  {
+    "word": "tenure",
+    "pos": "n.",
+    "meaning": "任期；年資",
+    "example": "Employees with longer tenure receive additional benefits."
+  },
+  {
+    "word": "diversity and inclusion",
+    "pos": "phr.",
+    "meaning": "多元共融",
+    "example": "The firm launched a diversity and inclusion initiative."
+  },
+  {
+    "word": "exit interview",
+    "pos": "phr.",
+    "meaning": "離職面談",
+    "example": "The exit interview revealed concerns about management."
+  },
+  {
+    "word": "talent pool",
+    "pos": "phr.",
+    "meaning": "人才庫",
+    "example": "The internship program expands the company's talent pool."
+  },
+  {
+    "word": "performance review",
+    "pos": "phr.",
+    "meaning": "績效評估",
+    "example": "Her performance review highlighted strong leadership skills."
+  },
+  {
+    "word": "remuneration",
+    "pos": "n.",
+    "meaning": "薪酬",
+    "example": "The remuneration package includes stock options."
+  },
+  {
+    "word": "fringe benefits",
+    "pos": "phr.",
+    "meaning": "額外福利",
+    "example": "Fringe benefits include gym memberships and meal allowances."
+  },
+  {
+    "word": "nepotism",
+    "pos": "n.",
+    "meaning": "裙帶關係",
+    "example": "The company was criticized for nepotism in hiring."
+  },
+  {
+    "word": "whistleblower",
+    "pos": "n.",
+    "meaning": "檢舉人",
+    "example": "The whistleblower reported the accounting irregularities."
+  },
+  {
+    "word": "workplace harassment",
+    "pos": "phr.",
+    "meaning": "職場騷擾",
+    "example": "The firm adopted a zero-tolerance policy on workplace harassment."
+  },
+  {
+    "word": "staffing",
+    "pos": "n.",
+    "meaning": "人力配置",
+    "example": "Seasonal staffing needs increase during the holidays."
+  },
+  {
+    "word": "redundancy",
+    "pos": "n.",
+    "meaning": "職位冗餘",
+    "example": "Automation led to redundancy for several positions."
+  },
+  {
+    "word": "credential",
+    "pos": "n.",
+    "meaning": "資格證明",
+    "example": "Applicants must present valid professional credentials."
+  },
+  {
+    "word": "competency",
+    "pos": "n.",
+    "meaning": "職能；能力",
+    "example": "The assessment measures core managerial competencies."
+  },
+  {
+    "word": "induction",
+    "pos": "n.",
+    "meaning": "新進人員訓練",
+    "example": "The induction session covers company policies and culture."
+  },
+  {
+    "word": "procurement",
+    "pos": "n.",
+    "meaning": "採購",
+    "example": "The procurement team negotiated lower prices with suppliers."
+  },
+  {
+    "word": "logistics",
+    "pos": "n.",
+    "meaning": "物流",
+    "example": "Efficient logistics reduced delivery times by half."
+  },
+  {
+    "word": "vendor",
+    "pos": "n.",
+    "meaning": "供應商",
+    "example": "The company switched to a more reliable vendor."
+  },
+  {
+    "word": "inventory",
+    "pos": "n.",
+    "meaning": "庫存",
+    "example": "Inventory levels are monitored to avoid stockouts."
+  },
+  {
+    "word": "throughput",
+    "pos": "n.",
+    "meaning": "產出量",
+    "example": "The new machinery increased factory throughput."
+  },
+  {
+    "word": "outsource",
+    "pos": "v.",
+    "meaning": "外包",
+    "example": "The firm decided to outsource its customer support."
+  },
+  {
+    "word": "freight",
+    "pos": "n.",
+    "meaning": "貨運",
+    "example": "Rising freight costs squeezed profit margins."
+  },
+  {
+    "word": "contingency",
+    "pos": "n.",
+    "meaning": "應變計畫",
+    "example": "A contingency plan was prepared for supply disruptions."
+  },
+  {
+    "word": "supply chain",
+    "pos": "phr.",
+    "meaning": "供應鏈",
+    "example": "The pandemic exposed weaknesses in the global supply chain."
+  },
+  {
+    "word": "lead time",
+    "pos": "phr.",
+    "meaning": "前置時間",
+    "example": "Longer lead times delayed the product launch."
+  },
+  {
+    "word": "bottleneck",
+    "pos": "n.",
+    "meaning": "瓶頸",
+    "example": "The approval process became a major bottleneck."
+  },
+  {
+    "word": "warehouse",
+    "pos": "n.",
+    "meaning": "倉庫",
+    "example": "The company built a new warehouse near the port."
+  },
+  {
+    "word": "distribution channel",
+    "pos": "phr.",
+    "meaning": "配銷通路",
+    "example": "Online sales opened a new distribution channel."
+  },
+  {
+    "word": "just-in-time",
+    "pos": "phr.",
+    "meaning": "及時生產",
+    "example": "The factory adopted a just-in-time inventory system."
+  },
+  {
+    "word": "quality assurance",
+    "pos": "phr.",
+    "meaning": "品質保證",
+    "example": "The quality assurance team inspects every batch."
+  },
+  {
+    "word": "downtime",
+    "pos": "n.",
+    "meaning": "停機時間",
+    "example": "Scheduled maintenance minimizes unexpected downtime."
+  },
+  {
+    "word": "scalability",
+    "pos": "n.",
+    "meaning": "可擴展性",
+    "example": "The platform was built with scalability in mind."
+  },
+  {
+    "word": "workflow",
+    "pos": "n.",
+    "meaning": "工作流程",
+    "example": "Automating the workflow reduced processing errors."
+  },
+  {
+    "word": "turnaround time",
+    "pos": "phr.",
+    "meaning": "週轉時間",
+    "example": "Customers expect a faster order turnaround time."
+  },
+  {
+    "word": "stockpile",
+    "pos": "v.",
+    "meaning": "囤積庫存",
+    "example": "Retailers stockpiled goods ahead of the holiday season."
+  },
+  {
+    "word": "sourcing",
+    "pos": "n.",
+    "meaning": "尋找供應商",
+    "example": "Ethical sourcing is now a key company priority."
+  },
+  {
+    "word": "shipment",
+    "pos": "n.",
+    "meaning": "裝運；貨物",
+    "example": "The shipment was delayed due to customs inspection."
+  },
+  {
+    "word": "backlog",
+    "pos": "n.",
+    "meaning": "積壓工作",
+    "example": "The team worked overtime to clear the order backlog."
+  },
+  {
+    "word": "optimize",
+    "pos": "v.",
+    "meaning": "優化",
+    "example": "The software helps optimize delivery routes."
+  },
+  {
+    "word": "capacity",
+    "pos": "n.",
+    "meaning": "產能",
+    "example": "The plant is operating near full capacity."
+  },
+  {
+    "word": "commissioning",
+    "pos": "n.",
+    "meaning": "啟用；試運轉",
+    "example": "Commissioning of the new plant is scheduled for spring."
+  },
+  {
+    "word": "defect rate",
+    "pos": "phr.",
+    "meaning": "瑕疵率",
+    "example": "The defect rate dropped after the process overhaul."
+  },
+  {
+    "word": "overstock",
+    "pos": "n.",
+    "meaning": "庫存過剩",
+    "example": "Discounts were offered to clear the overstock."
+  },
+  {
+    "word": "dispatch",
+    "pos": "v.",
+    "meaning": "派送；調度",
+    "example": "Orders are dispatched within 24 hours of purchase."
+  },
+  {
+    "word": "replenishment",
+    "pos": "n.",
+    "meaning": "補貨",
+    "example": "Automated replenishment keeps shelves consistently stocked."
+  },
+  {
+    "word": "synergy",
+    "pos": "n.",
+    "meaning": "綜效",
+    "example": "The merger was expected to create significant synergy."
+  },
+  {
+    "word": "diversify",
+    "pos": "v.",
+    "meaning": "多角化經營",
+    "example": "The conglomerate diversified into renewable energy."
+  },
+  {
+    "word": "consolidate",
+    "pos": "v.",
+    "meaning": "整併",
+    "example": "The two divisions were consolidated to cut costs."
+  },
+  {
+    "word": "conglomerate",
+    "pos": "n.",
+    "meaning": "企業集團",
+    "example": "The conglomerate operates businesses across many industries."
+  },
+  {
+    "word": "subsidiary",
+    "pos": "n.",
+    "meaning": "子公司",
+    "example": "The subsidiary reports directly to the parent company."
+  },
+  {
+    "word": "merger",
+    "pos": "n.",
+    "meaning": "合併",
+    "example": "The merger created the largest firm in the sector."
+  },
+  {
+    "word": "acquisition",
+    "pos": "n.",
+    "meaning": "收購",
+    "example": "The acquisition expanded the company's product line."
+  },
+  {
+    "word": "pivot",
+    "pos": "v.",
+    "meaning": "轉型；調整方向",
+    "example": "The startup pivoted to a subscription-based model."
+  },
+  {
+    "word": "holding company",
+    "pos": "phr.",
+    "meaning": "控股公司",
+    "example": "The holding company owns stakes in several subsidiaries."
+  },
+  {
+    "word": "joint venture",
+    "pos": "phr.",
+    "meaning": "合資企業",
+    "example": "The joint venture combined resources from both firms."
+  },
+  {
+    "word": "divestiture",
+    "pos": "n.",
+    "meaning": "資產剝離",
+    "example": "The divestiture of non-core assets improved cash flow."
+  },
+  {
+    "word": "market share",
+    "pos": "phr.",
+    "meaning": "市場佔有率",
+    "example": "Aggressive pricing helped the company gain market share."
+  },
+  {
+    "word": "competitive edge",
+    "pos": "phr.",
+    "meaning": "競爭優勢",
+    "example": "Innovation gives the firm a competitive edge."
+  },
+  {
+    "word": "scalable",
+    "pos": "adj.",
+    "meaning": "可擴展的",
+    "example": "Investors favored the startup's scalable business model."
+  },
+  {
+    "word": "disruptive",
+    "pos": "adj.",
+    "meaning": "顛覆性的",
+    "example": "The disruptive technology reshaped the entire industry."
+  },
+  {
+    "word": "restructuring",
+    "pos": "n.",
+    "meaning": "企業重組",
+    "example": "The company underwent restructuring to reduce debt."
+  },
+  {
+    "word": "vertical integration",
+    "pos": "phr.",
+    "meaning": "垂直整合",
+    "example": "Vertical integration gave the firm control over its supply chain."
+  },
+  {
+    "word": "portfolio diversification",
+    "pos": "phr.",
+    "meaning": "投資組合多元化",
+    "example": "Portfolio diversification reduced overall investment risk."
+  },
+  {
+    "word": "spin-off",
+    "pos": "n.",
+    "meaning": "分拆子公司",
+    "example": "The spin-off allowed each unit to focus on its core business."
+  },
+  {
+    "word": "blue-chip",
+    "pos": "adj.",
+    "meaning": "績優的",
+    "example": "The fund invests primarily in blue-chip stocks."
+  },
+  {
+    "word": "first-mover advantage",
+    "pos": "phr.",
+    "meaning": "先發優勢",
+    "example": "Entering the market early gave the firm a first-mover advantage."
+  },
+  {
+    "word": "economies of scale",
+    "pos": "phr.",
+    "meaning": "規模經濟",
+    "example": "Economies of scale lowered the cost per unit."
+  },
+  {
+    "word": "corporate governance",
+    "pos": "phr.",
+    "meaning": "公司治理",
+    "example": "Investors praised the firm's transparent corporate governance."
+  },
+  {
+    "word": "long-term viability",
+    "pos": "phr.",
+    "meaning": "長期可行性",
+    "example": "Analysts questioned the long-term viability of the business model."
+  },
+  {
+    "word": "strategic alliance",
+    "pos": "phr.",
+    "meaning": "策略聯盟",
+    "example": "The two firms formed a strategic alliance to enter new markets."
+  },
+  {
+    "word": "turnaround",
+    "pos": "n.",
+    "meaning": "業績轉虧為盈",
+    "example": "The new CEO engineered a remarkable turnaround."
+  },
+  {
+    "word": "footprint",
+    "pos": "n.",
+    "meaning": "市場版圖",
+    "example": "The company expanded its footprint across Southeast Asia."
+  },
+  {
+    "word": "franchise",
+    "pos": "n.",
+    "meaning": "加盟；特許經營",
+    "example": "The brand grew rapidly through franchise agreements."
+  },
+  {
+    "word": "core competency",
+    "pos": "phr.",
+    "meaning": "核心競爭力",
+    "example": "Manufacturing efficiency is the firm's core competency."
+  },
+  {
+    "word": "market leader",
+    "pos": "phr.",
+    "meaning": "市場領導者",
+    "example": "The company remains the market leader in cloud services."
+  },
+  {
+    "word": "liability",
+    "pos": "n.",
+    "meaning": "法律責任",
+    "example": "The company faces liability for the defective product."
+  },
+  {
+    "word": "litigation",
+    "pos": "n.",
+    "meaning": "訴訟",
+    "example": "The dispute resulted in years of costly litigation."
+  },
+  {
+    "word": "regulatory",
+    "pos": "adj.",
+    "meaning": "法規的",
+    "example": "New regulatory requirements increased compliance costs."
+  },
+  {
+    "word": "fiduciary",
+    "pos": "adj.",
+    "meaning": "受託人的",
+    "example": "Directors have a fiduciary duty to shareholders."
+  },
+  {
+    "word": "proprietary",
+    "pos": "adj.",
+    "meaning": "專有的",
+    "example": "The formula is protected as proprietary information."
+  },
+  {
+    "word": "infringement",
+    "pos": "n.",
+    "meaning": "侵權",
+    "example": "The lawsuit alleged patent infringement."
+  },
+  {
+    "word": "mitigate",
+    "pos": "v.",
+    "meaning": "減輕風險",
+    "example": "Insurance helps mitigate financial losses from disasters."
+  },
+  {
+    "word": "due diligence",
+    "pos": "phr.",
+    "meaning": "盡職調查",
+    "example": "Investors conducted due diligence before the acquisition."
+  },
+  {
+    "word": "injunction",
+    "pos": "n.",
+    "meaning": "禁制令",
+    "example": "The court issued an injunction to halt production."
+  },
+  {
+    "word": "statute",
+    "pos": "n.",
+    "meaning": "法規；法令",
+    "example": "The statute requires annual financial disclosures."
+  },
+  {
+    "word": "negligence",
+    "pos": "n.",
+    "meaning": "疏失",
+    "example": "The company was sued for negligence in handling data."
+  },
+  {
+    "word": "defendant",
+    "pos": "n.",
+    "meaning": "被告",
+    "example": "The defendant argued the contract was never binding."
+  },
+  {
+    "word": "plaintiff",
+    "pos": "n.",
+    "meaning": "原告",
+    "example": "The plaintiff sought damages for breach of contract."
+  },
+  {
+    "word": "settlement",
+    "pos": "n.",
+    "meaning": "和解",
+    "example": "Both parties reached a settlement outside of court."
+  },
+  {
+    "word": "malpractice",
+    "pos": "n.",
+    "meaning": "失職；瀆職",
+    "example": "The firm was accused of professional malpractice."
+  },
+  {
+    "word": "compliance officer",
+    "pos": "phr.",
+    "meaning": "法遵主管",
+    "example": "The compliance officer reviewed the new trading policy."
+  },
+  {
+    "word": "tort",
+    "pos": "n.",
+    "meaning": "侵權行為",
+    "example": "The case involved a tort claim for damages."
+  },
+  {
+    "word": "subpoena",
+    "pos": "n.",
+    "meaning": "傳票",
+    "example": "The executive was served a subpoena to testify."
+  },
+  {
+    "word": "indictment",
+    "pos": "n.",
+    "meaning": "起訴",
+    "example": "The indictment accused the firm of fraud."
+  },
+  {
+    "word": "regulatory framework",
+    "pos": "phr.",
+    "meaning": "法規架構",
+    "example": "The new regulatory framework tightened data protection rules."
+  },
+  {
+    "word": "antitrust",
+    "pos": "adj.",
+    "meaning": "反壟斷的",
+    "example": "Regulators launched an antitrust investigation into the merger."
+  },
+  {
+    "word": "patent",
+    "pos": "n.",
+    "meaning": "專利",
+    "example": "The company holds several patents on its technology."
+  },
+  {
+    "word": "class action",
+    "pos": "phr.",
+    "meaning": "集體訴訟",
+    "example": "Customers filed a class action over hidden fees."
+  },
+  {
+    "word": "exposure",
+    "pos": "n.",
+    "meaning": "風險暴露",
+    "example": "The bank reduced its exposure to volatile markets."
+  },
+  {
+    "word": "culpable",
+    "pos": "adj.",
+    "meaning": "應負責的",
+    "example": "The audit found the manager culpable for the error."
+  },
+  {
+    "word": "sanction",
+    "pos": "n.",
+    "meaning": "制裁",
+    "example": "Trade sanctions restricted exports to the region."
+  },
+  {
+    "word": "non-compliance",
+    "pos": "phr.",
+    "meaning": "未遵循規定",
+    "example": "Non-compliance with the policy can result in fines."
+  },
+  {
+    "word": "audit trail",
+    "pos": "phr.",
+    "meaning": "稽核軌跡",
+    "example": "An audit trail ensures every transaction can be verified."
+  },
+  {
+    "word": "risk appetite",
+    "pos": "phr.",
+    "meaning": "風險偏好",
+    "example": "The board defined the company's risk appetite for new ventures."
+  },
+  {
+    "word": "indemnify",
+    "pos": "v.",
+    "meaning": "使免於承擔賠償",
+    "example": "The supplier agreed to indemnify the retailer against claims."
+  },
+  {
+    "word": "articulate",
+    "pos": "v.",
+    "meaning": "清楚表達",
+    "example": "She articulated the strategy clearly to the board."
+  },
+  {
+    "word": "elaborate",
+    "pos": "v.",
+    "meaning": "詳細說明",
+    "example": "Could you elaborate on the budget projections?"
+  },
+  {
+    "word": "concise",
+    "pos": "adj.",
+    "meaning": "簡潔的",
+    "example": "Keep the executive summary concise and to the point."
+  },
+  {
+    "word": "rapport",
+    "pos": "n.",
+    "meaning": "融洽關係",
+    "example": "The sales rep built rapport with the client quickly."
+  },
+  {
+    "word": "persuasive",
+    "pos": "adj.",
+    "meaning": "有說服力的",
+    "example": "His persuasive pitch won over the investors."
+  },
+  {
+    "word": "facilitate",
+    "pos": "v.",
+    "meaning": "促進；協助",
+    "example": "The consultant facilitated discussions between departments."
+  },
+  {
+    "word": "liaise",
+    "pos": "v.",
+    "meaning": "聯繫；協調",
+    "example": "She liaises with vendors to confirm delivery schedules."
+  },
+  {
+    "word": "eloquent",
+    "pos": "adj.",
+    "meaning": "口才流利的",
+    "example": "The eloquent speech impressed the entire audience."
+  },
+  {
+    "word": "succinct",
+    "pos": "adj.",
+    "meaning": "簡明扼要的",
+    "example": "The report was succinct yet covered all key points."
+  },
+  {
+    "word": "coherent",
+    "pos": "adj.",
+    "meaning": "連貫的",
+    "example": "The proposal presented a coherent growth strategy."
+  },
+  {
+    "word": "keynote",
+    "pos": "n.",
+    "meaning": "主題演講",
+    "example": "The CEO delivered the keynote at the conference."
+  },
+  {
+    "word": "rebuttal",
+    "pos": "n.",
+    "meaning": "反駁",
+    "example": "The legal team prepared a rebuttal to the claims."
+  },
+  {
+    "word": "paraphrase",
+    "pos": "v.",
+    "meaning": "改述",
+    "example": "He paraphrased the client's concerns to confirm understanding."
+  },
+  {
+    "word": "digress",
+    "pos": "v.",
+    "meaning": "離題",
+    "example": "Please don't digress from the meeting agenda."
+  },
+  {
+    "word": "deliberate",
+    "pos": "adj.",
+    "meaning": "深思熟慮的",
+    "example": "The decision was deliberate and carefully researched."
+  },
+  {
+    "word": "candid",
+    "pos": "adj.",
+    "meaning": "坦率的",
+    "example": "The manager gave candid feedback on the proposal."
+  },
+  {
+    "word": "ambiguous",
+    "pos": "adj.",
+    "meaning": "模糊不清的",
+    "example": "The ambiguous wording in the contract caused confusion."
+  },
+  {
+    "word": "constructive feedback",
+    "pos": "phr.",
+    "meaning": "建設性回饋",
+    "example": "Managers should give constructive feedback regularly."
+  },
+  {
+    "word": "active listening",
+    "pos": "phr.",
+    "meaning": "主動傾聽",
+    "example": "Active listening improves client relationships."
+  },
+  {
+    "word": "nonverbal cues",
+    "pos": "phr.",
+    "meaning": "非語言暗示",
+    "example": "Skilled negotiators pay attention to nonverbal cues."
+  },
+  {
+    "word": "tactful",
+    "pos": "adj.",
+    "meaning": "圓融得體的",
+    "example": "She was tactful when addressing the client's complaint."
+  },
+  {
+    "word": "assertive",
+    "pos": "adj.",
+    "meaning": "果斷自信的",
+    "example": "Being assertive helped him negotiate a better deal."
+  },
+  {
+    "word": "diplomatic",
+    "pos": "adj.",
+    "meaning": "圓滑的",
+    "example": "A diplomatic response avoided further conflict."
+  },
+  {
+    "word": "clarify",
+    "pos": "v.",
+    "meaning": "澄清",
+    "example": "Let me clarify the terms before we proceed."
+  },
+  {
+    "word": "summarize",
+    "pos": "v.",
+    "meaning": "總結",
+    "example": "She summarized the quarterly results for the board."
+  },
+  {
+    "word": "anecdote",
+    "pos": "n.",
+    "meaning": "軼事",
+    "example": "He used a personal anecdote to illustrate the point."
+  },
+  {
+    "word": "rhetorical",
+    "pos": "adj.",
+    "meaning": "修辭的",
+    "example": "The question was rhetorical, not meant to be answered."
+  },
+  {
+    "word": "condescending",
+    "pos": "adj.",
+    "meaning": "高高在上的",
+    "example": "His condescending tone alienated the junior staff."
+  },
+  {
+    "word": "body language",
+    "pos": "phr.",
+    "meaning": "肢體語言",
+    "example": "Confident body language matters during negotiations."
+  },
+  {
+    "word": "compelling",
+    "pos": "adj.",
+    "meaning": "引人入勝的",
+    "example": "The presentation made a compelling case for investment."
+  },
+  {
+    "word": "tariff",
+    "pos": "n.",
+    "meaning": "關稅",
+    "example": "New tariffs raised the cost of imported steel."
+  },
+  {
+    "word": "embargo",
+    "pos": "n.",
+    "meaning": "禁運",
+    "example": "The trade embargo halted exports to the country."
+  },
+  {
+    "word": "subsidy",
+    "pos": "n.",
+    "meaning": "補貼",
+    "example": "Government subsidies support the renewable energy sector."
+  },
+  {
+    "word": "recession",
+    "pos": "n.",
+    "meaning": "經濟衰退",
+    "example": "The recession led to widespread layoffs."
+  },
+  {
+    "word": "inflation",
+    "pos": "n.",
+    "meaning": "通貨膨脹",
+    "example": "Rising inflation eroded consumers' purchasing power."
+  },
+  {
+    "word": "volatility",
+    "pos": "n.",
+    "meaning": "波動性",
+    "example": "Market volatility made investors cautious."
+  },
+  {
+    "word": "arbitrage",
+    "pos": "n.",
+    "meaning": "套利",
+    "example": "Traders profited from arbitrage between two exchanges."
+  },
+  {
+    "word": "quota",
+    "pos": "n.",
+    "meaning": "配額",
+    "example": "The import quota limited the volume of foreign goods."
+  },
+  {
+    "word": "deflation",
+    "pos": "n.",
+    "meaning": "通貨緊縮",
+    "example": "Deflation can discourage consumer spending."
+  },
+  {
+    "word": "stagflation",
+    "pos": "n.",
+    "meaning": "停滯性通膨",
+    "example": "Stagflation combines high inflation with stagnant growth."
+  },
+  {
+    "word": "trade deficit",
+    "pos": "phr.",
+    "meaning": "貿易逆差",
+    "example": "The country's trade deficit widened last quarter."
+  },
+  {
+    "word": "trade surplus",
+    "pos": "phr.",
+    "meaning": "貿易順差",
+    "example": "A trade surplus boosted the nation's currency reserves."
+  },
+  {
+    "word": "exchange rate",
+    "pos": "phr.",
+    "meaning": "匯率",
+    "example": "A weaker exchange rate made exports more competitive."
+  },
+  {
+    "word": "protectionism",
+    "pos": "n.",
+    "meaning": "保護主義",
+    "example": "Rising protectionism threatens global trade."
+  },
+  {
+    "word": "GDP",
+    "pos": "n.",
+    "meaning": "國內生產毛額",
+    "example": "GDP growth slowed amid weaker consumer demand."
+  },
+  {
+    "word": "monetary policy",
+    "pos": "phr.",
+    "meaning": "貨幣政策",
+    "example": "The central bank tightened monetary policy to curb inflation."
+  },
+  {
+    "word": "fiscal policy",
+    "pos": "phr.",
+    "meaning": "財政政策",
+    "example": "Expansionary fiscal policy increased government spending."
+  },
+  {
+    "word": "interest rate hike",
+    "pos": "phr.",
+    "meaning": "升息",
+    "example": "The interest rate hike raised borrowing costs for businesses."
+  },
+  {
+    "word": "currency devaluation",
+    "pos": "phr.",
+    "meaning": "貨幣貶值",
+    "example": "Currency devaluation made imports significantly more expensive."
+  },
+  {
+    "word": "free trade agreement",
+    "pos": "phr.",
+    "meaning": "自由貿易協定",
+    "example": "The free trade agreement removed tariffs between the two nations."
+  },
+  {
+    "word": "import duty",
+    "pos": "phr.",
+    "meaning": "進口關稅",
+    "example": "Import duties on electronics were reduced this year."
+  },
+  {
+    "word": "commodity",
+    "pos": "n.",
+    "meaning": "大宗商品",
+    "example": "Oil is one of the world's most traded commodities."
+  },
+  {
+    "word": "supply and demand",
+    "pos": "phr.",
+    "meaning": "供需",
+    "example": "Prices are determined by supply and demand."
+  },
+  {
+    "word": "purchasing power",
+    "pos": "phr.",
+    "meaning": "購買力",
+    "example": "Wage stagnation reduced consumers' purchasing power."
+  },
+  {
+    "word": "macroeconomic",
+    "pos": "adj.",
+    "meaning": "總體經濟的",
+    "example": "Macroeconomic indicators pointed to a slowing economy."
+  },
+  {
+    "word": "microeconomic",
+    "pos": "adj.",
+    "meaning": "個體經濟的",
+    "example": "Microeconomic factors affect individual firm pricing."
+  },
+  {
+    "word": "bull market",
+    "pos": "phr.",
+    "meaning": "牛市",
+    "example": "Investors grew confident during the prolonged bull market."
+  },
+  {
+    "word": "bear market",
+    "pos": "phr.",
+    "meaning": "熊市",
+    "example": "The bear market wiped out months of investment gains."
+  },
+  {
+    "word": "austerity",
+    "pos": "n.",
+    "meaning": "撙節政策",
+    "example": "The government introduced austerity measures to cut debt."
+  },
+  {
+    "word": "globalization",
+    "pos": "n.",
+    "meaning": "全球化",
+    "example": "Globalization has increased competition across industries."
+  }
+]
