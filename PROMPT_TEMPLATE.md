@@ -21,8 +21,8 @@
 - "meaning": 繁體中文意思，簡短（20 字以內）
 - "example": 一句英文商用情境例句
 - "level": "中階" 或 "中高階"
-- "theme": 從這個固定清單中選一個最貼切的（不要自創新的）：
-negotiation, contracts_legal, finance, accounting, marketing, sales, management, leadership, hr, customer_service, operations, supply_chain, project_management, technology_it, strategy, compliance_risk, economics, trade, communication, presentations
+- "theme": 主題清單是開放式的，優先從這份清單選最貼切的（沿用現有主題，同一個概念不要一直發明新 slug）；如果都不合適，可以新增新的英文 slug（小寫、底線分隔，例如 `semiconductor`）：
+negotiation, contracts_legal, finance, accounting, marketing, sales, management, leadership, hr, customer_service, operations, supply_chain, project_management, technology_it, strategy, compliance_risk, economics, trade, communication, presentations, semiconductor, tech_industry, creative, media
 
 - "root": 如果這個字真的包含某個字根/字首/字尾（真的有語源關係，不要硬湊），格式固定寫成 `"詞綴 (中文解釋)"`，例如 `"-ary (性質的)"`；沒有明顯字根就設為 JSON null。
   常用字根優先從這份清單選（清單外的詞綴也可以用，只要格式一致就好，例如又遇到 "-ary" 的字，中文解釋盡量維持同一種寫法，這樣同字根的字才湊得成一組）：
@@ -47,12 +47,12 @@ negotiation, contracts_legal, finance, accounting, marketing, sales, management,
    python3 scripts/merge_words.py new_batch.json
    ```
 3. 腳本會自動：
-   - 驗證格式（9 個 key、theme 是否在固定清單內、level 是否合法、root 是否為 null 或字串）
+   - 驗證格式（9 個 key、level 是否合法、theme/root 是否為非空字串）
    - 跟現有 `words.json` 比對，過濾掉重複的字（不分大小寫）
    - 印出「新增幾個、跳過幾個重複、跳過幾個格式錯誤」的統計
    - 把結果寫回 `words.json`
 
-   `root` 標籤是開放式的，不限定只能用原本那 22 個——新字根會直接被記錄下來，等同一個字根累積到 2 個以上，`push.py` 抽「字根字首字尾」模式時就湊得出來了。
+   `theme` 和 `root` 都是開放式清單——新主題、新字根都會直接被記錄下來，`push.py` 聚類時會正規化大小寫/空白/連字號差異（見 `theme_key()` / `root_key()`），所以同一個主題或字根即使不同批次寫法略有出入，累積到 2 個以上還是湊得起來。
 4. 檢查一下統計數字合理後，`git add words.json && git commit -m "..." && git push`
 
 如果一次生成的量很大（例如你想要一次上千字），可以分成好幾個小檔案分次丟給腳本合併，或是把這個 prompt 拆成好幾次、每次指定不同主題子集，效果會比一次要求 LLM 生成太多字時品質更穩定（LLM 一次生成上百字容易開始重複或亂湊字根）。建議一次抓 100-300 字左右品質最穩定。

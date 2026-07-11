@@ -8,7 +8,9 @@
 - 必須恰好有 9 個 key: word, pos, meaning, example, level, theme, root, synonyms, antonyms
 - word/pos/meaning/example 必須是非空字串
 - level 必須是 "中階" 或 "中高階"
-- theme 必須是固定清單裡的其中一個
+- theme 必須是非空字串（主題清單是開放式的，不限定在 PROMPT_TEMPLATE.md 列出的建議清單裡；
+  push.py 聚類時會正規化大小寫/底線與空白差異，盡量讓同一個主題不同寫法還是能歸在一起，
+  但還是建議盡量沿用既有主題名稱，新主題才加新的 slug，避免同一個概念裂成太多相近主題）
 - root 必須是 null 或非空字串（字根清單是開放式的，不限定在原本 22 個裡；
   push.py 聚類時只會比對「字根本身」（括號前的部分），不管括號裡的中文解釋
   寫法是否每次一致，所以同一個字根即使解釋文字略有出入也還是能湊成一組）
@@ -25,14 +27,6 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 WORDS_PATH = BASE_DIR / "words.json"
-
-VALID_THEMES = {
-    "negotiation", "contracts_legal", "finance", "accounting", "marketing",
-    "sales", "management", "leadership", "hr", "customer_service",
-    "operations", "supply_chain", "project_management", "technology_it",
-    "strategy", "compliance_risk", "economics", "trade", "communication",
-    "presentations",
-}
 
 VALID_LEVELS = {"中階", "中高階"}
 REQUIRED_KEYS = {
@@ -53,8 +47,9 @@ def validate_entry(entry: dict) -> str | None:
             return f"{field} 必須是非空字串"
     if entry.get("level") not in VALID_LEVELS:
         return f"level 不合法: {entry.get('level')!r}"
-    if entry.get("theme") not in VALID_THEMES:
-        return f"theme 不合法: {entry.get('theme')!r}"
+    theme = entry.get("theme")
+    if not isinstance(theme, str) or not theme.strip():
+        return f"theme 必須是非空字串: {theme!r}"
     root = entry.get("root")
     if root is not None and (not isinstance(root, str) or not root.strip()):
         return f"root 必須是 null 或非空字串: {root!r}"

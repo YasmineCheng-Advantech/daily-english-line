@@ -78,6 +78,18 @@ def root_key(root: str | None) -> str | None:
     return root.split("(")[0].strip().lower()
 
 
+def theme_key(theme: str | None) -> str | None:
+    """主題標籤正規化：大小寫、空白、連字號的差異都視為同一個主題。
+
+    主題清單是開放式的（不限定在 PROMPT_TEMPLATE.md 建議的清單裡），
+    不同批次/不同 LLM 可能會用 "media" 或 "Media Industry" 這種寫法上的差異，
+    正規化後才能穩定湊成同一組。
+    """
+    if not theme:
+        return None
+    return theme.strip().lower().replace("-", "_").replace(" ", "_")
+
+
 # ---------------------------------------------------------------------------
 # 單字庫聚類挑選
 # ---------------------------------------------------------------------------
@@ -91,8 +103,9 @@ def determine_mode(history: list[dict]) -> str:
 def fill_cluster(cluster: list[dict], available: list[dict], prefer_theme: str | None) -> list[dict]:
     have = {w["word"] for w in cluster}
     pool = [w for w in available if w["word"] not in have]
-    if prefer_theme:
-        pool.sort(key=lambda w: 0 if w.get("theme") == prefer_theme else 1)
+    prefer_key = theme_key(prefer_theme)
+    if prefer_key:
+        pool.sort(key=lambda w: 0 if theme_key(w.get("theme")) == prefer_key else 1)
     for w in pool:
         if len(cluster) >= CLUSTER_SIZE:
             break
@@ -111,13 +124,13 @@ def pick_cluster(words: list[dict], used_words: set[str], mode: str):
 
     if mode == "theme":
         for seed in shuffled:
-            theme = seed.get("theme")
-            if not theme:
+            key = theme_key(seed.get("theme"))
+            if not key:
                 continue
-            group = [w for w in available if w.get("theme") == theme]
+            group = [w for w in available if theme_key(w.get("theme")) == key]
             if group:
-                cluster = fill_cluster(group[:CLUSTER_SIZE], available, theme)
-                return cluster, ("theme", theme)
+                cluster = fill_cluster(group[:CLUSTER_SIZE], available, seed.get("theme"))
+                return cluster, ("theme", seed.get("theme"))
 
     elif mode == "root":
         for seed in shuffled:
