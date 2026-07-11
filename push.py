@@ -22,8 +22,11 @@ WORDS_PATH = BASE_DIR / "words.json"
 HISTORY_PATH = BASE_DIR / "history.json"
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
-LINE_CHANNEL_ACCESS_TOKEN = os.environ.get("LINE_CHANNEL_ACCESS_TOKEN")
+LINE_CHANNEL_ID = os.environ.get("LINE_CHANNEL_ID")
+LINE_CHANNEL_SECRET = os.environ.get("LINE_CHANNEL_SECRET")
 LINE_USER_ID = os.environ.get("LINE_USER_ID")
+
+LINE_TOKEN_URL = "https://api.line.me/v2/oauth/accessToken"
 
 GEMINI_MODEL = "gemini-2.0-flash"
 GEMINI_URL = (
@@ -104,9 +107,41 @@ def pick_from_bank(words: list[dict], used_words: set[str]):
     return random.choice(candidates)
 
 
+def get_line_access_token() -> str | None:
+    """用 Channel ID + Channel Secret 換一個短期（30 天）channel access token。
+
+    比起在 LINE Developers Console 手動 Issue 長效 token，這個方式完全靠 API，
+    每次執行都重新換發，永遠不會過期失效，也不用手動更新。
+    """
+    if not LINE_CHANNEL_ID or not LINE_CHANNEL_SECRET:
+        return None
+
+    try:
+        resp = requests.post(
+            LINE_TOKEN_URL,
+            headers={"Content-Type": "application/x-www-form-urlencoded"},
+            data={
+                "grant_type": "client_credentials",
+                "client_id": LINE_CHANNEL_ID,
+                "client_secret": LINE_CHANNEL_SECRET,
+            },
+            timeout=15,
+        )
+        resp.raise_for_status()
+        return resp.json()["access_token"]
+    except Exception as e:  # noqa: BLE001
+        print(f"[warn] 換取 LINE access token 失敗: {e}")
+        return None
+
+
 def push_line(word_entry: dict) -> None:
-    if not LINE_CHANNEL_ACCESS_TOKEN or not LINE_USER_ID:
-        print("[info] 尚未設定 LINE 金鑰，略過推播（本機測試模式）")
+    if not LINE_USER_ID:
+        print("[info] 尚未設定 LINE_USER_ID，略過推播（本機測試模式）")
+        return
+
+    access_token = get_line_access_token()
+    if not access_token:
+        print("[info] 尚未設定 LINE 金鑰或換取 token 失敗，略過推播（本機測試模式）")
         return
 
     message = (
@@ -120,7 +155,7 @@ def push_line(word_entry: dict) -> None:
         "https://api.line.me/v2/bot/message/push",
         headers={
             "Content-Type": "application/json",
-            "Authorization": f"Bearer {LINE_CHANNEL_ACCESS_TOKEN}",
+            "Authorization": f"Bearer {access_token}",
         },
         json={"to": LINE_USER_ID, "messages": [{"type": "text", "text": message}]},
         timeout=15,

@@ -18,20 +18,26 @@
 
 ## 設定步驟
 
-### 1. 申請三組金鑰
+### 1. 申請四組金鑰
+
+`push.py` 每次執行時會用 **Channel ID + Channel Secret** 向 LINE 動態換一個短期（30 天）access token 來推播，而不是手動在 LINE Developers Console 裡「Issue」一個長效 token —— 這樣完全不用擔心 token 過期，也不用之後手動更新。
 
 | 金鑰 | 用途 | 申請位置 |
 |------|------|----------|
-| `LINE_CHANNEL_ACCESS_TOKEN` | 推播用的頻道存取權杖 | [LINE Developers Console](https://developers.line.biz/) → Messaging API channel |
-| `LINE_USER_ID` | 你自己的 LINE User ID（推播對象） | LINE Developers Console → 你的 Bot 加好友後，用 webhook 或官方工具取得 |
+| `LINE_CHANNEL_ID` | Messaging API channel 的 Channel ID | LINE Official Account Manager → 設定 → Messaging API |
+| `LINE_CHANNEL_SECRET` | 同上頁面的 Channel secret | 同上 |
+| `LINE_USER_ID` | 你自己的 LINE User ID（推播對象，`U` 開頭 33 碼） | LINE Developers Console → 該 channel → Basic settings →「Your user ID」 |
 | `GEMINI_API_KEY` | 即時生成新單字用 | [Google AI Studio](https://aistudio.google.com/apikey) |
+
+> 注意：一定要確認 Messaging API 頁面顯示「狀態：使用中」，且是掛在正確的官方帳號底下，不要跟 LINE Login channel 的 Channel ID / Secret 搞混（兩者格式一樣、但完全不是同一組）。
 
 ### 2. 存進 GitHub Secrets
 
 到 GitHub repo → **Settings → Secrets and variables → Actions → New repository secret**，新增：
 
 - `GEMINI_API_KEY`
-- `LINE_CHANNEL_ACCESS_TOKEN`
+- `LINE_CHANNEL_ID`
+- `LINE_CHANNEL_SECRET`
 - `LINE_USER_ID`
 
 **絕對不要**把這些金鑰寫死在程式碼或 commit 進 repo。
@@ -47,11 +53,12 @@ pip install -r requirements.txt
 python push.py
 ```
 
-若要本機測試完整推播，先 `export` 三個環境變數再執行：
+若要本機測試完整推播，先 `export` 四個環境變數再執行：
 
 ```bash
 export GEMINI_API_KEY=xxx
-export LINE_CHANNEL_ACCESS_TOKEN=xxx
+export LINE_CHANNEL_ID=xxx
+export LINE_CHANNEL_SECRET=xxx
 export LINE_USER_ID=xxx
 python push.py
 ```
@@ -87,11 +94,11 @@ https://<你的帳號>.github.io/<repo 名稱>/
 2. **優先呼叫 Gemini** 即時生成一個尚未推播過的中高階商用英文新字
 3. 若 Gemini 呼叫失敗（未設定金鑰、額度用盡、格式錯誤等），**自動退回**從 `words.json` 單字庫中隨機抽一個尚未推播過的字
 4. 將結果 append 進 `history.json` 並 commit
-5. 呼叫 LINE Messaging API 推播（若未設定 LINE 金鑰，僅在本機印出結果方便測試）
+5. 用 `LINE_CHANNEL_ID` + `LINE_CHANNEL_SECRET` 換一個短期 access token，呼叫 LINE Messaging API 推播（若未設定 LINE 金鑰，僅在本機印出結果方便測試）
 
 ## 待辦檢查點
 
-- [ ] 三組金鑰申請完成、存入 Secrets
+- [ ] 四組金鑰申請完成、存入 Secrets
 - [ ] 本機執行 `python push.py` 能正確印出/推播今日單字
 - [ ] GitHub Actions 手動觸發成功，且 `history.json` 有被 commit 回 repo
 - [ ] GitHub Pages 網頁上線可回顧
