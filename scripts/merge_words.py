@@ -19,6 +19,9 @@
 去重規則：
 - 對現有 words.json 裡的字（不分大小寫）視為已存在，不會再加入
 - 同一次執行合併多個檔案時，後面檔案裡跟前面檔案重複的字也會被跳過
+
+會同時寫入 words.json（根目錄，供 push.py 讀取）與 docs/words.json（GitHub Pages
+實際發布的內容，網頁靠這份才抓得到資料）兩份，保持同步。
 """
 
 import json
@@ -27,6 +30,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 WORDS_PATH = BASE_DIR / "words.json"
+DOCS_WORDS_PATH = BASE_DIR / "docs" / "words.json"
 
 VALID_LEVELS = {"中階", "中高階"}
 REQUIRED_KEYS = {
@@ -98,9 +102,10 @@ def main() -> None:
 
     existing.extend(added)
 
-    with open(WORDS_PATH, "w", encoding="utf-8") as f:
-        json.dump(existing, f, ensure_ascii=False, indent=2)
-        f.write("\n")
+    for path in (WORDS_PATH, DOCS_WORDS_PATH):
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(existing, f, ensure_ascii=False, indent=2)
+            f.write("\n")
 
     print(f"新增: {len(added)}")
     print(f"跳過（重複）: {len(skipped_duplicate)}")

@@ -22,6 +22,7 @@ import requests
 BASE_DIR = Path(__file__).resolve().parent
 WORDS_PATH = BASE_DIR / "words.json"
 HISTORY_PATH = BASE_DIR / "history.json"
+DOCS_HISTORY_PATH = BASE_DIR / "docs" / "history.json"
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 LINE_CHANNEL_ID = os.environ.get("LINE_CHANNEL_ID")
@@ -336,6 +337,7 @@ def main() -> None:
             }
         )
     save_json(HISTORY_PATH, history)
+    save_json(DOCS_HISTORY_PATH, history)  # docs/ 是 GitHub Pages 實際發布的內容，需同步一份
 
     words_summary = "、".join(w["word"] for w in cluster)
     print(f"[info] 今日單字組（來源: {source}, 模式: {cluster_mode}/{cluster_key}）: {words_summary}")

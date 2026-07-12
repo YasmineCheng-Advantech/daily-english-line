@@ -214,8 +214,8 @@ let reviewSource = 'history'; // 'history' | 'bank'
 async function loadHistory() {
   try {
     const [historyRes, wordsRes] = await Promise.all([
-      fetch('../history.json', { cache: 'no-store' }),
-      fetch('../words.json', { cache: 'no-store' }),
+      fetch('./history.json', { cache: 'no-store' }),
+      fetch('./words.json', { cache: 'no-store' }),
     ]);
     historyData = await historyRes.json();
     wordsData = await wordsRes.json();
