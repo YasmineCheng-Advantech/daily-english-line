@@ -9,12 +9,19 @@
 ```
 .
 ├── .github/workflows/daily.yml  # 每日 cron 排程
-├── docs/index.html              # 回顧網頁（GitHub Pages）
-├── words.json                   # 中階～中高階商用英文單字庫（含主題/字根/相似字/反義字標籤）
+├── docs/
+│   ├── index.html               # 回顧網頁（GitHub Pages 只發布這個資料夾）
+│   ├── words.json               # words.json 的同步副本，網頁靠這份讀取
+│   └── history.json             # history.json 的同步副本，網頁靠這份讀取
+├── words.json                   # 中階～中高階商用英文單字庫（含主題/字根/相似字/反義字標籤，目前 3135 字）
 ├── history.json                 # 每日推播紀錄（= 資料庫）
 ├── push.py                      # 每日抽字 + 推播主程式
+├── scripts/merge_words.py       # 把新一批單字合併進 words.json（驗證格式 + 去重）
+├── PROMPT_TEMPLATE.md           # 給其他 LLM 生成單字用的固定格式提示詞
 └── requirements.txt
 ```
+
+> **注意**：GitHub Pages 設定成只發布 `/docs` 資料夾，所以根目錄的 `words.json`／`history.json` 不會被公開網站讀到。`push.py` 和 `scripts/merge_words.py` 都會在更新根目錄檔案的同時，自動把同一份內容也寫進 `docs/`，兩邊必須保持同步——如果手動修改了根目錄的 JSON，記得同時 `cp words.json docs/words.json`（history.json 同理），否則網頁看到的會是舊資料。
 
 ## 單字庫資料格式
 
@@ -99,11 +106,13 @@ python push.py
 
 `.github/workflows/daily.yml` 已設定：
 
-- `cron: "0 0 * * *"`（UTC 00:00 = 台灣時間 08:00）
+- `cron: "17 0 * * *"`（UTC 00:17 = 台灣時間 08:17，刻意避開整點以降低 GitHub 排程壅塞延遲）
 - `workflow_dispatch`：可在 GitHub Actions 頁面手動觸發測試
-- `permissions: contents: write`：讓 Action 能把新的 `history.json` commit 回 repo
+- `permissions: contents: write`：讓 Action 能把新的 `history.json`（含 `docs/history.json`）commit 回 repo
 
 推送到 GitHub 後，到 **Actions** 分頁手動執行一次 `Daily English Word Push` 確認流程正常。
+
+> GitHub Actions 的排程不保證準時，官方文件明講整點是最壅塞的時段。如果發現排程遲遲沒有自動觸發，先檢查 **Actions** 分頁的執行紀錄裡有沒有 `schedule` 觸發的紀錄（不是 `workflow_dispatch`），沒有的話可以手動觸發一次補推播，並考慮把 cron 時間再往後挪一點。
 
 ### 5. 開啟 GitHub Pages 回顧網頁
 
@@ -114,9 +123,10 @@ https://<你的帳號>.github.io/<repo 名稱>/
 ```
 
 網頁功能：
-- 依日期瀏覽所有推播過的單字（同一天的 5 個字會分組顯示，並標示當天的關聯模式）
-- 搜尋單字或中文意思
-- 隨機複習模式（先隱藏意思與例句，按按鈕才顯示）
+- **瀏覽/搜尋**：預設只顯示最新 3 天的推播紀錄（同一天的 5 個字分組顯示，並標示當天的關聯模式）；輸入搜尋文字後改成搜尋全部歷史紀錄
+- **隨機複習**：先隱藏意思與例句，按按鈕才顯示；分兩種來源：
+  - 「已推播過的」：從最新 10 個推播過的字（約最近 2 天）隨機抽
+  - 「整個單字庫」：切進來時隨機抽 10 個字當這輪複習範圍，可按「換一批新的 10 個」重新抽
 
 ## 抽字邏輯
 
@@ -131,8 +141,8 @@ https://<你的帳號>.github.io/<repo 名稱>/
 
 ## 待辦檢查點
 
-- [ ] 四組金鑰申請完成、存入 Secrets
-- [ ] 本機執行 `python push.py` 能正確印出/推播今日單字
-- [ ] GitHub Actions 手動觸發成功，且 `history.json` 有被 commit 回 repo
-- [ ] GitHub Pages 網頁上線可回顧
-- [ ] 觀察三天，確認 cron 自動推播無誤
+- [x] 四組金鑰申請完成、存入 Secrets
+- [x] 本機執行 `python push.py` 能正確印出/推播今日單字
+- [x] GitHub Actions 手動觸發成功，且 `history.json`（含 `docs/history.json`）有被 commit 回 repo
+- [x] GitHub Pages 網頁上線可回顧
+- [ ] 觀察排程是否穩定準時自動觸發（cron 已從整點改到 00:17 UTC，持續觀察中）
