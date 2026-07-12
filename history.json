@@ -6,5 +6,55 @@
     "meaning": "專有的",
     "example": "The formula is protected as proprietary information.",
     "source": "bank"
+  },
+  {
+    "date": "2026-07-12",
+    "word": "consult",
+    "pos": "v.",
+    "meaning": "諮詢",
+    "example": "We should consult legal before signing the amended terms.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "con- (共同)"
+  },
+  {
+    "date": "2026-07-12",
+    "word": "convert leads",
+    "pos": "phr.",
+    "meaning": "轉換潛在客戶",
+    "example": "The campaign performed well because it converted leads at a higher rate.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "con- (共同)"
+  },
+  {
+    "date": "2026-07-12",
+    "word": "concede a point",
+    "pos": "phr.",
+    "meaning": "讓步",
+    "example": "During negotiation, both sides conceded a point to reach agreement.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "con- (共同)"
+  },
+  {
+    "date": "2026-07-12",
+    "word": "conduct an audit",
+    "pos": "phr.",
+    "meaning": "執行稽核",
+    "example": "The internal team will conduct an audit of vendor payments.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "con- (共同)"
+  },
+  {
+    "date": "2026-07-12",
+    "word": "concur",
+    "pos": "v.",
+    "meaning": "同意",
+    "example": "Finance concurred with the revised forecast.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "con- (共同)"
   }
 ]
