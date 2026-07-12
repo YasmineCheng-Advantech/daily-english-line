@@ -25,6 +25,25 @@
       --border: #2c2f3a;
     }
   }
+  /* 手動切換的主題優先權高於系統設定，讓使用者可以不管系統深色模式、自己選淺色或深色 */
+  :root[data-theme="light"] {
+    --bg: #f6f7fb;
+    --card-bg: #ffffff;
+    --text: #1c1e26;
+    --muted: #6b7280;
+    --accent: #2f6fed;
+    --accent-soft: #e8effe;
+    --border: #e5e7eb;
+  }
+  :root[data-theme="dark"] {
+    --bg: #14151c;
+    --card-bg: #1d1f29;
+    --text: #f0f1f5;
+    --muted: #9096a6;
+    --accent: #6d9bff;
+    --accent-soft: #24304d;
+    --border: #2c2f3a;
+  }
   * { box-sizing: border-box; }
   body {
     margin: 0;
@@ -39,8 +58,25 @@
     padding: 32px 20px 80px;
   }
   header { margin-bottom: 24px; }
+  .header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+  }
   h1 { font-size: 1.5rem; margin: 0 0 4px; }
   .subtitle { color: var(--muted); font-size: 0.9rem; }
+  #themeToggle {
+    flex-shrink: 0;
+    padding: 8px 14px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: var(--card-bg);
+    color: var(--text);
+    cursor: pointer;
+    font-size: 0.85rem;
+  }
+  #themeToggle:hover { filter: brightness(0.97); }
 
   .stats {
     display: flex;
@@ -159,9 +195,12 @@
 </head>
 <body>
 <div class="wrap">
-  <header>
-    <h1>📘 每日商用英文單字回顧</h1>
-    <div class="subtitle">資料來源：history.json（每日 LINE 推播紀錄）</div>
+  <header class="header-row">
+    <div>
+      <h1>📘 每日商用英文單字回顧</h1>
+      <div class="subtitle">資料來源：history.json（每日 LINE 推播紀錄）</div>
+    </div>
+    <button id="themeToggle" aria-label="切換淺色/深色主題">🌙 深色</button>
   </header>
 
   <div class="stats">
@@ -209,6 +248,34 @@
 </div>
 
 <script>
+// 主題切換：預設跟隨系統深色模式，使用者手動切換後改用 localStorage 記住的選擇
+const THEME_KEY = 'daily-english-line-theme';
+const themeToggle = document.getElementById('themeToggle');
+
+function savedTheme() {
+  const saved = localStorage.getItem(THEME_KEY);
+  return (saved === 'light' || saved === 'dark') ? saved : null;
+}
+
+function effectiveTheme() {
+  return savedTheme() || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+}
+
+function updateThemeToggleLabel() {
+  themeToggle.textContent = effectiveTheme() === 'dark' ? '☀️ 淺色' : '🌙 深色';
+}
+
+const initialSavedTheme = savedTheme();
+if (initialSavedTheme) document.documentElement.setAttribute('data-theme', initialSavedTheme);
+updateThemeToggleLabel();
+
+themeToggle.addEventListener('click', () => {
+  const next = effectiveTheme() === 'dark' ? 'light' : 'dark';
+  localStorage.setItem(THEME_KEY, next);
+  document.documentElement.setAttribute('data-theme', next);
+  updateThemeToggleLabel();
+});
+
 let historyData = [];
 let wordsData = null; // null = 尚未載入完成；[] = 已載入但是空的
 let wordsLoadingPromise = null;
