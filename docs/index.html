@@ -428,7 +428,7 @@ function pickRandom() {
       : '目前還沒有任何推播紀錄可以複習。';
     return;
   }
-  card.style.display = '';
+  card.style.display = 'block';
   empty.style.display = 'none';
 
   currentPick = pool[Math.floor(Math.random() * pool.length)];
