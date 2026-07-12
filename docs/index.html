@@ -207,24 +207,33 @@
 
 <script>
 let historyData = [];
-let wordsData = [];
+let wordsData = null; // null = 尚未載入完成；[] = 已載入但是空的
+let wordsLoadingPromise = null;
 let sortDesc = true;
 let reviewSource = 'history'; // 'history' | 'bank'
 
 async function loadHistory() {
   try {
-    const [historyRes, wordsRes] = await Promise.all([
-      fetch('./history.json', { cache: 'no-store' }),
-      fetch('./words.json', { cache: 'no-store' }),
-    ]);
-    historyData = await historyRes.json();
-    wordsData = await wordsRes.json();
+    const res = await fetch('./history.json', { cache: 'no-store' });
+    historyData = await res.json();
   } catch (e) {
-    historyData = historyData.length ? historyData : [];
-    wordsData = wordsData.length ? wordsData : [];
+    historyData = [];
   }
   renderStats();
   renderList();
+  // words.json 比較大，不擋主要畫面渲染，背景先預載，等使用者切到「整個單字庫」時大機率已經載完
+  ensureWordsLoaded();
+}
+
+function ensureWordsLoaded() {
+  if (wordsData !== null) return Promise.resolve(wordsData);
+  if (!wordsLoadingPromise) {
+    wordsLoadingPromise = fetch('./words.json', { cache: 'no-store' })
+      .then(res => res.json())
+      .then(data => { wordsData = data; return data; })
+      .catch(() => { wordsData = []; return wordsData; });
+  }
+  return wordsLoadingPromise;
 }
 
 function renderStats() {
@@ -351,6 +360,17 @@ sourceBankBtn.addEventListener('click', () => {
 function pickRandom() {
   const card = document.getElementById('reviewCard');
   const empty = document.getElementById('reviewEmpty');
+
+  if (reviewSource === 'bank' && wordsData === null) {
+    card.style.display = 'none';
+    empty.style.display = '';
+    empty.textContent = '單字庫載入中…';
+    ensureWordsLoaded().then(() => {
+      if (reviewSource === 'bank') pickRandom(); // 載入完成時使用者可能已經切走，只在還在同個來源時才補渲染
+    });
+    return;
+  }
+
   const pool = reviewSource === 'bank' ? wordsData : historyData;
 
   if (pool.length === 0) {
