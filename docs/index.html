@@ -112,7 +112,8 @@
     font-size: 0.95rem;
   }
   input[type="search"]:focus { outline: 2px solid var(--accent); }
-  button {
+  button, a.btn {
+    display: inline-block;
     padding: 10px 16px;
     border-radius: 10px;
     border: 1px solid var(--border);
@@ -120,13 +121,14 @@
     color: var(--text);
     cursor: pointer;
     font-size: 0.9rem;
+    text-decoration: none;
   }
-  button.primary {
+  button.primary, a.btn.primary {
     background: var(--accent);
     color: #fff;
     border-color: var(--accent);
   }
-  button:hover { filter: brightness(0.97); }
+  button:hover, a.btn:hover { filter: brightness(0.97); }
 
   .card {
     background: var(--card-bg);
@@ -207,6 +209,10 @@
     <div class="stat-tile"><div class="num" id="statTotal">0</div><div class="label">累積單字數</div></div>
     <div class="stat-tile"><div class="num" id="statDays">0</div><div class="label">推播天數</div></div>
     <div class="stat-tile"><div class="num" id="statLatest">-</div><div class="label">最新一則日期</div></div>
+  </div>
+
+  <div class="card" id="todayPushCard" style="margin-bottom:20px;">
+    <div id="todayPushStatus">檢查中…</div>
   </div>
 
   <div class="tabs">
@@ -291,8 +297,43 @@ async function loadHistory() {
   }
   renderStats();
   renderList();
+  renderTodayPushStatus();
   // words.json 比較大，不擋主要畫面渲染，背景先預載，等使用者切到「整個單字庫」時大機率已經載完
   ensureWordsLoaded();
+}
+
+// 今日推播狀態：跟 push.py 的 today_taiwan() 邏輯一致，用台灣時間（UTC+8）判斷「今天」
+const ACTIONS_URL = 'https://github.com/YasmineCheng-Advantech/daily-english-line/actions/workflows/daily.yml';
+
+function todayTaiwanDateString() {
+  // Date.getTime() 本身就是 UTC 為基準的絕對時間戳，不用再管訪客瀏覽器的當地時區，
+  // 直接加 8 小時換算成台灣時間即可（跟訪客實際所在時區無關）
+  const now = new Date();
+  const taiwanMs = now.getTime() + 8 * 60 * 60000;
+  const t = new Date(taiwanMs);
+  const y = t.getUTCFullYear();
+  const m = String(t.getUTCMonth() + 1).padStart(2, '0');
+  const d = String(t.getUTCDate()).padStart(2, '0');
+  return `${y}-${m}-${d}`;
+}
+
+function renderTodayPushStatus() {
+  const el = document.getElementById('todayPushStatus');
+  const today = todayTaiwanDateString();
+  const todaysWords = historyData.filter(h => h.date === today);
+
+  if (todaysWords.length > 0) {
+    el.innerHTML = `
+      ✅ <strong>今天（${escapeHtml(today)}）已經推播過了</strong>
+      <div class="subtitle" style="margin-top:6px;">${todaysWords.map(w => escapeHtml(w.word)).join('、')}</div>
+    `;
+  } else {
+    el.innerHTML = `
+      <div>今天（${escapeHtml(today)}）還沒有推播</div>
+      <div class="subtitle" style="margin:8px 0;">點下面按鈕會開啟 GitHub Actions 頁面，登入後點選「Run workflow」即可手動觸發今日推播（一天只會推播一次）</div>
+      <a class="btn primary" href="${ACTIONS_URL}" target="_blank" rel="noopener">🚀 手動觸發今日推播</a>
+    `;
+  }
 }
 
 function ensureWordsLoaded() {
