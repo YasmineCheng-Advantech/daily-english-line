@@ -184,6 +184,10 @@
   </div>
 
   <div id="reviewView" style="display:none;">
+    <div class="tabs" id="reviewSourceTabs">
+      <button id="sourceHistory" class="active">已推播過的</button>
+      <button id="sourceBank">整個單字庫</button>
+    </div>
     <div class="card" id="reviewCard">
       <div class="date" id="reviewDate"></div>
       <div class="word" id="reviewWord">-</div>
@@ -197,20 +201,27 @@
         <button id="nextBtn">換下一個</button>
       </div>
     </div>
-    <div class="empty" id="reviewEmpty" style="display:none;">目前還沒有任何推播紀錄可以複習。</div>
+    <div class="empty" id="reviewEmpty" style="display:none;">目前還沒有任何可以複習的單字。</div>
   </div>
 </div>
 
 <script>
 let historyData = [];
+let wordsData = [];
 let sortDesc = true;
+let reviewSource = 'history'; // 'history' | 'bank'
 
 async function loadHistory() {
   try {
-    const res = await fetch('../history.json', { cache: 'no-store' });
-    historyData = await res.json();
+    const [historyRes, wordsRes] = await Promise.all([
+      fetch('../history.json', { cache: 'no-store' }),
+      fetch('../words.json', { cache: 'no-store' }),
+    ]);
+    historyData = await historyRes.json();
+    wordsData = await wordsRes.json();
   } catch (e) {
-    historyData = [];
+    historyData = historyData.length ? historyData : [];
+    wordsData = wordsData.length ? wordsData : [];
   }
   renderStats();
   renderList();
@@ -321,19 +332,42 @@ tabReview.addEventListener('click', () => {
 // Random review
 let currentPick = null;
 
+const sourceHistoryBtn = document.getElementById('sourceHistory');
+const sourceBankBtn = document.getElementById('sourceBank');
+
+sourceHistoryBtn.addEventListener('click', () => {
+  reviewSource = 'history';
+  sourceHistoryBtn.classList.add('active');
+  sourceBankBtn.classList.remove('active');
+  pickRandom();
+});
+sourceBankBtn.addEventListener('click', () => {
+  reviewSource = 'bank';
+  sourceBankBtn.classList.add('active');
+  sourceHistoryBtn.classList.remove('active');
+  pickRandom();
+});
+
 function pickRandom() {
   const card = document.getElementById('reviewCard');
   const empty = document.getElementById('reviewEmpty');
-  if (historyData.length === 0) {
+  const pool = reviewSource === 'bank' ? wordsData : historyData;
+
+  if (pool.length === 0) {
     card.style.display = 'none';
     empty.style.display = '';
+    empty.textContent = reviewSource === 'bank'
+      ? '單字庫目前是空的。'
+      : '目前還沒有任何推播紀錄可以複習。';
     return;
   }
   card.style.display = '';
   empty.style.display = 'none';
 
-  currentPick = historyData[Math.floor(Math.random() * historyData.length)];
-  document.getElementById('reviewDate').textContent = currentPick.date;
+  currentPick = pool[Math.floor(Math.random() * pool.length)];
+  document.getElementById('reviewDate').textContent = reviewSource === 'bank'
+    ? (currentPick.theme ? `主題：${currentPick.theme}` : '')
+    : currentPick.date;
   document.getElementById('reviewWord').textContent = currentPick.word;
   document.getElementById('reviewPos').textContent = currentPick.pos || '';
   document.getElementById('reviewMeaning').textContent = currentPick.meaning || '';
