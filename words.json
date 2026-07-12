@@ -33144,5 +33144,8309 @@
     "antonyms": [
       "deflationary"
     ]
+  },
+  {
+    "word": "allocate resources",
+    "pos": "phr.",
+    "meaning": "分配資源",
+    "example": "We need to allocate resources to the highest-impact projects this quarter.",
+    "level": "中階",
+    "theme": "management",
+    "root": null,
+    "synonyms": [
+      "assign resources",
+      "distribute resources"
+    ],
+    "antonyms": [
+      "withhold resources"
+    ]
+  },
+  {
+    "word": "close a deal",
+    "pos": "phr.",
+    "meaning": "成交",
+    "example": "The account manager worked hard to close the deal before quarter-end.",
+    "level": "中階",
+    "theme": "sales",
+    "root": null,
+    "synonyms": [
+      "seal a deal",
+      "finalize an agreement"
+    ],
+    "antonyms": [
+      "lose a deal"
+    ]
+  },
+  {
+    "word": "consult",
+    "pos": "v.",
+    "meaning": "諮詢",
+    "example": "We should consult legal before signing the amended terms.",
+    "level": "中階",
+    "theme": "contracts_legal",
+    "root": "con- (共同)",
+    "synonyms": [
+      "seek advice",
+      "ask"
+    ],
+    "antonyms": [
+      "ignore"
+    ]
+  },
+  {
+    "word": "contractual",
+    "pos": "adj.",
+    "meaning": "合約上的",
+    "example": "The vendor failed to meet its contractual obligations.",
+    "level": "中高階",
+    "theme": "contracts_legal",
+    "root": "-al (…的)",
+    "synonyms": [
+      "agreement-based",
+      "by contract"
+    ],
+    "antonyms": [
+      "informal"
+    ]
+  },
+  {
+    "word": "convert leads",
+    "pos": "phr.",
+    "meaning": "轉換潛在客戶",
+    "example": "The campaign performed well because it converted leads at a higher rate.",
+    "level": "中高階",
+    "theme": "marketing",
+    "root": "con- (共同)",
+    "synonyms": [
+      "turn prospects into customers",
+      "close prospects"
+    ],
+    "antonyms": [
+      "lose leads"
+    ]
+  },
+  {
+    "word": "customer retention",
+    "pos": "n.",
+    "meaning": "客戶留存",
+    "example": "Customer retention improved after we simplified the onboarding flow.",
+    "level": "中高階",
+    "theme": "customer_service",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "client loyalty",
+      "repeat business"
+    ],
+    "antonyms": [
+      "customer churn"
+    ]
+  },
+  {
+    "word": "deliverables",
+    "pos": "n.",
+    "meaning": "交付成果",
+    "example": "The client changed the deliverables after the kickoff call.",
+    "level": "中高階",
+    "theme": "project_management",
+    "root": "-able/-ible (可…的)",
+    "synonyms": [
+      "outputs",
+      "deliveries"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "demand forecast",
+    "pos": "n.",
+    "meaning": "需求預測",
+    "example": "The demand forecast helped us plan inventory more accurately.",
+    "level": "中高階",
+    "theme": "supply_chain",
+    "root": "fore- (前)",
+    "synonyms": [
+      "sales forecast",
+      "demand prediction"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "disburse",
+    "pos": "v.",
+    "meaning": "支付；撥款",
+    "example": "Finance will disburse the approved funds next week.",
+    "level": "中高階",
+    "theme": "finance",
+    "root": "dis- (不/相反)",
+    "synonyms": [
+      "pay out",
+      "release funds"
+    ],
+    "antonyms": [
+      "collect"
+    ]
+  },
+  {
+    "word": "endorse",
+    "pos": "v.",
+    "meaning": "背書；支持",
+    "example": "The board endorsed the expansion plan after the risk review.",
+    "level": "中高階",
+    "theme": "leadership",
+    "root": "en- (使)",
+    "synonyms": [
+      "support",
+      "back"
+    ],
+    "antonyms": [
+      "oppose"
+    ]
+  },
+  {
+    "word": "estimate",
+    "pos": "v.",
+    "meaning": "估算",
+    "example": "Could you estimate the delivery time for this order?",
+    "level": "中階",
+    "theme": "operations",
+    "root": "ex- (出)",
+    "synonyms": [
+      "approximate",
+      "calculate roughly"
+    ],
+    "antonyms": [
+      "measure exactly"
+    ]
+  },
+  {
+    "word": "expenditure",
+    "pos": "n.",
+    "meaning": "支出",
+    "example": "Travel expenditure rose sharply during the trade show season.",
+    "level": "中高階",
+    "theme": "finance",
+    "root": "ex- (出)",
+    "synonyms": [
+      "spending",
+      "outlay"
+    ],
+    "antonyms": [
+      "income"
+    ]
+  },
+  {
+    "word": "generate demand",
+    "pos": "phr.",
+    "meaning": "創造需求",
+    "example": "The campaign was designed to generate demand before the product launch.",
+    "level": "中高階",
+    "theme": "marketing",
+    "root": "gen- (生產/產生)",
+    "synonyms": [
+      "create demand",
+      "stimulate demand"
+    ],
+    "antonyms": [
+      "suppress demand"
+    ]
+  },
+  {
+    "word": "achieve alignment",
+    "pos": "phr.",
+    "meaning": "達成一致",
+    "example": "We need to achieve alignment across sales, finance, and operations.",
+    "level": "中高階",
+    "theme": "management",
+    "root": null,
+    "synonyms": [
+      "get on the same page",
+      "reach agreement"
+    ],
+    "antonyms": [
+      "conflict",
+      "disagreement"
+    ]
+  },
+  {
+    "word": "ad hoc",
+    "pos": "adj.",
+    "meaning": "臨時的",
+    "example": "We formed an ad hoc team to handle the client escalation.",
+    "level": "中高階",
+    "theme": "operations",
+    "root": null,
+    "synonyms": [
+      "temporary",
+      "special-purpose"
+    ],
+    "antonyms": [
+      "permanent"
+    ]
+  },
+  {
+    "word": "adjourn",
+    "pos": "v.",
+    "meaning": "休會；延期",
+    "example": "The board decided to adjourn the discussion until next week.",
+    "level": "中高階",
+    "theme": "communication",
+    "root": "ad- (向)",
+    "synonyms": [
+      "postpone",
+      "suspend"
+    ],
+    "antonyms": [
+      "resume",
+      "begin"
+    ]
+  },
+  {
+    "word": "adopt a strategy",
+    "pos": "phr.",
+    "meaning": "採取策略",
+    "example": "The company decided to adopt a strategy focused on premium customers.",
+    "level": "中階",
+    "theme": "strategy",
+    "root": null,
+    "synonyms": [
+      "choose a strategy",
+      "implement a strategy"
+    ],
+    "antonyms": [
+      "abandon a strategy"
+    ]
+  },
+  {
+    "word": "allot",
+    "pos": "v.",
+    "meaning": "分配",
+    "example": "We will allot more budget to product training this quarter.",
+    "level": "中高階",
+    "theme": "management",
+    "root": null,
+    "synonyms": [
+      "assign",
+      "allocate"
+    ],
+    "antonyms": [
+      "withhold"
+    ]
+  },
+  {
+    "word": "amortization",
+    "pos": "n.",
+    "meaning": "攤銷",
+    "example": "Amortization reduced the value of the intangible asset over time.",
+    "level": "中高階",
+    "theme": "accounting",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "cost spreading",
+      "expense write-down"
+    ],
+    "antonyms": [
+      "capitalization"
+    ]
+  },
+  {
+    "word": "analyze data",
+    "pos": "phr.",
+    "meaning": "分析資料",
+    "example": "The team used analytics tools to analyze data from the campaign.",
+    "level": "中階",
+    "theme": "technology_it",
+    "root": null,
+    "synonyms": [
+      "study data",
+      "examine data"
+    ],
+    "antonyms": [
+      "guess"
+    ]
+  },
+  {
+    "word": "annualized",
+    "pos": "adj.",
+    "meaning": "年化的",
+    "example": "The annualized growth rate looked strong in the latest report.",
+    "level": "中高階",
+    "theme": "finance",
+    "root": "-ize/-ise (使成為)",
+    "synonyms": [
+      "yearly adjusted",
+      "on a yearly basis"
+    ],
+    "antonyms": [
+      "monthly"
+    ]
+  },
+  {
+    "word": "approve",
+    "pos": "v.",
+    "meaning": "批准",
+    "example": "Finance must approve the purchase before the order is placed.",
+    "level": "中階",
+    "theme": "compliance_risk",
+    "root": "pro- (向前)",
+    "synonyms": [
+      "authorize",
+      "endorse"
+    ],
+    "antonyms": [
+      "reject",
+      "deny"
+    ]
+  },
+  {
+    "word": "board approval",
+    "pos": "n.",
+    "meaning": "董事會核准",
+    "example": "The expansion plan is waiting for board approval.",
+    "level": "中高階",
+    "theme": "management",
+    "root": null,
+    "synonyms": [
+      "director approval",
+      "formal approval"
+    ],
+    "antonyms": [
+      "rejection"
+    ]
+  },
+  {
+    "word": "aligned incentives",
+    "pos": "n.",
+    "meaning": "一致誘因",
+    "example": "Aligned incentives helped both teams work toward the same target.",
+    "level": "中高階",
+    "theme": "strategy",
+    "root": null,
+    "synonyms": [
+      "shared incentives",
+      "common motivation"
+    ],
+    "antonyms": [
+      "conflicting incentives"
+    ]
+  },
+  {
+    "word": "allocate capital",
+    "pos": "phr.",
+    "meaning": "配置資本",
+    "example": "The CFO will allocate capital to the most profitable business unit.",
+    "level": "中高階",
+    "theme": "finance",
+    "root": "capit- (頭/主要)",
+    "synonyms": [
+      "deploy capital",
+      "assign capital"
+    ],
+    "antonyms": [
+      "withhold capital"
+    ]
+  },
+  {
+    "word": "buy-in",
+    "pos": "n.",
+    "meaning": "支持；認同",
+    "example": "We need buy-in from all departments before launching the new policy.",
+    "level": "中高階",
+    "theme": "management",
+    "root": null,
+    "synonyms": [
+      "support",
+      "acceptance"
+    ],
+    "antonyms": [
+      "resistance"
+    ]
+  },
+  {
+    "word": "candidate pool",
+    "pos": "n.",
+    "meaning": "候選人群",
+    "example": "The recruiter expanded the candidate pool by posting overseas.",
+    "level": "中階",
+    "theme": "hr",
+    "root": null,
+    "synonyms": [
+      "talent pool",
+      "applicant group"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "capacity planning",
+    "pos": "n.",
+    "meaning": "產能規劃",
+    "example": "Capacity planning is essential before we accept more orders.",
+    "level": "中高階",
+    "theme": "operations",
+    "root": "plan- (計劃)",
+    "synonyms": [
+      "resource planning",
+      "output planning"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "capitalize",
+    "pos": "v.",
+    "meaning": "利用；資本化",
+    "example": "The company hopes to capitalize on rising demand in Asia.",
+    "level": "中高階",
+    "theme": "strategy",
+    "root": "capit- (頭/主要)",
+    "synonyms": [
+      "leverage",
+      "exploit"
+    ],
+    "antonyms": [
+      "miss"
+    ]
+  },
+  {
+    "word": "cash runway",
+    "pos": "n.",
+    "meaning": "現金續航期",
+    "example": "The startup has only six months of cash runway left.",
+    "level": "中高階",
+    "theme": "finance",
+    "root": null,
+    "synonyms": [
+      "funding runway",
+      "liquidity horizon"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "clawback",
+    "pos": "n.",
+    "meaning": "追回款項",
+    "example": "The contract includes a clawback clause for missed performance targets.",
+    "level": "中高階",
+    "theme": "contracts_legal",
+    "root": "claw- (抓)",
+    "synonyms": [
+      "recovery",
+      "recoupment"
+    ],
+    "antonyms": [
+      "payout"
+    ]
+  },
+  {
+    "word": "close the gap",
+    "pos": "phr.",
+    "meaning": "縮小差距",
+    "example": "We need training to close the gap between teams.",
+    "level": "中階",
+    "theme": "management",
+    "root": null,
+    "synonyms": [
+      "narrow the gap",
+      "reduce the difference"
+    ],
+    "antonyms": [
+      "widen the gap"
+    ]
+  },
+  {
+    "word": "concede a point",
+    "pos": "phr.",
+    "meaning": "讓步",
+    "example": "During negotiation, both sides conceded a point to reach agreement.",
+    "level": "中高階",
+    "theme": "negotiation",
+    "root": "con- (共同)",
+    "synonyms": [
+      "yield ground",
+      "give way"
+    ],
+    "antonyms": [
+      "stand firm"
+    ]
+  },
+  {
+    "word": "condition precedent",
+    "pos": "n.",
+    "meaning": "先決條件",
+    "example": "Funding is subject to a condition precedent in the agreement.",
+    "level": "中高階",
+    "theme": "contracts_legal",
+    "root": "pre- (事前)",
+    "synonyms": [
+      "prerequisite",
+      "required condition"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "conduct an audit",
+    "pos": "phr.",
+    "meaning": "執行稽核",
+    "example": "The internal team will conduct an audit of vendor payments.",
+    "level": "中階",
+    "theme": "accounting",
+    "root": "con- (共同)",
+    "synonyms": [
+      "review accounts",
+      "inspect records"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "aesthetics",
+    "pos": "n.",
+    "meaning": "美學",
+    "example": "The app’s aesthetics strongly influence user engagement.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": "aesthet- (感覺/美)",
+    "synonyms": [
+      "visual style",
+      "design sense"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "asymmetry",
+    "pos": "n.",
+    "meaning": "不對稱",
+    "example": "Asymmetry adds visual interest to the layout.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": "a- (無)",
+    "synonyms": [
+      "imbalance",
+      "irregularity"
+    ],
+    "antonyms": [
+      "symmetry"
+    ]
+  },
+  {
+    "word": "balance",
+    "pos": "n.",
+    "meaning": "平衡",
+    "example": "The design achieves balance between text and visuals.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "equilibrium",
+      "stability"
+    ],
+    "antonyms": [
+      "imbalance"
+    ]
+  },
+  {
+    "word": "contrast",
+    "pos": "n.",
+    "meaning": "對比",
+    "example": "High contrast improves accessibility in UI design.",
+    "level": "中階",
+    "theme": "creative",
+    "root": "contra- (相反)",
+    "synonyms": [
+      "difference",
+      "distinction"
+    ],
+    "antonyms": [
+      "similarity"
+    ]
+  },
+  {
+    "word": "typography",
+    "pos": "n.",
+    "meaning": "字體設計",
+    "example": "Typography choices affect readability and tone.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": "graph- (書寫)",
+    "synonyms": [
+      "font design",
+      "type styling"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "legibility",
+    "pos": "n.",
+    "meaning": "易讀性",
+    "example": "Legibility is critical for mobile interfaces.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": "-ibility (可…性)",
+    "synonyms": [
+      "readability",
+      "clarity"
+    ],
+    "antonyms": [
+      "illegibility"
+    ]
+  },
+  {
+    "word": "proportion",
+    "pos": "n.",
+    "meaning": "比例",
+    "example": "Good proportion ensures visual harmony.",
+    "level": "中階",
+    "theme": "creative",
+    "root": "pro- (向前)",
+    "synonyms": [
+      "ratio",
+      "scale"
+    ],
+    "antonyms": [
+      "disproportion"
+    ]
+  },
+  {
+    "word": "composition",
+    "pos": "n.",
+    "meaning": "構圖",
+    "example": "The composition directs attention to key elements.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "arrangement",
+      "layout"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "minimalism",
+    "pos": "n.",
+    "meaning": "極簡風格",
+    "example": "Minimalism reduces distractions in product design.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": "mini- (小)",
+    "synonyms": [
+      "simplicity",
+      "clean design"
+    ],
+    "antonyms": [
+      "maximalism"
+    ]
+  },
+  {
+    "word": "iteration",
+    "pos": "n.",
+    "meaning": "反覆改進",
+    "example": "Each iteration brought the product closer to launch readiness.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": "re- (再次)",
+    "synonyms": [
+      "cycle",
+      "revision"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "refinement",
+    "pos": "n.",
+    "meaning": "精緻化",
+    "example": "The final refinement improved the interface details.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": "-ment (名詞化:狀態結果)",
+    "synonyms": [
+      "improvement",
+      "polishing"
+    ],
+    "antonyms": [
+      "roughness"
+    ]
+  },
+  {
+    "word": "bleed",
+    "pos": "n.",
+    "meaning": "出血位",
+    "example": "Add bleed before sending the file to print.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "trim bleed",
+      "print bleed"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "callout",
+    "pos": "n.",
+    "meaning": "標註",
+    "example": "The callout highlights the product’s key feature.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "label",
+      "annotation"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "canvas",
+    "pos": "n.",
+    "meaning": "畫布",
+    "example": "The blank canvas gives the designer more freedom to explore ideas.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "artboard",
+      "workspace"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "caption",
+    "pos": "n.",
+    "meaning": "標題說明",
+    "example": "Each image should have a clear caption for better context.",
+    "level": "中階",
+    "theme": "communication",
+    "root": "capt- (抓住)",
+    "synonyms": [
+      "description",
+      "label"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "chroma",
+    "pos": "n.",
+    "meaning": "彩度",
+    "example": "Chroma affects how vivid a color appears in print.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": "chrom- (顏色)",
+    "synonyms": [
+      "color intensity",
+      "saturation"
+    ],
+    "antonyms": [
+      "neutrality"
+    ]
+  },
+  {
+    "word": "copy",
+    "pos": "n.",
+    "meaning": "文案",
+    "example": "The copy should be short and easy to scan.",
+    "level": "中階",
+    "theme": "marketing",
+    "root": null,
+    "synonyms": [
+      "text",
+      "wording"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "crop",
+    "pos": "v.",
+    "meaning": "裁切",
+    "example": "Please crop the image so the product stays centered.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "trim",
+      "cut"
+    ],
+    "antonyms": [
+      "expand"
+    ]
+  },
+  {
+    "word": "decode",
+    "pos": "v.",
+    "meaning": "解讀",
+    "example": "Good design helps customers decode the message quickly.",
+    "level": "中階",
+    "theme": "communication",
+    "root": "de- (去除/相反)",
+    "synonyms": [
+      "interpret",
+      "understand"
+    ],
+    "antonyms": [
+      "confuse"
+    ]
+  },
+  {
+    "word": "decorative",
+    "pos": "adj.",
+    "meaning": "裝飾性的",
+    "example": "The decorative elements should support, not distract from, the content.",
+    "level": "中階",
+    "theme": "creative",
+    "root": "-ive (具有…的)",
+    "synonyms": [
+      "ornamental",
+      "embellishing"
+    ],
+    "antonyms": [
+      "functional"
+    ]
+  },
+  {
+    "word": "detail",
+    "pos": "n.",
+    "meaning": "細節",
+    "example": "The final detail work made the layout feel more polished.",
+    "level": "中階",
+    "theme": "creative",
+    "root": "de- (去除/相反)",
+    "synonyms": [
+      "finishing touch",
+      "specific element"
+    ],
+    "antonyms": [
+      "broadness"
+    ]
+  },
+  {
+    "word": "affordance",
+    "pos": "n.",
+    "meaning": "可供性",
+    "example": "The button’s shape gives a clear affordance for clicking.",
+    "level": "中高階",
+    "theme": "technology_it",
+    "root": "ad- (向)",
+    "synonyms": [
+      "cue",
+      "visual hint"
+    ],
+    "antonyms": [
+      "ambiguity"
+    ]
+  },
+  {
+    "word": "breadcrumb",
+    "pos": "n.",
+    "meaning": "導覽路徑",
+    "example": "Breadcrumbs help users understand where they are in the flow.",
+    "level": "中高階",
+    "theme": "technology_it",
+    "root": null,
+    "synonyms": [
+      "navigation trail",
+      "path indicator"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "dashboard",
+    "pos": "n.",
+    "meaning": "儀表板",
+    "example": "The dashboard surfaces the most important metrics at a glance.",
+    "level": "中階",
+    "theme": "technology_it",
+    "root": null,
+    "synonyms": [
+      "control panel",
+      "overview screen"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "design system",
+    "pos": "n.",
+    "meaning": "設計系統",
+    "example": "A design system helps the team keep components consistent.",
+    "level": "中高階",
+    "theme": "technology_it",
+    "root": null,
+    "synonyms": [
+      "component library",
+      "UI framework"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "discoverability",
+    "pos": "n.",
+    "meaning": "易發現性",
+    "example": "Better discoverability helps users find features faster.",
+    "level": "中高階",
+    "theme": "technology_it",
+    "root": "-ability (可…性)",
+    "synonyms": [
+      "findability",
+      "visibility"
+    ],
+    "antonyms": [
+      "hiddenness"
+    ]
+  },
+  {
+    "word": "feedback",
+    "pos": "n.",
+    "meaning": "回饋",
+    "example": "Immediate feedback reassures users that their action worked.",
+    "level": "中階",
+    "theme": "technology_it",
+    "root": "back- (後)",
+    "synonyms": [
+      "response",
+      "reaction"
+    ],
+    "antonyms": [
+      "silence"
+    ]
+  },
+  {
+    "word": "iconography",
+    "pos": "n.",
+    "meaning": "圖像符號系統",
+    "example": "The iconography should stay consistent across the app.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": "graph- (書寫)",
+    "synonyms": [
+      "symbol set",
+      "icon system"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "intuitive",
+    "pos": "adj.",
+    "meaning": "直覺的",
+    "example": "The new navigation feels intuitive even for first-time users.",
+    "level": "中階",
+    "theme": "technology_it",
+    "root": "in- (內)",
+    "synonyms": [
+      "user-friendly",
+      "natural"
+    ],
+    "antonyms": [
+      "confusing"
+    ]
+  },
+  {
+    "word": "navigation",
+    "pos": "n.",
+    "meaning": "導覽",
+    "example": "Clear navigation reduces the number of clicks needed.",
+    "level": "中階",
+    "theme": "technology_it",
+    "root": "nav- (船)",
+    "synonyms": [
+      "site flow",
+      "menu structure"
+    ],
+    "antonyms": [
+      "confusion"
+    ]
+  },
+  {
+    "word": "modularity",
+    "pos": "n.",
+    "meaning": "模組化",
+    "example": "Modularity makes it easier to reuse components across screens.",
+    "level": "中高階",
+    "theme": "technology_it",
+    "root": "-ity (性質)",
+    "synonyms": [
+      "component-based design",
+      "chunking"
+    ],
+    "antonyms": [
+      "monolith"
+    ]
+  },
+  {
+    "word": "compositionally",
+    "pos": "adv.",
+    "meaning": "在構圖上",
+    "example": "Compositionally, the hero section needs more breathing room.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": "-ly (副詞化)",
+    "synonyms": [
+      "structurally",
+      "visually"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "wireframe",
+    "pos": "n.",
+    "meaning": "線框稿",
+    "example": "The wireframe focuses on structure before visual styling.",
+    "level": "中高階",
+    "theme": "technology_it",
+    "root": null,
+    "synonyms": [
+      "layout sketch",
+      "structure draft"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "heuristic",
+    "pos": "n.",
+    "meaning": "啟發式原則",
+    "example": "The design was reviewed against common heuristic principles.",
+    "level": "中高階",
+    "theme": "strategy",
+    "root": null,
+    "synonyms": [
+      "rule of thumb",
+      "guideline"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "hierarchical",
+    "pos": "adj.",
+    "meaning": "分層的",
+    "example": "A hierarchical layout helps users process information faster.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": "-al (…的)",
+    "synonyms": [
+      "layered",
+      "structured"
+    ],
+    "antonyms": [
+      "flat"
+    ]
+  },
+  {
+    "word": "semiconductor",
+    "pos": "n.",
+    "meaning": "半導體",
+    "example": "Semiconductor companies must control quality at every process stage.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": "semi- (半)",
+    "synonyms": [
+      "chip industry material",
+      "semicon"
+    ],
+    "antonyms": [
+      "insulator",
+      "conductor"
+    ]
+  },
+  {
+    "word": "wafer",
+    "pos": "n.",
+    "meaning": "晶圓",
+    "example": "The wafer moved to the next process after inspection.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "silicon wafer",
+      "substrate"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "die",
+    "pos": "n.",
+    "meaning": "晶粒",
+    "example": "Each die was tested before packaging.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "chip",
+      "bare die"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "fab",
+    "pos": "n.",
+    "meaning": "晶圓廠",
+    "example": "The fab increased output to meet strong demand.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "fabrication plant",
+      "foundry"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "foundry",
+    "pos": "n.",
+    "meaning": "代工廠",
+    "example": "The foundry accepted new orders from several fabless clients.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "contract manufacturer",
+      "manufacturing partner"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "fabless",
+    "pos": "adj.",
+    "meaning": "無廠的",
+    "example": "Fabless firms depend on external manufacturing partners.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": "less- (無)",
+    "synonyms": [
+      "asset-light manufacturing",
+      "design-only"
+    ],
+    "antonyms": [
+      "integrated"
+    ]
+  },
+  {
+    "word": "defect",
+    "pos": "n.",
+    "meaning": "缺陷",
+    "example": "A defect in the line can affect final device performance.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": "de- (去除/相反)",
+    "synonyms": [
+      "flaw",
+      "fault"
+    ],
+    "antonyms": [
+      "quality"
+    ]
+  },
+  {
+    "word": "particle",
+    "pos": "n.",
+    "meaning": "微粒污染",
+    "example": "Particle control is critical in the cleanroom.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "contamination",
+      "dust"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "cleanroom",
+    "pos": "n.",
+    "meaning": "無塵室",
+    "example": "Strict gowning rules apply inside the cleanroom.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": "clean- (乾淨)",
+    "synonyms": [
+      "controlled environment",
+      "clean space"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "photolithography",
+    "pos": "n.",
+    "meaning": "光刻",
+    "example": "Photolithography defines the circuit pattern on the wafer.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": "photo- (光)",
+    "synonyms": [
+      "lithography",
+      "masking"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "etching",
+    "pos": "n.",
+    "meaning": "蝕刻",
+    "example": "Dry etching was used to remove the unwanted layer.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": "-ing (動作進行)",
+    "synonyms": [
+      "material removal",
+      "pattern transfer"
+    ],
+    "antonyms": [
+      "deposition"
+    ]
+  },
+  {
+    "word": "deposition",
+    "pos": "n.",
+    "meaning": "沉積",
+    "example": "Thin-film deposition must be tightly controlled.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": "de- (去除/相反)",
+    "synonyms": [
+      "film growth",
+      "coating"
+    ],
+    "antonyms": [
+      "etching"
+    ]
+  },
+  {
+    "word": "implantation",
+    "pos": "n.",
+    "meaning": "離子佈植",
+    "example": "Ion implantation changed the electrical properties of the layer.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "doping",
+      "ion injection"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "doping",
+    "pos": "n.",
+    "meaning": "摻雜",
+    "example": "Doping is used to control conductivity in the material.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "impurity addition",
+      "chemical modification"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "transistor",
+    "pos": "n.",
+    "meaning": "電晶體",
+    "example": "The new transistor design reduces power consumption.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": "trans- (轉移/跨越)",
+    "synonyms": [
+      "switch",
+      "amplifier"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "MOSFET",
+    "pos": "n.",
+    "meaning": "金氧半電晶體",
+    "example": "MOSFET scaling remains a key challenge for advanced nodes.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "field-effect transistor",
+      "FET"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "FinFET",
+    "pos": "n.",
+    "meaning": "鰭式電晶體",
+    "example": "FinFET architecture improved leakage control.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": "fin- (鰭)",
+    "synonyms": [
+      "3D transistor",
+      "multi-gate transistor"
+    ],
+    "antonyms": [
+      "planar transistor"
+    ]
+  },
+  {
+    "word": "GAA",
+    "pos": "n.",
+    "meaning": "環繞式閘極",
+    "example": "GAA is expected to replace FinFET in future nodes.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "gate-all-around",
+      "nanosheet transistor"
+    ],
+    "antonyms": [
+      "planar transistor"
+    ]
+  },
+  {
+    "word": "CMOS",
+    "pos": "n.",
+    "meaning": "互補式金氧半",
+    "example": "CMOS technology is widely used in logic and memory devices.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": "com-/co- (共同)",
+    "synonyms": [
+      "complementary MOS",
+      "CMOS technology"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "DRAM",
+    "pos": "n.",
+    "meaning": "動態隨機存取記憶體",
+    "example": "DRAM demand often rises with server and AI workloads.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "main memory",
+      "dynamic memory"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "NAND",
+    "pos": "n.",
+    "meaning": "快閃記憶體",
+    "example": "NAND pricing can be volatile during inventory corrections.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "flash memory",
+      "storage memory"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "SRAM",
+    "pos": "n.",
+    "meaning": "靜態隨機存取記憶體",
+    "example": "SRAM is often used in cache applications.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "cache memory",
+      "static memory"
+    ],
+    "antonyms": [
+      "DRAM"
+    ]
+  },
+  {
+    "word": "logic",
+    "pos": "n.",
+    "meaning": "邏輯晶片",
+    "example": "Logic chips are the core of many AI and computing systems.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": "log- (理性/言語)",
+    "synonyms": [
+      "compute chip",
+      "digital logic"
+    ],
+    "antonyms": [
+      "memory"
+    ]
+  },
+  {
+    "word": "mask",
+    "pos": "n.",
+    "meaning": "光罩",
+    "example": "A defect on the mask can affect many wafers.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "photomask",
+      "reticle"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "reticle",
+    "pos": "n.",
+    "meaning": "掩膜版",
+    "example": "The reticle was inspected before exposure.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "mask",
+      "photomask"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "overlay",
+    "pos": "n.",
+    "meaning": "疊對",
+    "example": "Overlay control is essential for advanced process nodes.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": "over- (過度)",
+    "synonyms": [
+      "alignment error",
+      "layer misregistration"
+    ],
+    "antonyms": [
+      "perfect alignment"
+    ]
+  },
+  {
+    "word": "metrology",
+    "pos": "n.",
+    "meaning": "量測",
+    "example": "Metrology data helps engineers detect drift early.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": "-logy (學科)",
+    "synonyms": [
+      "measurement",
+      "inspection"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "inspection",
+    "pos": "n.",
+    "meaning": "檢查",
+    "example": "Inspection results showed no major defects on the lot.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": "in- (內)",
+    "synonyms": [
+      "review",
+      "examination"
+    ],
+    "antonyms": [
+      "neglect"
+    ]
+  },
+  {
+    "word": "yield enhancement",
+    "pos": "n.",
+    "meaning": "良率提升",
+    "example": "Yield enhancement is one of the fab’s top priorities.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": "en- (使)",
+    "synonyms": [
+      "yield improvement",
+      "yield boost"
+    ],
+    "antonyms": [
+      "yield loss"
+    ]
+  },
+  {
+    "word": "defectivity",
+    "pos": "n.",
+    "meaning": "缺陷率",
+    "example": "Defectivity must be reduced before mass production.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": "-ity (性質)",
+    "synonyms": [
+      "defect rate",
+      "flaw level"
+    ],
+    "antonyms": [
+      "cleanliness"
+    ]
+  },
+  {
+    "word": "earnings",
+    "pos": "n.",
+    "meaning": "獲利",
+    "example": "Earnings improved after the company cut operating costs.",
+    "level": "中階",
+    "theme": "finance",
+    "root": "-ing (動作進行)",
+    "synonyms": [
+      "profit",
+      "net income"
+    ],
+    "antonyms": [
+      "loss"
+    ]
+  },
+  {
+    "word": "profitability",
+    "pos": "n.",
+    "meaning": "獲利能力",
+    "example": "Profitability remained strong despite higher input costs.",
+    "level": "中高階",
+    "theme": "finance",
+    "root": "-ability (可…性)",
+    "synonyms": [
+      "margin strength",
+      "earnings power"
+    ],
+    "antonyms": [
+      "unprofitability"
+    ]
+  },
+  {
+    "word": "multiple",
+    "pos": "n.",
+    "meaning": "倍數估值",
+    "example": "The market is willing to pay a higher multiple for faster growth.",
+    "level": "中高階",
+    "theme": "finance",
+    "root": "multi- (多)",
+    "synonyms": [
+      "ratio",
+      "valuation ratio"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "free cash flow",
+    "pos": "n.",
+    "meaning": "自由現金流",
+    "example": "Free cash flow improved after capex started to normalize.",
+    "level": "中高階",
+    "theme": "finance",
+    "root": "free- (自由)",
+    "synonyms": [
+      "FCF",
+      "discretionary cash flow"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "operating margin",
+    "pos": "n.",
+    "meaning": "營業利益率",
+    "example": "Operating margin expanded as gross profit improved.",
+    "level": "中高階",
+    "theme": "finance",
+    "root": "-ing (動作進行)",
+    "synonyms": [
+      "operating profit margin",
+      "EBIT margin"
+    ],
+    "antonyms": [
+      "margin compression"
+    ]
+  },
+  {
+    "word": "gross margin",
+    "pos": "n.",
+    "meaning": "毛利率",
+    "example": "Gross margin widened because component costs came down.",
+    "level": "中階",
+    "theme": "finance",
+    "root": "gross- (總)",
+    "synonyms": [
+      "gross profit margin",
+      "markup margin"
+    ],
+    "antonyms": [
+      "margin erosion"
+    ]
+  },
+  {
+    "word": "net margin",
+    "pos": "n.",
+    "meaning": "淨利率",
+    "example": "Net margin stayed healthy even in a competitive quarter.",
+    "level": "中高階",
+    "theme": "finance",
+    "root": null,
+    "synonyms": [
+      "net profit margin",
+      "bottom-line margin"
+    ],
+    "antonyms": [
+      "loss margin"
+    ]
+  },
+  {
+    "word": "accrued",
+    "pos": "adj.",
+    "meaning": "應計的",
+    "example": "Accrued interest was included in the period-end report.",
+    "level": "中高階",
+    "theme": "accounting",
+    "root": "ac- (向)",
+    "synonyms": [
+      "earned",
+      "accumulated"
+    ],
+    "antonyms": [
+      "paid"
+    ]
+  },
+  {
+    "word": "buyback",
+    "pos": "n.",
+    "meaning": "庫藏股回購",
+    "example": "The company announced a new share buyback program.",
+    "level": "中高階",
+    "theme": "finance",
+    "root": "back- (後)",
+    "synonyms": [
+      "share repurchase",
+      "stock buyback"
+    ],
+    "antonyms": [
+      "share issuance"
+    ]
+  },
+  {
+    "word": "breakout",
+    "pos": "n.",
+    "meaning": "突破",
+    "example": "The stock saw a breakout after clearing resistance.",
+    "level": "中高階",
+    "theme": "stock_market",
+    "root": null,
+    "synonyms": [
+      "breakthrough",
+      "surge"
+    ],
+    "antonyms": [
+      "pullback"
+    ]
+  },
+  {
+    "word": "resistance",
+    "pos": "n.",
+    "meaning": "壓力區",
+    "example": "The price failed again near major resistance.",
+    "level": "中高階",
+    "theme": "stock_market",
+    "root": "re- (再次)",
+    "synonyms": [
+      "ceiling",
+      "supply zone"
+    ],
+    "antonyms": [
+      "support"
+    ]
+  },
+  {
+    "word": "support",
+    "pos": "n.",
+    "meaning": "支撐區",
+    "example": "The share price found support after the earnings miss.",
+    "level": "中階",
+    "theme": "stock_market",
+    "root": "sup- (下)",
+    "synonyms": [
+      "floor",
+      "buy zone"
+    ],
+    "antonyms": [
+      "resistance"
+    ]
+  },
+  {
+    "word": "valuation multiple",
+    "pos": "n.",
+    "meaning": "估值倍數",
+    "example": "The market assigned a higher valuation multiple to the stock.",
+    "level": "中高階",
+    "theme": "stock_market",
+    "root": "multi- (多)",
+    "synonyms": [
+      "P/E ratio",
+      "pricing multiple"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "spread",
+    "pos": "n.",
+    "meaning": "價差",
+    "example": "The spread widened as liquidity thinned.",
+    "level": "中高階",
+    "theme": "finance",
+    "root": "spr- (展開)",
+    "synonyms": [
+      "difference",
+      "gap"
+    ],
+    "antonyms": [
+      "convergence"
+    ]
+  },
+  {
+    "word": "amend",
+    "pos": "v.",
+    "meaning": "修訂",
+    "example": "Legal asked us to amend the contract wording.",
+    "level": "中高階",
+    "theme": "contracts_legal",
+    "root": "ad- (向)",
+    "synonyms": [
+      "revise",
+      "modify"
+    ],
+    "antonyms": [
+      "keep",
+      "retain"
+    ]
+  },
+  {
+    "word": "brief",
+    "pos": "v.",
+    "meaning": "簡報；說明",
+    "example": "I will brief the team before the client call.",
+    "level": "中階",
+    "theme": "communication",
+    "root": "brief- (短)",
+    "synonyms": [
+      "update",
+      "inform"
+    ],
+    "antonyms": [
+      "debrief"
+    ]
+  },
+  {
+    "word": "buffer",
+    "pos": "n.",
+    "meaning": "緩衝",
+    "example": "We added a buffer in case the shipment is delayed.",
+    "level": "中階",
+    "theme": "operations",
+    "root": null,
+    "synonyms": [
+      "margin",
+      "reserve"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "cascade",
+    "pos": "v.",
+    "meaning": "逐層傳遞",
+    "example": "The manager cascaded the update to all departments.",
+    "level": "中高階",
+    "theme": "management",
+    "root": null,
+    "synonyms": [
+      "filter down",
+      "flow down"
+    ],
+    "antonyms": [
+      "block"
+    ]
+  },
+  {
+    "word": "calendar",
+    "pos": "n.",
+    "meaning": "行程表",
+    "example": "My calendar is full of meetings this week.",
+    "level": "中階",
+    "theme": "communication",
+    "root": null,
+    "synonyms": [
+      "schedule",
+      "planner"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "concur",
+    "pos": "v.",
+    "meaning": "同意",
+    "example": "Finance concurred with the revised forecast.",
+    "level": "中高階",
+    "theme": "communication",
+    "root": "con- (共同)",
+    "synonyms": [
+      "agree",
+      "approve"
+    ],
+    "antonyms": [
+      "disagree"
+    ]
+  },
+  {
+    "word": "minutes",
+    "pos": "n.",
+    "meaning": "會議紀錄",
+    "example": "Please share the minutes after the call.",
+    "level": "中階",
+    "theme": "communication",
+    "root": null,
+    "synonyms": [
+      "notes",
+      "record"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "onboard",
+    "pos": "v.",
+    "meaning": "導入；報到",
+    "example": "HR will onboard the new hire next Monday.",
+    "level": "中階",
+    "theme": "hr",
+    "root": "on- (上)",
+    "synonyms": [
+      "induct",
+      "integrate"
+    ],
+    "antonyms": [
+      "offboard"
+    ]
+  },
+  {
+    "word": "projected",
+    "pos": "adj.",
+    "meaning": "預估的",
+    "example": "The projected timeline looks realistic.",
+    "level": "中階",
+    "theme": "finance",
+    "root": "pro- (向前)",
+    "synonyms": [
+      "estimated",
+      "forecasted"
+    ],
+    "antonyms": [
+      "actual"
+    ]
+  },
+  {
+    "word": "scope",
+    "pos": "n.",
+    "meaning": "範圍",
+    "example": "The project scope was expanded after the client request.",
+    "level": "中階",
+    "theme": "project_management",
+    "root": null,
+    "synonyms": [
+      "range",
+      "extent"
+    ],
+    "antonyms": [
+      "narrowness"
+    ]
+  },
+  {
+    "word": "submit",
+    "pos": "v.",
+    "meaning": "提交",
+    "example": "Please submit your expense report by noon.",
+    "level": "中階",
+    "theme": "communication",
+    "root": "sub- (下)",
+    "synonyms": [
+      "send in",
+      "file"
+    ],
+    "antonyms": [
+      "withdraw"
+    ]
+  },
+  {
+    "word": "yield rate",
+    "pos": "n.",
+    "meaning": "良率",
+    "example": "The fab improved its yield rate from 85% to 92% after fixing the etching defect.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "yield",
+      "pass rate"
+    ],
+    "antonyms": [
+      "defect rate"
+    ]
+  },
+  {
+    "word": "tape-out",
+    "pos": "n.",
+    "meaning": "定案投片",
+    "example": "The design team celebrated after the chip finally reached tape-out.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "design freeze"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "lithography",
+    "pos": "n.",
+    "meaning": "微影製程",
+    "example": "Advanced lithography equipment prints circuit patterns onto the wafer surface.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "photolithography"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "photomask",
+    "pos": "n.",
+    "meaning": "光罩",
+    "example": "A single photomask can cost millions of dollars to design and manufacture.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": "photo- (光)",
+    "synonyms": [
+      "mask",
+      "reticle"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "process node",
+    "pos": "n.",
+    "meaning": "製程節點",
+    "example": "The company plans to move its next chip to the 3nm process node.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "technology node"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "IDM",
+    "pos": "n.",
+    "meaning": "整合元件製造商",
+    "example": "Intel operates as an IDM, both designing and manufacturing its own chips.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "integrated device manufacturer"
+    ],
+    "antonyms": [
+      "fabless"
+    ]
+  },
+  {
+    "word": "binning",
+    "pos": "n.",
+    "meaning": "分級分箱",
+    "example": "Binning sorts chips by performance so faster ones can be sold at a premium price.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "grading",
+      "sorting"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "EDA",
+    "pos": "n.",
+    "meaning": "電子設計自動化",
+    "example": "Engineers rely on EDA software to design and verify complex chip layouts.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "chip design software"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "IP core",
+    "pos": "n.",
+    "meaning": "智財核心",
+    "example": "The company licensed an IP core for its processor rather than designing one from scratch.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "IP block"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "wire bonding",
+    "pos": "n.",
+    "meaning": "打線接合",
+    "example": "Wire bonding connects the chip's pads to the package leads with fine gold wires.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "flip chip"
+    ]
+  },
+  {
+    "word": "chip design house",
+    "pos": "n.",
+    "meaning": "晶片設計公司",
+    "example": "The chip design house focuses on developing IP for automotive applications.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "fabless design company"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "bill of materials",
+    "pos": "n.",
+    "meaning": "物料清單",
+    "example": "The bill of materials lists every chip, resistor, and component in the device.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "parts list"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "RTL",
+    "pos": "n.",
+    "meaning": "暫存器傳輸級",
+    "example": "The design team wrote the chip's logic in RTL before running simulations.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "register-transfer level"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "netlist",
+    "pos": "n.",
+    "meaning": "網表",
+    "example": "The synthesis tool converts the RTL code into a gate-level netlist.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "floorplanning",
+    "pos": "n.",
+    "meaning": "布局規劃",
+    "example": "Floorplanning determines where each functional block sits on the chip die.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "chip floorplan"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "place and route",
+    "pos": "n.",
+    "meaning": "佈局與繞線",
+    "example": "Place and route is an automated step that arranges cells and connects wiring.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "P&R"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "simulation",
+    "pos": "n.",
+    "meaning": "模擬",
+    "example": "Engineers ran a simulation to test the circuit's behavior before fabrication.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "modeling"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "synthesis",
+    "pos": "n.",
+    "meaning": "邏輯合成",
+    "example": "Logic synthesis translates the RTL description into a physical gate netlist.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "logic synthesis"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "HDL",
+    "pos": "n.",
+    "meaning": "硬體描述語言",
+    "example": "Verilog and VHDL are the two most common HDLs used in chip design.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "hardware description language"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "schematic",
+    "pos": "n.",
+    "meaning": "電路圖",
+    "example": "The engineer reviewed the schematic before laying out the physical circuit.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "circuit diagram"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "standard cell",
+    "pos": "n.",
+    "meaning": "標準元件",
+    "example": "Digital chips are built from libraries of standard cells like gates and flip-flops.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "gate-level",
+    "pos": "adj.",
+    "meaning": "閘級的",
+    "example": "The gate-level netlist shows every logic gate and its connections.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "timing closure",
+    "pos": "n.",
+    "meaning": "時序收斂",
+    "example": "The team spent weeks achieving timing closure so the chip could run at full speed.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "design rule check",
+    "pos": "n.",
+    "meaning": "設計規則檢查",
+    "example": "The layout failed the design rule check due to spacing violations between wires.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "DRC"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "layout versus schematic",
+    "pos": "n.",
+    "meaning": "佈局電路圖比對",
+    "example": "Layout versus schematic checking confirms the physical design matches the circuit intent.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "LVS"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "IP licensing",
+    "pos": "n.",
+    "meaning": "智財授權",
+    "example": "The startup relies on IP licensing revenue rather than manufacturing its own chips.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "technology licensing"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "SoC",
+    "pos": "n.",
+    "meaning": "系統單晶片",
+    "example": "The smartphone's SoC integrates the CPU, GPU, and modem on a single chip.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "system on chip"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "ASIC",
+    "pos": "n.",
+    "meaning": "特殊應用積體電路",
+    "example": "The company designed a custom ASIC to accelerate its AI workloads.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "custom chip"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "FPGA",
+    "pos": "n.",
+    "meaning": "現場可程式邏輯閘陣列",
+    "example": "Engineers prototyped the new logic on an FPGA before committing to a fixed chip design.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "programmable logic device"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "microarchitecture",
+    "pos": "n.",
+    "meaning": "微架構",
+    "example": "The new microarchitecture improves instructions per clock cycle significantly.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": "micro- (微小)",
+    "synonyms": [
+      "chip architecture"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "instruction set",
+    "pos": "n.",
+    "meaning": "指令集",
+    "example": "ARM and x86 are two widely used processor instruction sets.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "ISA"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "chiplet",
+    "pos": "n.",
+    "meaning": "小晶片",
+    "example": "Instead of one large die, the processor combines several chiplets in one package.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "IP tile"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "IP block",
+    "pos": "n.",
+    "meaning": "智財區塊",
+    "example": "The SoC reuses a proven memory controller IP block from a previous design.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "IP core"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "mask set",
+    "pos": "n.",
+    "meaning": "光罩組",
+    "example": "Producing a full mask set for a leading-edge chip can cost tens of millions of dollars.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "photomask set"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "GDSII",
+    "pos": "n.",
+    "meaning": "版圖資料格式",
+    "example": "The final chip layout is exported as a GDSII file and sent to the foundry.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "layout file"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "etch",
+    "pos": "v.",
+    "meaning": "蝕刻",
+    "example": "The process uses plasma to etch tiny patterns into the silicon surface.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "etching"
+    ],
+    "antonyms": [
+      "deposit"
+    ]
+  },
+  {
+    "word": "ion implantation",
+    "pos": "n.",
+    "meaning": "離子佈植",
+    "example": "Ion implantation precisely places dopant atoms at specific depths in the wafer.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "doping"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "photoresist",
+    "pos": "n.",
+    "meaning": "光阻劑",
+    "example": "A layer of photoresist is exposed to light to transfer the circuit pattern.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": "photo- (光)",
+    "synonyms": [
+      "resist"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "EUV",
+    "pos": "n.",
+    "meaning": "極紫外光微影",
+    "example": "EUV lithography enables the extremely fine features needed for advanced nodes.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "extreme ultraviolet lithography"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "DUV",
+    "pos": "n.",
+    "meaning": "深紫外光微影",
+    "example": "Older process nodes still rely heavily on DUV lithography equipment.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "deep ultraviolet lithography"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "thin film",
+    "pos": "n.",
+    "meaning": "薄膜",
+    "example": "A thin film of insulating material separates the metal layers on the chip.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "epitaxy",
+    "pos": "n.",
+    "meaning": "磊晶",
+    "example": "Epitaxy grows a crystalline silicon layer on top of the wafer substrate.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "epitaxial growth"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "chemical mechanical polishing",
+    "pos": "n.",
+    "meaning": "化學機械研磨",
+    "example": "Chemical mechanical polishing flattens the wafer surface between processing steps.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "CMP"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "oxidation",
+    "pos": "n.",
+    "meaning": "氧化",
+    "example": "Thermal oxidation grows a protective silicon dioxide layer on the wafer.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [],
+    "antonyms": [
+      "reduction"
+    ]
+  },
+  {
+    "word": "diffusion",
+    "pos": "n.",
+    "meaning": "擴散",
+    "example": "Diffusion allows dopant atoms to spread deeper into the silicon under heat.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "wafer thinning",
+    "pos": "n.",
+    "meaning": "晶圓薄化",
+    "example": "Wafer thinning reduces the die thickness before stacking in advanced packages.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "backgrinding"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "substrate",
+    "pos": "n.",
+    "meaning": "基板",
+    "example": "The chip is mounted onto a substrate that routes signals to the package pins.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "base material"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "silicon ingot",
+    "pos": "n.",
+    "meaning": "矽錠",
+    "example": "A silicon ingot is sliced into thin wafers ready for fabrication.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "silicon boule"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "dicing",
+    "pos": "n.",
+    "meaning": "切割",
+    "example": "After testing, dicing separates the wafer into individual chips.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "wafer cutting"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "scribe line",
+    "pos": "n.",
+    "meaning": "切割道",
+    "example": "The saw cuts along the scribe line between each die on the wafer.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "dicing line"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "defect density",
+    "pos": "n.",
+    "meaning": "缺陷密度",
+    "example": "Lower defect density on the wafer directly improves the final yield rate.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "wafer sort",
+    "pos": "n.",
+    "meaning": "晶圓測試",
+    "example": "Wafer sort identifies which dies are functional before they are diced and packaged.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "wafer probing"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "probe card",
+    "pos": "n.",
+    "meaning": "探針卡",
+    "example": "The probe card makes electrical contact with each die during wafer sort.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "contamination",
+    "pos": "n.",
+    "meaning": "污染",
+    "example": "Even microscopic contamination on the wafer can ruin an entire batch of chips.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "impurity"
+    ],
+    "antonyms": [
+      "purity"
+    ]
+  },
+  {
+    "word": "flip chip",
+    "pos": "n.",
+    "meaning": "覆晶",
+    "example": "Flip chip packaging connects the die to the substrate using solder bumps instead of wires.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "wire bonding"
+    ]
+  },
+  {
+    "word": "ball grid array",
+    "pos": "n.",
+    "meaning": "球柵陣列",
+    "example": "The processor uses a ball grid array to connect to the circuit board.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "BGA package"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "package substrate",
+    "pos": "n.",
+    "meaning": "封裝基板",
+    "example": "The package substrate routes electrical signals between the die and the circuit board.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "encapsulation",
+    "pos": "n.",
+    "meaning": "封膠",
+    "example": "Encapsulation protects the die from moisture and mechanical damage.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "molding"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "molding",
+    "pos": "n.",
+    "meaning": "塑封",
+    "example": "Molding compound is injected around the die to form the finished chip package.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "encapsulation"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "lead frame",
+    "pos": "n.",
+    "meaning": "導線架",
+    "example": "The lead frame provides the metal pins that connect the package to the outside circuit.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "bump",
+    "pos": "n.",
+    "meaning": "凸塊",
+    "example": "Solder bumps on the die allow it to connect directly to the substrate below.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "solder bump"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "redistribution layer",
+    "pos": "n.",
+    "meaning": "重佈線層",
+    "example": "The redistribution layer reroutes the chip's pads to new bump locations.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": "re- (再次)",
+    "synonyms": [
+      "RDL"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "through-silicon via",
+    "pos": "n.",
+    "meaning": "矽穿孔",
+    "example": "A through-silicon via connects stacked dies vertically inside a 3D package.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "TSV"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "3D IC",
+    "pos": "n.",
+    "meaning": "三維積體電路",
+    "example": "3D IC technology stacks multiple dies to boost performance within a small footprint.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "3D integration"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "wafer-level packaging",
+    "pos": "n.",
+    "meaning": "晶圓級封裝",
+    "example": "Wafer-level packaging completes the package before the wafer is even diced.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "WLP"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "burn-in test",
+    "pos": "n.",
+    "meaning": "老化測試",
+    "example": "The burn-in test runs chips at high temperature to weed out early failures.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "stress test"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "final test",
+    "pos": "n.",
+    "meaning": "終測",
+    "example": "Chips must pass final test before they are shipped to customers.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "outgoing test"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "ATE",
+    "pos": "n.",
+    "meaning": "自動測試設備",
+    "example": "The ATE checks every chip's electrical performance in seconds.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "automated test equipment"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "known good die",
+    "pos": "n.",
+    "meaning": "良好裸晶",
+    "example": "Only known good die are selected for the expensive multi-chip package.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "KGD"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "reliability testing",
+    "pos": "n.",
+    "meaning": "可靠度測試",
+    "example": "Reliability testing simulates years of use to predict long-term chip failures.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "stress testing"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "wafer start",
+    "pos": "n.",
+    "meaning": "投片量",
+    "example": "Monthly wafer starts indicate how much production capacity the fab is using.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "production start"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "capacity utilization",
+    "pos": "n.",
+    "meaning": "產能利用率",
+    "example": "Capacity utilization fell as demand for consumer chips weakened.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "fab utilization"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "order backlog",
+    "pos": "n.",
+    "meaning": "訂單積壓",
+    "example": "The chipmaker's order backlog shrank as customers began canceling orders.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "unfilled orders"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "design win",
+    "pos": "n.",
+    "meaning": "設計導入成功",
+    "example": "Landing a design win with a major smartphone maker boosted the chipmaker's revenue.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "second source",
+    "pos": "n.",
+    "meaning": "第二供應來源",
+    "example": "Automakers now require a second source for critical chips to avoid shortages.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "alternate supplier"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "chip shortage",
+    "pos": "n.",
+    "meaning": "晶片短缺",
+    "example": "The chip shortage forced several automakers to halt production lines.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "semiconductor shortage"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "semiconductor equipment",
+    "pos": "n.",
+    "meaning": "半導體設備",
+    "example": "Semiconductor equipment makers benefit whenever fabs expand their capacity.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "chip-making equipment"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "wafer fab equipment",
+    "pos": "n.",
+    "meaning": "晶圓廠設備",
+    "example": "Spending on wafer fab equipment reached a record high last year.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "WFE"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "OSAT",
+    "pos": "n.",
+    "meaning": "委外封測廠",
+    "example": "The chip is packaged and tested by an OSAT after fabrication is complete.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "outsourced assembly and test"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "pure-play foundry",
+    "pos": "n.",
+    "meaning": "純代工廠",
+    "example": "As a pure-play foundry, it never competes with its own chip design customers.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "process shrink",
+    "pos": "n.",
+    "meaning": "製程微縮",
+    "example": "A process shrink lets the same chip design fit into a smaller, cheaper die.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "die shrink"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "Moore's Law",
+    "pos": "n.",
+    "meaning": "摩爾定律",
+    "example": "Moore's Law predicted that transistor counts would double roughly every two years.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "cost per transistor",
+    "pos": "n.",
+    "meaning": "電晶體單位成本",
+    "example": "Cost per transistor has stopped falling as quickly as it once did.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "mass production",
+    "pos": "n.",
+    "meaning": "量產",
+    "example": "The chip entered mass production only after passing all reliability tests.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "volume production"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "engineering sample",
+    "pos": "n.",
+    "meaning": "工程樣品",
+    "example": "Customers evaluate an engineering sample before committing to a full order.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "ES sample"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "qualification sample",
+    "pos": "n.",
+    "meaning": "認證樣品",
+    "example": "The automotive customer required a qualification sample to pass strict reliability standards.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "qual sample"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "product roadmap",
+    "pos": "n.",
+    "meaning": "產品藍圖",
+    "example": "The company revealed its product roadmap for the next three process generations.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "technology roadmap"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "datasheet",
+    "pos": "n.",
+    "meaning": "規格書",
+    "example": "The datasheet specifies the chip's voltage range, pinout, and timing characteristics.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "spec sheet"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "semiconductor cycle",
+    "pos": "n.",
+    "meaning": "半導體景氣循環",
+    "example": "Investors track the semiconductor cycle to time their purchases of chip stocks.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "chip cycle"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "upcycle",
+    "pos": "n.",
+    "meaning": "景氣上升期",
+    "example": "Strong AI demand triggered a fresh upcycle for memory chip makers.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "boom cycle"
+    ],
+    "antonyms": [
+      "downcycle"
+    ]
+  },
+  {
+    "word": "downcycle",
+    "pos": "n.",
+    "meaning": "景氣下降期",
+    "example": "Chipmakers cut capital spending during the industry's latest downcycle.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "downturn"
+    ],
+    "antonyms": [
+      "upcycle"
+    ]
+  },
+  {
+    "word": "inventory correction",
+    "pos": "n.",
+    "meaning": "庫存修正",
+    "example": "An inventory correction across the supply chain weighed on chip prices.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "destocking"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "silicon carbide",
+    "pos": "n.",
+    "meaning": "碳化矽",
+    "example": "Silicon carbide chips handle higher voltages better than traditional silicon.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "SiC"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "gallium nitride",
+    "pos": "n.",
+    "meaning": "氮化鎵",
+    "example": "Gallium nitride devices are popular in fast chargers due to their efficiency.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "GaN"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "compound semiconductor",
+    "pos": "n.",
+    "meaning": "化合物半導體",
+    "example": "Compound semiconductors like gallium arsenide are used in high-frequency chips.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "dopant",
+    "pos": "n.",
+    "meaning": "摻雜物",
+    "example": "Boron is a common dopant used to create p-type silicon regions.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "doping agent"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "polysilicon",
+    "pos": "n.",
+    "meaning": "多晶矽",
+    "example": "Polysilicon is deposited to form the gate electrode of the transistor.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "polycrystalline silicon"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "epitaxial layer",
+    "pos": "n.",
+    "meaning": "磊晶層",
+    "example": "An epitaxial layer provides a cleaner crystal structure for building transistors.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "epi layer"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "interconnect",
+    "pos": "n.",
+    "meaning": "內連線",
+    "example": "Copper interconnects link millions of transistors together across the chip.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": "inter- (之間/相互)",
+    "synonyms": [
+      "wiring"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "copper interconnect",
+    "pos": "n.",
+    "meaning": "銅內連線",
+    "example": "Copper interconnects replaced aluminum to reduce electrical resistance on chips.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": "inter- (之間/相互)",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "low-k dielectric",
+    "pos": "n.",
+    "meaning": "低介電常數材料",
+    "example": "A low-k dielectric reduces signal delay between neighboring copper wires.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "high-k dielectric"
+    ]
+  },
+  {
+    "word": "high-k dielectric",
+    "pos": "n.",
+    "meaning": "高介電常數材料",
+    "example": "A high-k dielectric replaced silicon dioxide to reduce gate leakage current.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "low-k dielectric"
+    ]
+  },
+  {
+    "word": "metal layer",
+    "pos": "n.",
+    "meaning": "金屬層",
+    "example": "Modern chips can have more than ten metal layers stacked above the transistors.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "back-end-of-line",
+    "pos": "n.",
+    "meaning": "後段製程",
+    "example": "Back-end-of-line processing builds the metal wiring that connects transistors.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "BEOL"
+    ],
+    "antonyms": [
+      "front-end-of-line"
+    ]
+  },
+  {
+    "word": "front-end-of-line",
+    "pos": "n.",
+    "meaning": "前段製程",
+    "example": "Front-end-of-line steps form the transistors before any metal wiring is added.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "FEOL"
+    ],
+    "antonyms": [
+      "back-end-of-line"
+    ]
+  },
+  {
+    "word": "gate-all-around",
+    "pos": "n.",
+    "meaning": "環繞閘極",
+    "example": "Gate-all-around transistors surround the channel on all sides for better control.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "GAA"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "threshold voltage",
+    "pos": "n.",
+    "meaning": "閾值電壓",
+    "example": "Lowering the threshold voltage can speed up the transistor but increase leakage.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "leakage current",
+    "pos": "n.",
+    "meaning": "漏電流",
+    "example": "Leakage current wastes power even when the transistor is supposed to be off.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "thermal design power",
+    "pos": "n.",
+    "meaning": "熱設計功耗",
+    "example": "The chip's thermal design power determines what cooling system it requires.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "TDP"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "heat dissipation",
+    "pos": "n.",
+    "meaning": "散熱",
+    "example": "Poor heat dissipation can cause the chip to throttle down its clock speed.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "cooling"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "chip stacking",
+    "pos": "n.",
+    "meaning": "晶片堆疊",
+    "example": "Chip stacking lets memory and logic dies sit on top of each other in one package.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "die stacking"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "memory chip",
+    "pos": "n.",
+    "meaning": "記憶體晶片",
+    "example": "DRAM is the most common type of memory chip used in computers.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "memory IC"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "logic chip",
+    "pos": "n.",
+    "meaning": "邏輯晶片",
+    "example": "The logic chip performs calculations while the memory chip stores data.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "logic IC"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "analog chip",
+    "pos": "n.",
+    "meaning": "類比晶片",
+    "example": "Analog chips convert real-world signals like sound and light into electrical form.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "analog IC"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "mixed-signal",
+    "pos": "adj.",
+    "meaning": "混合訊號的",
+    "example": "The mixed-signal chip processes both analog sensor data and digital output.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "RF chip",
+    "pos": "n.",
+    "meaning": "射頻晶片",
+    "example": "The smartphone's RF chip handles wireless communication with cell towers.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "radio frequency chip"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "power semiconductor",
+    "pos": "n.",
+    "meaning": "功率半導體",
+    "example": "Electric vehicles rely on power semiconductors to manage battery current efficiently.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "power device"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "sensor chip",
+    "pos": "n.",
+    "meaning": "感測晶片",
+    "example": "A tiny sensor chip inside the phone detects motion and orientation.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "sensor IC"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "semiconductor grade",
+    "pos": "adj.",
+    "meaning": "半導體級的",
+    "example": "The material must meet semiconductor grade purity before it can be used in a fab.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "electronic grade"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "test yield",
+    "pos": "n.",
+    "meaning": "測試良率",
+    "example": "Test yield dropped after the new process introduced an unexpected defect.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "probe test",
+    "pos": "n.",
+    "meaning": "探針測試",
+    "example": "A probe test checks each die's electrical function while it is still on the wafer.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "wafer probing"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "die shrink",
+    "pos": "n.",
+    "meaning": "晶粒縮小",
+    "example": "A die shrink lowers manufacturing cost by fitting more chips on each wafer.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "process shrink"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "hot carrier injection",
+    "pos": "n.",
+    "meaning": "熱載子注入",
+    "example": "Hot carrier injection can gradually degrade a transistor's performance over time.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "HCI"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "electromigration",
+    "pos": "n.",
+    "meaning": "電遷移",
+    "example": "Electromigration can slowly erode thin metal wires under high current density.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "mask aligner",
+    "pos": "n.",
+    "meaning": "光罩對準機",
+    "example": "The mask aligner positions the photomask precisely above the wafer before exposure.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "stepper",
+    "pos": "n.",
+    "meaning": "步進曝光機",
+    "example": "The stepper exposes one small section of the wafer at a time.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "lithography stepper"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "scanner",
+    "pos": "n.",
+    "meaning": "掃描式曝光機",
+    "example": "The lithography scanner moves the wafer and mask together during exposure.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "lithography scanner"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "immersion lithography",
+    "pos": "n.",
+    "meaning": "浸沒式微影",
+    "example": "Immersion lithography uses a liquid layer to achieve finer resolution patterns.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "multi-patterning",
+    "pos": "n.",
+    "meaning": "多重曝光",
+    "example": "Multi-patterning splits a single layer into several exposures to print finer features.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": "multi- (多)",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "self-aligned double patterning",
+    "pos": "n.",
+    "meaning": "自對準雙重曝光",
+    "example": "Self-aligned double patterning helped extend older lithography tools to smaller nodes.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "SADP"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "via",
+    "pos": "n.",
+    "meaning": "導通孔",
+    "example": "A via connects two metal layers vertically through an insulating layer.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "contact via"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "contact hole",
+    "pos": "n.",
+    "meaning": "接觸孔",
+    "example": "A contact hole is etched down to the transistor so metal can connect to it.",
+    "level": "中高階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "trench",
+    "pos": "n.",
+    "meaning": "溝槽",
+    "example": "A deep trench isolates neighboring transistors from electrical interference.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "anneal",
+    "pos": "v.",
+    "meaning": "退火",
+    "example": "Engineers anneal the wafer at high temperature to repair damage from ion implantation.",
+    "level": "中階",
+    "theme": "semiconductor",
+    "root": null,
+    "synonyms": [
+      "annealing"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "seed round",
+    "pos": "n.",
+    "meaning": "種子輪募資",
+    "example": "The startup closed a $2 million seed round to build its first product.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "seed funding",
+      "seed financing"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "pre-seed funding",
+    "pos": "n.",
+    "meaning": "種子輪前資金",
+    "example": "Pre-seed funding helped the founders build a prototype before pitching investors.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": "pre- (事前)",
+    "synonyms": [
+      "pre-seed round"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "Series A",
+    "pos": "n.",
+    "meaning": "A輪融資",
+    "example": "After proving product-market fit, the company raised a $10 million Series A.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Series B",
+    "pos": "n.",
+    "meaning": "B輪融資",
+    "example": "The Series B round was led by a major growth equity firm.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "Series C",
+    "pos": "n.",
+    "meaning": "C輪融資",
+    "example": "Series C funding is often used to scale operations internationally.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "unicorn",
+    "pos": "n.",
+    "meaning": "獨角獸企業",
+    "example": "The ride-sharing app became a unicorn just three years after launch.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": "mono-/uni- (單一)",
+    "synonyms": [
+      "billion-dollar startup"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "decacorn",
+    "pos": "n.",
+    "meaning": "十角獸企業",
+    "example": "Few startups ever reach decacorn status with a valuation above ten billion dollars.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": "deca- (十)",
+    "synonyms": [
+      "ten-billion-dollar startup"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "soonicorn",
+    "pos": "n.",
+    "meaning": "準獨角獸企業",
+    "example": "Investors were betting early on the soonicorn before its valuation exploded.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "future unicorn"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "valuation cap",
+    "pos": "n.",
+    "meaning": "估值上限",
+    "example": "The convertible note included a valuation cap to protect early investors.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "conversion cap"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "cap table",
+    "pos": "n.",
+    "meaning": "股權結構表",
+    "example": "The founders reviewed the cap table before negotiating with new investors.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "capitalization table"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "term sheet",
+    "pos": "n.",
+    "meaning": "投資條件書",
+    "example": "The venture capital firm sent over a term sheet outlining the investment conditions.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "investment proposal"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "convertible note",
+    "pos": "n.",
+    "meaning": "可轉換債券",
+    "example": "The startup raised its first funds through a convertible note instead of equity.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "convertible debt"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "SAFE",
+    "pos": "n.",
+    "meaning": "未來股權簡易協議",
+    "example": "Many seed-stage startups use a SAFE instead of a traditional convertible note.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "simple agreement for future equity"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "dilution",
+    "pos": "n.",
+    "meaning": "股權稀釋",
+    "example": "Every new funding round causes some dilution of the founders' ownership.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "equity dilution"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "vesting",
+    "pos": "n.",
+    "meaning": "股權兌現期",
+    "example": "Employee stock options typically follow a four-year vesting schedule.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "equity vesting"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "vesting cliff",
+    "pos": "n.",
+    "meaning": "兌現懸崖期",
+    "example": "New hires must stay one year to pass the vesting cliff and earn any equity.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "cliff period"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "equity stake",
+    "pos": "n.",
+    "meaning": "股權比例",
+    "example": "The angel investor negotiated a ten percent equity stake in the company.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "ownership share"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "stock options",
+    "pos": "n.",
+    "meaning": "認股權",
+    "example": "Startups often offer stock options to attract talent they can't pay in cash.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "share options"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "ESOP",
+    "pos": "n.",
+    "meaning": "員工認股權計畫",
+    "example": "The company set aside an ESOP pool to reward early employees.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "employee stock ownership plan"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "VC firm",
+    "pos": "n.",
+    "meaning": "創投公司",
+    "example": "The VC firm has backed several successful tech unicorns.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "venture capital firm"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "limited partner",
+    "pos": "n.",
+    "meaning": "有限合夥出資人",
+    "example": "Pension funds often act as limited partners in venture capital funds.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "LP"
+    ],
+    "antonyms": [
+      "general partner"
+    ]
+  },
+  {
+    "word": "general partner",
+    "pos": "n.",
+    "meaning": "普通合夥管理人",
+    "example": "The general partner makes the day-to-day investment decisions for the fund.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "GP"
+    ],
+    "antonyms": [
+      "limited partner"
+    ]
+  },
+  {
+    "word": "lead investor",
+    "pos": "n.",
+    "meaning": "領投人",
+    "example": "The lead investor set the terms that other participants in the round agreed to.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "anchor investor"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "follow-on round",
+    "pos": "n.",
+    "meaning": "追加募資輪",
+    "example": "Existing investors participated in the follow-on round to maintain their ownership.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "follow-on investment"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "bridge round",
+    "pos": "n.",
+    "meaning": "過渡輪融資",
+    "example": "The startup raised a bridge round to extend its runway until the next major raise.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "interim round"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "down round",
+    "pos": "n.",
+    "meaning": "降價融資輪",
+    "example": "A down round can signal that investor confidence in the company has weakened.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "up round"
+    ]
+  },
+  {
+    "word": "up round",
+    "pos": "n.",
+    "meaning": "漲價融資輪",
+    "example": "The up round valued the company at three times its previous valuation.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "down round"
+    ]
+  },
+  {
+    "word": "pro-rata rights",
+    "pos": "n.",
+    "meaning": "按比例認購權",
+    "example": "Pro-rata rights let early investors maintain their ownership percentage in future rounds.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "participation rights"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "liquidation preference",
+    "pos": "n.",
+    "meaning": "清算優先權",
+    "example": "The preferred shares came with a liquidation preference guaranteeing investors get paid first.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "anti-dilution clause",
+    "pos": "n.",
+    "meaning": "反稀釋條款",
+    "example": "The anti-dilution clause protected investors if the company issued shares at a lower price later.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": "anti- (反對/相反)",
+    "synonyms": [
+      "anti-dilution provision"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "board seat",
+    "pos": "n.",
+    "meaning": "董事會席位",
+    "example": "In exchange for the investment, the VC firm requested a board seat.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "board position"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "board observer",
+    "pos": "n.",
+    "meaning": "董事會觀察員",
+    "example": "As a smaller investor, she was granted board observer rights instead of a full seat.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "fundraising",
+    "pos": "n.",
+    "meaning": "募資",
+    "example": "The founders spent months fundraising before closing their seed round.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "capital raising"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "pitch deck",
+    "pos": "n.",
+    "meaning": "募資簡報",
+    "example": "The founder revised the pitch deck several times before meeting investors.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "investor deck"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "investor relations",
+    "pos": "n.",
+    "meaning": "投資人關係管理",
+    "example": "The CFO handled investor relations to keep shareholders informed of progress.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "bootstrapped",
+    "pos": "v.",
+    "meaning": "自力籌資經營",
+    "example": "The founders bootstrapped the company for two years before taking outside investment.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "self-funded"
+    ],
+    "antonyms": [
+      "venture-backed"
+    ]
+  },
+  {
+    "word": "self-funded",
+    "pos": "adj.",
+    "meaning": "自籌資金的",
+    "example": "Being self-funded gave the founders more control over company direction.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": "self- (自己)",
+    "synonyms": [
+      "bootstrapped"
+    ],
+    "antonyms": [
+      "venture-backed"
+    ]
+  },
+  {
+    "word": "friends and family round",
+    "pos": "n.",
+    "meaning": "親友輪募資",
+    "example": "Before approaching investors, the founder raised a small friends and family round.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "mezzanine financing",
+    "pos": "n.",
+    "meaning": "夾層融資",
+    "example": "Mezzanine financing bridged the gap between debt and equity for the growing company.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "IPO",
+    "pos": "n.",
+    "meaning": "首次公開發行",
+    "example": "The company went public through an IPO on the stock exchange.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "initial public offering",
+      "going public"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "direct listing",
+    "pos": "n.",
+    "meaning": "直接上市",
+    "example": "Instead of a traditional IPO, the company chose a direct listing to go public.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "SPAC",
+    "pos": "n.",
+    "meaning": "特殊目的收購公司",
+    "example": "The startup merged with a SPAC to become a publicly traded company faster.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "special purpose acquisition company",
+      "blank-check company"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "acqui-hire",
+    "pos": "n.",
+    "meaning": "收購攬才",
+    "example": "The failing startup was saved by an acqui-hire from a larger competitor.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "talent acquisition"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "secondary sale",
+    "pos": "n.",
+    "meaning": "次級市場交易",
+    "example": "Early employees cashed out some shares through a secondary sale before the IPO.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "secondary transaction"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "tender offer",
+    "pos": "n.",
+    "meaning": "公開收購要約",
+    "example": "The acquirer launched a tender offer to buy shares directly from shareholders.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "MVP",
+    "pos": "n.",
+    "meaning": "最小可行產品",
+    "example": "The team launched an MVP to test the idea with real users before building more features.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "minimum viable product"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "product-market fit",
+    "pos": "n.",
+    "meaning": "產品市場契合度",
+    "example": "The startup pivoted twice before finally achieving product-market fit.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "growth hacking",
+    "pos": "n.",
+    "meaning": "成長駭客行銷",
+    "example": "The marketing team used growth hacking tactics to acquire users cheaply.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "network effect",
+    "pos": "n.",
+    "meaning": "網路效應",
+    "example": "The app became more valuable to every user thanks to the network effect.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "viral coefficient",
+    "pos": "n.",
+    "meaning": "病毒傳播係數",
+    "example": "A viral coefficient above one means each user brings in more than one new user.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "k-factor"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "churn rate",
+    "pos": "n.",
+    "meaning": "客戶流失率",
+    "example": "Reducing the churn rate was the top priority for the subscription service.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "attrition rate"
+    ],
+    "antonyms": [
+      "retention rate"
+    ]
+  },
+  {
+    "word": "customer acquisition cost",
+    "pos": "n.",
+    "meaning": "客戶獲取成本",
+    "example": "If the customer acquisition cost exceeds lifetime value, the business model won't scale.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "CAC"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "lifetime value",
+    "pos": "n.",
+    "meaning": "顧客終身價值",
+    "example": "Increasing lifetime value allowed the company to justify a higher acquisition cost.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "LTV",
+      "customer lifetime value"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "monthly recurring revenue",
+    "pos": "n.",
+    "meaning": "月度經常性收入",
+    "example": "The SaaS company tracked monthly recurring revenue as its key growth metric.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "MRR"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "annual recurring revenue",
+    "pos": "n.",
+    "meaning": "年度經常性收入",
+    "example": "Annual recurring revenue crossed one million dollars in the startup's second year.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "ARR"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "runway",
+    "pos": "n.",
+    "meaning": "資金可撐月數",
+    "example": "With six months of runway left, the founders urgently began fundraising.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "cash runway"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "unit economics",
+    "pos": "n.",
+    "meaning": "單位經濟效益",
+    "example": "Investors wanted to see healthy unit economics before backing the expansion.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "freemium",
+    "pos": "n.",
+    "meaning": "免費增值模式",
+    "example": "The app used a freemium model, charging only for premium features.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "SaaS",
+    "pos": "n.",
+    "meaning": "軟體即服務",
+    "example": "The company built a SaaS product that businesses pay for monthly.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "software as a service"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "platform economy",
+    "pos": "n.",
+    "meaning": "平台經濟",
+    "example": "Ride-sharing and food delivery apps are core parts of the platform economy.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "two-sided marketplace",
+    "pos": "n.",
+    "meaning": "雙邊市場平台",
+    "example": "The company built a two-sided marketplace connecting freelancers with clients.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "multi-sided platform"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "gig economy",
+    "pos": "n.",
+    "meaning": "零工經濟",
+    "example": "The gig economy has grown rapidly with the rise of app-based freelance work.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "disruptive innovation",
+    "pos": "n.",
+    "meaning": "破壞式創新",
+    "example": "The startup's disruptive innovation forced established players to rethink their strategy.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "competitive moat",
+    "pos": "n.",
+    "meaning": "競爭護城河",
+    "example": "Strong brand loyalty gave the company a competitive moat against new entrants.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "economic moat"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "total addressable market",
+    "pos": "n.",
+    "meaning": "總潛在市場規模",
+    "example": "The founders estimated a total addressable market worth ten billion dollars.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "TAM"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "serviceable obtainable market",
+    "pos": "n.",
+    "meaning": "可獲得市場規模",
+    "example": "The serviceable obtainable market was much smaller than the total addressable market.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": "-able/-ible (可…的)",
+    "synonyms": [
+      "SOM"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "go-to-market strategy",
+    "pos": "n.",
+    "meaning": "市場進入策略",
+    "example": "The team crafted a go-to-market strategy before launching in a new country.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "GTM strategy"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "beta launch",
+    "pos": "n.",
+    "meaning": "測試版上線",
+    "example": "The company invited a small group of users to a beta launch before the public release.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "beta release"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "stealth mode",
+    "pos": "n.",
+    "meaning": "隱密開發模式",
+    "example": "The startup operated in stealth mode for a year to avoid tipping off competitors.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "north star metric",
+    "pos": "n.",
+    "meaning": "北極星指標",
+    "example": "Weekly active users became the company's north star metric.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "key growth metric"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "OKR",
+    "pos": "n.",
+    "meaning": "目標與關鍵成果",
+    "example": "Every team set quarterly OKRs to align on priorities.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "objectives and key results"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "cohort analysis",
+    "pos": "n.",
+    "meaning": "世代分析",
+    "example": "Cohort analysis revealed that users from the referral channel stayed longer.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "hockey stick growth",
+    "pos": "n.",
+    "meaning": "曲棍球棒式成長",
+    "example": "Investors look for hockey stick growth in a startup's revenue chart.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "hypergrowth",
+    "pos": "n.",
+    "meaning": "超高速成長",
+    "example": "The company entered a phase of hypergrowth after its product went viral.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": "hyper- (過度/超過)",
+    "synonyms": [
+      "explosive growth"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "scale-up",
+    "pos": "n.",
+    "meaning": "規模化擴張企業",
+    "example": "The scale-up expanded into five new markets within a year.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "scaling company"
+    ],
+    "antonyms": [
+      "startup"
+    ]
+  },
+  {
+    "word": "scrum",
+    "pos": "n.",
+    "meaning": "敏捷開發框架",
+    "example": "The product team followed scrum to organize their weekly workflow.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "daily standup",
+    "pos": "n.",
+    "meaning": "每日站立會議",
+    "example": "The team held a daily standup to quickly share progress and blockers.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "daily scrum"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "cross-functional team",
+    "pos": "n.",
+    "meaning": "跨職能團隊",
+    "example": "A cross-functional team of designers, engineers, and marketers launched the product.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": "cross- (交叉/跨)",
+    "synonyms": [
+      "cross-departmental team"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "flat hierarchy",
+    "pos": "n.",
+    "meaning": "扁平化組織架構",
+    "example": "The startup maintained a flat hierarchy with few layers of management.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "rigid hierarchy"
+    ]
+  },
+  {
+    "word": "remote-first",
+    "pos": "adj.",
+    "meaning": "遠距優先的",
+    "example": "The company adopted a remote-first policy, hiring talent from anywhere in the world.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "distributed-first"
+    ],
+    "antonyms": [
+      "office-first"
+    ]
+  },
+  {
+    "word": "founder",
+    "pos": "n.",
+    "meaning": "創辦人",
+    "example": "The founder built the company from a single idea into a global brand.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "co-founder",
+    "pos": "n.",
+    "meaning": "共同創辦人",
+    "example": "She and her co-founder started the company in a college dorm room.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": "co-/con- (共同)",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "solo founder",
+    "pos": "n.",
+    "meaning": "獨立創辦人",
+    "example": "As a solo founder, he handled fundraising, hiring, and product all at once.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "single founder"
+    ],
+    "antonyms": [
+      "co-founder"
+    ]
+  },
+  {
+    "word": "serial entrepreneur",
+    "pos": "n.",
+    "meaning": "連續創業家",
+    "example": "The serial entrepreneur had already sold two companies before starting this one.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "technical founder",
+    "pos": "n.",
+    "meaning": "技術背景創辦人",
+    "example": "The technical founder built the first version of the product entirely by herself.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "non-technical founder"
+    ]
+  },
+  {
+    "word": "non-technical founder",
+    "pos": "n.",
+    "meaning": "非技術背景創辦人",
+    "example": "As a non-technical founder, he focused on sales while his partner built the product.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": "non- (不/非)",
+    "synonyms": [],
+    "antonyms": [
+      "technical founder"
+    ]
+  },
+  {
+    "word": "chief technology officer",
+    "pos": "n.",
+    "meaning": "技術長",
+    "example": "The chief technology officer led the engineering team through the platform rebuild.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "CTO"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "chief operating officer",
+    "pos": "n.",
+    "meaning": "營運長",
+    "example": "The chief operating officer streamlined internal processes as the company scaled.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "COO"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "head of growth",
+    "pos": "n.",
+    "meaning": "成長部門主管",
+    "example": "The head of growth ran experiments to improve user acquisition.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "product manager",
+    "pos": "n.",
+    "meaning": "產品經理",
+    "example": "The product manager prioritized the roadmap based on user feedback.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "PM"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "incubator",
+    "pos": "n.",
+    "meaning": "育成中心",
+    "example": "The incubator provided office space and mentorship to early-stage founders.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "accelerator",
+    "pos": "n.",
+    "meaning": "加速器計畫",
+    "example": "The startup joined a three-month accelerator program to refine its pitch.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "demo day",
+    "pos": "n.",
+    "meaning": "成果發表日",
+    "example": "On demo day, each startup pitched to a room full of investors.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "hackathon",
+    "pos": "n.",
+    "meaning": "黑客松競賽",
+    "example": "Engineers built a working prototype in just 48 hours during the hackathon.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "co-working space",
+    "pos": "n.",
+    "meaning": "共同工作空間",
+    "example": "The small team rented desks in a co-working space to save on office costs.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": "co-/con- (共同)",
+    "synonyms": [
+      "shared office space"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "zombie startup",
+    "pos": "n.",
+    "meaning": "殭屍新創公司",
+    "example": "The zombie startup kept operating without growth, unable to raise more funding or shut down.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "subscription model",
+    "pos": "n.",
+    "meaning": "訂閱制商業模式",
+    "example": "The magazine switched to a subscription model to generate predictable revenue.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": "sub- (次要/下)",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "marketplace model",
+    "pos": "n.",
+    "meaning": "市集平台模式",
+    "example": "The marketplace model let the company earn a commission on every transaction.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "B2B",
+    "pos": "n.",
+    "meaning": "企業對企業",
+    "example": "The company shifted from a consumer app to a B2B software provider.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "business-to-business"
+    ],
+    "antonyms": [
+      "B2C"
+    ]
+  },
+  {
+    "word": "B2C",
+    "pos": "n.",
+    "meaning": "企業對消費者",
+    "example": "Their B2C app targets everyday consumers rather than businesses.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "business-to-consumer"
+    ],
+    "antonyms": [
+      "B2B"
+    ]
+  },
+  {
+    "word": "D2C",
+    "pos": "n.",
+    "meaning": "品牌直接對消費者",
+    "example": "The mattress brand used a D2C model to sell directly through its website.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "direct-to-consumer"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "platform business",
+    "pos": "n.",
+    "meaning": "平台型商業模式",
+    "example": "As a platform business, the company profits by connecting buyers and sellers.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "ecosystem play",
+    "pos": "n.",
+    "meaning": "生態系策略布局",
+    "example": "The tech giant's ecosystem play locks users into its suite of connected products.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "white label",
+    "pos": "adj.",
+    "meaning": "白牌代工的",
+    "example": "The startup sells a white label version of its software to other brands.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "private label"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "licensing model",
+    "pos": "n.",
+    "meaning": "授權商業模式",
+    "example": "Instead of selling the product directly, the company adopted a licensing model.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "pricing tier",
+    "pos": "n.",
+    "meaning": "價格方案層級",
+    "example": "Customers could choose from three pricing tiers depending on their needs.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "pricing plan"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "drag-along rights",
+    "pos": "n.",
+    "meaning": "拖售權條款",
+    "example": "Drag-along rights let majority shareholders force a sale that minority holders must accept.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "tag-along rights"
+    ]
+  },
+  {
+    "word": "retention rate",
+    "pos": "n.",
+    "meaning": "顧客留存率",
+    "example": "Improving the retention rate mattered more to investors than acquiring new users.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [],
+    "antonyms": [
+      "churn rate"
+    ]
+  },
+  {
+    "word": "onboarding funnel",
+    "pos": "n.",
+    "meaning": "用戶導入流程",
+    "example": "The team redesigned the onboarding funnel to reduce drop-off for new users.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "traction",
+    "pos": "n.",
+    "meaning": "市場成長動能",
+    "example": "Investors want to see traction, like growing revenue or active users, before funding a startup.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "sweat equity",
+    "pos": "n.",
+    "meaning": "血汗股權",
+    "example": "The early employees accepted lower salaries in exchange for sweat equity.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "golden parachute",
+    "pos": "n.",
+    "meaning": "黃金降落傘條款",
+    "example": "The departing CEO received a golden parachute worth millions after the acquisition.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "lean startup",
+    "pos": "n.",
+    "meaning": "精實創業方法",
+    "example": "The founders followed the lean startup approach, testing ideas before building fully.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "growth equity",
+    "pos": "n.",
+    "meaning": "成長型股權投資",
+    "example": "Growth equity investors typically fund companies that already have proven revenue.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "private equity",
+    "pos": "n.",
+    "meaning": "私募股權",
+    "example": "A private equity firm bought a majority stake in the mature startup.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "PE"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "blitzscaling",
+    "pos": "n.",
+    "meaning": "閃電式擴張",
+    "example": "The company practiced blitzscaling, prioritizing speed over efficiency to dominate the market.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "rapid scaling"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "IPO roadshow",
+    "pos": "n.",
+    "meaning": "上市巡迴說明會",
+    "example": "Executives traveled the country during the IPO roadshow to attract institutional buyers.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "lock-up period",
+    "pos": "n.",
+    "meaning": "股票鎖定期",
+    "example": "Employees couldn't sell their shares until the lock-up period ended after the IPO.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "quiet period",
+    "pos": "n.",
+    "meaning": "上市前靜默期",
+    "example": "During the quiet period, executives avoided making public statements about the IPO.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "cornerstone investor",
+    "pos": "n.",
+    "meaning": "基石投資人",
+    "example": "A cornerstone investor committed to buying a large portion of shares before the IPO.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "anchor investor"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "strategic investor",
+    "pos": "n.",
+    "meaning": "策略投資人",
+    "example": "The strategic investor brought industry connections in addition to capital.",
+    "level": "中階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "financial investor"
+    ]
+  },
+  {
+    "word": "corporate venture capital",
+    "pos": "n.",
+    "meaning": "企業創投",
+    "example": "Corporate venture capital arms let big companies invest in promising startups.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [
+      "CVC"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "family office",
+    "pos": "n.",
+    "meaning": "家族辦公室",
+    "example": "A family office quietly invested in several early-stage startups.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "spin-out",
+    "pos": "n.",
+    "meaning": "衍生新創公司",
+    "example": "The research lab's spin-out commercialized technology developed at the university.",
+    "level": "中高階",
+    "theme": "tech_industry",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "mood board",
+    "pos": "n.",
+    "meaning": "情緒板／氛圍板",
+    "example": "The designer pinned fabric swatches and photos to the mood board to set the campaign's tone.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "inspiration board",
+      "concept board"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "concept development",
+    "pos": "n.",
+    "meaning": "概念發展",
+    "example": "Concept development took three weeks before the team locked the campaign idea.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": "-ment (名詞化:狀態結果)",
+    "synonyms": [
+      "idea development"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "ideation",
+    "pos": "n.",
+    "meaning": "創意發想",
+    "example": "The agency held an ideation workshop to generate fresh campaign angles.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "brainstorming",
+      "idea generation"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "brainstorm session",
+    "pos": "n.",
+    "meaning": "腦力激盪會議",
+    "example": "We scheduled a brainstorm session to pitch taglines for the new product.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "ideation session"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "creative brief",
+    "pos": "n.",
+    "meaning": "創意簡報說明",
+    "example": "The client's creative brief outlined the target audience and campaign goals.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "design brief"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "visual identity",
+    "pos": "n.",
+    "meaning": "視覺識別",
+    "example": "The new visual identity includes a bold logo and a fresh color palette.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "brand identity"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "creative director",
+    "pos": "n.",
+    "meaning": "創意總監",
+    "example": "The creative director approved the final concept before it went to the client.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "campaign concept",
+    "pos": "n.",
+    "meaning": "廣告活動概念",
+    "example": "The campaign concept centered on everyday moments of joy.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "campaign idea"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "art direction",
+    "pos": "n.",
+    "meaning": "美術指導",
+    "example": "The art direction gave the shoot a moody, cinematic feel.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "iterate",
+    "pos": "v.",
+    "meaning": "反覆修改",
+    "example": "The designers iterated on the logo until it felt right.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "refine",
+      "revise"
+    ],
+    "antonyms": [
+      "finalize"
+    ]
+  },
+  {
+    "word": "style guide",
+    "pos": "n.",
+    "meaning": "風格指南",
+    "example": "The style guide specifies fonts, colors, and logo usage for the brand.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "brand guidelines"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "creative pitch",
+    "pos": "n.",
+    "meaning": "創意提案",
+    "example": "The agency rehearsed the creative pitch before presenting it to the client.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "creative presentation"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "key visual",
+    "pos": "n.",
+    "meaning": "主視覺",
+    "example": "The key visual will appear across posters, banners, and social media.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "hero visual"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "brand guidelines",
+    "pos": "n.",
+    "meaning": "品牌規範",
+    "example": "Follow the brand guidelines when resizing the logo for different platforms.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "style guide",
+      "brand book"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "creative asset",
+    "pos": "n.",
+    "meaning": "創意素材",
+    "example": "All creative assets were uploaded to a shared folder for the production team.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "design asset"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "rough cut",
+    "pos": "n.",
+    "meaning": "初剪版本",
+    "example": "The editor sent over a rough cut of the commercial for feedback.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "first cut"
+    ],
+    "antonyms": [
+      "final cut"
+    ]
+  },
+  {
+    "word": "treatment",
+    "pos": "n.",
+    "meaning": "創意提案書",
+    "example": "The director wrote a treatment explaining the visual tone of the commercial.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "creative proposal"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "color palette",
+    "pos": "n.",
+    "meaning": "色彩配置",
+    "example": "The brand's color palette uses warm oranges and deep blues.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "color scheme"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "brand positioning",
+    "pos": "n.",
+    "meaning": "品牌定位",
+    "example": "Brand positioning defines how the product stands out from competitors.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "market positioning"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "creative concept",
+    "pos": "n.",
+    "meaning": "創意概念",
+    "example": "The creative concept revolved around nostalgia and childhood memories.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "campaign concept"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "visual hierarchy",
+    "pos": "n.",
+    "meaning": "視覺層次",
+    "example": "Visual hierarchy guides the eye from the headline to the call to action.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "copy deck",
+    "pos": "n.",
+    "meaning": "文案集稿",
+    "example": "The copy deck listed every headline and body text for the campaign.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "copy document"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "brand identity",
+    "pos": "n.",
+    "meaning": "品牌識別",
+    "example": "The startup hired an agency to build its brand identity from scratch.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "visual identity"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "campaign rollout",
+    "pos": "n.",
+    "meaning": "活動推出上線",
+    "example": "The campaign rollout began with teaser posts a week before launch.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "campaign launch"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "creative execution",
+    "pos": "n.",
+    "meaning": "創意執行",
+    "example": "Great ideas need strong creative execution to succeed.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "art director",
+    "pos": "n.",
+    "meaning": "美術總監",
+    "example": "The art director chose the fonts and imagery for the print ad.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "client brief",
+    "pos": "n.",
+    "meaning": "客戶簡報",
+    "example": "The client brief requested a fun, youthful tone for the campaign.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "creative brief"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "brand refresh",
+    "pos": "n.",
+    "meaning": "品牌形象更新",
+    "example": "The brand refresh kept the logo but updated the color palette.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": "re- (再次)",
+    "synonyms": [
+      "brand update"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "logo design",
+    "pos": "n.",
+    "meaning": "標誌設計",
+    "example": "Logo design requires balancing simplicity with memorability.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "font pairing",
+    "pos": "n.",
+    "meaning": "字體搭配",
+    "example": "Good font pairing combines a bold headline face with a readable body font.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "typeface pairing"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "white space",
+    "pos": "n.",
+    "meaning": "留白",
+    "example": "White space around the logo makes the design feel less cluttered.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "negative space"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "grid system",
+    "pos": "n.",
+    "meaning": "網格系統",
+    "example": "The grid system kept every page of the brochure aligned consistently.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "brand asset",
+    "pos": "n.",
+    "meaning": "品牌資產素材",
+    "example": "Every brand asset, from the logo to icons, lives in one shared library.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "creative asset"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "content calendar",
+    "pos": "n.",
+    "meaning": "內容排程表",
+    "example": "The social team plans posts a month ahead on the content calendar.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "editorial calendar"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "social campaign",
+    "pos": "n.",
+    "meaning": "社群行銷活動",
+    "example": "The social campaign used short videos to reach younger audiences.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "social media campaign"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "hero image",
+    "pos": "n.",
+    "meaning": "主視覺圖像",
+    "example": "The hero image on the homepage sets the mood for the whole site.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "key visual"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "brand book",
+    "pos": "n.",
+    "meaning": "品牌手冊",
+    "example": "The brand book documents logo usage, colors, and tone of voice.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "style guide"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "visual language",
+    "pos": "n.",
+    "meaning": "視覺語言",
+    "example": "The brand's visual language relies on hand-drawn illustrations.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "concept board",
+    "pos": "n.",
+    "meaning": "概念板",
+    "example": "The concept board displayed three different creative directions side by side.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "mood board"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "sketch",
+    "pos": "n.",
+    "meaning": "草圖",
+    "example": "She drew a quick sketch of the poster layout on a napkin.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "rough drawing"
+    ],
+    "antonyms": [
+      "final artwork"
+    ]
+  },
+  {
+    "word": "thumbnail",
+    "pos": "n.",
+    "meaning": "縮圖草稿",
+    "example": "The illustrator drew a dozen thumbnails before choosing one to develop.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "small sketch"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "final artwork",
+    "pos": "n.",
+    "meaning": "完稿",
+    "example": "The final artwork was sent to the printer after client approval.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "finished art"
+    ],
+    "antonyms": [
+      "rough sketch"
+    ]
+  },
+  {
+    "word": "print-ready",
+    "pos": "adj.",
+    "meaning": "印前完稿的",
+    "example": "The file needs to be print-ready with the correct bleed and resolution.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "proof",
+    "pos": "n.",
+    "meaning": "印刷樣張",
+    "example": "The printer sent a proof so the team could check the colors before the full run.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "press proof"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "color correction",
+    "pos": "n.",
+    "meaning": "色彩校正",
+    "example": "Color correction fixed the washed-out tones in the product photos.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "color grading"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "retouching",
+    "pos": "n.",
+    "meaning": "修圖",
+    "example": "Retouching smoothed out blemishes without making the model look unnatural.",
+    "level": "中階",
+    "theme": "creative",
+    "root": "re- (再次)",
+    "synonyms": [
+      "photo editing"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "photo shoot",
+    "pos": "n.",
+    "meaning": "攝影拍攝",
+    "example": "The brand booked a full-day photo shoot for the new catalog.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "photoshoot"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "art buyer",
+    "pos": "n.",
+    "meaning": "美術採購",
+    "example": "The art buyer negotiated rates with the illustrator for the campaign.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "casting call",
+    "pos": "n.",
+    "meaning": "選角徵選",
+    "example": "The agency put out a casting call for the commercial's lead actor.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "audition notice"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "talent",
+    "pos": "n.",
+    "meaning": "演出人員模特兒",
+    "example": "The production booked talent for the fashion campaign shoot.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "performer",
+      "model"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "storyline",
+    "pos": "n.",
+    "meaning": "故事情節",
+    "example": "The commercial's storyline followed a family through a single rainy day.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "plot"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "narrative arc",
+    "pos": "n.",
+    "meaning": "敘事弧線",
+    "example": "The brand film's narrative arc built from struggle to triumph.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "story arc"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "brand story",
+    "pos": "n.",
+    "meaning": "品牌故事",
+    "example": "The brand story traced the founder's journey from a small workshop to a global label.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "brand narrative"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "visual metaphor",
+    "pos": "n.",
+    "meaning": "視覺隱喻",
+    "example": "The ad used a wilting flower as a visual metaphor for neglect.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "creative team",
+    "pos": "n.",
+    "meaning": "創意團隊",
+    "example": "The creative team spent the week refining the campaign concept.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "copy editor",
+    "pos": "n.",
+    "meaning": "文案編輯",
+    "example": "The copy editor tightened every headline before it went to print.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "proofreader"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "proofread",
+    "pos": "v.",
+    "meaning": "校對",
+    "example": "Always proofread the tagline before it's approved for the billboard.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "copyedit"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "headline",
+    "pos": "n.",
+    "meaning": "標題",
+    "example": "The headline needed to grab attention within three seconds.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "title"
+    ],
+    "antonyms": [
+      "subhead"
+    ]
+  },
+  {
+    "word": "subhead",
+    "pos": "n.",
+    "meaning": "副標題",
+    "example": "The subhead explained the offer in more detail below the headline.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "subheading"
+    ],
+    "antonyms": [
+      "headline"
+    ]
+  },
+  {
+    "word": "brand tone",
+    "pos": "n.",
+    "meaning": "品牌語氣",
+    "example": "The brand tone stayed witty even in customer service replies.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "brand voice"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "brand persona",
+    "pos": "n.",
+    "meaning": "品牌人格",
+    "example": "The brand persona was built to feel like a knowledgeable, friendly mentor.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "brand character"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "target audience",
+    "pos": "n.",
+    "meaning": "目標受眾",
+    "example": "The campaign was tailored to a target audience of young professionals.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "target market"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "audience insight",
+    "pos": "n.",
+    "meaning": "受眾洞察",
+    "example": "Audience insight revealed that customers valued sustainability over price.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "consumer insight"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "creative strategy",
+    "pos": "n.",
+    "meaning": "創意策略",
+    "example": "The creative strategy focused on humor to differentiate the brand.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "concept testing",
+    "pos": "n.",
+    "meaning": "概念測試",
+    "example": "Concept testing with focus groups helped narrow down three campaign ideas to one.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "focus group",
+    "pos": "n.",
+    "meaning": "焦點團體訪談",
+    "example": "A focus group reacted positively to the new packaging design.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "consumer insight",
+    "pos": "n.",
+    "meaning": "消費者洞察",
+    "example": "Consumer insight showed shoppers cared most about convenience.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "audience insight"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "creative territory",
+    "pos": "n.",
+    "meaning": "創意方向範疇",
+    "example": "The team explored three creative territories before settling on one.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "creative direction"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "big idea",
+    "pos": "n.",
+    "meaning": "核心創意",
+    "example": "Every great campaign starts with one big idea.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "central concept"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "brand campaign",
+    "pos": "n.",
+    "meaning": "品牌形象活動",
+    "example": "The brand campaign aimed to build long-term trust rather than drive sales.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "integrated campaign",
+    "pos": "n.",
+    "meaning": "整合行銷活動",
+    "example": "The integrated campaign ran across TV, social media, and outdoor ads.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "cross-channel campaign"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "omnichannel campaign",
+    "pos": "n.",
+    "meaning": "全通路行銷活動",
+    "example": "The omnichannel campaign kept messaging consistent from app to in-store display.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": "omni- (全部/所有)",
+    "synonyms": [
+      "cross-channel campaign"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "out-of-home",
+    "pos": "n.",
+    "meaning": "戶外廣告(OOH)",
+    "example": "Out-of-home ads on bus shelters extended the campaign's reach.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "OOH advertising"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "print ad",
+    "pos": "n.",
+    "meaning": "平面廣告",
+    "example": "The print ad ran on the magazine's back cover for maximum visibility.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "print advertisement"
+    ],
+    "antonyms": [
+      "digital ad"
+    ]
+  },
+  {
+    "word": "digital ad",
+    "pos": "n.",
+    "meaning": "數位廣告",
+    "example": "The digital ad was optimized for both mobile and desktop screens.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "online ad"
+    ],
+    "antonyms": [
+      "print ad"
+    ]
+  },
+  {
+    "word": "banner ad",
+    "pos": "n.",
+    "meaning": "橫幅廣告",
+    "example": "The banner ad used bold colors to stand out on the webpage.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "display ad"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "teaser campaign",
+    "pos": "n.",
+    "meaning": "預告造勢活動",
+    "example": "The teaser campaign hinted at the product without revealing it.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "teaser"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "launch campaign",
+    "pos": "n.",
+    "meaning": "上市活動",
+    "example": "The launch campaign built buzz for two weeks before the product hit shelves.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "brand activation",
+    "pos": "n.",
+    "meaning": "品牌體驗活動",
+    "example": "The brand activation let shoppers sample the product in a pop-up space.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "experiential marketing"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "experiential marketing",
+    "pos": "n.",
+    "meaning": "體驗行銷",
+    "example": "Experiential marketing invited fans to interact with the brand in person.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "brand activation"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "pop-up activation",
+    "pos": "n.",
+    "meaning": "快閃活動",
+    "example": "The pop-up activation drew long lines outside the mall for a single weekend.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "pop-up event"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "installation",
+    "pos": "n.",
+    "meaning": "裝置藝術展示",
+    "example": "The brand built an interactive installation for the design festival.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "brand collateral",
+    "pos": "n.",
+    "meaning": "品牌週邊素材",
+    "example": "Brand collateral like brochures and business cards followed the same style guide.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "marketing collateral"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "swatch",
+    "pos": "n.",
+    "meaning": "色卡樣布",
+    "example": "The designer pulled a fabric swatch to match the packaging color.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "color sample"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "texture",
+    "pos": "n.",
+    "meaning": "材質質感",
+    "example": "The texture of the paper added a tactile, premium feel to the invitation.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "aspect ratio",
+    "pos": "n.",
+    "meaning": "長寬比",
+    "example": "Resize the video to the right aspect ratio for Instagram stories.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "image resolution",
+    "pos": "n.",
+    "meaning": "圖像解析度",
+    "example": "Check the image resolution before printing the poster at full size.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "vector graphic",
+    "pos": "n.",
+    "meaning": "向量圖形",
+    "example": "A vector graphic scales up to billboard size without losing quality.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "raster image"
+    ]
+  },
+  {
+    "word": "raster image",
+    "pos": "n.",
+    "meaning": "點陣圖像",
+    "example": "A raster image can look pixelated when enlarged too much.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "bitmap image"
+    ],
+    "antonyms": [
+      "vector graphic"
+    ]
+  },
+  {
+    "word": "asset library",
+    "pos": "n.",
+    "meaning": "素材資料庫",
+    "example": "New team members can find every logo file in the asset library.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "creative asset library"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "redline",
+    "pos": "v.",
+    "meaning": "標註修改處",
+    "example": "The client redlined the layout with notes on spacing and color.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "mark up"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "annotate",
+    "pos": "v.",
+    "meaning": "加註說明",
+    "example": "Annotate the wireframe so developers know how each button should behave.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "mark up",
+      "note"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "revision round",
+    "pos": "n.",
+    "meaning": "修改輪次",
+    "example": "The poster went through three revision rounds before final approval.",
+    "level": "中階",
+    "theme": "creative",
+    "root": "re- (再次)",
+    "synonyms": [
+      "revision cycle"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "client approval",
+    "pos": "n.",
+    "meaning": "客戶核准",
+    "example": "Nothing goes to print without client approval.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "sign-off"
+    ],
+    "antonyms": [
+      "rejection"
+    ]
+  },
+  {
+    "word": "production timeline",
+    "pos": "n.",
+    "meaning": "製作時程表",
+    "example": "The production timeline left two weeks for editing before the deadline.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "schedule"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "shot list",
+    "pos": "n.",
+    "meaning": "拍攝清單",
+    "example": "The director prepared a shot list covering every scene needed for the ad.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "animatic",
+    "pos": "n.",
+    "meaning": "動態分鏡",
+    "example": "The animatic helped the client visualize pacing before full animation began.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "moving storyboard"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "motion graphics",
+    "pos": "n.",
+    "meaning": "動態圖像設計",
+    "example": "Motion graphics brought the infographic's data to life on screen.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "3D render",
+    "pos": "n.",
+    "meaning": "3D渲染圖",
+    "example": "A 3D render showed the packaging design from every angle before production.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "CGI",
+    "pos": "n.",
+    "meaning": "電腦成像特效",
+    "example": "The commercial used CGI to create a fantastical underwater world.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "computer-generated imagery"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "visual effects",
+    "pos": "n.",
+    "meaning": "視覺特效",
+    "example": "Visual effects added glowing particles to the perfume ad.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "VFX"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "edit suite",
+    "pos": "n.",
+    "meaning": "剪輯室",
+    "example": "The team booked an edit suite to finish the commercial overnight.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "editing room"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "rough draft",
+    "pos": "n.",
+    "meaning": "初稿",
+    "example": "The copywriter sent a rough draft of the script for early feedback.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "first draft"
+    ],
+    "antonyms": [
+      "final draft"
+    ]
+  },
+  {
+    "word": "polished copy",
+    "pos": "n.",
+    "meaning": "潤飾完稿文案",
+    "example": "After three rounds of edits, the polished copy read smoothly and confidently.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "refined copy"
+    ],
+    "antonyms": [
+      "rough draft"
+    ]
+  },
+  {
+    "word": "brand archetype",
+    "pos": "n.",
+    "meaning": "品牌原型",
+    "example": "The brand archetype of 'the explorer' shaped every piece of messaging.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "creative workshop",
+    "pos": "n.",
+    "meaning": "創意工作坊",
+    "example": "The agency ran a creative workshop to align the team on the new concept.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "ideation workshop"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "whiteboarding",
+    "pos": "n.",
+    "meaning": "白板討論發想",
+    "example": "The team spent an afternoon whiteboarding ideas for the rebrand.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "brainstorming"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "concept sketching",
+    "pos": "n.",
+    "meaning": "概念草圖繪製",
+    "example": "Concept sketching let the illustrator explore several directions quickly.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "thumbnail sketch",
+    "pos": "n.",
+    "meaning": "縮圖草稿",
+    "example": "The art director reviewed a page of thumbnail sketches before choosing a layout.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "rough thumbnail"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "paper prototype",
+    "pos": "n.",
+    "meaning": "紙本原型",
+    "example": "A paper prototype let the team test the app's flow before coding began.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "user persona",
+    "pos": "n.",
+    "meaning": "使用者角色設定",
+    "example": "The UX team built a user persona to represent the app's typical customer.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "customer persona"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "customer journey map",
+    "pos": "n.",
+    "meaning": "顧客旅程地圖",
+    "example": "The customer journey map revealed where shoppers dropped off before checkout.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "creative review",
+    "pos": "n.",
+    "meaning": "創意檢視會議",
+    "example": "The creative review gave the team a chance to critique the concepts before pitching.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "design review"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "critique session",
+    "pos": "n.",
+    "meaning": "作品評論會",
+    "example": "Every Friday the studio holds a critique session to review the week's work.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "design critique"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "design critique",
+    "pos": "n.",
+    "meaning": "設計評論",
+    "example": "The design critique focused on improving the poster's readability.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "critique session"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "iteration cycle",
+    "pos": "n.",
+    "meaning": "迭代循環",
+    "example": "Each iteration cycle brought the prototype closer to the final design.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "revision cycle"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "final cut",
+    "pos": "n.",
+    "meaning": "最終剪輯版",
+    "example": "The final cut was locked just in time for the client's deadline.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "rough cut"
+    ]
+  },
+  {
+    "word": "b-roll",
+    "pos": "n.",
+    "meaning": "輔助畫面空鏡",
+    "example": "B-roll of the city skyline filled the transitions between interviews.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "cutaway footage"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "voice talent",
+    "pos": "n.",
+    "meaning": "配音人才",
+    "example": "The casting director auditioned voice talent for the animated mascot.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "voice actor"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "storyboard artist",
+    "pos": "n.",
+    "meaning": "分鏡繪師",
+    "example": "The storyboard artist sketched every frame of the commercial before filming.",
+    "level": "中高階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "visual concept",
+    "pos": "n.",
+    "meaning": "視覺概念",
+    "example": "The visual concept paired retro typography with bright, modern colors.",
+    "level": "中階",
+    "theme": "creative",
+    "root": null,
+    "synonyms": [
+      "design concept"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "airtime",
+    "pos": "n.",
+    "meaning": "廣播時段",
+    "example": "The campaign bought extra airtime during the evening news.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "broadcast time"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "prime time",
+    "pos": "n.",
+    "meaning": "黃金時段",
+    "example": "The new drama will premiere in prime time on Thursday.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "peak hours"
+    ],
+    "antonyms": [
+      "off-peak time"
+    ]
+  },
+  {
+    "word": "simulcast",
+    "pos": "n.",
+    "meaning": "同步轉播",
+    "example": "The award show aired as a simulcast on three networks.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "simultaneous broadcast"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "affiliate station",
+    "pos": "n.",
+    "meaning": "加盟電視台",
+    "example": "Local affiliate stations carry the network's morning show.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "local affiliate"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "call sign",
+    "pos": "n.",
+    "meaning": "電台呼號",
+    "example": "Every licensed broadcaster must identify its call sign hourly.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "station identifier"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "live feed",
+    "pos": "n.",
+    "meaning": "現場直播訊號",
+    "example": "The control room switched to the live feed from the stadium.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "live stream"
+    ],
+    "antonyms": [
+      "recorded feed"
+    ]
+  },
+  {
+    "word": "on-air",
+    "pos": "adj.",
+    "meaning": "正在播出的",
+    "example": "The host raised her hand to signal she was on-air.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "live"
+    ],
+    "antonyms": [
+      "off-air"
+    ]
+  },
+  {
+    "word": "off-air",
+    "pos": "adj.",
+    "meaning": "未在播出的",
+    "example": "The anchors joked around during the off-air commercial break.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "on-air"
+    ]
+  },
+  {
+    "word": "anchor",
+    "pos": "n.",
+    "meaning": "主播",
+    "example": "The evening news anchor delivered the breaking story calmly.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "news presenter"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "newscast",
+    "pos": "n.",
+    "meaning": "新聞節目",
+    "example": "Ratings for the ten o'clock newscast dropped last quarter.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "news broadcast"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "sound bite",
+    "pos": "n.",
+    "meaning": "簡短談話片段",
+    "example": "The candidate's sound bite was replayed on every channel.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "quote clip"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "uplink",
+    "pos": "n.",
+    "meaning": "上鏈訊號傳輸",
+    "example": "The crew set up a satellite uplink from the disaster site.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "downlink"
+    ]
+  },
+  {
+    "word": "downlink",
+    "pos": "n.",
+    "meaning": "下鏈訊號接收",
+    "example": "The station received the downlink seconds before airing it.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "uplink"
+    ]
+  },
+  {
+    "word": "dead air",
+    "pos": "n.",
+    "meaning": "空白播出時段",
+    "example": "A technical glitch caused ten seconds of dead air.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "silence gap"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "closed captioning",
+    "pos": "n.",
+    "meaning": "隱藏式字幕",
+    "example": "All news broadcasts now include closed captioning by law.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "subtitles"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "syndication",
+    "pos": "n.",
+    "meaning": "節目聯合發行",
+    "example": "The sitcom entered syndication after its network run ended.",
+    "level": "中高階",
+    "theme": "media",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "licensing distribution"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "rerun",
+    "pos": "n.",
+    "meaning": "重播節目",
+    "example": "The channel filled the holiday slot with a classic rerun.",
+    "level": "中階",
+    "theme": "media",
+    "root": "re- (再次)",
+    "synonyms": [
+      "repeat"
+    ],
+    "antonyms": [
+      "premiere"
+    ]
+  },
+  {
+    "word": "pilot episode",
+    "pos": "n.",
+    "meaning": "試播集",
+    "example": "The network ordered a pilot episode before committing to a season.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "pilot"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "greenlight",
+    "pos": "v.",
+    "meaning": "核准製作",
+    "example": "Executives finally greenlit the second season.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "approve",
+      "commission"
+    ],
+    "antonyms": [
+      "cancel"
+    ]
+  },
+  {
+    "word": "season finale",
+    "pos": "n.",
+    "meaning": "季末大結局",
+    "example": "The season finale drew the network's highest ratings ever.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "finale"
+    ],
+    "antonyms": [
+      "season premiere"
+    ]
+  },
+  {
+    "word": "cliffhanger",
+    "pos": "n.",
+    "meaning": "懸念結局",
+    "example": "The episode ended on a cliffhanger that left viewers guessing.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "suspenseful ending"
+    ],
+    "antonyms": [
+      "resolution"
+    ]
+  },
+  {
+    "word": "byline",
+    "pos": "n.",
+    "meaning": "作者署名",
+    "example": "Her byline appeared on the front page for the first time.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "author credit"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "dateline",
+    "pos": "n.",
+    "meaning": "電訊稿地名日期",
+    "example": "The dateline read 'BEIJING, July 11' at the top of the wire story.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "lede",
+    "pos": "n.",
+    "meaning": "新聞導言",
+    "example": "The editor told him to bury the lede further down.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "lead paragraph"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "op-ed",
+    "pos": "n.",
+    "meaning": "投書評論",
+    "example": "She submitted an op-ed criticizing the new media law.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "opinion piece"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "editorial",
+    "pos": "n.",
+    "meaning": "社論",
+    "example": "The paper's editorial urged readers to vote in the referendum.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "opinion column"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "newsroom",
+    "pos": "n.",
+    "meaning": "編輯部",
+    "example": "The newsroom buzzed with activity as the story broke.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "news desk"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "wire service",
+    "pos": "n.",
+    "meaning": "通訊社",
+    "example": "The local paper relies on a wire service for international news.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "news agency"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "scoop",
+    "pos": "n.",
+    "meaning": "獨家新聞",
+    "example": "The journalist landed a major scoop on the merger talks.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "exclusive"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "beat",
+    "pos": "n.",
+    "meaning": "採訪路線",
+    "example": "She covers the city hall beat for the daily paper.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "coverage area"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "off the record",
+    "pos": "phr.",
+    "meaning": "非正式發言不得引述",
+    "example": "The official spoke off the record about the negotiations.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "not for attribution"
+    ],
+    "antonyms": [
+      "on the record"
+    ]
+  },
+  {
+    "word": "fact-check",
+    "pos": "v.",
+    "meaning": "事實查核",
+    "example": "Editors fact-check every claim before publication.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "verify"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "retraction",
+    "pos": "n.",
+    "meaning": "撤回聲明",
+    "example": "The magazine issued a retraction after the story proved false.",
+    "level": "中高階",
+    "theme": "media",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "withdrawal"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "masthead",
+    "pos": "n.",
+    "meaning": "報頭資訊欄",
+    "example": "The masthead lists every editor on staff.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "circulation",
+    "pos": "n.",
+    "meaning": "發行量",
+    "example": "The tabloid's circulation fell sharply after the scandal.",
+    "level": "中階",
+    "theme": "media",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "readership numbers"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "print run",
+    "pos": "n.",
+    "meaning": "印刷發行冊數",
+    "example": "The publisher increased the print run for the holiday issue.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "press run"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "tabloid",
+    "pos": "n.",
+    "meaning": "小報",
+    "example": "The tabloid splashed the rumor across its front page.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "broadsheet"
+    ]
+  },
+  {
+    "word": "broadsheet",
+    "pos": "n.",
+    "meaning": "大報嚴肅報紙",
+    "example": "The broadsheet devoted a full page to the economic analysis.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "tabloid"
+    ]
+  },
+  {
+    "word": "media literacy",
+    "pos": "n.",
+    "meaning": "媒體素養",
+    "example": "Schools now teach media literacy to help students spot misinformation.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "investigative journalism",
+    "pos": "n.",
+    "meaning": "調查性新聞報導",
+    "example": "Her investigative journalism exposed years of fraud.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "muckraking"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "stringer",
+    "pos": "n.",
+    "meaning": "特約撰稿人",
+    "example": "The magazine hired a local stringer to cover the protests.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "freelance correspondent"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "correspondent",
+    "pos": "n.",
+    "meaning": "特派記者",
+    "example": "Our foreign correspondent filed the report from the border.",
+    "level": "中階",
+    "theme": "media",
+    "root": "co-/con- (共同)",
+    "synonyms": [
+      "reporter"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "press release",
+    "pos": "n.",
+    "meaning": "新聞稿",
+    "example": "The studio sent out a press release announcing the casting.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "media statement"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "press kit",
+    "pos": "n.",
+    "meaning": "媒體資料袋",
+    "example": "Journalists received a press kit with photos and background info.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "media kit"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "press pass",
+    "pos": "n.",
+    "meaning": "記者採訪證",
+    "example": "She flashed her press pass to enter the backstage area.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "press credential"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "proofreading",
+    "pos": "n.",
+    "meaning": "校對",
+    "example": "Proofreading the final draft took the whole afternoon.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "copyediting"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "kicker",
+    "pos": "n.",
+    "meaning": "收尾金句",
+    "example": "The reporter ended the piece with a memorable kicker.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "closing line"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "pull quote",
+    "pos": "n.",
+    "meaning": "摘錄引言框",
+    "example": "The layout featured a bold pull quote from the interview.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "callout quote"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "sidebar",
+    "pos": "n.",
+    "meaning": "側邊補充報導",
+    "example": "A sidebar explained the technical terms used in the main story.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "box story"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "columnist",
+    "pos": "n.",
+    "meaning": "專欄作家",
+    "example": "The columnist has written about local politics for a decade.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "freelancer",
+    "pos": "n.",
+    "meaning": "自由撰稿人",
+    "example": "Many outlets now depend on freelancers instead of staff writers.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "freelance writer"
+    ],
+    "antonyms": [
+      "staff writer"
+    ]
+  },
+  {
+    "word": "staff writer",
+    "pos": "n.",
+    "meaning": "專職撰稿記者",
+    "example": "As a staff writer, she covers three beats a week.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "freelancer"
+    ]
+  },
+  {
+    "word": "editor-in-chief",
+    "pos": "n.",
+    "meaning": "總編輯",
+    "example": "The editor-in-chief approved the cover story personally.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "chief editor"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "managing editor",
+    "pos": "n.",
+    "meaning": "執行編輯",
+    "example": "The managing editor handles the day-to-day newsroom schedule.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "cover story",
+    "pos": "n.",
+    "meaning": "封面故事",
+    "example": "The magazine's cover story sparked national debate.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "feature story"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "breaking news",
+    "pos": "n.",
+    "meaning": "即時新聞",
+    "example": "Programming was interrupted for breaking news.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "news cycle",
+    "pos": "n.",
+    "meaning": "新聞循環週期",
+    "example": "The scandal dominated the news cycle for a week.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "human interest story",
+    "pos": "n.",
+    "meaning": "人情趣味報導",
+    "example": "The producer wanted a human interest story to close the broadcast.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "hard news"
+    ]
+  },
+  {
+    "word": "hard news",
+    "pos": "n.",
+    "meaning": "硬性重大新聞",
+    "example": "The front page is reserved for hard news, not entertainment gossip.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "soft news"
+    ]
+  },
+  {
+    "word": "soft news",
+    "pos": "n.",
+    "meaning": "軟性新聞",
+    "example": "Soft news segments cover lifestyle and celebrity topics.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "hard news"
+    ]
+  },
+  {
+    "word": "paywall",
+    "pos": "n.",
+    "meaning": "付費牆",
+    "example": "Readers hit a paywall after their third free article.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "newsstand",
+    "pos": "n.",
+    "meaning": "報攤",
+    "example": "Sales at the newsstand dropped as more readers went digital.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "kiosk"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "back issue",
+    "pos": "n.",
+    "meaning": "過期刊號",
+    "example": "Collectors search flea markets for rare back issues.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "past issue"
+    ],
+    "antonyms": [
+      "current issue"
+    ]
+  },
+  {
+    "word": "galley proof",
+    "pos": "n.",
+    "meaning": "校樣",
+    "example": "The author reviewed the galley proof before final printing.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "proof copy"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "page layout",
+    "pos": "n.",
+    "meaning": "版面編排",
+    "example": "The design team finalized the page layout before deadline.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "page design"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "typesetting",
+    "pos": "n.",
+    "meaning": "排版",
+    "example": "Digital typesetting replaced hot metal presses decades ago.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "composition"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "serialization",
+    "pos": "n.",
+    "meaning": "連載",
+    "example": "The novel first appeared through serialization in a weekly magazine.",
+    "level": "中高階",
+    "theme": "media",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "royalties",
+    "pos": "n.",
+    "meaning": "版稅",
+    "example": "The author earns royalties on every copy sold.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "manuscript",
+    "pos": "n.",
+    "meaning": "手稿原稿",
+    "example": "She submitted the manuscript to a dozen publishers.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "draft"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "slush pile",
+    "pos": "n.",
+    "meaning": "未審核來稿堆",
+    "example": "The intern spent the summer reading through the slush pile.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "unsolicited submissions"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "acquisitions editor",
+    "pos": "n.",
+    "meaning": "選書編輯",
+    "example": "The acquisitions editor decided which manuscripts to sign.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "content licensing",
+    "pos": "n.",
+    "meaning": "內容授權",
+    "example": "The studio profits from content licensing to overseas broadcasters.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "rights licensing"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "digital edition",
+    "pos": "n.",
+    "meaning": "數位版",
+    "example": "Subscribers can access the digital edition on any device.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "e-edition"
+    ],
+    "antonyms": [
+      "print edition"
+    ]
+  },
+  {
+    "word": "streaming rights",
+    "pos": "n.",
+    "meaning": "串流播映權",
+    "example": "The network bought the streaming rights to the entire film library.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "engagement rate",
+    "pos": "n.",
+    "meaning": "互動率",
+    "example": "The social team tracks engagement rate on every post.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "viewership",
+    "pos": "n.",
+    "meaning": "收視觀看人數",
+    "example": "Viewership for the finale broke a network record.",
+    "level": "中階",
+    "theme": "media",
+    "root": "-ship (身分狀態)",
+    "synonyms": [
+      "audience size"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "unique visitors",
+    "pos": "n.",
+    "meaning": "不重複訪客數",
+    "example": "The site logged two million unique visitors last month.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "page views",
+    "pos": "n.",
+    "meaning": "頁面瀏覽次數",
+    "example": "The article generated a million page views within a day.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "bounce rate",
+    "pos": "n.",
+    "meaning": "跳出率",
+    "example": "A high bounce rate suggested the homepage needed a redesign.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "dwell time",
+    "pos": "n.",
+    "meaning": "停留時間",
+    "example": "Longer dwell time signals that readers find the content engaging.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "time on page"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "content curation",
+    "pos": "n.",
+    "meaning": "內容策展",
+    "example": "Her job involves content curation for the streaming platform's homepage.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "evergreen content",
+    "pos": "n.",
+    "meaning": "常青內容",
+    "example": "Evergreen content keeps drawing traffic long after publication.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "breaking news"
+    ]
+  },
+  {
+    "word": "listicle",
+    "pos": "n.",
+    "meaning": "列點式文章",
+    "example": "The site published a listicle of the year's best albums.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "audience segmentation",
+    "pos": "n.",
+    "meaning": "受眾分眾",
+    "example": "Audience segmentation helps advertisers target the right viewers.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "audience targeting"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "metadata tagging",
+    "pos": "n.",
+    "meaning": "元資料標記",
+    "example": "Proper metadata tagging makes archived footage easier to find.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "video on demand",
+    "pos": "n.",
+    "meaning": "隨選視訊",
+    "example": "The service added video on demand for missed episodes.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "VOD"
+    ],
+    "antonyms": [
+      "live broadcast"
+    ]
+  },
+  {
+    "word": "binge-watching",
+    "pos": "n.",
+    "meaning": "馬拉松式追劇",
+    "example": "The platform released all episodes at once to encourage binge-watching.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "cord-cutting",
+    "pos": "n.",
+    "meaning": "退訂有線電視",
+    "example": "Cord-cutting has forced cable networks to rethink their strategy.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "OTT",
+    "pos": "n.",
+    "meaning": "跨網路串流服務",
+    "example": "Traditional broadcasters are losing viewers to OTT platforms.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "over-the-top platform"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "SVOD",
+    "pos": "n.",
+    "meaning": "訂閱制隨選視訊",
+    "example": "The company launched an SVOD service to compete with Netflix.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "AVOD"
+    ]
+  },
+  {
+    "word": "AVOD",
+    "pos": "n.",
+    "meaning": "廣告支持隨選視訊",
+    "example": "AVOD platforms let viewers watch for free in exchange for ads.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "SVOD"
+    ]
+  },
+  {
+    "word": "transcoding",
+    "pos": "n.",
+    "meaning": "轉碼",
+    "example": "The file needs transcoding before it can stream on mobile devices.",
+    "level": "中高階",
+    "theme": "media",
+    "root": "trans- (轉移/跨越)",
+    "synonyms": [
+      "format conversion"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "bitrate",
+    "pos": "n.",
+    "meaning": "位元速率",
+    "example": "Lowering the bitrate reduces buffering on slow connections.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "buffering",
+    "pos": "n.",
+    "meaning": "播放緩衝延遲",
+    "example": "Viewers complained about buffering during the live stream.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "lag"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "livestream",
+    "pos": "v.",
+    "meaning": "現場直播",
+    "example": "The channel will livestream the concert to millions of viewers.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "live broadcast"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "podcast",
+    "pos": "n.",
+    "meaning": "播客節目",
+    "example": "The network launched a daily news podcast last year.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "content creator",
+    "pos": "n.",
+    "meaning": "內容創作者",
+    "example": "Brands now partner directly with content creators instead of agencies.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "creator"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "media buy",
+    "pos": "n.",
+    "meaning": "媒體採購",
+    "example": "The agency finalized a six-figure media buy for the launch.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "ad placement deal"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "media buyer",
+    "pos": "n.",
+    "meaning": "媒體採購人員",
+    "example": "The media buyer negotiated lower rates for the prime-time slots.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "media planner",
+    "pos": "n.",
+    "meaning": "媒體企劃",
+    "example": "The media planner mapped out where the campaign would run.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "ad impressions",
+    "pos": "n.",
+    "meaning": "廣告曝光次數",
+    "example": "The banner campaign generated ten million ad impressions.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "impressions"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "programmatic advertising",
+    "pos": "n.",
+    "meaning": "程序化廣告投放",
+    "example": "Programmatic advertising lets brands bid on ad space in real time.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "automated ad buying"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "ad inventory",
+    "pos": "n.",
+    "meaning": "廣告版位存量",
+    "example": "The publisher sold out its ad inventory for the holiday season.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "ad space"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "ad slot",
+    "pos": "n.",
+    "meaning": "廣告時段版位",
+    "example": "Networks charge premium rates for a Super Bowl ad slot.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "commercial slot"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "brand safety",
+    "pos": "n.",
+    "meaning": "品牌安全性",
+    "example": "Brand safety tools keep ads from appearing next to harmful content.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "ad fraud",
+    "pos": "n.",
+    "meaning": "廣告詐欺",
+    "example": "Bot traffic is a major driver of ad fraud.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "click fraud"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "viewability",
+    "pos": "n.",
+    "meaning": "廣告可視率",
+    "example": "The campaign's viewability rate exceeded industry benchmarks.",
+    "level": "中高階",
+    "theme": "media",
+    "root": "-ity (性質/程度)",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "cost per mille",
+    "pos": "n.",
+    "meaning": "千次曝光成本",
+    "example": "The network's cost per mille rose during prime time.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "CPM"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "cost per view",
+    "pos": "n.",
+    "meaning": "每次觀看成本",
+    "example": "Video ads are often priced on a cost per view basis.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "CPV"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "reach and frequency",
+    "pos": "n.",
+    "meaning": "觸及率與曝光頻率",
+    "example": "Media planners balance reach and frequency to maximize impact.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "demographic targeting",
+    "pos": "n.",
+    "meaning": "人口統計定向投放",
+    "example": "Demographic targeting let the campaign focus on younger viewers.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "audience targeting"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "media kit",
+    "pos": "n.",
+    "meaning": "媒體簡介資料",
+    "example": "Advertisers request the media kit before committing to a buy.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "press kit"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "rate card",
+    "pos": "n.",
+    "meaning": "廣告價目表",
+    "example": "The station's rate card lists prices for every ad slot.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "ad rate sheet"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "ad spend",
+    "pos": "n.",
+    "meaning": "廣告支出",
+    "example": "Digital now accounts for most of the brand's ad spend.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "advertising budget"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "upfronts",
+    "pos": "n.",
+    "meaning": "電視廣告預售會",
+    "example": "Networks unveil their fall lineups at the annual upfronts.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "makegood",
+    "pos": "n.",
+    "meaning": "廣告補償播出",
+    "example": "The station offered a makegood after the ad aired in the wrong slot.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "ad compensation"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "ad blocker",
+    "pos": "n.",
+    "meaning": "廣告阻擋軟體",
+    "example": "Publishers lose revenue when readers install an ad blocker.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "pre-roll ad",
+    "pos": "n.",
+    "meaning": "影片前導廣告",
+    "example": "Viewers must watch a pre-roll ad before the video starts.",
+    "level": "中階",
+    "theme": "media",
+    "root": "pre- (事前)",
+    "synonyms": [],
+    "antonyms": [
+      "post-roll ad"
+    ]
+  },
+  {
+    "word": "mid-roll ad",
+    "pos": "n.",
+    "meaning": "影片中插廣告",
+    "example": "Longer videos often include a mid-roll ad halfway through.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "post-roll ad",
+    "pos": "n.",
+    "meaning": "影片後置廣告",
+    "example": "The post-roll ad played after the credits finished.",
+    "level": "中階",
+    "theme": "media",
+    "root": "post- (事後)",
+    "synonyms": [],
+    "antonyms": [
+      "pre-roll ad"
+    ]
+  },
+  {
+    "word": "sponsored content",
+    "pos": "n.",
+    "meaning": "贊助內容",
+    "example": "The article was labeled as sponsored content per disclosure rules.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "paid content"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "media outlet",
+    "pos": "n.",
+    "meaning": "媒體機構",
+    "example": "Several media outlets picked up the wire story within minutes.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "news outlet"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "wire copy",
+    "pos": "n.",
+    "meaning": "通訊社供稿",
+    "example": "The small paper ran the wire copy verbatim due to limited staff.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "embed",
+    "pos": "v.",
+    "meaning": "隨隊採訪",
+    "example": "The reporter was embedded with the unit for six months.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "embedded journalist"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "ratings",
+    "pos": "n.",
+    "meaning": "收視率",
+    "example": "The show's ratings slipped after it moved time slots.",
+    "level": "中階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [
+      "viewership numbers"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "sweeps week",
+    "pos": "n.",
+    "meaning": "收視調查週",
+    "example": "Networks schedule big premieres during sweeps week to boost ratings.",
+    "level": "中高階",
+    "theme": "media",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
   }
 ]
