@@ -1,0 +1,45 @@
+name: Process Vocab Note Issue
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  process-note:
+    if: contains(github.event.issue.labels.*.name, 'vocab-note')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Parse issue and append to notes.json
+        id: process
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: python3 scripts/process_note_issue.py
+
+      - name: Commit updated notes.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add notes.json docs/notes.json
+          git diff --cached --quiet || git commit -m "chore: add vocab note from issue #${{ github.event.issue.number }}"
+          git push
+
+      - name: Comment and close issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue comment ${{ github.event.issue.number }} --repo ${{ github.repository }} \
+            --body "已經加進個人紀錄，網站重新整理後可以在「個人紀錄」分頁看到。這則 issue 會自動關閉。"
+          gh issue close ${{ github.event.issue.number }} --repo ${{ github.repository }}

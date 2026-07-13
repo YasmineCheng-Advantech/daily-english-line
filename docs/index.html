@@ -101,7 +101,11 @@
     margin-bottom: 20px;
     flex-wrap: wrap;
   }
-  input[type="search"] {
+  input[type="search"],
+  input[type="text"],
+  input[type="url"],
+  select,
+  textarea {
     flex: 1;
     min-width: 180px;
     padding: 10px 14px;
@@ -110,8 +114,30 @@
     background: var(--card-bg);
     color: var(--text);
     font-size: 0.95rem;
+    font-family: inherit;
   }
-  input[type="search"]:focus { outline: 2px solid var(--accent); }
+  input[type="search"]:focus,
+  input[type="text"]:focus,
+  input[type="url"]:focus,
+  select:focus,
+  textarea:focus { outline: 2px solid var(--accent); }
+  .note-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .note-form button { align-self: flex-start; }
+  .note-tag {
+    font-size: 0.72rem;
+    color: var(--accent);
+    background: var(--accent-soft);
+    padding: 2px 8px;
+    border-radius: 999px;
+  }
+  .note-link {
+    font-size: 0.82rem;
+    color: var(--accent);
+  }
   button, a.btn {
     display: inline-block;
     padding: 10px 16px;
@@ -218,6 +244,7 @@
   <div class="tabs">
     <button id="tabBrowse" class="active">瀏覽 / 搜尋</button>
     <button id="tabReview">隨機複習</button>
+    <button id="tabNotes">個人紀錄</button>
   </div>
 
   <div id="browseView">
@@ -250,6 +277,39 @@
       </div>
     </div>
     <div class="empty" id="reviewEmpty" style="display:none;">目前還沒有任何可以複習的單字。</div>
+  </div>
+
+  <div id="notesView" style="display:none;">
+    <div class="card" style="margin-bottom:16px;">
+      <div style="font-weight:700; margin-bottom:10px;">新增一則紀錄</div>
+      <div class="subtitle" style="margin-bottom:10px;">填好後按送出，會開啟一個預先填好內容的 GitHub Issue 頁面，登入後按「Submit new issue」確認即可（一天可以新增很多則，跟每日推播的次數限制無關）</div>
+      <div class="note-form">
+        <input type="text" id="noteWord" placeholder="單字或片語（必填）" />
+        <input type="text" id="noteMeaning" placeholder="意思（可留空）" />
+        <select id="noteSourceType">
+          <option value="YouTube 影片">YouTube 影片</option>
+          <option value="Podcast">Podcast</option>
+          <option value="短影音（Reels / Shorts / TikTok）">短影音（Reels / Shorts / TikTok）</option>
+          <option value="其他">其他</option>
+        </select>
+        <input type="text" id="noteSourceName" placeholder="來源名稱（可留空）" />
+        <input type="url" id="noteLink" placeholder="連結（可留空）" />
+        <textarea id="noteNote" placeholder="備註（可留空，例如上下文或例句）" rows="2"></textarea>
+        <button class="primary" id="noteSubmitBtn">📝 送出（開啟 GitHub Issue）</button>
+      </div>
+    </div>
+
+    <div class="controls">
+      <select id="noteFilter">
+        <option value="">全部來源</option>
+        <option value="youtube">YouTube 影片</option>
+        <option value="podcast">Podcast</option>
+        <option value="shorts">短影音</option>
+        <option value="other">其他</option>
+      </select>
+    </div>
+    <div id="notesList"></div>
+    <div class="empty" id="notesEmpty" style="display:none;">目前還沒有任何個人紀錄。</div>
   </div>
 </div>
 
@@ -285,8 +345,12 @@ themeToggle.addEventListener('click', () => {
 let historyData = [];
 let wordsData = null; // null = 尚未載入完成；[] = 已載入但是空的
 let wordsLoadingPromise = null;
+let notesData = [];
 let sortDesc = true;
 let reviewSource = 'history'; // 'history' | 'bank'
+let noteFilterValue = '';
+
+const REPO_URL = 'https://github.com/YasmineCheng-Advantech/daily-english-line';
 
 async function loadHistory() {
   try {
@@ -300,6 +364,17 @@ async function loadHistory() {
   renderTodayPushStatus();
   // words.json 比較大，不擋主要畫面渲染，背景先預載，等使用者切到「整個單字庫」時大機率已經載完
   ensureWordsLoaded();
+  loadNotes();
+}
+
+async function loadNotes() {
+  try {
+    const res = await fetch('./notes.json', { cache: 'no-store' });
+    notesData = await res.json();
+  } catch (e) {
+    notesData = [];
+  }
+  renderNotesList();
 }
 
 // 今日推播狀態：跟 push.py 的 today_taiwan() 邏輯一致，用台灣時間（UTC+8）判斷「今天」
@@ -445,22 +520,25 @@ document.getElementById('sortToggle').addEventListener('click', () => {
 // Tabs
 const tabBrowse = document.getElementById('tabBrowse');
 const tabReview = document.getElementById('tabReview');
+const tabNotes = document.getElementById('tabNotes');
 const browseView = document.getElementById('browseView');
 const reviewView = document.getElementById('reviewView');
+const notesView = document.getElementById('notesView');
 
-tabBrowse.addEventListener('click', () => {
-  tabBrowse.classList.add('active');
-  tabReview.classList.remove('active');
-  browseView.style.display = '';
-  reviewView.style.display = 'none';
-});
+function activateTab(tab) {
+  for (const [btn, view] of [[tabBrowse, browseView], [tabReview, reviewView], [tabNotes, notesView]]) {
+    const isActive = btn === tab.btn;
+    btn.classList.toggle('active', isActive);
+    view.style.display = isActive ? '' : 'none';
+  }
+}
+
+tabBrowse.addEventListener('click', () => activateTab({ btn: tabBrowse }));
 tabReview.addEventListener('click', () => {
-  tabReview.classList.add('active');
-  tabBrowse.classList.remove('active');
-  reviewView.style.display = '';
-  browseView.style.display = 'none';
+  activateTab({ btn: tabReview });
   pickRandom();
 });
+tabNotes.addEventListener('click', () => activateTab({ btn: tabNotes }));
 
 // Random review
 let currentPick = null;
@@ -474,6 +552,16 @@ function sampleRandom(arr, n) {
     [copy[i], copy[j]] = [copy[j], copy[i]];
   }
   return copy.slice(0, n);
+}
+
+// 把個人紀錄轉成跟 words.json 一樣可以拿去顯示在複習卡片上的形狀（word/pos/meaning/example）
+function notesAsReviewItems() {
+  return notesData.map(n => ({
+    word: n.word,
+    pos: '',
+    meaning: n.meaning || '（個人紀錄，尚未填寫意思）',
+    example: n.note || (n.source_name ? `來源：${n.source_name}` : '個人紀錄'),
+  }));
 }
 
 const sourceHistoryBtn = document.getElementById('sourceHistory');
@@ -523,7 +611,7 @@ function pickRandom() {
   }
 
   if (reviewSource === 'bank' && bankReviewSample === null) {
-    bankReviewSample = sampleRandom(wordsData, REVIEW_SAMPLE_SIZE);
+    bankReviewSample = sampleRandom(wordsData.concat(notesAsReviewItems()), REVIEW_SAMPLE_SIZE);
   }
 
   const pool = reviewSource === 'bank' ? bankReviewSample : historyData.slice(-REVIEW_SAMPLE_SIZE);
@@ -558,6 +646,82 @@ document.getElementById('revealBtn').addEventListener('click', () => {
   document.getElementById('revealBtn').textContent = showing ? '顯示意思與例句' : '隱藏';
 });
 document.getElementById('nextBtn').addEventListener('click', pickRandom);
+
+// ---------------------------------------------------------------------------
+// 個人紀錄
+// ---------------------------------------------------------------------------
+
+const SOURCE_TYPE_LABELS = {
+  youtube: 'YouTube 影片',
+  podcast: 'Podcast',
+  shorts: '短影音',
+  other: '其他',
+};
+
+function renderNotesList() {
+  const list = document.getElementById('notesList');
+  const empty = document.getElementById('notesEmpty');
+
+  let items = notesData.slice();
+  if (noteFilterValue) items = items.filter(n => n.source_type === noteFilterValue);
+  items.sort((a, b) => (b.date_added || '').localeCompare(a.date_added || ''));
+
+  if (items.length === 0) {
+    list.innerHTML = '';
+    empty.style.display = '';
+    return;
+  }
+  empty.style.display = 'none';
+
+  list.innerHTML = items.map(n => `
+    <div class="card">
+      <div class="row1">
+        <div><span class="word">${escapeHtml(n.word)}</span></div>
+        <span class="note-tag">${escapeHtml(SOURCE_TYPE_LABELS[n.source_type] || '其他')}</span>
+      </div>
+      ${n.meaning ? `<div class="meaning">${escapeHtml(n.meaning)}</div>` : ''}
+      ${n.source_name ? `<div class="subtitle" style="margin-top:4px;">來源：${escapeHtml(n.source_name)}</div>` : ''}
+      ${n.link ? `<div style="margin-top:4px;"><a class="note-link" href="${escapeHtml(n.link)}" target="_blank" rel="noopener">${escapeHtml(n.link)}</a></div>` : ''}
+      ${n.note ? `<div class="example">${escapeHtml(n.note)}</div>` : ''}
+      <div class="date" style="margin-top:6px;">${escapeHtml(n.date_added || '')}</div>
+    </div>
+  `).join('');
+}
+
+document.getElementById('noteFilter').addEventListener('change', (e) => {
+  noteFilterValue = e.target.value;
+  renderNotesList();
+});
+
+function buildNoteIssueUrl({ word, meaning, sourceType, sourceName, link, note }) {
+  const params = new URLSearchParams();
+  params.set('template', 'vocab-note.yml');
+  params.set('title', `[單字紀錄] ${word}`);
+  params.set('word', word);
+  if (meaning) params.set('meaning', meaning);
+  if (sourceType) params.set('source_type', sourceType);
+  if (sourceName) params.set('source_name', sourceName);
+  if (link) params.set('link', link);
+  if (note) params.set('note', note);
+  return `${REPO_URL}/issues/new?${params.toString()}`;
+}
+
+document.getElementById('noteSubmitBtn').addEventListener('click', () => {
+  const word = document.getElementById('noteWord').value.trim();
+  if (!word) {
+    alert('請至少填單字或片語');
+    return;
+  }
+  const url = buildNoteIssueUrl({
+    word,
+    meaning: document.getElementById('noteMeaning').value.trim(),
+    sourceType: document.getElementById('noteSourceType').value,
+    sourceName: document.getElementById('noteSourceName').value.trim(),
+    link: document.getElementById('noteLink').value.trim(),
+    note: document.getElementById('noteNote').value.trim(),
+  });
+  window.open(url, '_blank', 'noopener');
+});
 
 loadHistory();
 </script>

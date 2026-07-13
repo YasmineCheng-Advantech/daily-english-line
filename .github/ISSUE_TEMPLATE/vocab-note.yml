@@ -1,0 +1,58 @@
+name: 個人單字紀錄
+description: 記錄從影片、Podcast、短影音等看到/聽到的英文單字或片語
+title: "[單字紀錄] "
+labels: ["vocab-note"]
+body:
+  - type: input
+    id: word
+    attributes:
+      label: 單字或片語
+      description: 你看到/聽到的英文單字或片語
+      placeholder: 例如 consult
+    validations:
+      required: true
+
+  - type: input
+    id: meaning
+    attributes:
+      label: 意思（可留空，之後可以自己補）
+      placeholder: 例如 諮詢；請教
+    validations:
+      required: false
+
+  - type: dropdown
+    id: source_type
+    attributes:
+      label: 來源類型
+      options:
+        - YouTube 影片
+        - Podcast
+        - 短影音（Reels / Shorts / TikTok）
+        - 其他
+    validations:
+      required: true
+
+  - type: input
+    id: source_name
+    attributes:
+      label: 來源名稱（可留空）
+      description: 影片標題、Podcast 節目名稱、頻道名稱等
+      placeholder: 例如 The Daily Podcast EP123
+    validations:
+      required: false
+
+  - type: input
+    id: link
+    attributes:
+      label: 連結（可留空）
+      placeholder: https://...
+    validations:
+      required: false
+
+  - type: textarea
+    id: note
+    attributes:
+      label: 備註（可留空）
+      description: 例如當時的上下文、例句、為什麼記下這個字
+    validations:
+      required: false
