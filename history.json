@@ -56,5 +56,55 @@
     "source": "bank",
     "cluster_mode": "root",
     "cluster_key": "con- (共同)"
+  },
+  {
+    "date": "2026-07-13",
+    "word": "headhunter",
+    "pos": "n.",
+    "meaning": "獵頭",
+    "example": "A headhunter approached her about the executive role.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "headhunter"
+  },
+  {
+    "date": "2026-07-13",
+    "word": "recruiter",
+    "pos": "n.",
+    "meaning": "招募人員",
+    "example": "The recruiter screened over two hundred applications.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "headhunter"
+  },
+  {
+    "date": "2026-07-13",
+    "word": "mentorship",
+    "pos": "n.",
+    "meaning": "指導關係",
+    "example": "The mentorship program pairs new hires with senior staff.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "headhunter"
+  },
+  {
+    "date": "2026-07-13",
+    "word": "onboarding",
+    "pos": "n.",
+    "meaning": "新人導入",
+    "example": "The onboarding process helps new hires adjust quickly.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "headhunter"
+  },
+  {
+    "date": "2026-07-13",
+    "word": "attrition",
+    "pos": "n.",
+    "meaning": "人員流失",
+    "example": "High attrition rates prompted a review of employee benefits.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "headhunter"
   }
 ]
