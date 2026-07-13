@@ -31,10 +31,15 @@ jobs:
           LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
         run: python push.py
 
-      - name: Commit updated history.json
+      - name: Retry enriching any pending personal notes
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python3 scripts/enrich_notes.py
+
+      - name: Commit updated data files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add history.json docs/history.json
-          git diff --cached --quiet || git commit -m "chore: update history.json ($(date -u +%Y-%m-%d))"
+          git add history.json docs/history.json notes.json docs/notes.json
+          git diff --cached --quiet || git commit -m "chore: update data ($(date -u +%Y-%m-%d))"
           git push

@@ -23,6 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent
 WORDS_PATH = BASE_DIR / "words.json"
 HISTORY_PATH = BASE_DIR / "history.json"
 DOCS_HISTORY_PATH = BASE_DIR / "docs" / "history.json"
+NOTES_PATH = BASE_DIR / "notes.json"
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 LINE_CHANNEL_ID = os.environ.get("LINE_CHANNEL_ID")
@@ -269,6 +270,42 @@ def build_message(cluster: list[dict], mode: str, key: str | None) -> str:
     return "\n".join(lines).rstrip()
 
 
+def pick_listening_reminder(history: list[dict]):
+    """從個人紀錄裡挑一個「有連結的來源」提醒回去重聽，每天輪流換一個。
+
+    以「不重複的來源」為單位（同一支影片記了很多字算一個），依推播天數輪替，
+    這樣每天提醒不同的舊來源，做聽力複習。沒有任何帶連結的個人紀錄時回傳 None。
+    """
+    notes = load_json(NOTES_PATH, [])
+    sources = {}  # link -> {name, count}
+    for n in notes:
+        link = (n.get("link") or "").strip()
+        if not link:
+            continue
+        entry = sources.setdefault(link, {"name": n.get("source_name") or "", "count": 0})
+        entry["count"] += 1
+
+    if not sources:
+        return None
+
+    ordered = sorted(sources.items(), key=lambda kv: kv[0])
+    day_count = len({h["date"] for h in history})
+    link, info = ordered[day_count % len(ordered)]
+    return {"link": link, "name": info["name"], "count": info["count"]}
+
+
+def append_listening_reminder(message: str, reminder: dict | None) -> str:
+    if not reminder:
+        return message
+    name = reminder["name"] or "之前記過單字的影片"
+    return (
+        message
+        + "\n\n🎧 聽力複習：回去聽聽\n"
+        + f"{name}（你從這裡記過 {reminder['count']} 個字）\n"
+        + reminder["link"]
+    )
+
+
 def push_line(message: str) -> None:
     if not LINE_USER_ID:
         print("[info] 尚未設定 LINE_USER_ID，略過推播（本機測試模式）")
@@ -343,6 +380,7 @@ def main() -> None:
     print(f"[info] 今日單字組（來源: {source}, 模式: {cluster_mode}/{cluster_key}）: {words_summary}")
 
     message = build_message(cluster, cluster_mode, cluster_key)
+    message = append_listening_reminder(message, pick_listening_reminder(history))
     push_line(message)
 
 

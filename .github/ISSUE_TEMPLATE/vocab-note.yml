@@ -1,24 +1,19 @@
 name: 個人單字紀錄
-description: 記錄從影片、Podcast、短影音等看到/聽到的英文單字或片語
+description: 記錄從影片、Podcast、短影音等看到/聽到的英文單字或片語（可一次記多個）
 title: "[單字紀錄] "
 labels: ["vocab-note"]
 body:
-  - type: input
-    id: word
+  - type: textarea
+    id: words
     attributes:
-      label: 單字或片語
-      description: 你看到/聽到的英文單字或片語
-      placeholder: 例如 consult
+      label: 單字或片語（一行一個，可一次記多個）
+      description: 只要填英文就好，中文意思等資訊之後會自動補上
+      placeholder: |
+        serendipity
+        ubiquitous
+        streamline the process
     validations:
       required: true
-
-  - type: input
-    id: meaning
-    attributes:
-      label: 意思（可留空，之後可以自己補）
-      placeholder: 例如 諮詢；請教
-    validations:
-      required: false
 
   - type: dropdown
     id: source_type
@@ -44,7 +39,7 @@ body:
   - type: input
     id: link
     attributes:
-      label: 連結（可留空）
+      label: 連結（可留空，填了之後可以回去重聽練聽力）
       placeholder: https://...
     validations:
       required: false
@@ -52,7 +47,7 @@ body:
   - type: textarea
     id: note
     attributes:
-      label: 備註（可留空）
-      description: 例如當時的上下文、例句、為什麼記下這個字
+      label: 備註（可留空，整批共用）
+      description: 例如當時的上下文、為什麼記下這些字
     validations:
       required: false
