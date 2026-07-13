@@ -15,13 +15,18 @@
 │   └── history.json             # history.json 的同步副本，網頁靠這份讀取
 ├── words.json                   # 中階～中高階商用英文單字庫（含主題/字根/相似字/反義字標籤，目前 3135 字）
 ├── history.json                 # 每日推播紀錄（= 資料庫）
+├── notes.json                   # 個人單字紀錄（從影片/Podcast/短影音等自己記錄的字）
 ├── push.py                      # 每日抽字 + 推播主程式
-├── scripts/merge_words.py       # 把新一批單字合併進 words.json（驗證格式 + 去重）
+├── scripts/
+│   ├── merge_words.py           # 把新一批單字合併進 words.json（驗證格式 + 去重）
+│   └── process_note_issue.py    # 解析「個人單字紀錄」GitHub Issue，寫進 notes.json
+├── .github/ISSUE_TEMPLATE/vocab-note.yml  # 個人單字紀錄的 GitHub Issue Form 樣板
+├── .github/workflows/process-note.yml     # 偵測到新的 vocab-note issue 就自動處理
 ├── PROMPT_TEMPLATE.md           # 給其他 LLM 生成單字用的固定格式提示詞
 └── requirements.txt
 ```
 
-> **注意**：GitHub Pages 設定成只發布 `/docs` 資料夾，所以根目錄的 `words.json`／`history.json` 不會被公開網站讀到。`push.py` 和 `scripts/merge_words.py` 都會在更新根目錄檔案的同時，自動把同一份內容也寫進 `docs/`，兩邊必須保持同步——如果手動修改了根目錄的 JSON，記得同時 `cp words.json docs/words.json`（history.json 同理），否則網頁看到的會是舊資料。
+> **注意**：GitHub Pages 設定成只發布 `/docs` 資料夾，所以根目錄的 `words.json`／`history.json`／`notes.json` 不會被公開網站讀到。`push.py`、`scripts/merge_words.py`、`scripts/process_note_issue.py` 都會在更新根目錄檔案的同時，自動把同一份內容也寫進 `docs/`，兩邊必須保持同步——如果手動修改了根目錄的 JSON，記得同時 `cp words.json docs/words.json`（history.json、notes.json 同理），否則網頁看到的會是舊資料。
 
 ## 單字庫資料格式
 
@@ -131,6 +136,22 @@ https://<你的帳號>.github.io/<repo 名稱>/
 - 手動切換淺色/深色主題（預設跟隨系統，選擇後存在瀏覽器 localStorage）
 
 > 「手動觸發今日推播」刻意不做成網頁上一鍵直接觸發，因為那需要在網頁的 JavaScript 裡放一個能觸發 GitHub Actions 的權杖——這種公開靜態網頁沒有安全的方式藏密鑰，權杖會直接曝露在原始碼裡。改成連到 GitHub Actions 頁面，靠你自己（repo 擁有者）登入後按鈕確認，安全且不用額外架設服務。
+
+## 個人單字紀錄（從影片/Podcast/短影音記錄單字）
+
+網頁「個人紀錄」分頁可以記錄自己在 YouTube 影片、Podcast、短影音（Reels/Shorts/TikTok）等地方看到的單字，欄位包含單字、意思（可留空）、來源類型、來源名稱、連結、備註。
+
+**運作方式**（全程免費、沒有額外伺服器）：
+
+1. 網頁表單送出後，會組合出一個**預先填好內容的 GitHub Issue 網址**並開新分頁，不會把任何金鑰放進網頁的 JavaScript 裡
+2. 你（repo 擁有者，已登入 GitHub）確認後按「Submit new issue」，這則 issue 會自動帶上 `vocab-note` 標籤
+3. `.github/workflows/process-note.yml` 偵測到帶有 `vocab-note` 標籤的新 issue，自動觸發，用 `scripts/process_note_issue.py` 解析 issue 內容
+4. 解析結果 append 進 `notes.json`（同步 `docs/notes.json`）並 commit，接著在 issue 上留言確認、自動關閉該 issue
+5. 網頁重新整理後，「個人紀錄」分頁就能看到新增的紀錄；「隨機複習」的「整個單字庫」模式也會把個人紀錄一起納入抽樣範圍
+
+> 個人紀錄目前**只會出現在網頁的隨機複習**，不會被排進每天 LINE 自動推播的 5 字關聯聚類——因為推播的聚類邏輯需要 theme/root 等標籤，個人紀錄沒有這些欄位，硬塞進去意義不大。如果之後也想讓個人紀錄有機會被排進每日推播，可以再擴充。
+
+`.github/ISSUE_TEMPLATE/vocab-note.yml` 定義了表單欄位順序（單字 → 意思 → 來源類型 → 來源名稱 → 連結 → 備註），`scripts/process_note_issue.py` 是依照這個順序解析 issue 內容，**如果之後要調整表單欄位，兩邊要一起改**，不然解析會錯位。
 
 ## 抽字邏輯
 
