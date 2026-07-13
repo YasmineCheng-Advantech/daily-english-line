@@ -19,7 +19,8 @@
 ├── push.py                      # 每日抽字 + 推播主程式
 ├── scripts/
 │   ├── merge_words.py           # 把新一批單字合併進 words.json（驗證格式 + 去重）
-│   └── process_note_issue.py    # 解析「個人單字紀錄」GitHub Issue，寫進 notes.json
+│   ├── process_note_issue.py    # 解析「個人單字紀錄」GitHub Issue，拆多字寫進 notes.json
+│   └── enrich_notes.py          # 用 Gemini 把待補充的個人紀錄補齊成完整欄位
 ├── .github/ISSUE_TEMPLATE/vocab-note.yml  # 個人單字紀錄的 GitHub Issue Form 樣板
 ├── .github/workflows/process-note.yml     # 偵測到新的 vocab-note issue 就自動處理
 ├── PROMPT_TEMPLATE.md           # 給其他 LLM 生成單字用的固定格式提示詞
@@ -139,17 +140,22 @@ https://<你的帳號>.github.io/<repo 名稱>/
 
 ## 個人單字紀錄（從影片/Podcast/短影音記錄單字）
 
-網頁「個人紀錄」分頁可以記錄自己在 YouTube 影片、Podcast、短影音（Reels/Shorts/TikTok）等地方看到的單字，欄位包含單字、意思（可留空）、來源類型、來源名稱、連結、備註。
+網頁「個人紀錄」分頁可以記錄自己在 YouTube 影片、Podcast、短影音（Reels/Shorts/TikTok）等地方看到的單字。設計上把「捕捉」和「補充」分開，讓記錄門檻盡量低：**你只要填英文單字（可一次貼多個，一行一個）+ 一個共用來源**，其他資訊之後自動補。
 
 **運作方式**（全程免費、沒有額外伺服器）：
 
 1. 網頁表單送出後，會組合出一個**預先填好內容的 GitHub Issue 網址**並開新分頁，不會把任何金鑰放進網頁的 JavaScript 裡
-2. 你（repo 擁有者，已登入 GitHub）確認後按「Submit new issue」，這則 issue 會自動帶上 `vocab-note` 標籤
-3. `.github/workflows/process-note.yml` 偵測到帶有 `vocab-note` 標籤的新 issue，自動觸發，用 `scripts/process_note_issue.py` 解析 issue 內容
-4. 解析結果 append 進 `notes.json`（同步 `docs/notes.json`）並 commit，接著在 issue 上留言確認、自動關閉該 issue
-5. 網頁重新整理後，「個人紀錄」分頁就能看到新增的紀錄；「隨機複習」的「整個單字庫」模式也會把個人紀錄一起納入抽樣範圍
+2. 你（repo 擁有者，已登入 GitHub）確認後按「Submit new issue」，issue 自動帶上 `vocab-note` 標籤
+3. `.github/workflows/process-note.yml` 偵測到新 issue，用 `scripts/process_note_issue.py` 把多個單字拆成多筆（去重），各自先標記 `enriched: false`（意思等欄位先留空）
+4. 接著 `scripts/enrich_notes.py` 嘗試用 Gemini 把每筆補齊成跟單字庫一樣的完整欄位（詞性/意思/例句/難度/主題/字根/相似字/反義字），補成功就標記 `enriched: true`
+5. 結果 commit（同步 `docs/notes.json`），在 issue 上留言並自動關閉
+6. 網頁重新整理後，「個人紀錄」分頁能看到紀錄（還沒補完的顯示「⏳ 資訊補充中」）；「隨機複習」的「整個單字庫」模式也會把個人紀錄納入抽樣
 
-> 個人紀錄目前**只會出現在網頁的隨機複習**，不會被排進每天 LINE 自動推播的 5 字關聯聚類——因為推播的聚類邏輯需要 theme/root 等標籤，個人紀錄沒有這些欄位，硬塞進去意義不大。如果之後也想讓個人紀錄有機會被排進每日推播，可以再擴充。
+**補充失敗時的備援**：這專案的 Gemini 常回 429，補不出來的字會維持「待補充」，`enrich_notes.py` 在每天的排程裡會自動重試（`daily.yml` 有一步專門重試待補充的字）。若長期補不動，可以直接請 Claude 在對話裡批次補——讀 `notes.json`、填好未補的字、`enriched` 設成 `true`、寫回 `notes.json` 與 `docs/notes.json` 再 commit（跟當初建 3135 字單字庫同一套做法，可靠且免費）。
+
+**依來源檢視 / 聽力複習**：個人紀錄分頁有「依單字 / 依來源」切換，「依來源」會把單字按來源影片/Podcast 分組，每個來源顯示你從它記過哪些字 + 一個「🎧 回去重聽」連結。每天的 LINE 推播也會在 5 個新單字之後，**輪流附上一個你以前記過字的舊來源連結**提醒你回去重聽，多練聽力。
+
+> 個人紀錄會出現在網頁的隨機複習與每日 LINE 的聽力複習提醒，但**單字本身不會被排進每天 LINE 推播的 5 字關聯聚類**——那個聚類需要靠整個單字庫的 theme/root 標籤去湊關聯組，跟個人紀錄的性質不同。如果之後想讓個人紀錄的單字也能被排進每日推播，可以再擴充。
 
 `.github/ISSUE_TEMPLATE/vocab-note.yml` 定義了表單欄位順序（單字 → 意思 → 來源類型 → 來源名稱 → 連結 → 備註），`scripts/process_note_issue.py` 是依照這個順序解析 issue 內容，**如果之後要調整表單欄位，兩邊要一起改**，不然解析會錯位。
 
