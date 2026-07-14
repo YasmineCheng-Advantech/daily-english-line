@@ -106,5 +106,55 @@
     "source": "bank",
     "cluster_mode": "synonym",
     "cluster_key": "headhunter"
+  },
+  {
+    "date": "2026-07-14",
+    "word": "compromise",
+    "pos": "n.",
+    "meaning": "妥協",
+    "example": "Both sides reached a compromise after lengthy discussions.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "compromise"
+  },
+  {
+    "date": "2026-07-14",
+    "word": "stalemate",
+    "pos": "n.",
+    "meaning": "僵局",
+    "example": "Talks reached a stalemate over pricing terms.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "compromise"
+  },
+  {
+    "date": "2026-07-14",
+    "word": "leverage",
+    "pos": "n.",
+    "meaning": "談判籌碼；優勢",
+    "example": "Having multiple suppliers gives us leverage in price negotiations.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "compromise"
+  },
+  {
+    "date": "2026-07-14",
+    "word": "concession",
+    "pos": "n.",
+    "meaning": "讓步",
+    "example": "Neither side was willing to make a concession on price.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "compromise"
+  },
+  {
+    "date": "2026-07-14",
+    "word": "counteroffer",
+    "pos": "n.",
+    "meaning": "還價",
+    "example": "The seller rejected our bid and sent a counteroffer.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "compromise"
   }
 ]
