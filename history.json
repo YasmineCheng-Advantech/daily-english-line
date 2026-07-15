@@ -156,5 +156,55 @@
     "source": "bank",
     "cluster_mode": "antonym",
     "cluster_key": "compromise"
+  },
+  {
+    "date": "2026-07-15",
+    "word": "aesthetics",
+    "pos": "n.",
+    "meaning": "美學",
+    "example": "The app’s aesthetics strongly influence user engagement.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "creative"
+  },
+  {
+    "date": "2026-07-15",
+    "word": "asymmetry",
+    "pos": "n.",
+    "meaning": "不對稱",
+    "example": "Asymmetry adds visual interest to the layout.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "creative"
+  },
+  {
+    "date": "2026-07-15",
+    "word": "balance",
+    "pos": "n.",
+    "meaning": "平衡",
+    "example": "The design achieves balance between text and visuals.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "creative"
+  },
+  {
+    "date": "2026-07-15",
+    "word": "contrast",
+    "pos": "n.",
+    "meaning": "對比",
+    "example": "High contrast improves accessibility in UI design.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "creative"
+  },
+  {
+    "date": "2026-07-15",
+    "word": "typography",
+    "pos": "n.",
+    "meaning": "字體設計",
+    "example": "Typography choices affect readability and tone.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "creative"
   }
 ]
