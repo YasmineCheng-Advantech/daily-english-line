@@ -206,5 +206,55 @@
     "source": "bank",
     "cluster_mode": "theme",
     "cluster_key": "creative"
+  },
+  {
+    "date": "2026-07-16",
+    "word": "arbitration",
+    "pos": "n.",
+    "meaning": "仲裁",
+    "example": "The dispute was resolved through binding arbitration.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "-tion/-sion (名詞化:動作結果)"
+  },
+  {
+    "date": "2026-07-16",
+    "word": "jurisdiction",
+    "pos": "n.",
+    "meaning": "管轄權",
+    "example": "The contract specifies that disputes fall under Taiwan's jurisdiction.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "-tion/-sion (名詞化:動作結果)"
+  },
+  {
+    "date": "2026-07-16",
+    "word": "mediation",
+    "pos": "n.",
+    "meaning": "調解",
+    "example": "The two firms opted for mediation instead of a lawsuit.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "-tion/-sion (名詞化:動作結果)"
+  },
+  {
+    "date": "2026-07-16",
+    "word": "valuation",
+    "pos": "n.",
+    "meaning": "估值",
+    "example": "The startup's valuation doubled after the latest funding round.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "-tion/-sion (名詞化:動作結果)"
+  },
+  {
+    "date": "2026-07-16",
+    "word": "appreciation",
+    "pos": "n.",
+    "meaning": "資產增值",
+    "example": "The property saw significant appreciation over the decade.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "-tion/-sion (名詞化:動作結果)"
   }
 ]
