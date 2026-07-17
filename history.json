@@ -256,5 +256,55 @@
     "source": "bank",
     "cluster_mode": "root",
     "cluster_key": "-tion/-sion (名詞化:動作結果)"
+  },
+  {
+    "date": "2026-07-17",
+    "word": "protocol",
+    "pos": "n.",
+    "meaning": "規程;協議",
+    "example": "All staff must follow the safety protocol.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "protocol"
+  },
+  {
+    "date": "2026-07-17",
+    "word": "procedure",
+    "pos": "n.",
+    "meaning": "程序",
+    "example": "The new hire was trained on standard procedure.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "protocol"
+  },
+  {
+    "date": "2026-07-17",
+    "word": "benchmark",
+    "pos": "n.",
+    "meaning": "基準",
+    "example": "We use industry benchmarks to evaluate our performance.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "protocol"
+  },
+  {
+    "date": "2026-07-17",
+    "word": "delegate",
+    "pos": "v.",
+    "meaning": "授權；委派",
+    "example": "Effective managers know how to delegate tasks.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "protocol"
+  },
+  {
+    "date": "2026-07-17",
+    "word": "accountability",
+    "pos": "n.",
+    "meaning": "當責",
+    "example": "The new policy increases accountability at every level.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "protocol"
   }
 ]
