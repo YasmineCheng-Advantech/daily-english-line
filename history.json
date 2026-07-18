@@ -306,5 +306,55 @@
     "source": "bank",
     "cluster_mode": "synonym",
     "cluster_key": "protocol"
+  },
+  {
+    "date": "2026-07-18",
+    "word": "disincentive",
+    "pos": "n.",
+    "meaning": "抑制因素",
+    "example": "High penalties are a disincentive to cutting corners.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "disincentive"
+  },
+  {
+    "date": "2026-07-18",
+    "word": "incentive",
+    "pos": "n.",
+    "meaning": "激勵措施",
+    "example": "Performance incentives boosted overall productivity.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "disincentive"
+  },
+  {
+    "date": "2026-07-18",
+    "word": "whistleblower",
+    "pos": "n.",
+    "meaning": "檢舉人",
+    "example": "The whistleblower reported the accounting irregularities.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "disincentive"
+  },
+  {
+    "date": "2026-07-18",
+    "word": "liability",
+    "pos": "n.",
+    "meaning": "法律責任",
+    "example": "The company faces liability for the defective product.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "disincentive"
+  },
+  {
+    "date": "2026-07-18",
+    "word": "litigation",
+    "pos": "n.",
+    "meaning": "訴訟",
+    "example": "The dispute resulted in years of costly litigation.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "disincentive"
   }
 ]
