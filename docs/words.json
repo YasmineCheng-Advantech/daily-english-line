@@ -41448,5 +41448,7369 @@
     "root": null,
     "synonyms": [],
     "antonyms": []
+  },
+  {
+    "word": "unprecedented",
+    "pos": "adj.",
+    "meaning": "前所未有的",
+    "example": "The wildfire caused unprecedented damage to the region's infrastructure.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "pre- (事前)",
+    "synonyms": [
+      "unparalleled",
+      "unmatched"
+    ],
+    "antonyms": [
+      "common",
+      "ordinary"
+    ]
+  },
+  {
+    "word": "allegation",
+    "pos": "n.",
+    "meaning": "指控",
+    "example": "The senator denied the allegations of misconduct.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "accusation",
+      "claim"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "aftermath",
+    "pos": "n.",
+    "meaning": "餘波;後果",
+    "example": "Rescue teams worked around the clock in the aftermath of the earthquake.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "aftereffects",
+      "consequences"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "turmoil",
+    "pos": "n.",
+    "meaning": "動盪",
+    "example": "The country has been in political turmoil since the coup.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "chaos",
+      "unrest"
+    ],
+    "antonyms": [
+      "stability",
+      "calm"
+    ]
+  },
+  {
+    "word": "uphold",
+    "pos": "v.",
+    "meaning": "維持;支持",
+    "example": "The court upheld the lower ruling on press freedom.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "maintain",
+      "sustain"
+    ],
+    "antonyms": [
+      "overturn",
+      "reject"
+    ]
+  },
+  {
+    "word": "condemn",
+    "pos": "v.",
+    "meaning": "譴責",
+    "example": "World leaders condemned the attack on civilians.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "denounce",
+      "censure"
+    ],
+    "antonyms": [
+      "praise",
+      "endorse"
+    ]
+  },
+  {
+    "word": "ramifications",
+    "pos": "n.",
+    "meaning": "影響;後果",
+    "example": "Analysts are still assessing the ramifications of the policy shift.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "consequences",
+      "repercussions"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "mounting",
+    "pos": "adj.",
+    "meaning": "日益增加的",
+    "example": "There is mounting pressure on officials to resign.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "growing",
+      "rising"
+    ],
+    "antonyms": [
+      "waning",
+      "diminishing"
+    ]
+  },
+  {
+    "word": "coalition",
+    "pos": "n.",
+    "meaning": "聯盟",
+    "example": "A coalition of opposition parties called for new elections.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "co-/con- (共同)",
+    "synonyms": [
+      "alliance",
+      "bloc"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "ceasefire",
+    "pos": "n.",
+    "meaning": "停火",
+    "example": "Both sides agreed to a temporary ceasefire.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "truce",
+      "armistice"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "humanitarian",
+    "pos": "adj.",
+    "meaning": "人道主義的",
+    "example": "Aid agencies warned of a worsening humanitarian crisis.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "charitable",
+      "philanthropic"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "sanctions",
+    "pos": "n.",
+    "meaning": "制裁",
+    "example": "The council imposed fresh sanctions on the regime.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "penalties",
+      "embargoes"
+    ],
+    "antonyms": [
+      "incentives"
+    ]
+  },
+  {
+    "word": "refugee",
+    "pos": "n.",
+    "meaning": "難民",
+    "example": "Thousands of refugees have crossed the border since the fighting began.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "evacuee",
+      "displaced person"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "insurgent",
+    "pos": "n.",
+    "meaning": "叛亂份子",
+    "example": "Government forces clashed with insurgents in the north.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "rebel",
+      "guerrilla"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "testimony",
+    "pos": "n.",
+    "meaning": "證詞",
+    "example": "Her testimony was central to the corruption trial.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "statement",
+      "evidence"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "allege",
+    "pos": "v.",
+    "meaning": "聲稱;指控",
+    "example": "Prosecutors allege the mayor accepted bribes.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "claim",
+      "assert"
+    ],
+    "antonyms": [
+      "deny"
+    ]
+  },
+  {
+    "word": "oust",
+    "pos": "v.",
+    "meaning": "罷黜;驅逐",
+    "example": "The president was ousted after months of protests.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "remove",
+      "depose"
+    ],
+    "antonyms": [
+      "install",
+      "reinstate"
+    ]
+  },
+  {
+    "word": "backlash",
+    "pos": "n.",
+    "meaning": "強烈反對",
+    "example": "The policy triggered a public backlash.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "uproar",
+      "opposition"
+    ],
+    "antonyms": [
+      "support",
+      "approval"
+    ]
+  },
+  {
+    "word": "dissident",
+    "pos": "n.",
+    "meaning": "異議份子",
+    "example": "The dissident was arrested for criticizing the government.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "dis- (不/相反)",
+    "synonyms": [
+      "protester",
+      "rebel"
+    ],
+    "antonyms": [
+      "loyalist"
+    ]
+  },
+  {
+    "word": "skirmish",
+    "pos": "n.",
+    "meaning": "小規模衝突",
+    "example": "A border skirmish left several soldiers wounded.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "clash",
+      "scuffle"
+    ],
+    "antonyms": [
+      "truce"
+    ]
+  },
+  {
+    "word": "casualty",
+    "pos": "n.",
+    "meaning": "傷亡者",
+    "example": "The bombing resulted in dozens of casualties.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "victim",
+      "fatality"
+    ],
+    "antonyms": [
+      "survivor"
+    ]
+  },
+  {
+    "word": "displacement",
+    "pos": "n.",
+    "meaning": "流離失所",
+    "example": "The conflict caused mass displacement of civilians.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "dis- (不/相反)",
+    "synonyms": [
+      "relocation",
+      "exile"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "diplomat",
+    "pos": "n.",
+    "meaning": "外交官",
+    "example": "The diplomat was recalled amid rising tensions.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "envoy",
+      "ambassador"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "envoy",
+    "pos": "n.",
+    "meaning": "特使",
+    "example": "A special envoy was dispatched to mediate the dispute.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "emissary",
+      "representative"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "summit",
+    "pos": "n.",
+    "meaning": "高峰會",
+    "example": "Leaders gathered for an emergency climate summit.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "conference",
+      "meeting"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "treaty",
+    "pos": "n.",
+    "meaning": "條約",
+    "example": "The two nations signed a landmark trade treaty.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "pact",
+      "accord"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "sovereignty",
+    "pos": "n.",
+    "meaning": "主權",
+    "example": "The dispute centers on territorial sovereignty.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "independence",
+      "self-governance"
+    ],
+    "antonyms": [
+      "subjugation"
+    ]
+  },
+  {
+    "word": "annex",
+    "pos": "v.",
+    "meaning": "併吞",
+    "example": "The territory was annexed after the invasion.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "seize",
+      "appropriate"
+    ],
+    "antonyms": [
+      "relinquish"
+    ]
+  },
+  {
+    "word": "secede",
+    "pos": "v.",
+    "meaning": "脫離;分離",
+    "example": "The province threatened to secede from the union.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "withdraw",
+      "break away"
+    ],
+    "antonyms": [
+      "unite"
+    ]
+  },
+  {
+    "word": "partisan",
+    "pos": "adj.",
+    "meaning": "黨派的",
+    "example": "The vote split along partisan lines.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "factional",
+      "biased"
+    ],
+    "antonyms": [
+      "nonpartisan",
+      "impartial"
+    ]
+  },
+  {
+    "word": "bipartisan",
+    "pos": "adj.",
+    "meaning": "兩黨的",
+    "example": "The bill received rare bipartisan support.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "cross-party"
+    ],
+    "antonyms": [
+      "partisan"
+    ]
+  },
+  {
+    "word": "legislation",
+    "pos": "n.",
+    "meaning": "立法",
+    "example": "Lawmakers passed sweeping new legislation.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "law",
+      "statute"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "constituency",
+    "pos": "n.",
+    "meaning": "選區",
+    "example": "The senator toured his constituency ahead of the vote.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "co-/con- (共同)",
+    "synonyms": [
+      "district",
+      "electorate"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "electorate",
+    "pos": "n.",
+    "meaning": "選民",
+    "example": "The electorate appeared divided on the referendum.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "voters",
+      "constituents"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "ballot",
+    "pos": "n.",
+    "meaning": "選票",
+    "example": "Voters cast their ballots amid tight security.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "vote",
+      "poll"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "referendum",
+    "pos": "n.",
+    "meaning": "公民投票",
+    "example": "The country will hold a referendum on independence.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "re- (再次)",
+    "synonyms": [
+      "plebiscite",
+      "vote"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "impeachment",
+    "pos": "n.",
+    "meaning": "彈劾",
+    "example": "The scandal triggered impeachment proceedings.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "-ment (名詞化:狀態結果)",
+    "synonyms": [
+      "removal",
+      "indictment"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "prosecution",
+    "pos": "n.",
+    "meaning": "起訴;檢方",
+    "example": "The prosecution presented new evidence in court.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "litigation",
+      "indictment"
+    ],
+    "antonyms": [
+      "defense"
+    ]
+  },
+  {
+    "word": "acquit",
+    "pos": "v.",
+    "meaning": "宣判無罪",
+    "example": "The defendant was acquitted of all charges.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "exonerate",
+      "clear"
+    ],
+    "antonyms": [
+      "convict"
+    ]
+  },
+  {
+    "word": "corruption",
+    "pos": "n.",
+    "meaning": "貪腐",
+    "example": "The report exposed widespread government corruption.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "graft",
+      "bribery"
+    ],
+    "antonyms": [
+      "integrity"
+    ]
+  },
+  {
+    "word": "regime",
+    "pos": "n.",
+    "meaning": "政權",
+    "example": "The regime cracked down on independent media.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "government",
+      "administration"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "dictatorship",
+    "pos": "n.",
+    "meaning": "獨裁統治",
+    "example": "The nation transitioned from dictatorship to democracy.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "-ship (身分狀態)",
+    "synonyms": [
+      "autocracy",
+      "tyranny"
+    ],
+    "antonyms": [
+      "democracy"
+    ]
+  },
+  {
+    "word": "junta",
+    "pos": "n.",
+    "meaning": "軍政府",
+    "example": "The military junta seized power after the coup.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "regime",
+      "cabal"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "coup",
+    "pos": "n.",
+    "meaning": "政變",
+    "example": "The coup was condemned by the international community.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "overthrow",
+      "putsch"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "uprising",
+    "pos": "n.",
+    "meaning": "起義",
+    "example": "The uprising began after months of economic hardship.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "revolt",
+      "rebellion"
+    ],
+    "antonyms": [
+      "suppression"
+    ]
+  },
+  {
+    "word": "insurgency",
+    "pos": "n.",
+    "meaning": "叛亂",
+    "example": "The insurgency has spread to neighboring provinces.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "-ance/-ence (性質狀態)",
+    "synonyms": [
+      "rebellion",
+      "revolt"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "militant",
+    "pos": "n.",
+    "meaning": "激進份子",
+    "example": "Militants claimed responsibility for the attack.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "extremist",
+      "fighter"
+    ],
+    "antonyms": [
+      "moderate"
+    ]
+  },
+  {
+    "word": "extremist",
+    "pos": "n.",
+    "meaning": "極端份子",
+    "example": "The group was labeled an extremist organization.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "radical",
+      "fanatic"
+    ],
+    "antonyms": [
+      "moderate"
+    ]
+  },
+  {
+    "word": "radicalize",
+    "pos": "v.",
+    "meaning": "使激進化",
+    "example": "Officials warned that isolation can radicalize young people.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "-ize/-ise (使成為)",
+    "synonyms": [
+      "indoctrinate"
+    ],
+    "antonyms": [
+      "moderate"
+    ]
+  },
+  {
+    "word": "terrorism",
+    "pos": "n.",
+    "meaning": "恐怖主義",
+    "example": "The attack was classified as an act of terrorism.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "extremism",
+      "insurgency"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "atrocity",
+    "pos": "n.",
+    "meaning": "暴行",
+    "example": "Investigators are documenting atrocities committed during the war.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "war crime",
+      "brutality"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "genocide",
+    "pos": "n.",
+    "meaning": "種族滅絕",
+    "example": "The tribunal charged him with genocide.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "ethnic cleansing",
+      "massacre"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "persecution",
+    "pos": "n.",
+    "meaning": "迫害",
+    "example": "Minorities face ongoing persecution in the region.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "oppression",
+      "victimization"
+    ],
+    "antonyms": [
+      "tolerance"
+    ]
+  },
+  {
+    "word": "exodus",
+    "pos": "n.",
+    "meaning": "大量離開",
+    "example": "The war triggered a mass exodus of refugees.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "flight",
+      "migration"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "asylum",
+    "pos": "n.",
+    "meaning": "庇護",
+    "example": "She was granted political asylum.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "refuge",
+      "sanctuary"
+    ],
+    "antonyms": [
+      "deportation"
+    ]
+  },
+  {
+    "word": "deport",
+    "pos": "v.",
+    "meaning": "驅逐出境",
+    "example": "Officials plan to deport hundreds of undocumented migrants.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "de- (去除/相反)",
+    "synonyms": [
+      "expel",
+      "banish"
+    ],
+    "antonyms": [
+      "admit"
+    ]
+  },
+  {
+    "word": "immigration",
+    "pos": "n.",
+    "meaning": "移民",
+    "example": "The bill overhauls the country's immigration system.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "migration"
+    ],
+    "antonyms": [
+      "emigration"
+    ]
+  },
+  {
+    "word": "migrant",
+    "pos": "n.",
+    "meaning": "移工;移民者",
+    "example": "Migrant workers make up a large share of the labor force.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "émigré",
+      "immigrant"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "xenophobia",
+    "pos": "n.",
+    "meaning": "排外情結",
+    "example": "Rising xenophobia has fueled anti-immigrant policies.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "prejudice",
+      "bigotry"
+    ],
+    "antonyms": [
+      "tolerance"
+    ]
+  },
+  {
+    "word": "inequality",
+    "pos": "n.",
+    "meaning": "不平等",
+    "example": "Income inequality has widened over the past decade.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "disparity",
+      "imbalance"
+    ],
+    "antonyms": [
+      "equality"
+    ]
+  },
+  {
+    "word": "poverty",
+    "pos": "n.",
+    "meaning": "貧窮",
+    "example": "Millions remain trapped in extreme poverty.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "destitution",
+      "hardship"
+    ],
+    "antonyms": [
+      "wealth",
+      "affluence"
+    ]
+  },
+  {
+    "word": "deficit",
+    "pos": "n.",
+    "meaning": "赤字",
+    "example": "The budget deficit continues to grow.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "de- (去除/相反)",
+    "synonyms": [
+      "shortfall",
+      "gap"
+    ],
+    "antonyms": [
+      "surplus"
+    ]
+  },
+  {
+    "word": "plummet",
+    "pos": "v.",
+    "meaning": "暴跌",
+    "example": "Stock prices plummeted after the report was released.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "plunge",
+      "nosedive"
+    ],
+    "antonyms": [
+      "soar"
+    ]
+  },
+  {
+    "word": "surge",
+    "pos": "v.",
+    "meaning": "激增",
+    "example": "Cases of the virus surged over the weekend.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "spike",
+      "upsurge"
+    ],
+    "antonyms": [
+      "decline"
+    ]
+  },
+  {
+    "word": "skyrocket",
+    "pos": "v.",
+    "meaning": "飆升",
+    "example": "Fuel prices skyrocketed following the embargo.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "soar",
+      "surge"
+    ],
+    "antonyms": [
+      "plummet"
+    ]
+  },
+  {
+    "word": "unemployment",
+    "pos": "n.",
+    "meaning": "失業率",
+    "example": "Unemployment hit a record high this quarter.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "-ment (名詞化:狀態結果)",
+    "synonyms": [
+      "joblessness"
+    ],
+    "antonyms": [
+      "employment"
+    ]
+  },
+  {
+    "word": "outsourcing",
+    "pos": "n.",
+    "meaning": "外包",
+    "example": "Outsourcing has shifted jobs overseas.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "offshoring"
+    ],
+    "antonyms": [
+      "insourcing"
+    ]
+  },
+  {
+    "word": "epidemic",
+    "pos": "n.",
+    "meaning": "流行病",
+    "example": "Health officials declared a local epidemic.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "outbreak"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "pandemic",
+    "pos": "n.",
+    "meaning": "全球大流行",
+    "example": "The pandemic disrupted global travel for years.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "global outbreak"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "outbreak",
+    "pos": "n.",
+    "meaning": "爆發",
+    "example": "An outbreak of the disease was reported in the capital.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "epidemic",
+      "flare-up"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "quarantine",
+    "pos": "n.",
+    "meaning": "隔離",
+    "example": "Travelers were placed under quarantine upon arrival.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "isolation"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "vaccine",
+    "pos": "n.",
+    "meaning": "疫苗",
+    "example": "The new vaccine has shown promising results in trials.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "inoculation"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "contagion",
+    "pos": "n.",
+    "meaning": "傳染;蔓延",
+    "example": "Officials fear economic contagion could spread to neighboring markets.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "co-/con- (共同)",
+    "synonyms": [
+      "spread",
+      "infection"
+    ],
+    "antonyms": [
+      "containment"
+    ]
+  },
+  {
+    "word": "fatality",
+    "pos": "n.",
+    "meaning": "死亡人數",
+    "example": "The crash resulted in multiple fatalities.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "death",
+      "casualty"
+    ],
+    "antonyms": [
+      "survivor"
+    ]
+  },
+  {
+    "word": "mortality",
+    "pos": "n.",
+    "meaning": "死亡率",
+    "example": "The disease has a high mortality rate among the elderly.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "death rate"
+    ],
+    "antonyms": [
+      "survival rate"
+    ]
+  },
+  {
+    "word": "pollutant",
+    "pos": "n.",
+    "meaning": "污染物",
+    "example": "The factory released harmful pollutants into the river.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "contaminant",
+      "toxin"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "emission",
+    "pos": "n.",
+    "meaning": "排放",
+    "example": "The country pledged to cut carbon emissions by 2030.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "discharge",
+      "output"
+    ],
+    "antonyms": [
+      "absorption"
+    ]
+  },
+  {
+    "word": "deforestation",
+    "pos": "n.",
+    "meaning": "森林砍伐",
+    "example": "Deforestation rates have accelerated in the Amazon.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "de- (去除/相反)",
+    "synonyms": [
+      "logging",
+      "clearing"
+    ],
+    "antonyms": [
+      "reforestation"
+    ]
+  },
+  {
+    "word": "drought",
+    "pos": "n.",
+    "meaning": "乾旱",
+    "example": "The region is suffering its worst drought in decades.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "dry spell"
+    ],
+    "antonyms": [
+      "flood"
+    ]
+  },
+  {
+    "word": "famine",
+    "pos": "n.",
+    "meaning": "饑荒",
+    "example": "Aid groups warn of an impending famine.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "starvation",
+      "food shortage"
+    ],
+    "antonyms": [
+      "abundance"
+    ]
+  },
+  {
+    "word": "relief",
+    "pos": "n.",
+    "meaning": "救援;救濟",
+    "example": "International relief efforts began within hours of the disaster.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "aid",
+      "assistance"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "evacuate",
+    "pos": "v.",
+    "meaning": "撤離",
+    "example": "Residents were ordered to evacuate ahead of the storm.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "flee",
+      "withdraw"
+    ],
+    "antonyms": [
+      "remain"
+    ]
+  },
+  {
+    "word": "devastation",
+    "pos": "n.",
+    "meaning": "毀滅;破壞",
+    "example": "The hurricane left a trail of devastation along the coast.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "destruction",
+      "ruin"
+    ],
+    "antonyms": [
+      "restoration"
+    ]
+  },
+  {
+    "word": "catastrophe",
+    "pos": "n.",
+    "meaning": "大災難",
+    "example": "The oil spill was described as an environmental catastrophe.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "disaster",
+      "calamity"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "calamity",
+    "pos": "n.",
+    "meaning": "災難",
+    "example": "The flood was the worst calamity to hit the town in a century.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "disaster",
+      "catastrophe"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "alleviate",
+    "pos": "v.",
+    "meaning": "緩解",
+    "example": "The subsidy is meant to alleviate financial hardship.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "ease",
+      "relieve"
+    ],
+    "antonyms": [
+      "worsen"
+    ]
+  },
+  {
+    "word": "exacerbate",
+    "pos": "v.",
+    "meaning": "使惡化",
+    "example": "Drought conditions have exacerbated the food crisis.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "aggravate",
+      "worsen"
+    ],
+    "antonyms": [
+      "alleviate"
+    ]
+  },
+  {
+    "word": "contentious",
+    "pos": "adj.",
+    "meaning": "有爭議的",
+    "example": "The proposal remains a contentious issue in parliament.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "controversial",
+      "disputed"
+    ],
+    "antonyms": [
+      "uncontroversial"
+    ]
+  },
+  {
+    "word": "controversial",
+    "pos": "adj.",
+    "meaning": "引發爭議的",
+    "example": "The court issued a controversial ruling on the case.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "contentious",
+      "disputed"
+    ],
+    "antonyms": [
+      "uncontroversial"
+    ]
+  },
+  {
+    "word": "polarize",
+    "pos": "v.",
+    "meaning": "使兩極化",
+    "example": "The debate has polarized public opinion.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "-ize/-ise (使成為)",
+    "synonyms": [
+      "divide",
+      "split"
+    ],
+    "antonyms": [
+      "unite"
+    ]
+  },
+  {
+    "word": "divisive",
+    "pos": "adj.",
+    "meaning": "分裂性的",
+    "example": "The reform proved highly divisive among voters.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "contentious",
+      "polarizing"
+    ],
+    "antonyms": [
+      "unifying"
+    ]
+  },
+  {
+    "word": "landmark",
+    "pos": "adj.",
+    "meaning": "具重大意義的",
+    "example": "The court issued a landmark ruling on civil rights.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "historic",
+      "groundbreaking"
+    ],
+    "antonyms": [
+      "minor"
+    ]
+  },
+  {
+    "word": "clandestine",
+    "pos": "adj.",
+    "meaning": "秘密的",
+    "example": "Investigators uncovered a clandestine arms deal.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "covert",
+      "secret"
+    ],
+    "antonyms": [
+      "overt",
+      "public"
+    ]
+  },
+  {
+    "word": "covert",
+    "pos": "adj.",
+    "meaning": "隱密的",
+    "example": "The agency ran a covert operation abroad.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "secret",
+      "clandestine"
+    ],
+    "antonyms": [
+      "overt"
+    ]
+  },
+  {
+    "word": "veto",
+    "pos": "n./v.",
+    "meaning": "否決(權)",
+    "example": "The president threatened to veto the spending bill.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "reject",
+      "block"
+    ],
+    "antonyms": [
+      "approve",
+      "ratify"
+    ]
+  },
+  {
+    "word": "ideology",
+    "pos": "n.",
+    "meaning": "意識形態",
+    "example": "The two parties differ sharply in ideology.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "doctrine",
+      "belief system"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "lobbying",
+    "pos": "n.",
+    "meaning": "遊說",
+    "example": "Lobbying by oil companies influenced the energy bill.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "advocacy",
+      "pressuring"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "filibuster",
+    "pos": "n./v.",
+    "meaning": "阻撓議事",
+    "example": "The senator used a filibuster to delay the vote.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "stall",
+      "obstruct"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "statesman",
+    "pos": "n.",
+    "meaning": "政治家",
+    "example": "He is remembered as a wise statesman who valued diplomacy.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "politician",
+      "diplomat"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "populism",
+    "pos": "n.",
+    "meaning": "民粹主義",
+    "example": "Populism has reshaped political discourse in many countries.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "popular movement"
+    ],
+    "antonyms": [
+      "elitism"
+    ]
+  },
+  {
+    "word": "enact",
+    "pos": "v.",
+    "meaning": "制定(法律)",
+    "example": "Lawmakers enacted new voting regulations last spring.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "pass",
+      "legislate"
+    ],
+    "antonyms": [
+      "repeal",
+      "abolish"
+    ]
+  },
+  {
+    "word": "repeal",
+    "pos": "v./n.",
+    "meaning": "廢除(法律)",
+    "example": "The senate voted to repeal the outdated law.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "re- (再次)",
+    "synonyms": [
+      "revoke",
+      "rescind"
+    ],
+    "antonyms": [
+      "enact",
+      "ratify"
+    ]
+  },
+  {
+    "word": "delegation",
+    "pos": "n.",
+    "meaning": "代表團",
+    "example": "A delegation from the UN visited the war-torn region.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "envoys",
+      "deputation"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "autocracy",
+    "pos": "n.",
+    "meaning": "獨裁政體",
+    "example": "Critics argue the country is sliding toward autocracy.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "auto- (自動)",
+    "synonyms": [
+      "dictatorship",
+      "despotism"
+    ],
+    "antonyms": [
+      "democracy"
+    ]
+  },
+  {
+    "word": "plutocracy",
+    "pos": "n.",
+    "meaning": "財閥統治",
+    "example": "Critics claim campaign donations have created a plutocracy.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "rule by the wealthy"
+    ],
+    "antonyms": [
+      "democracy"
+    ]
+  },
+  {
+    "word": "oligarchy",
+    "pos": "n.",
+    "meaning": "寡頭政治",
+    "example": "Power in the country is concentrated in an oligarchy of business elites.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "rule by few"
+    ],
+    "antonyms": [
+      "democracy"
+    ]
+  },
+  {
+    "word": "theocracy",
+    "pos": "n.",
+    "meaning": "神權政治",
+    "example": "The nation is governed as a theocracy under religious law.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "religious rule"
+    ],
+    "antonyms": [
+      "secular state"
+    ]
+  },
+  {
+    "word": "bureaucracy",
+    "pos": "n.",
+    "meaning": "官僚體制",
+    "example": "Reformers criticized the slow-moving bureaucracy.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "administration",
+      "civil service"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "hegemony",
+    "pos": "n.",
+    "meaning": "霸權",
+    "example": "The rise of new powers challenges the old hegemony.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "dominance",
+      "supremacy"
+    ],
+    "antonyms": [
+      "subordination"
+    ]
+  },
+  {
+    "word": "secession",
+    "pos": "n.",
+    "meaning": "脫離、分離",
+    "example": "Several states threatened secession from the union.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "withdrawal",
+      "breakaway"
+    ],
+    "antonyms": [
+      "unification",
+      "annexation"
+    ]
+  },
+  {
+    "word": "clemency",
+    "pos": "n.",
+    "meaning": "寬大、赦免",
+    "example": "The governor granted clemency to the aging prisoner.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "mercy",
+      "leniency"
+    ],
+    "antonyms": [
+      "severity",
+      "punishment"
+    ]
+  },
+  {
+    "word": "amnesty",
+    "pos": "n.",
+    "meaning": "大赦",
+    "example": "The government offered amnesty to political exiles.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "pardon",
+      "reprieve"
+    ],
+    "antonyms": [
+      "prosecution"
+    ]
+  },
+  {
+    "word": "isolationism",
+    "pos": "n.",
+    "meaning": "孤立主義",
+    "example": "The nation's foreign policy shifted toward isolationism.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "nonintervention"
+    ],
+    "antonyms": [
+      "interventionism",
+      "internationalism"
+    ]
+  },
+  {
+    "word": "interventionism",
+    "pos": "n.",
+    "meaning": "干涉主義",
+    "example": "Critics accused the superpower of interventionism in regional affairs.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "inter- (之間/相互)",
+    "synonyms": [
+      "intervention policy"
+    ],
+    "antonyms": [
+      "isolationism"
+    ]
+  },
+  {
+    "word": "bilateral",
+    "pos": "adj.",
+    "meaning": "雙邊的",
+    "example": "The two countries signed a bilateral trade agreement.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "two-sided"
+    ],
+    "antonyms": [
+      "multilateral",
+      "unilateral"
+    ]
+  },
+  {
+    "word": "armistice",
+    "pos": "n.",
+    "meaning": "停戰協定",
+    "example": "An armistice was signed after years of fighting.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "truce",
+      "ceasefire"
+    ],
+    "antonyms": [
+      "declaration of war"
+    ]
+  },
+  {
+    "word": "reparations",
+    "pos": "n.",
+    "meaning": "賠款",
+    "example": "The country demanded reparations for wartime damages.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "compensation",
+      "restitution"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "annexation",
+    "pos": "n.",
+    "meaning": "併吞",
+    "example": "The annexation of the territory sparked international outrage.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "seizure",
+      "takeover"
+    ],
+    "antonyms": [
+      "secession",
+      "withdrawal"
+    ]
+  },
+  {
+    "word": "insurrection",
+    "pos": "n.",
+    "meaning": "暴動",
+    "example": "The insurrection was quickly suppressed by security forces.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "revolt",
+      "uprising"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "coup d'état",
+    "pos": "n.",
+    "meaning": "政變",
+    "example": "The military staged a coup d'état to seize power.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "overthrow",
+      "putsch"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "monarchy",
+    "pos": "n.",
+    "meaning": "君主制",
+    "example": "The country transitioned from a monarchy to a republic.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "kingdom",
+      "crown rule"
+    ],
+    "antonyms": [
+      "republic"
+    ]
+  },
+  {
+    "word": "plebiscite",
+    "pos": "n.",
+    "meaning": "公民投票",
+    "example": "A plebiscite will determine the territory's future status.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "referendum",
+      "public vote"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "gerrymandering",
+    "pos": "n.",
+    "meaning": "選區操縱",
+    "example": "Critics accused the party of gerrymandering to secure victory.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "redistricting manipulation"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "redistricting",
+    "pos": "n.",
+    "meaning": "重劃選區",
+    "example": "Redistricting can significantly shift a district's political balance.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "re- (再次)",
+    "synonyms": [
+      "reapportionment"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "disenfranchise",
+    "pos": "v.",
+    "meaning": "剝奪公民權",
+    "example": "Strict ID laws may disenfranchise elderly voters.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "dis- (不/相反)",
+    "synonyms": [
+      "disqualify",
+      "deprive of rights"
+    ],
+    "antonyms": [
+      "enfranchise"
+    ]
+  },
+  {
+    "word": "enfranchise",
+    "pos": "v.",
+    "meaning": "賦予公民權",
+    "example": "The amendment enfranchised women across the nation.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "empower",
+      "grant suffrage"
+    ],
+    "antonyms": [
+      "disenfranchise"
+    ]
+  },
+  {
+    "word": "suffrage",
+    "pos": "n.",
+    "meaning": "投票權",
+    "example": "Universal suffrage was a hard-won achievement.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "voting rights",
+      "franchise"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "constituent",
+    "pos": "n.",
+    "meaning": "選民",
+    "example": "The senator listened carefully to her constituents' concerns.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "voter",
+      "elector"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "lobbyist",
+    "pos": "n.",
+    "meaning": "說客",
+    "example": "The lobbyist met with several senators to push the bill.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "advocate",
+      "influence peddler"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "incumbency",
+    "pos": "n.",
+    "meaning": "在職期間",
+    "example": "His long incumbency gave him considerable political leverage.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "tenure",
+      "term in office"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "candidacy",
+    "pos": "n.",
+    "meaning": "候選人身分",
+    "example": "She announced her candidacy for governor last week.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "bid for office"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "nomination",
+    "pos": "n.",
+    "meaning": "提名",
+    "example": "He secured the party's nomination for president.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "candidacy",
+      "selection"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "caucus",
+    "pos": "n.",
+    "meaning": "政黨黨團會議",
+    "example": "Party members gathered for the caucus to select a nominee.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "assembly",
+      "conference"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "manifesto",
+    "pos": "n.",
+    "meaning": "政見宣言",
+    "example": "The party released its manifesto ahead of the election.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "platform",
+      "declaration"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "rhetoric",
+    "pos": "n.",
+    "meaning": "政治言辭、修辭",
+    "example": "Voters grew tired of empty political rhetoric.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "oratory",
+      "wording"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "demagogue",
+    "pos": "n.",
+    "meaning": "煽動政客",
+    "example": "The demagogue exploited public fears to gain support.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "rabble-rouser",
+      "agitator"
+    ],
+    "antonyms": [
+      "statesman"
+    ]
+  },
+  {
+    "word": "propaganda",
+    "pos": "n.",
+    "meaning": "政治宣傳",
+    "example": "The regime used propaganda to control public opinion.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "misinformation",
+      "spin"
+    ],
+    "antonyms": [
+      "objective reporting"
+    ]
+  },
+  {
+    "word": "censorship",
+    "pos": "n.",
+    "meaning": "審查制度",
+    "example": "Journalists condemned the government's censorship of the press.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "-ship (身分狀態)",
+    "synonyms": [
+      "suppression",
+      "restriction"
+    ],
+    "antonyms": [
+      "free speech"
+    ]
+  },
+  {
+    "word": "dissent",
+    "pos": "n./v.",
+    "meaning": "異議、不同意",
+    "example": "Judges are free to express dissent in their written opinions.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "dis- (不/相反)",
+    "synonyms": [
+      "disagreement",
+      "objection"
+    ],
+    "antonyms": [
+      "consent",
+      "agreement"
+    ]
+  },
+  {
+    "word": "defector",
+    "pos": "n.",
+    "meaning": "叛逃者",
+    "example": "The defector revealed secrets about the regime's inner workings.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "deserter",
+      "turncoat"
+    ],
+    "antonyms": [
+      "loyalist"
+    ]
+  },
+  {
+    "word": "exile",
+    "pos": "n./v.",
+    "meaning": "流放",
+    "example": "The former leader lived in exile for twenty years.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "banishment",
+      "expulsion"
+    ],
+    "antonyms": [
+      "repatriation"
+    ]
+  },
+  {
+    "word": "repatriation",
+    "pos": "n.",
+    "meaning": "遣返",
+    "example": "The treaty arranged for the repatriation of prisoners of war.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "re- (再次)",
+    "synonyms": [
+      "return",
+      "deportation"
+    ],
+    "antonyms": [
+      "exile"
+    ]
+  },
+  {
+    "word": "extradition",
+    "pos": "n.",
+    "meaning": "引渡",
+    "example": "The government requested the extradition of the fugitive official.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "deportation",
+      "rendition"
+    ],
+    "antonyms": [
+      "asylum"
+    ]
+  },
+  {
+    "word": "immunity",
+    "pos": "n.",
+    "meaning": "豁免權",
+    "example": "Diplomatic immunity shields ambassadors from local prosecution.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "exemption",
+      "protection"
+    ],
+    "antonyms": [
+      "liability"
+    ]
+  },
+  {
+    "word": "adjournment",
+    "pos": "n.",
+    "meaning": "休會",
+    "example": "The session ended with an adjournment until next month.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "-ment (名詞化:狀態結果)",
+    "synonyms": [
+      "recess",
+      "suspension"
+    ],
+    "antonyms": [
+      "convening"
+    ]
+  },
+  {
+    "word": "quorum",
+    "pos": "n.",
+    "meaning": "法定人數",
+    "example": "The committee could not vote without a quorum present.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "minimum attendance"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "deliberation",
+    "pos": "n.",
+    "meaning": "審議",
+    "example": "After lengthy deliberation, the jury reached a verdict.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "discussion",
+      "consideration"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "proclamation",
+    "pos": "n.",
+    "meaning": "公告、宣言",
+    "example": "The president issued a proclamation declaring a national holiday.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "announcement",
+      "declaration"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "decree",
+    "pos": "n./v.",
+    "meaning": "法令",
+    "example": "The ruler issued a decree banning public gatherings.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "edict",
+      "order"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "edict",
+    "pos": "n.",
+    "meaning": "敕令",
+    "example": "The emperor's edict was met with public resistance.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "decree",
+      "proclamation"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "ordinance",
+    "pos": "n.",
+    "meaning": "條例",
+    "example": "The city council passed an ordinance restricting street vendors.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "regulation",
+      "bylaw"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "stipulation",
+    "pos": "n.",
+    "meaning": "規定、條件",
+    "example": "One stipulation of the treaty requires troop withdrawal.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "condition",
+      "provision"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "cronyism",
+    "pos": "n.",
+    "meaning": "裙帶關係",
+    "example": "Cronyism undermined public trust in the administration.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "nepotism",
+      "favoritism"
+    ],
+    "antonyms": [
+      "meritocracy"
+    ]
+  },
+  {
+    "word": "cover-up",
+    "pos": "n.",
+    "meaning": "掩蓋、隱瞞",
+    "example": "Investigators uncovered a cover-up within the administration.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "concealment",
+      "suppression"
+    ],
+    "antonyms": [
+      "disclosure"
+    ]
+  },
+  {
+    "word": "conclave",
+    "pos": "n.",
+    "meaning": "秘密會議",
+    "example": "Party leaders held a conclave to choose the next candidate.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "closed meeting",
+      "assembly"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "emissary",
+    "pos": "n.",
+    "meaning": "特使",
+    "example": "The president sent an emissary to negotiate with rebel leaders.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "envoy",
+      "representative"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "realpolitik",
+    "pos": "n.",
+    "meaning": "現實政治",
+    "example": "Critics say the deal reflects realpolitik rather than principle.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "pragmatic politics"
+    ],
+    "antonyms": [
+      "idealism"
+    ]
+  },
+  {
+    "word": "attaché",
+    "pos": "n.",
+    "meaning": "隨員、專員",
+    "example": "The cultural attaché organized events at the embassy.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "aide",
+      "assistant"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "plenipotentiary",
+    "pos": "n./adj.",
+    "meaning": "全權代表(的)",
+    "example": "The plenipotentiary was authorized to sign the treaty on the nation's behalf.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "envoy",
+      "full representative"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "rapprochement",
+    "pos": "n.",
+    "meaning": "關係改善",
+    "example": "Rapprochement between the two rivals began with quiet diplomacy.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "-ment (名詞化:狀態結果)",
+    "synonyms": [
+      "reconciliation",
+      "détente"
+    ],
+    "antonyms": [
+      "estrangement",
+      "hostility"
+    ]
+  },
+  {
+    "word": "détente",
+    "pos": "n.",
+    "meaning": "緊張關係緩和",
+    "example": "Détente eased tensions between the two superpowers during the Cold War.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "easing of tension",
+      "thaw"
+    ],
+    "antonyms": [
+      "escalation"
+    ]
+  },
+  {
+    "word": "entente",
+    "pos": "n.",
+    "meaning": "協約、協商關係",
+    "example": "The entente between the two nations strengthened their defense ties.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "alliance",
+      "accord"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "irredentism",
+    "pos": "n.",
+    "meaning": "收復失地主義",
+    "example": "Irredentism fueled the territorial dispute between the neighboring states.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "territorial nationalism"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "adversary",
+    "pos": "n.",
+    "meaning": "對手、敵對方",
+    "example": "The two nations have long been political adversaries.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "opponent",
+      "rival"
+    ],
+    "antonyms": [
+      "ally",
+      "partner"
+    ]
+  },
+  {
+    "word": "belligerent",
+    "pos": "adj./n.",
+    "meaning": "好戰的、交戰方",
+    "example": "The belligerent nations refused to negotiate a truce.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "hostile",
+      "combative"
+    ],
+    "antonyms": [
+      "peaceful",
+      "conciliatory"
+    ]
+  },
+  {
+    "word": "neutrality",
+    "pos": "n.",
+    "meaning": "中立",
+    "example": "The country maintained strict neutrality throughout the war.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "nonalignment",
+      "impartiality"
+    ],
+    "antonyms": [
+      "partisanship",
+      "alignment"
+    ]
+  },
+  {
+    "word": "nonaligned",
+    "pos": "adj.",
+    "meaning": "不結盟的",
+    "example": "Nonaligned nations refused to side with either superpower.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "neutral",
+      "unaligned"
+    ],
+    "antonyms": [
+      "aligned"
+    ]
+  },
+  {
+    "word": "superpower",
+    "pos": "n.",
+    "meaning": "超級強權",
+    "example": "The two superpowers competed for global influence during the Cold War.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "great power",
+      "hegemon"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "federation",
+    "pos": "n.",
+    "meaning": "聯邦",
+    "example": "The federation grants significant autonomy to its member states.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "union",
+      "confederation"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "confederation",
+    "pos": "n.",
+    "meaning": "邦聯",
+    "example": "The confederation collapsed due to weak central authority.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "co-/con- (共同)",
+    "synonyms": [
+      "alliance",
+      "league"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "secular",
+    "pos": "adj.",
+    "meaning": "世俗的",
+    "example": "The constitution establishes a secular state separate from religion.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "nonreligious",
+      "civil"
+    ],
+    "antonyms": [
+      "religious",
+      "theocratic"
+    ]
+  },
+  {
+    "word": "theocratic",
+    "pos": "adj.",
+    "meaning": "神權政治的",
+    "example": "The theocratic government enforces religious law nationwide.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "religious rule"
+    ],
+    "antonyms": [
+      "secular"
+    ]
+  },
+  {
+    "word": "totalitarian",
+    "pos": "adj.",
+    "meaning": "極權主義的",
+    "example": "The novel depicts life under a totalitarian regime.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "authoritarian",
+      "despotic"
+    ],
+    "antonyms": [
+      "democratic",
+      "liberal"
+    ]
+  },
+  {
+    "word": "despotism",
+    "pos": "n.",
+    "meaning": "專制統治",
+    "example": "Decades of despotism left the nation impoverished and isolated.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "tyranny",
+      "autocracy"
+    ],
+    "antonyms": [
+      "democracy"
+    ]
+  },
+  {
+    "word": "tyranny",
+    "pos": "n.",
+    "meaning": "暴政",
+    "example": "The revolution sought to end years of tyranny.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "oppression",
+      "despotism"
+    ],
+    "antonyms": [
+      "freedom",
+      "democracy"
+    ]
+  },
+  {
+    "word": "oppression",
+    "pos": "n.",
+    "meaning": "壓迫",
+    "example": "The uprising was a response to decades of oppression.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "persecution",
+      "subjugation"
+    ],
+    "antonyms": [
+      "liberation",
+      "freedom"
+    ]
+  },
+  {
+    "word": "repression",
+    "pos": "n.",
+    "meaning": "鎮壓",
+    "example": "The regime relied on repression to silence dissent.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "suppression",
+      "crackdown"
+    ],
+    "antonyms": [
+      "liberation"
+    ]
+  },
+  {
+    "word": "subjugation",
+    "pos": "n.",
+    "meaning": "征服、奴役",
+    "example": "The colony endured centuries of subjugation under foreign rule.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "domination",
+      "enslavement"
+    ],
+    "antonyms": [
+      "liberation",
+      "independence"
+    ]
+  },
+  {
+    "word": "emancipation",
+    "pos": "n.",
+    "meaning": "解放",
+    "example": "Emancipation from colonial rule came after decades of struggle.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "liberation",
+      "freedom"
+    ],
+    "antonyms": [
+      "subjugation",
+      "enslavement"
+    ]
+  },
+  {
+    "word": "liberalization",
+    "pos": "n.",
+    "meaning": "自由化",
+    "example": "Economic liberalization opened the country to foreign investment.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "-ize/-ise (使成為)",
+    "synonyms": [
+      "deregulation",
+      "opening up"
+    ],
+    "antonyms": [
+      "restriction"
+    ]
+  },
+  {
+    "word": "urbanization",
+    "pos": "n.",
+    "meaning": "都市化",
+    "example": "Rapid urbanization has led to overcrowded housing in many cities.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "urban growth"
+    ],
+    "antonyms": [
+      "ruralization"
+    ]
+  },
+  {
+    "word": "aging population",
+    "pos": "phr.",
+    "meaning": "高齡化人口",
+    "example": "Many developed nations face challenges from an aging population.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "graying population"
+    ],
+    "antonyms": [
+      "youth bulge"
+    ]
+  },
+  {
+    "word": "birthrate",
+    "pos": "n.",
+    "meaning": "出生率",
+    "example": "The country's birthrate has declined steadily over the past decade.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "natality rate"
+    ],
+    "antonyms": [
+      "death rate"
+    ]
+  },
+  {
+    "word": "fertility rate",
+    "pos": "phr.",
+    "meaning": "生育率",
+    "example": "A falling fertility rate raises concerns about future labor shortages.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "reproduction rate"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "gentrification",
+    "pos": "n.",
+    "meaning": "仕紳化",
+    "example": "Gentrification often displaces long-term residents from urban neighborhoods.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "urban renewal"
+    ],
+    "antonyms": [
+      "urban decay"
+    ]
+  },
+  {
+    "word": "overpopulation",
+    "pos": "n.",
+    "meaning": "人口過剩",
+    "example": "Overpopulation strains natural resources and public services.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "over- (過度)",
+    "synonyms": [
+      "overcrowding"
+    ],
+    "antonyms": [
+      "depopulation"
+    ]
+  },
+  {
+    "word": "diaspora",
+    "pos": "n.",
+    "meaning": "僑民；離散族群",
+    "example": "The Irish diaspora has maintained strong cultural ties abroad.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "expatriate community"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "cohort",
+    "pos": "n.",
+    "meaning": "世代群體",
+    "example": "Researchers tracked a cohort of students over ten years.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "group",
+      "generation"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "stratification",
+    "pos": "n.",
+    "meaning": "階層化",
+    "example": "Social stratification limits mobility between economic classes.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "hierarchy",
+      "layering"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "multiculturalism",
+    "pos": "n.",
+    "meaning": "多元文化主義",
+    "example": "Canada is often cited as a model of multiculturalism.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "multi- (多)",
+    "synonyms": [
+      "cultural pluralism"
+    ],
+    "antonyms": [
+      "assimilationism"
+    ]
+  },
+  {
+    "word": "biodiversity",
+    "pos": "n.",
+    "meaning": "生物多樣性",
+    "example": "Deforestation threatens biodiversity in tropical rainforests.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "biological diversity"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "emissions",
+    "pos": "n.",
+    "meaning": "排放（物）",
+    "example": "Countries pledged to cut carbon emissions by 2030.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "discharge",
+      "output"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "desertification",
+    "pos": "n.",
+    "meaning": "沙漠化",
+    "example": "Overgrazing contributes to desertification in arid regions.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "land degradation"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "erosion",
+    "pos": "n.",
+    "meaning": "侵蝕",
+    "example": "Soil erosion reduces agricultural productivity over time.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "wearing away"
+    ],
+    "antonyms": [
+      "deposition"
+    ]
+  },
+  {
+    "word": "conservation",
+    "pos": "n.",
+    "meaning": "保育",
+    "example": "Wildlife conservation efforts have helped endangered species recover.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "preservation"
+    ],
+    "antonyms": [
+      "exploitation"
+    ]
+  },
+  {
+    "word": "renewable",
+    "pos": "adj.",
+    "meaning": "可再生的",
+    "example": "Governments are investing heavily in renewable energy sources.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "-able/-ible (可…的)",
+    "synonyms": [
+      "sustainable"
+    ],
+    "antonyms": [
+      "nonrenewable"
+    ]
+  },
+  {
+    "word": "carbon footprint",
+    "pos": "phr.",
+    "meaning": "碳足跡",
+    "example": "Reducing your carbon footprint can be as simple as biking to work.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "greenhouse gas",
+    "pos": "phr.",
+    "meaning": "溫室氣體",
+    "example": "Methane is a potent greenhouse gas contributing to global warming.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "fossil fuel",
+    "pos": "phr.",
+    "meaning": "化石燃料",
+    "example": "Reliance on fossil fuels remains a major barrier to decarbonization.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "renewable energy"
+    ]
+  },
+  {
+    "word": "carbon-neutral",
+    "pos": "adj.",
+    "meaning": "碳中和的",
+    "example": "The company pledged to become carbon-neutral by 2040.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "climate-neutral"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "biodegradable",
+    "pos": "adj.",
+    "meaning": "可生物分解的",
+    "example": "Many countries now require biodegradable packaging for food products.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "-able/-ible (可…的)",
+    "synonyms": [
+      "compostable"
+    ],
+    "antonyms": [
+      "nonbiodegradable"
+    ]
+  },
+  {
+    "word": "overconsumption",
+    "pos": "n.",
+    "meaning": "過度消費",
+    "example": "Overconsumption of natural resources accelerates environmental decline.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "over- (過度)",
+    "synonyms": [
+      "excessive consumption"
+    ],
+    "antonyms": [
+      "conservation"
+    ]
+  },
+  {
+    "word": "contagious",
+    "pos": "adj.",
+    "meaning": "傳染性的",
+    "example": "The disease is highly contagious and spreads through close contact.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "infectious"
+    ],
+    "antonyms": [
+      "noncontagious"
+    ]
+  },
+  {
+    "word": "immunization",
+    "pos": "n.",
+    "meaning": "免疫接種",
+    "example": "Widespread immunization has nearly eradicated several deadly diseases.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "vaccination"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "longevity",
+    "pos": "n.",
+    "meaning": "長壽",
+    "example": "Improved diet and medicine have increased human longevity.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "lifespan"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "malnutrition",
+    "pos": "n.",
+    "meaning": "營養不良",
+    "example": "Malnutrition remains widespread in conflict-affected regions.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "undernourishment"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "sedentary",
+    "pos": "adj.",
+    "meaning": "久坐的",
+    "example": "A sedentary lifestyle increases the risk of chronic illness.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "inactive"
+    ],
+    "antonyms": [
+      "active"
+    ]
+  },
+  {
+    "word": "chronic",
+    "pos": "adj.",
+    "meaning": "慢性的；長期的",
+    "example": "Chronic diseases place a heavy burden on healthcare systems.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "persistent",
+      "long-lasting"
+    ],
+    "antonyms": [
+      "acute"
+    ]
+  },
+  {
+    "word": "obesity",
+    "pos": "n.",
+    "meaning": "肥胖症",
+    "example": "Childhood obesity rates have risen alongside sedentary habits.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "overweight"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "substance abuse",
+    "pos": "phr.",
+    "meaning": "藥物濫用",
+    "example": "Substance abuse treatment programs need more public funding.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "drug abuse"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "addiction",
+    "pos": "n.",
+    "meaning": "成癮",
+    "example": "Addiction to opioids has become a national public health crisis.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "dependency"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "relapse",
+    "pos": "n./v.",
+    "meaning": "復發",
+    "example": "Many recovering addicts experience relapse without proper support.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "re- (再次)",
+    "synonyms": [
+      "recurrence"
+    ],
+    "antonyms": [
+      "recovery"
+    ]
+  },
+  {
+    "word": "overdose",
+    "pos": "n.",
+    "meaning": "用藥過量",
+    "example": "Fatal overdose rates have surged amid the opioid crisis.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "over- (過度)",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "well-being",
+    "pos": "n.",
+    "meaning": "幸福感；福祉",
+    "example": "Mental well-being is as important as physical health.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "welfare",
+      "wellness"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "curriculum",
+    "pos": "n.",
+    "meaning": "課程",
+    "example": "Schools are revising the curriculum to include digital literacy.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "syllabus"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "pedagogy",
+    "pos": "n.",
+    "meaning": "教育學；教學法",
+    "example": "Modern pedagogy emphasizes critical thinking over rote memorization.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "teaching method"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "literacy",
+    "pos": "n.",
+    "meaning": "識字能力",
+    "example": "Improving literacy rates is a key goal of global education initiatives.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "illiteracy"
+    ]
+  },
+  {
+    "word": "illiteracy",
+    "pos": "n.",
+    "meaning": "文盲",
+    "example": "Illiteracy limits access to employment and civic participation.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "literacy"
+    ]
+  },
+  {
+    "word": "dropout rate",
+    "pos": "phr.",
+    "meaning": "輟學率",
+    "example": "High school dropout rates are linked to poverty and family instability.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "attrition rate"
+    ],
+    "antonyms": [
+      "graduation rate"
+    ]
+  },
+  {
+    "word": "tuition",
+    "pos": "n.",
+    "meaning": "學費",
+    "example": "Rising tuition costs have made college less accessible.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "school fees"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "vocational",
+    "pos": "adj.",
+    "meaning": "職業（訓練）的",
+    "example": "Vocational training equips students with practical job skills.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "occupational"
+    ],
+    "antonyms": [
+      "academic"
+    ]
+  },
+  {
+    "word": "indoctrination",
+    "pos": "n.",
+    "meaning": "灌輸（思想）",
+    "example": "Critics accused the regime of indoctrination through state-run schools.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "brainwashing"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "socialization",
+    "pos": "n.",
+    "meaning": "社會化",
+    "example": "Socialization begins in early childhood through family and peers.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "-ize/-ise (使成為)",
+    "synonyms": [
+      "social conditioning"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "plagiarism",
+    "pos": "n.",
+    "meaning": "抄襲",
+    "example": "The university expelled the student for plagiarism.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "copying"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "incarceration",
+    "pos": "n.",
+    "meaning": "監禁",
+    "example": "Mass incarceration has disproportionately affected minority communities.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "imprisonment"
+    ],
+    "antonyms": [
+      "release"
+    ]
+  },
+  {
+    "word": "rehabilitation",
+    "pos": "n.",
+    "meaning": "復健；矯正",
+    "example": "Rehabilitation programs aim to reduce reoffending among prisoners.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "re- (再次)",
+    "synonyms": [
+      "reform"
+    ],
+    "antonyms": [
+      "punishment"
+    ]
+  },
+  {
+    "word": "recidivism",
+    "pos": "n.",
+    "meaning": "再犯率",
+    "example": "Job training has been shown to lower recidivism rates.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "re- (再次)",
+    "synonyms": [
+      "reoffending"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "probation",
+    "pos": "n.",
+    "meaning": "緩刑；試用期",
+    "example": "She was sentenced to two years of probation instead of prison.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "conditional release"
+    ],
+    "antonyms": [
+      "incarceration"
+    ]
+  },
+  {
+    "word": "parole",
+    "pos": "n.",
+    "meaning": "假釋",
+    "example": "He was released on parole after serving half his sentence.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "conditional release"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "acquittal",
+    "pos": "n.",
+    "meaning": "無罪釋放",
+    "example": "The jury's acquittal surprised many legal analysts.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "exoneration"
+    ],
+    "antonyms": [
+      "conviction"
+    ]
+  },
+  {
+    "word": "exoneration",
+    "pos": "n.",
+    "meaning": "平反；洗清罪名",
+    "example": "DNA evidence led to the exoneration of the wrongly convicted man.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "acquittal",
+      "vindication"
+    ],
+    "antonyms": [
+      "conviction"
+    ]
+  },
+  {
+    "word": "wrongful conviction",
+    "pos": "phr.",
+    "meaning": "冤案；錯誤定罪",
+    "example": "Wrongful convictions often stem from unreliable eyewitness testimony.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "felony",
+    "pos": "n.",
+    "meaning": "重罪",
+    "example": "Armed robbery is classified as a felony in most states.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "serious crime"
+    ],
+    "antonyms": [
+      "misdemeanor"
+    ]
+  },
+  {
+    "word": "misdemeanor",
+    "pos": "n.",
+    "meaning": "輕罪",
+    "example": "Petty theft is usually charged as a misdemeanor.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "minor offense"
+    ],
+    "antonyms": [
+      "felony"
+    ]
+  },
+  {
+    "word": "juvenile delinquency",
+    "pos": "phr.",
+    "meaning": "青少年犯罪",
+    "example": "Juvenile delinquency is often linked to unstable home environments.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "youth crime"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "vigilante",
+    "pos": "n.",
+    "meaning": "私刑者；義警",
+    "example": "Vigilante justice can undermine trust in the legal system.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "self-appointed enforcer"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "capital punishment",
+    "pos": "phr.",
+    "meaning": "死刑",
+    "example": "Several countries have abolished capital punishment in recent decades.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "death penalty"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "disparity",
+    "pos": "n.",
+    "meaning": "差距；不平等",
+    "example": "Income disparity between urban and rural areas continues to widen.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "dis- (不/相反)",
+    "synonyms": [
+      "gap",
+      "inequality"
+    ],
+    "antonyms": [
+      "parity"
+    ]
+  },
+  {
+    "word": "marginalized",
+    "pos": "adj.",
+    "meaning": "邊緣化的",
+    "example": "Marginalized communities often lack access to quality healthcare.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "disadvantaged",
+      "excluded"
+    ],
+    "antonyms": [
+      "mainstream"
+    ]
+  },
+  {
+    "word": "affluent",
+    "pos": "adj.",
+    "meaning": "富裕的",
+    "example": "Affluent neighborhoods often have better-funded public schools.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "wealthy",
+      "prosperous"
+    ],
+    "antonyms": [
+      "destitute"
+    ]
+  },
+  {
+    "word": "destitute",
+    "pos": "adj.",
+    "meaning": "赤貧的",
+    "example": "The charity provides shelter for destitute families.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "impoverished"
+    ],
+    "antonyms": [
+      "affluent"
+    ]
+  },
+  {
+    "word": "underprivileged",
+    "pos": "adj.",
+    "meaning": "弱勢的",
+    "example": "The scholarship targets underprivileged students with academic potential.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "under- (不足)",
+    "synonyms": [
+      "disadvantaged"
+    ],
+    "antonyms": [
+      "privileged"
+    ]
+  },
+  {
+    "word": "disenfranchised",
+    "pos": "adj.",
+    "meaning": "被剝奪權利的",
+    "example": "Disenfranchised voters often feel disconnected from the political process.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "dis- (不/相反)",
+    "synonyms": [
+      "disempowered"
+    ],
+    "antonyms": [
+      "enfranchised"
+    ]
+  },
+  {
+    "word": "stereotype",
+    "pos": "n.",
+    "meaning": "刻板印象",
+    "example": "Media often reinforces harmful stereotypes about minority groups.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "generalization"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "prejudice",
+    "pos": "n.",
+    "meaning": "偏見",
+    "example": "Prejudice against immigrants can fuel social division.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "bias"
+    ],
+    "antonyms": [
+      "tolerance"
+    ]
+  },
+  {
+    "word": "tokenism",
+    "pos": "n.",
+    "meaning": "象徵性作為",
+    "example": "Critics dismissed the hiring policy as mere tokenism.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "symbolic gesture"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "intersectionality",
+    "pos": "n.",
+    "meaning": "交織性（歧視疊加）",
+    "example": "Intersectionality examines how race, gender, and class overlap in shaping inequality.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "inter- (之間/相互)",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "empowerment",
+    "pos": "n.",
+    "meaning": "賦權；增能",
+    "example": "Economic empowerment helps women gain financial independence.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "-ment (名詞化:狀態結果)",
+    "synonyms": [],
+    "antonyms": [
+      "disempowerment"
+    ]
+  },
+  {
+    "word": "segregation",
+    "pos": "n.",
+    "meaning": "隔離；種族隔離",
+    "example": "Segregation in public schools was ruled unconstitutional decades ago.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "separation"
+    ],
+    "antonyms": [
+      "integration"
+    ]
+  },
+  {
+    "word": "meritocracy",
+    "pos": "n.",
+    "meaning": "精英管理制度",
+    "example": "A true meritocracy rewards ability rather than family connections.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "nepotism"
+    ]
+  },
+  {
+    "word": "underclass",
+    "pos": "n.",
+    "meaning": "底層階級",
+    "example": "The urban underclass often lacks access to stable employment.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "under- (不足)",
+    "synonyms": [
+      "lower class"
+    ],
+    "antonyms": [
+      "elite"
+    ]
+  },
+  {
+    "word": "subsistence",
+    "pos": "n.",
+    "meaning": "維生；自給自足",
+    "example": "Many rural families rely on subsistence farming to survive.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "sub- (次要/下)",
+    "synonyms": [
+      "survival"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "welfare",
+    "pos": "n.",
+    "meaning": "福利",
+    "example": "Government welfare programs support low-income families.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "social security",
+      "aid"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "subsidize",
+    "pos": "v.",
+    "meaning": "補貼",
+    "example": "The government subsidizes public transportation to reduce traffic.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "sub- (次要/下)",
+    "synonyms": [
+      "fund",
+      "support"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "misinformation",
+    "pos": "n.",
+    "meaning": "錯誤資訊",
+    "example": "Misinformation spread rapidly on social media during the crisis.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "false information"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "disinformation",
+    "pos": "n.",
+    "meaning": "假訊息（蓄意）",
+    "example": "Foreign disinformation campaigns aimed to sway public opinion.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "dis- (不/相反)",
+    "synonyms": [
+      "propaganda"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "polarization",
+    "pos": "n.",
+    "meaning": "兩極化",
+    "example": "Political polarization has deepened divisions among voters.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "division"
+    ],
+    "antonyms": [
+      "unity"
+    ]
+  },
+  {
+    "word": "activism",
+    "pos": "n.",
+    "meaning": "社會運動；行動主義",
+    "example": "Grassroots activism has driven significant policy changes.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "advocacy"
+    ],
+    "antonyms": [
+      "apathy"
+    ]
+  },
+  {
+    "word": "philanthropy",
+    "pos": "n.",
+    "meaning": "慈善事業",
+    "example": "Corporate philanthropy has funded numerous community health programs.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "charity"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "solidarity",
+    "pos": "n.",
+    "meaning": "團結",
+    "example": "Workers expressed solidarity by joining the citywide strike.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "unity",
+      "cohesion"
+    ],
+    "antonyms": [
+      "division"
+    ]
+  },
+  {
+    "word": "civil disobedience",
+    "pos": "phr.",
+    "meaning": "公民不服從",
+    "example": "Civil disobedience was central to the civil rights movement.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "nonviolent resistance"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "unrest",
+    "pos": "n.",
+    "meaning": "動盪；不安",
+    "example": "Social unrest spread across several major cities.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "turmoil"
+    ],
+    "antonyms": [
+      "stability"
+    ]
+  },
+  {
+    "word": "comprehensive",
+    "pos": "adj.",
+    "meaning": "全面的;廣泛的",
+    "example": "The report offers a comprehensive analysis of the data.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "co-/con- (共同)",
+    "synonyms": [
+      "extensive",
+      "thorough"
+    ],
+    "antonyms": [
+      "partial",
+      "limited"
+    ]
+  },
+  {
+    "word": "inevitable",
+    "pos": "adj.",
+    "meaning": "不可避免的",
+    "example": "Given current trends, a price increase seems inevitable.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "-able/-ible (可…的)",
+    "synonyms": [
+      "unavoidable",
+      "certain"
+    ],
+    "antonyms": [
+      "avoidable",
+      "preventable"
+    ]
+  },
+  {
+    "word": "plausible",
+    "pos": "adj.",
+    "meaning": "似乎合理的",
+    "example": "His explanation sounded plausible but lacked proof.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "-able/-ible (可…的)",
+    "synonyms": [
+      "believable",
+      "credible"
+    ],
+    "antonyms": [
+      "implausible",
+      "unlikely"
+    ]
+  },
+  {
+    "word": "arbitrary",
+    "pos": "adj.",
+    "meaning": "武斷的;隨意的",
+    "example": "The rules seemed arbitrary and inconsistent.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "random",
+      "capricious"
+    ],
+    "antonyms": [
+      "reasoned",
+      "systematic"
+    ]
+  },
+  {
+    "word": "empirical",
+    "pos": "adj.",
+    "meaning": "實證的;經驗主義的",
+    "example": "The theory is based on empirical evidence rather than speculation.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "observational",
+      "experiential"
+    ],
+    "antonyms": [
+      "theoretical"
+    ]
+  },
+  {
+    "word": "meticulous",
+    "pos": "adj.",
+    "meaning": "一絲不苟的",
+    "example": "He is meticulous about checking every detail before submission.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "careful",
+      "precise"
+    ],
+    "antonyms": [
+      "careless",
+      "sloppy"
+    ]
+  },
+  {
+    "word": "profound",
+    "pos": "adj.",
+    "meaning": "深刻的;深遠的",
+    "example": "The experience had a profound impact on her worldview.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "deep",
+      "far-reaching"
+    ],
+    "antonyms": [
+      "superficial",
+      "shallow"
+    ]
+  },
+  {
+    "word": "versatile",
+    "pos": "adj.",
+    "meaning": "多才多藝的;多用途的",
+    "example": "This tool is versatile enough for many different tasks.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "adaptable",
+      "flexible"
+    ],
+    "antonyms": [
+      "limited",
+      "specialized"
+    ]
+  },
+  {
+    "word": "cumbersome",
+    "pos": "adj.",
+    "meaning": "笨重的;繁瑣的",
+    "example": "The process was cumbersome and time-consuming.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "unwieldy",
+      "burdensome"
+    ],
+    "antonyms": [
+      "convenient",
+      "efficient"
+    ]
+  },
+  {
+    "word": "intricate",
+    "pos": "adj.",
+    "meaning": "複雜精細的",
+    "example": "The watch has an intricate mechanism inside.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "complex",
+      "elaborate"
+    ],
+    "antonyms": [
+      "simple",
+      "straightforward"
+    ]
+  },
+  {
+    "word": "paradox",
+    "pos": "n.",
+    "meaning": "悖論;矛盾",
+    "example": "It's a paradox that the more we know, the more questions arise.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "contradiction",
+      "anomaly"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "notion",
+    "pos": "n.",
+    "meaning": "觀念;想法",
+    "example": "The notion that money buys happiness is debatable.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "idea",
+      "concept"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "underlying",
+    "pos": "adj.",
+    "meaning": "潛在的;根本的",
+    "example": "We need to address the underlying cause of the problem.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "under- (不足)",
+    "synonyms": [
+      "fundamental",
+      "underneath"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "prevalent",
+    "pos": "adj.",
+    "meaning": "普遍的;盛行的",
+    "example": "This belief is prevalent among younger generations.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "pre- (事前)",
+    "synonyms": [
+      "widespread",
+      "common"
+    ],
+    "antonyms": [
+      "rare",
+      "uncommon"
+    ]
+  },
+  {
+    "word": "robust",
+    "pos": "adj.",
+    "meaning": "強健的;穩固的",
+    "example": "The economy showed robust growth this quarter.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "strong",
+      "sturdy"
+    ],
+    "antonyms": [
+      "fragile",
+      "weak"
+    ]
+  },
+  {
+    "word": "aggregate",
+    "pos": "n.",
+    "meaning": "總計;合計",
+    "example": "The aggregate of the test scores was higher than expected.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "total",
+      "sum"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "salient",
+    "pos": "adj.",
+    "meaning": "顯著的;突出的",
+    "example": "The salient features of the design are simplicity and function.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "notable",
+      "prominent"
+    ],
+    "antonyms": [
+      "minor",
+      "insignificant"
+    ]
+  },
+  {
+    "word": "culminate",
+    "pos": "v.",
+    "meaning": "達到高潮;告終",
+    "example": "Years of research culminated in a groundbreaking discovery.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "climax",
+      "conclude"
+    ],
+    "antonyms": [
+      "begin",
+      "start"
+    ]
+  },
+  {
+    "word": "correlate",
+    "pos": "v.",
+    "meaning": "使相關;有關聯",
+    "example": "Higher education levels correlate with higher income.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "co-/con- (共同)",
+    "synonyms": [
+      "relate",
+      "associate"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "discern",
+    "pos": "v.",
+    "meaning": "辨別;看出",
+    "example": "It was hard to discern any pattern in the data.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "dis- (不/相反)",
+    "synonyms": [
+      "perceive",
+      "distinguish"
+    ],
+    "antonyms": [
+      "overlook"
+    ]
+  },
+  {
+    "word": "ubiquitous",
+    "pos": "adj.",
+    "meaning": "無所不在的",
+    "example": "Smartphones have become ubiquitous in modern life.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "omnipresent",
+      "pervasive"
+    ],
+    "antonyms": [
+      "rare",
+      "scarce"
+    ]
+  },
+  {
+    "word": "inherent",
+    "pos": "adj.",
+    "meaning": "內在的;固有的",
+    "example": "There is an inherent risk in any investment.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "intrinsic",
+      "innate"
+    ],
+    "antonyms": [
+      "extrinsic",
+      "acquired"
+    ]
+  },
+  {
+    "word": "explicit",
+    "pos": "adj.",
+    "meaning": "明確的;明示的",
+    "example": "The teacher gave explicit instructions for the assignment.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "clear",
+      "direct"
+    ],
+    "antonyms": [
+      "implicit",
+      "vague"
+    ]
+  },
+  {
+    "word": "implicit",
+    "pos": "adj.",
+    "meaning": "隱含的;暗示的",
+    "example": "There was an implicit assumption in his argument.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "implied",
+      "unspoken"
+    ],
+    "antonyms": [
+      "explicit",
+      "overt"
+    ]
+  },
+  {
+    "word": "arduous",
+    "pos": "adj.",
+    "meaning": "艱鉅的;費力的",
+    "example": "Climbing the mountain was an arduous task.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "strenuous",
+      "laborious"
+    ],
+    "antonyms": [
+      "easy",
+      "effortless"
+    ]
+  },
+  {
+    "word": "viable",
+    "pos": "adj.",
+    "meaning": "可行的;能存活的",
+    "example": "The startup needs a viable business model to survive.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "-able/-ible (可…的)",
+    "synonyms": [
+      "feasible",
+      "workable"
+    ],
+    "antonyms": [
+      "unworkable",
+      "impractical"
+    ]
+  },
+  {
+    "word": "skeptical",
+    "pos": "adj.",
+    "meaning": "懷疑的",
+    "example": "Many scientists remain skeptical of the new claim.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "doubtful",
+      "dubious"
+    ],
+    "antonyms": [
+      "convinced",
+      "credulous"
+    ]
+  },
+  {
+    "word": "dubious",
+    "pos": "adj.",
+    "meaning": "可疑的;不確定的",
+    "example": "The evidence for the theory is dubious at best.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "doubtful",
+      "questionable"
+    ],
+    "antonyms": [
+      "certain",
+      "reliable"
+    ]
+  },
+  {
+    "word": "pragmatic",
+    "pos": "adj.",
+    "meaning": "務實的",
+    "example": "She took a pragmatic approach to solving the issue.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "practical",
+      "realistic"
+    ],
+    "antonyms": [
+      "idealistic",
+      "impractical"
+    ]
+  },
+  {
+    "word": "rigorous",
+    "pos": "adj.",
+    "meaning": "嚴謹的;嚴格的",
+    "example": "The study followed a rigorous methodology.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "strict",
+      "thorough"
+    ],
+    "antonyms": [
+      "lax",
+      "careless"
+    ]
+  },
+  {
+    "word": "ambivalent",
+    "pos": "adj.",
+    "meaning": "矛盾的;猶豫不決的",
+    "example": "He felt ambivalent about accepting the job offer.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "conflicted",
+      "uncertain"
+    ],
+    "antonyms": [
+      "decisive",
+      "certain"
+    ]
+  },
+  {
+    "word": "hypothesis",
+    "pos": "n.",
+    "meaning": "假設",
+    "example": "The scientist tested her hypothesis through experiments.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "theory",
+      "assumption"
+    ],
+    "antonyms": [
+      "fact",
+      "conclusion"
+    ]
+  },
+  {
+    "word": "paradigm",
+    "pos": "n.",
+    "meaning": "範式;典範",
+    "example": "The discovery led to a paradigm shift in physics.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "model",
+      "framework"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "deteriorate",
+    "pos": "v.",
+    "meaning": "惡化",
+    "example": "His health began to deteriorate rapidly.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "de- (去除/相反)",
+    "synonyms": [
+      "decline",
+      "worsen"
+    ],
+    "antonyms": [
+      "improve",
+      "recover"
+    ]
+  },
+  {
+    "word": "hinder",
+    "pos": "v.",
+    "meaning": "阻礙",
+    "example": "Poor weather conditions hindered the rescue operation.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "impede",
+      "obstruct"
+    ],
+    "antonyms": [
+      "facilitate",
+      "help"
+    ]
+  },
+  {
+    "word": "impede",
+    "pos": "v.",
+    "meaning": "妨礙;阻礙",
+    "example": "Heavy traffic impeded our progress to the airport.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "hinder",
+      "obstruct"
+    ],
+    "antonyms": [
+      "facilitate",
+      "assist"
+    ]
+  },
+  {
+    "word": "undermine",
+    "pos": "v.",
+    "meaning": "削弱;暗中破壞",
+    "example": "Constant criticism can undermine one's confidence.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "under- (不足)",
+    "synonyms": [
+      "weaken",
+      "sabotage"
+    ],
+    "antonyms": [
+      "strengthen",
+      "support"
+    ]
+  },
+  {
+    "word": "substantiate",
+    "pos": "v.",
+    "meaning": "證實",
+    "example": "The lawyer failed to substantiate his claims with evidence.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "sub- (次要/下)",
+    "synonyms": [
+      "confirm",
+      "verify"
+    ],
+    "antonyms": [
+      "disprove",
+      "refute"
+    ]
+  },
+  {
+    "word": "corroborate",
+    "pos": "v.",
+    "meaning": "證實",
+    "example": "Witnesses corroborated the suspect's alibi.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "co-/con- (共同)",
+    "synonyms": [
+      "confirm",
+      "validate"
+    ],
+    "antonyms": [
+      "contradict",
+      "refute"
+    ]
+  },
+  {
+    "word": "refute",
+    "pos": "v.",
+    "meaning": "反駁;駁斥",
+    "example": "The scientist refuted the claims with new data.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "re- (再次)",
+    "synonyms": [
+      "disprove",
+      "rebut"
+    ],
+    "antonyms": [
+      "confirm",
+      "support"
+    ]
+  },
+  {
+    "word": "discredit",
+    "pos": "v.",
+    "meaning": "使不信任;詆毀",
+    "example": "The scandal discredited the politician's reputation.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "dis- (不/相反)",
+    "synonyms": [
+      "disgrace",
+      "undermine"
+    ],
+    "antonyms": [
+      "credit",
+      "vindicate"
+    ]
+  },
+  {
+    "word": "justify",
+    "pos": "v.",
+    "meaning": "證明…有理",
+    "example": "He tried to justify his decision to the board.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "defend",
+      "rationalize"
+    ],
+    "antonyms": [
+      "condemn"
+    ]
+  },
+  {
+    "word": "rationalize",
+    "pos": "v.",
+    "meaning": "合理化",
+    "example": "She rationalized her mistake by blaming the deadline.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "-ize/-ise (使成為)",
+    "synonyms": [
+      "justify",
+      "explain away"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "presume",
+    "pos": "v.",
+    "meaning": "假定;推測",
+    "example": "I presume you have read the report already.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "pre- (事前)",
+    "synonyms": [
+      "assume",
+      "suppose"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "deduce",
+    "pos": "v.",
+    "meaning": "推論;演繹",
+    "example": "Detectives deduced the culprit from the clues.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "de- (去除/相反)",
+    "synonyms": [
+      "infer",
+      "conclude"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "postulate",
+    "pos": "v.",
+    "meaning": "假定;假設",
+    "example": "The theory postulates that particles behave differently at high speeds.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "hypothesize",
+      "assume"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "contemplate",
+    "pos": "v.",
+    "meaning": "深思;考慮",
+    "example": "She contemplated moving abroad for a new job.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "consider",
+      "ponder"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "scrutinize",
+    "pos": "v.",
+    "meaning": "仔細審查",
+    "example": "Auditors scrutinized the company's financial records.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "-ize/-ise (使成為)",
+    "synonyms": [
+      "examine",
+      "inspect"
+    ],
+    "antonyms": [
+      "overlook",
+      "ignore"
+    ]
+  },
+  {
+    "word": "denote",
+    "pos": "v.",
+    "meaning": "表示;意味著",
+    "example": "The symbol denotes the chemical element oxygen.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "de- (去除/相反)",
+    "synonyms": [
+      "signify",
+      "indicate"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "connote",
+    "pos": "v.",
+    "meaning": "隱含;暗示情感意義",
+    "example": "The word \"home\" connotes warmth and security.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "co-/con- (共同)",
+    "synonyms": [
+      "imply",
+      "suggest"
+    ],
+    "antonyms": [
+      "denote"
+    ]
+  },
+  {
+    "word": "delineate",
+    "pos": "v.",
+    "meaning": "描繪;界定",
+    "example": "The report delineates the key steps of the project.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "de- (去除/相反)",
+    "synonyms": [
+      "outline",
+      "define"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "distinguish",
+    "pos": "v.",
+    "meaning": "區別;辨別",
+    "example": "Can you distinguish between the two theories?",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "dis- (不/相反)",
+    "synonyms": [
+      "differentiate",
+      "discern"
+    ],
+    "antonyms": [
+      "confuse",
+      "conflate"
+    ]
+  },
+  {
+    "word": "discriminate",
+    "pos": "v.",
+    "meaning": "區別;歧視",
+    "example": "The test measures the ability to discriminate between similar sounds.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "dis- (不/相反)",
+    "synonyms": [
+      "differentiate",
+      "distinguish"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "juxtapose",
+    "pos": "v.",
+    "meaning": "並列;對比",
+    "example": "The exhibit juxtaposes modern and traditional art.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "contrast",
+      "compare"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "converge",
+    "pos": "v.",
+    "meaning": "匯聚;趨於一致",
+    "example": "The two roads converge at the town center.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "co-/con- (共同)",
+    "synonyms": [
+      "merge",
+      "unite"
+    ],
+    "antonyms": [
+      "diverge",
+      "separate"
+    ]
+  },
+  {
+    "word": "diverge",
+    "pos": "v.",
+    "meaning": "分歧;分岔",
+    "example": "Opinions diverge sharply on this issue.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "dis- (不/相反)",
+    "synonyms": [
+      "differ",
+      "split"
+    ],
+    "antonyms": [
+      "converge",
+      "align"
+    ]
+  },
+  {
+    "word": "fluctuate",
+    "pos": "v.",
+    "meaning": "波動",
+    "example": "Stock prices fluctuate constantly throughout the day.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "vary",
+      "oscillate"
+    ],
+    "antonyms": [
+      "stabilize"
+    ]
+  },
+  {
+    "word": "oscillate",
+    "pos": "v.",
+    "meaning": "搖擺;波動",
+    "example": "Her mood oscillates between excitement and anxiety.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "fluctuate",
+      "swing"
+    ],
+    "antonyms": [
+      "stabilize"
+    ]
+  },
+  {
+    "word": "proliferate",
+    "pos": "v.",
+    "meaning": "激增;擴散",
+    "example": "Online scams have proliferated in recent years.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "pro- (支持/向前)",
+    "synonyms": [
+      "multiply",
+      "increase"
+    ],
+    "antonyms": [
+      "decline",
+      "diminish"
+    ]
+  },
+  {
+    "word": "accumulate",
+    "pos": "v.",
+    "meaning": "累積",
+    "example": "Over time, small savings accumulate into a large sum.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "amass",
+      "gather"
+    ],
+    "antonyms": [
+      "disperse",
+      "deplete"
+    ]
+  },
+  {
+    "word": "diminish",
+    "pos": "v.",
+    "meaning": "減少;削弱",
+    "example": "His influence diminished after the scandal.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "decrease",
+      "reduce"
+    ],
+    "antonyms": [
+      "increase",
+      "grow"
+    ]
+  },
+  {
+    "word": "dwindle",
+    "pos": "v.",
+    "meaning": "逐漸減少",
+    "example": "Supplies began to dwindle as winter approached.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "decrease",
+      "shrink"
+    ],
+    "antonyms": [
+      "grow",
+      "increase"
+    ]
+  },
+  {
+    "word": "deplete",
+    "pos": "v.",
+    "meaning": "耗盡",
+    "example": "Overfishing has depleted many marine species.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "de- (去除/相反)",
+    "synonyms": [
+      "exhaust",
+      "drain"
+    ],
+    "antonyms": [
+      "replenish",
+      "restore"
+    ]
+  },
+  {
+    "word": "sustain",
+    "pos": "v.",
+    "meaning": "維持;支撐",
+    "example": "The economy struggled to sustain its growth rate.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "sub- (次要/下)",
+    "synonyms": [
+      "maintain",
+      "support"
+    ],
+    "antonyms": [
+      "abandon",
+      "halt"
+    ]
+  },
+  {
+    "word": "perpetuate",
+    "pos": "v.",
+    "meaning": "使永久化;延續",
+    "example": "The policy perpetuates existing inequalities.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "continue",
+      "prolong"
+    ],
+    "antonyms": [
+      "end",
+      "terminate"
+    ]
+  },
+  {
+    "word": "prolong",
+    "pos": "v.",
+    "meaning": "延長",
+    "example": "The treatment can prolong the patient's life expectancy.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "pro- (支持/向前)",
+    "synonyms": [
+      "extend",
+      "lengthen"
+    ],
+    "antonyms": [
+      "shorten",
+      "curtail"
+    ]
+  },
+  {
+    "word": "curtail",
+    "pos": "v.",
+    "meaning": "削減;縮短",
+    "example": "The government decided to curtail public spending.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "reduce",
+      "cut short"
+    ],
+    "antonyms": [
+      "extend",
+      "expand"
+    ]
+  },
+  {
+    "word": "suspend",
+    "pos": "v.",
+    "meaning": "暫停;中止",
+    "example": "The company suspended all operations during the strike.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "sub- (次要/下)",
+    "synonyms": [
+      "halt",
+      "postpone"
+    ],
+    "antonyms": [
+      "resume",
+      "continue"
+    ]
+  },
+  {
+    "word": "anticipate",
+    "pos": "v.",
+    "meaning": "預期;預料",
+    "example": "We anticipate strong demand for the new product.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "pre- (事前)",
+    "synonyms": [
+      "expect",
+      "foresee"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "presuppose",
+    "pos": "v.",
+    "meaning": "預先假定",
+    "example": "The argument presupposes that all people act rationally.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "pre- (事前)",
+    "synonyms": [
+      "assume",
+      "imply"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "preclude",
+    "pos": "v.",
+    "meaning": "排除;阻止",
+    "example": "Lack of funding precludes further research at this time.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "pre- (事前)",
+    "synonyms": [
+      "prevent",
+      "exclude"
+    ],
+    "antonyms": [
+      "allow",
+      "permit"
+    ]
+  },
+  {
+    "word": "constitute",
+    "pos": "v.",
+    "meaning": "構成",
+    "example": "Women constitute nearly half of the workforce.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "co-/con- (共同)",
+    "synonyms": [
+      "comprise",
+      "form"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "comprise",
+    "pos": "v.",
+    "meaning": "包含;構成",
+    "example": "The committee comprises members from various departments.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "co-/con- (共同)",
+    "synonyms": [
+      "consist of",
+      "include"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "encompass",
+    "pos": "v.",
+    "meaning": "包含;涵蓋",
+    "example": "The curriculum encompasses both theory and practice.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "include",
+      "cover"
+    ],
+    "antonyms": [
+      "exclude"
+    ]
+  },
+  {
+    "word": "incorporate",
+    "pos": "v.",
+    "meaning": "納入;合併",
+    "example": "The new design incorporates feedback from users.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "integrate",
+      "include"
+    ],
+    "antonyms": [
+      "exclude",
+      "omit"
+    ]
+  },
+  {
+    "word": "assimilate",
+    "pos": "v.",
+    "meaning": "同化;吸收",
+    "example": "Immigrants often assimilate into the local culture over time.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "absorb",
+      "adapt"
+    ],
+    "antonyms": [
+      "segregate"
+    ]
+  },
+  {
+    "word": "entail",
+    "pos": "v.",
+    "meaning": "牽涉;需要",
+    "example": "The job entails frequent travel abroad.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "involve",
+      "require"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "denounce",
+    "pos": "v.",
+    "meaning": "譴責;公開指責",
+    "example": "Human rights groups denounced the new law.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "de- (去除/相反)",
+    "synonyms": [
+      "condemn",
+      "criticize"
+    ],
+    "antonyms": [
+      "praise",
+      "endorse"
+    ]
+  },
+  {
+    "word": "reprimand",
+    "pos": "v.",
+    "meaning": "訓斥;斥責",
+    "example": "The manager reprimanded the staff for the error.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "scold",
+      "rebuke"
+    ],
+    "antonyms": [
+      "praise",
+      "commend"
+    ]
+  },
+  {
+    "word": "deter",
+    "pos": "v.",
+    "meaning": "阻止;嚇阻",
+    "example": "Higher fines are meant to deter reckless driving.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "de- (去除/相反)",
+    "synonyms": [
+      "discourage",
+      "prevent"
+    ],
+    "antonyms": [
+      "encourage",
+      "promote"
+    ]
+  },
+  {
+    "word": "compel",
+    "pos": "v.",
+    "meaning": "強迫",
+    "example": "Financial pressure compelled her to take a second job.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "force",
+      "oblige"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "coerce",
+    "pos": "v.",
+    "meaning": "脅迫;強制",
+    "example": "Employees should never be coerced into working overtime.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "co-/con- (共同)",
+    "synonyms": [
+      "force",
+      "pressure"
+    ],
+    "antonyms": [
+      "persuade"
+    ]
+  },
+  {
+    "word": "induce",
+    "pos": "v.",
+    "meaning": "誘導;引起",
+    "example": "The medication may induce drowsiness.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "cause",
+      "provoke"
+    ],
+    "antonyms": [
+      "prevent",
+      "deter"
+    ]
+  },
+  {
+    "word": "provoke",
+    "pos": "v.",
+    "meaning": "激起;挑起",
+    "example": "The remark provoked a heated debate.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "incite",
+      "trigger"
+    ],
+    "antonyms": [
+      "calm",
+      "soothe"
+    ]
+  },
+  {
+    "word": "instigate",
+    "pos": "v.",
+    "meaning": "煽動;策動",
+    "example": "Authorities believe he instigated the riot.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "incite",
+      "provoke"
+    ],
+    "antonyms": [
+      "quell",
+      "suppress"
+    ]
+  },
+  {
+    "word": "trigger",
+    "pos": "v.",
+    "meaning": "引發;觸發",
+    "example": "The announcement triggered a wave of protests.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "prompt",
+      "spark"
+    ],
+    "antonyms": [
+      "prevent"
+    ]
+  },
+  {
+    "word": "precipitate",
+    "pos": "v.",
+    "meaning": "促成;導致",
+    "example": "The scandal precipitated his resignation.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "pre- (事前)",
+    "synonyms": [
+      "cause",
+      "hasten"
+    ],
+    "antonyms": [
+      "delay",
+      "postpone"
+    ]
+  },
+  {
+    "word": "stem from",
+    "pos": "phr.",
+    "meaning": "源自;起因於",
+    "example": "Her anxiety stems from a childhood experience.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "originate from",
+      "derive from"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "attribute",
+    "pos": "v.",
+    "meaning": "把…歸因於",
+    "example": "She attributes her success to hard work and persistence.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "ascribe",
+      "credit"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "ascribe",
+    "pos": "v.",
+    "meaning": "歸因於",
+    "example": "Historians ascribe the empire's decline to economic factors.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "attribute",
+      "credit"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "derive",
+    "pos": "v.",
+    "meaning": "源自;衍生",
+    "example": "The word \"biology\" derives from Greek roots.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "de- (去除/相反)",
+    "synonyms": [
+      "originate",
+      "stem"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "originate",
+    "pos": "v.",
+    "meaning": "起源;發源",
+    "example": "The tradition originated in ancient China.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "derive",
+      "stem"
+    ],
+    "antonyms": [
+      "end",
+      "terminate"
+    ]
+  },
+  {
+    "word": "genuine",
+    "pos": "adj.",
+    "meaning": "真正的;真誠的",
+    "example": "She showed genuine concern for her colleagues.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "authentic",
+      "sincere"
+    ],
+    "antonyms": [
+      "fake",
+      "insincere"
+    ]
+  },
+  {
+    "word": "valid",
+    "pos": "adj.",
+    "meaning": "有效的;正當的",
+    "example": "The ticket is valid for one year.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "legitimate",
+      "sound"
+    ],
+    "antonyms": [
+      "invalid",
+      "void"
+    ]
+  },
+  {
+    "word": "rampant",
+    "pos": "adj.",
+    "meaning": "猖獗的;蔓延的",
+    "example": "Corruption was rampant throughout the organization.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "widespread",
+      "uncontrolled"
+    ],
+    "antonyms": [
+      "rare",
+      "controlled"
+    ]
+  },
+  {
+    "word": "widespread",
+    "pos": "adj.",
+    "meaning": "普遍的;廣泛的",
+    "example": "The drought caused widespread crop failure.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "prevalent",
+      "extensive"
+    ],
+    "antonyms": [
+      "limited",
+      "localized"
+    ]
+  },
+  {
+    "word": "pervasive",
+    "pos": "adj.",
+    "meaning": "普遍存在的;瀰漫的",
+    "example": "Social media has a pervasive influence on youth culture.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "prevalent",
+      "widespread"
+    ],
+    "antonyms": [
+      "rare",
+      "limited"
+    ]
+  },
+  {
+    "word": "innate",
+    "pos": "adj.",
+    "meaning": "天生的",
+    "example": "Humans have an innate ability to learn language.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "inborn",
+      "natural"
+    ],
+    "antonyms": [
+      "acquired",
+      "learned"
+    ]
+  },
+  {
+    "word": "intrinsic",
+    "pos": "adj.",
+    "meaning": "本質的;內在的",
+    "example": "The painting has intrinsic value beyond its price.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "inherent",
+      "innate"
+    ],
+    "antonyms": [
+      "extrinsic",
+      "external"
+    ]
+  },
+  {
+    "word": "extrinsic",
+    "pos": "adj.",
+    "meaning": "外在的;非本質的",
+    "example": "Extrinsic rewards can sometimes reduce motivation.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "external",
+      "outside"
+    ],
+    "antonyms": [
+      "intrinsic",
+      "inherent"
+    ]
+  },
+  {
+    "word": "superficial",
+    "pos": "adj.",
+    "meaning": "表面的;膚淺的",
+    "example": "The report only offers a superficial analysis of the issue.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "shallow",
+      "cursory"
+    ],
+    "antonyms": [
+      "profound",
+      "thorough"
+    ]
+  },
+  {
+    "word": "peripheral",
+    "pos": "adj.",
+    "meaning": "邊緣的;次要的",
+    "example": "The issue is peripheral to the main debate.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "marginal",
+      "secondary"
+    ],
+    "antonyms": [
+      "central",
+      "core"
+    ]
+  },
+  {
+    "word": "marginal",
+    "pos": "adj.",
+    "meaning": "邊際的;些微的",
+    "example": "There was only a marginal improvement in performance.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "minimal",
+      "slight"
+    ],
+    "antonyms": [
+      "significant",
+      "substantial"
+    ]
+  },
+  {
+    "word": "negligible",
+    "pos": "adj.",
+    "meaning": "微不足道的",
+    "example": "The risk of side effects is negligible.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": "-able/-ible (可…的)",
+    "synonyms": [
+      "insignificant",
+      "trivial"
+    ],
+    "antonyms": [
+      "significant",
+      "substantial"
+    ]
+  },
+  {
+    "word": "substantial",
+    "pos": "adj.",
+    "meaning": "相當大的;重大的",
+    "example": "They made substantial progress on the project.",
+    "level": "中高階",
+    "theme": "academic",
+    "root": null,
+    "synonyms": [
+      "considerable",
+      "significant"
+    ],
+    "antonyms": [
+      "negligible",
+      "trivial"
+    ]
+  },
+  {
+    "word": "expropriate",
+    "pos": "v.",
+    "meaning": "徵收；沒收",
+    "example": "The state moved to expropriate foreign-owned land without compensation.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "confiscate",
+      "seize"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "subterfuge",
+    "pos": "n.",
+    "meaning": "詭計；托辭",
+    "example": "The envoy resorted to subterfuge to avoid answering the reporter's question.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "sub- (次要/下)",
+    "synonyms": [
+      "deception",
+      "ruse"
+    ],
+    "antonyms": [
+      "honesty"
+    ]
+  },
+  {
+    "word": "kleptocracy",
+    "pos": "n.",
+    "meaning": "貪污統治政體",
+    "example": "Journalists exposed the kleptocracy that had drained the nation's treasury.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "corrupt rule"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "reprisal",
+    "pos": "n.",
+    "meaning": "報復行動",
+    "example": "The airstrike was widely seen as reprisal for the earlier attack.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "re- (再次)",
+    "synonyms": [
+      "retaliation"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "cataclysm",
+    "pos": "n.",
+    "meaning": "大災變",
+    "example": "Historians called the war a political cataclysm that redrew the map.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "disaster"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "conflagration",
+    "pos": "n.",
+    "meaning": "大火；戰禍",
+    "example": "The regional conflagration threatened to draw in neighboring powers.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "blaze"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "blockade",
+    "pos": "n.",
+    "meaning": "封鎖",
+    "example": "The naval blockade cut off the port's food supplies.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "siege"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "siege",
+    "pos": "n.",
+    "meaning": "圍城；圍攻",
+    "example": "The city endured a brutal siege that lasted for months.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "blockade"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "putsch",
+    "pos": "n.",
+    "meaning": "政變（尤指未遂）",
+    "example": "The failed putsch left the ringleaders imprisoned.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "coup"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "flashpoint",
+    "pos": "n.",
+    "meaning": "衝突引爆點",
+    "example": "The disputed territory remains a flashpoint for regional tension.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "hotspot"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "quagmire",
+    "pos": "n.",
+    "meaning": "泥沼；困境",
+    "example": "The intervention turned into a political quagmire with no clear exit.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "predicament"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "jingoism",
+    "pos": "n.",
+    "meaning": "沙文主義；侵略民族主義",
+    "example": "The tabloid press was accused of fueling jingoism ahead of the vote.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "chauvinism"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "espionage",
+    "pos": "n.",
+    "meaning": "間諜活動",
+    "example": "The two countries traded accusations of espionage.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "spying"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "sabotage",
+    "pos": "n.",
+    "meaning": "破壞行動",
+    "example": "Investigators suspect sabotage caused the pipeline explosion.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "subversion"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "proxy war",
+    "pos": "phr.",
+    "meaning": "代理人戰爭",
+    "example": "The conflict became a proxy war between rival global powers.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "indirect conflict"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "infiltration",
+    "pos": "n.",
+    "meaning": "滲透",
+    "example": "Security officials uncovered the infiltration of the agency by foreign spies.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "penetration"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "influx",
+    "pos": "n.",
+    "meaning": "湧入",
+    "example": "The influx of refugees strained the neighboring country's resources.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "inflow"
+    ],
+    "antonyms": [
+      "exodus"
+    ]
+  },
+  {
+    "word": "sedition",
+    "pos": "n.",
+    "meaning": "煽動叛亂罪",
+    "example": "The journalist was charged with sedition for criticizing the regime.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "incitement"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "incursion",
+    "pos": "n.",
+    "meaning": "入侵；侵犯",
+    "example": "The border incursion prompted an emergency session of the security council.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "invasion",
+      "raid"
+    ],
+    "antonyms": [
+      "withdrawal"
+    ]
+  },
+  {
+    "word": "pyrrhic victory",
+    "pos": "phr.",
+    "meaning": "得不償失的勝利",
+    "example": "Analysts called the election win a pyrrhic victory given the party's shattered unity.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "hollow win"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "fait accompli",
+    "pos": "phr.",
+    "meaning": "既成事實",
+    "example": "By the time parliament convened, the annexation was already a fait accompli.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "done deal"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "casus belli",
+    "pos": "phr.",
+    "meaning": "開戰理由",
+    "example": "The border skirmish provided a convenient casus belli for the invasion.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "pretext for war"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "modus vivendi",
+    "pos": "phr.",
+    "meaning": "權宜共存協議",
+    "example": "The rivals reached a modus vivendi that let trade continue despite tensions.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "working arrangement"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "saber-rattling",
+    "pos": "n.",
+    "meaning": "武力威嚇；耀武揚威",
+    "example": "The general's speech was dismissed by critics as mere saber-rattling.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "intimidation"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "scorched-earth",
+    "pos": "adj.",
+    "meaning": "焦土（政策）的",
+    "example": "Retreating troops adopted a scorched-earth policy, burning crops and bridges.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "destructive"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "fifth column",
+    "pos": "phr.",
+    "meaning": "內奸；第五縱隊",
+    "example": "Officials warned of a fifth column working to undermine the government from within.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "saboteurs"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "quisling",
+    "pos": "n.",
+    "meaning": "賣國賊；通敵者",
+    "example": "The wartime leader was branded a quisling for collaborating with the occupiers.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "collaborator",
+      "traitor"
+    ],
+    "antonyms": [
+      "patriot"
+    ]
+  },
+  {
+    "word": "warmonger",
+    "pos": "n.",
+    "meaning": "好戰份子",
+    "example": "Critics labeled the senator a warmonger for pushing military intervention.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "hawk"
+    ],
+    "antonyms": [
+      "pacifist"
+    ]
+  },
+  {
+    "word": "pacifism",
+    "pos": "n.",
+    "meaning": "和平主義",
+    "example": "Her pacifism shaped decades of opposition to military spending.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "nonviolence"
+    ],
+    "antonyms": [
+      "militarism"
+    ]
+  },
+  {
+    "word": "buffer zone",
+    "pos": "phr.",
+    "meaning": "緩衝區",
+    "example": "UN peacekeepers established a buffer zone along the ceasefire line.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "neutral zone"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "demilitarized zone",
+    "pos": "phr.",
+    "meaning": "非軍事區",
+    "example": "Soldiers on both sides patrol the edges of the demilitarized zone.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "neutral strip"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "no-fly zone",
+    "pos": "phr.",
+    "meaning": "禁航區",
+    "example": "The coalition enforced a no-fly zone to ground the regime's air force.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "air exclusion zone"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "humanitarian corridor",
+    "pos": "phr.",
+    "meaning": "人道走廊",
+    "example": "Aid trucks entered the besieged city through a temporary humanitarian corridor.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "relief passage"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "collateral damage",
+    "pos": "phr.",
+    "meaning": "附帶損害（平民傷亡）",
+    "example": "The strike caused significant collateral damage to nearby civilian homes.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "unintended casualties"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "ethnic cleansing",
+    "pos": "phr.",
+    "meaning": "種族清洗",
+    "example": "The tribunal investigated reports of ethnic cleansing in the border province.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "forced expulsion"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "pogrom",
+    "pos": "n.",
+    "meaning": "大屠殺（尤指對少數族群）",
+    "example": "The pogrom left the minority community's neighborhood in ruins.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "massacre"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "internecine",
+    "pos": "adj.",
+    "meaning": "內部相互殘殺的",
+    "example": "Internecine fighting within the party weakened its chances in the election.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "mutually destructive"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "rogue state",
+    "pos": "phr.",
+    "meaning": "流氓國家",
+    "example": "The council debated fresh measures against the rogue state's weapons program.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "outlaw nation"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "failed state",
+    "pos": "phr.",
+    "meaning": "失敗國家",
+    "example": "Years of civil war left the country widely regarded as a failed state.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "collapsed government"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "pariah state",
+    "pos": "phr.",
+    "meaning": "賤民國家；受孤立國家",
+    "example": "Sanctions have turned the country into a pariah state on the world stage.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "outcast nation"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "breakaway region",
+    "pos": "phr.",
+    "meaning": "分離地區",
+    "example": "The breakaway region declared independence after the referendum.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "secessionist territory"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "enclave",
+    "pos": "n.",
+    "meaning": "飛地",
+    "example": "The ethnic enclave remained loyal to the old regime long after the war ended.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "pocket territory"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "exclave",
+    "pos": "n.",
+    "meaning": "外飛地",
+    "example": "The tiny exclave is surrounded entirely by a neighboring country's territory.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "no man's land",
+    "pos": "phr.",
+    "meaning": "無人地帶",
+    "example": "Soldiers from both sides avoided crossing into the no man's land between the trenches.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "buffer strip"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "conscription",
+    "pos": "n.",
+    "meaning": "徵兵制",
+    "example": "The government reinstated conscription amid rising border tensions.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "compulsory draft"
+    ],
+    "antonyms": [
+      "volunteer enlistment"
+    ]
+  },
+  {
+    "word": "war-torn",
+    "pos": "adj.",
+    "meaning": "飽受戰爭蹂躪的",
+    "example": "Aid agencies struggled to reach civilians in the war-torn region.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "devastated"
+    ],
+    "antonyms": [
+      "peaceful"
+    ]
+  },
+  {
+    "word": "stateless",
+    "pos": "adj.",
+    "meaning": "無國籍的",
+    "example": "Thousands of stateless people remain unable to obtain basic legal documents.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "nationless"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "internment",
+    "pos": "n.",
+    "meaning": "拘留；監禁（尤指戰時）",
+    "example": "The wartime internment of civilians remains a dark chapter in the nation's history.",
+    "level": "中高階",
+    "theme": "news",
+    "root": "-ment (名詞化:狀態結果)",
+    "synonyms": [
+      "confinement"
+    ],
+    "antonyms": [
+      "release"
+    ]
+  },
+  {
+    "word": "tinderbox",
+    "pos": "n.",
+    "meaning": "一觸即發的地區/情勢",
+    "example": "The disputed border region has long been a tinderbox of ethnic tension.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "powder keg"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "powder keg",
+    "pos": "phr.",
+    "meaning": "火藥桶（局勢危險）",
+    "example": "Analysts warned the fragile truce could turn the region into a powder keg.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "tinderbox"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "domino effect",
+    "pos": "phr.",
+    "meaning": "骨牌效應",
+    "example": "Officials feared the coup could trigger a domino effect across the region.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "chain reaction"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "spillover effect",
+    "pos": "phr.",
+    "meaning": "外溢效應",
+    "example": "The conflict's spillover effect pushed thousands of refugees into neighboring states.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "ripple effect"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "geostrategic",
+    "pos": "adj.",
+    "meaning": "地緣戰略的",
+    "example": "The strait holds enormous geostrategic importance for global shipping.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "strategically vital"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "chokepoint",
+    "pos": "n.",
+    "meaning": "咽喉要道（戰略要地）",
+    "example": "Warships were dispatched to secure the vital maritime chokepoint.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "strategic strait"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "exclusive economic zone",
+    "pos": "phr.",
+    "meaning": "專屬經濟區",
+    "example": "The two nations disputed fishing rights within the exclusive economic zone.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "EEZ"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "freedom of navigation",
+    "pos": "phr.",
+    "meaning": "航行自由",
+    "example": "The exercise was meant to assert freedom of navigation in contested waters.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "maritime passage rights"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "fearmongering",
+    "pos": "n.",
+    "meaning": "散布恐懼；恐嚇宣傳",
+    "example": "Opponents accused the campaign of fearmongering over immigration.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "scaremongering"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "muckraking",
+    "pos": "n.",
+    "meaning": "揭醜新聞報導",
+    "example": "Early 20th-century muckraking journalism exposed corruption in city government.",
+    "level": "中高階",
+    "theme": "news",
+    "root": null,
+    "synonyms": [
+      "investigative exposure"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "entrenchment",
+    "pos": "n.",
+    "meaning": "根深蒂固",
+    "example": "The report warned of the entrenchment of corrupt officials in local government.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "-ment (名詞化:狀態結果)",
+    "synonyms": [
+      "deep-rootedness"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "statecraft",
+    "pos": "n.",
+    "meaning": "治國之道",
+    "example": "The ambassador was praised for her skillful statecraft during the crisis.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "governance"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "communiqué",
+    "pos": "n.",
+    "meaning": "官方公報",
+    "example": "The two governments issued a joint communiqué after the summit.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "official statement"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "concordat",
+    "pos": "n.",
+    "meaning": "協定（尤指與教廷）",
+    "example": "The Vatican signed a concordat regulating church-state relations.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "co-/con- (共同)",
+    "synonyms": [
+      "agreement"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "supranational",
+    "pos": "adj.",
+    "meaning": "超國家的",
+    "example": "The supranational body has the authority to overrule national courts.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "transnational"
+    ],
+    "antonyms": [
+      "national"
+    ]
+  },
+  {
+    "word": "geopolitical",
+    "pos": "adj.",
+    "meaning": "地緣政治的",
+    "example": "The pipeline dispute carries significant geopolitical implications.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "strategic"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "suzerainty",
+    "pos": "n.",
+    "meaning": "宗主權",
+    "example": "The empire once held suzerainty over the smaller kingdoms.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "overlordship"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "vassal state",
+    "pos": "phr.",
+    "meaning": "附庸國",
+    "example": "Critics called the country a vassal state of its powerful neighbor.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "client state"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "puppet regime",
+    "pos": "phr.",
+    "meaning": "傀儡政權",
+    "example": "The occupying power installed a puppet regime to maintain control.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "client government"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "power vacuum",
+    "pos": "phr.",
+    "meaning": "權力真空",
+    "example": "The leader's sudden death left a dangerous power vacuum.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "leadership void"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "kingmaker",
+    "pos": "n.",
+    "meaning": "造王者",
+    "example": "The party chairman became a kingmaker in the coalition negotiations.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "influential backer"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "machination",
+    "pos": "n.",
+    "meaning": "陰謀詭計",
+    "example": "The scandal exposed years of political machination behind closed doors.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "scheming"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "collusion",
+    "pos": "n.",
+    "meaning": "勾結",
+    "example": "Investigators found evidence of collusion between officials and the contractor.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": "co-/con- (共同)",
+    "synonyms": [
+      "conspiracy"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "graft",
+    "pos": "n.",
+    "meaning": "貪污",
+    "example": "The mayor resigned amid allegations of graft.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "corruption"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "technocrat",
+    "pos": "n.",
+    "meaning": "技術官僚",
+    "example": "The reform cabinet was staffed largely by technocrats rather than career politicians.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "expert official"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "apparatchik",
+    "pos": "n.",
+    "meaning": "官僚黨工",
+    "example": "The old apparatchik still wielded influence within the party machine.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "party functionary"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "ideologue",
+    "pos": "n.",
+    "meaning": "意識形態擁護者",
+    "example": "The minister was seen as an ideologue unwilling to compromise.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "zealot"
+    ],
+    "antonyms": [
+      "pragmatist"
+    ]
+  },
+  {
+    "word": "hardliner",
+    "pos": "n.",
+    "meaning": "強硬派",
+    "example": "The hardliner faction opposed any concessions in the negotiations.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "extremist"
+    ],
+    "antonyms": [
+      "moderate"
+    ]
+  },
+  {
+    "word": "centrist",
+    "pos": "n.",
+    "meaning": "中間派",
+    "example": "The centrist candidate appealed to voters on both sides of the aisle.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "moderate"
+    ],
+    "antonyms": [
+      "extremist"
+    ]
+  },
+  {
+    "word": "backbencher",
+    "pos": "n.",
+    "meaning": "後排議員",
+    "example": "The backbencher rarely spoke but voted loyally with the party.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "junior legislator"
+    ],
+    "antonyms": [
+      "frontbencher"
+    ]
+  },
+  {
+    "word": "party whip",
+    "pos": "phr.",
+    "meaning": "黨鞭",
+    "example": "The party whip pressured members to vote along party lines.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "floor leader"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "earmark",
+    "pos": "n.",
+    "meaning": "專款；特別撥款",
+    "example": "The bill included an earmark for a local infrastructure project.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "allocation"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "pork barrel",
+    "pos": "phr.",
+    "meaning": "政治分肥（撥款）",
+    "example": "Opponents criticized the bill as pork barrel spending for the senator's district.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "patronage spending"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "logrolling",
+    "pos": "n.",
+    "meaning": "政治互投贊成票",
+    "example": "Logrolling among lawmakers helped push through several unrelated bills.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "vote trading"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "stonewalling",
+    "pos": "n.",
+    "meaning": "阻撓策略",
+    "example": "The committee accused the witness of stonewalling their questions.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "obstruction"
+    ],
+    "antonyms": [
+      "cooperation"
+    ]
+  },
+  {
+    "word": "obstructionism",
+    "pos": "n.",
+    "meaning": "阻撓主義",
+    "example": "The minority party was criticized for its obstructionism in committee.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "obstruction"
+    ],
+    "antonyms": [
+      "cooperation"
+    ]
+  },
+  {
+    "word": "lame duck",
+    "pos": "phr.",
+    "meaning": "跛腳鴨（任期將滿）",
+    "example": "As a lame duck president, he struggled to push new legislation through.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "outgoing leader"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "gunboat diplomacy",
+    "pos": "phr.",
+    "meaning": "炮艦外交",
+    "example": "Historians criticized the era's gunboat diplomacy toward weaker nations.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "coercive diplomacy"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "non-aggression pact",
+    "pos": "phr.",
+    "meaning": "互不侵犯條約",
+    "example": "The two rivals signed a non-aggression pact just months before the invasion.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "neutrality agreement"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "strongman",
+    "pos": "n.",
+    "meaning": "强人（獨裁統治者）",
+    "example": "The strongman consolidated power by silencing his political rivals.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "autocrat"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "potentate",
+    "pos": "n.",
+    "meaning": "統治者；君主",
+    "example": "The visiting potentate was greeted with full military honors.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "ruler"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "fiefdom",
+    "pos": "n.",
+    "meaning": "勢力範圍；封地",
+    "example": "The minister ran his department like a personal fiefdom.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "domain"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "satrap",
+    "pos": "n.",
+    "meaning": "傀儡統治者；地方官",
+    "example": "Local satraps answered directly to the distant emperor.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "governor",
+      "puppet ruler"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "machiavellian",
+    "pos": "adj.",
+    "meaning": "權謀的；馬基維利式的",
+    "example": "Colleagues described his rise to power as ruthlessly Machiavellian.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "scheming",
+      "cunning"
+    ],
+    "antonyms": [
+      "honest"
+    ]
+  },
+  {
+    "word": "clientelism",
+    "pos": "n.",
+    "meaning": "恩庇侍從主義",
+    "example": "Clientelism still shapes local elections in many rural districts.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "patronage politics"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "backroom deal",
+    "pos": "phr.",
+    "meaning": "檯面下交易",
+    "example": "The nomination was reportedly settled through a backroom deal.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "secret bargain"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "smoke-filled room",
+    "pos": "phr.",
+    "meaning": "密室協商",
+    "example": "The candidate was chosen in a smoke-filled room, far from public view.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "closed-door negotiation"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "rubber stamp",
+    "pos": "phr.",
+    "meaning": "橡皮圖章（照准機構）",
+    "example": "Critics say the legislature has become a rubber stamp for the president's decisions.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "automatic approval"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "sinecure",
+    "pos": "n.",
+    "meaning": "閒差；有俸無事之職",
+    "example": "The ambassadorship was widely viewed as a political sinecure.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "cushy post"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "dark horse",
+    "pos": "phr.",
+    "meaning": "黑馬（意外參選人）",
+    "example": "The dark horse candidate surged past the party's favorites in the primary.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "surprise contender"
+    ],
+    "antonyms": [
+      "frontrunner"
+    ]
+  },
+  {
+    "word": "term limit",
+    "pos": "phr.",
+    "meaning": "任期限制",
+    "example": "The constitution imposes a strict term limit on the presidency.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "tenure cap"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "sunset clause",
+    "pos": "phr.",
+    "meaning": "落日條款（自動失效條款）",
+    "example": "Lawmakers added a sunset clause requiring the law to be renewed every five years.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "expiration provision"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "pocket veto",
+    "pos": "phr.",
+    "meaning": "口袋否決權",
+    "example": "The president used a pocket veto to quietly kill the bill before adjournment.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "indirect veto"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "cloture",
+    "pos": "n.",
+    "meaning": "終止辯論動議",
+    "example": "Senators invoked cloture to end the filibuster and force a final vote.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "debate closure"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "floor leader",
+    "pos": "phr.",
+    "meaning": "院內領袖",
+    "example": "The floor leader negotiated the schedule for the upcoming votes.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "party whip"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "political machine",
+    "pos": "phr.",
+    "meaning": "政治機器（地方派系組織）",
+    "example": "The city's political machine controlled nearly every local appointment.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "party apparatus"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "spoils system",
+    "pos": "phr.",
+    "meaning": "分贓制度",
+    "example": "The spoils system rewarded loyal supporters with government jobs.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "patronage system"
+    ],
+    "antonyms": [
+      "merit system"
+    ]
+  },
+  {
+    "word": "swing state",
+    "pos": "phr.",
+    "meaning": "搖擺州（關鍵選區）",
+    "example": "Candidates poured resources into the handful of swing states that would decide the election.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "battleground state"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "straw poll",
+    "pos": "phr.",
+    "meaning": "非正式民調",
+    "example": "A straw poll of delegates suggested the vote would be close.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "informal survey"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "exit poll",
+    "pos": "phr.",
+    "meaning": "出口民調",
+    "example": "Early exit polls hinted at a surprising upset in the race.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "post-vote survey"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "acrimony",
+    "pos": "n.",
+    "meaning": "尖酸刻薄；激烈爭執",
+    "example": "The debate descended into acrimony as both sides traded accusations.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "bitterness",
+      "rancor"
+    ],
+    "antonyms": [
+      "harmony"
+    ]
+  },
+  {
+    "word": "vitriol",
+    "pos": "n.",
+    "meaning": "尖刻言辭；惡毒抨擊",
+    "example": "The candidates exchanged vitriol during the final televised debate.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "venom",
+      "invective"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "invective",
+    "pos": "n.",
+    "meaning": "謾罵；抨擊言辭",
+    "example": "The columnist unleashed a stream of invective against the administration.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "vitriol",
+      "abuse"
+    ],
+    "antonyms": [
+      "praise"
+    ]
+  },
+  {
+    "word": "diatribe",
+    "pos": "n.",
+    "meaning": "長篇抨擊；嚴厲指責",
+    "example": "The senator's diatribe against the opposition lasted nearly an hour.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "tirade"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "démarche",
+    "pos": "n.",
+    "meaning": "外交交涉；正式抗議",
+    "example": "The ambassador delivered a formal démarche protesting the border incursion.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "formal protest"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "persona non grata",
+    "pos": "phr.",
+    "meaning": "不受歡迎人物",
+    "example": "The diplomat was declared persona non grata and given 48 hours to leave the country.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "unwelcome person"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "extraterritoriality",
+    "pos": "n.",
+    "meaning": "治外法權",
+    "example": "The treaty granted foreign diplomats extraterritoriality within the embassy compound.",
+    "level": "中高階",
+    "theme": "politics",
+    "root": null,
+    "synonyms": [
+      "diplomatic immunity"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "assimilation",
+    "pos": "n.",
+    "meaning": "同化",
+    "example": "Cultural assimilation often requires immigrants to adopt the host country's customs.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [
+      "integration"
+    ],
+    "antonyms": [
+      "segregation"
+    ]
+  },
+  {
+    "word": "secularization",
+    "pos": "n.",
+    "meaning": "世俗化",
+    "example": "The secularization of public schools removed religious instruction from the curriculum.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "-ize/-ise (使成為)",
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "word": "ostracize",
+    "pos": "v.",
+    "meaning": "排斥;排擠",
+    "example": "Villagers ostracized the family after the scandal became public.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "-ize/-ise (使成為)",
+    "synonyms": [
+      "shun",
+      "exclude"
+    ],
+    "antonyms": [
+      "welcome"
+    ]
+  },
+  {
+    "word": "disillusionment",
+    "pos": "n.",
+    "meaning": "幻滅",
+    "example": "Widespread disillusionment with politicians fueled the protest movement.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "dis- (不/相反)",
+    "synonyms": [
+      "disenchantment"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "complacency",
+    "pos": "n.",
+    "meaning": "自滿;鬆懈",
+    "example": "A sense of complacency among officials delayed the disaster response.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "-ance/-ence (性質狀態)",
+    "synonyms": [
+      "smugness"
+    ],
+    "antonyms": [
+      "vigilance"
+    ]
+  },
+  {
+    "word": "dogma",
+    "pos": "n.",
+    "meaning": "教條",
+    "example": "The party's rigid dogma left little room for dissenting opinions.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "doctrine"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "chauvinism",
+    "pos": "n.",
+    "meaning": "沙文主義;偏執",
+    "example": "Male chauvinism in the workplace often goes unchallenged.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "bigotry"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "patriarchy",
+    "pos": "n.",
+    "meaning": "父權體制",
+    "example": "Feminist scholars argue that patriarchy shapes even everyday language.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "matriarchy"
+    ]
+  },
+  {
+    "word": "matriarchy",
+    "pos": "n.",
+    "meaning": "母權體制",
+    "example": "Anthropologists studied a rare matriarchy where women held political power.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "patriarchy"
+    ]
+  },
+  {
+    "word": "vilify",
+    "pos": "v.",
+    "meaning": "詆毀;醜化",
+    "example": "The tabloid press tends to vilify public figures for higher sales.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "defame",
+      "denigrate"
+    ],
+    "antonyms": [
+      "praise"
+    ]
+  },
+  {
+    "word": "stigmatize",
+    "pos": "v.",
+    "meaning": "污名化",
+    "example": "Mental illness is still stigmatized in many workplaces.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "-ize/-ise (使成為)",
+    "synonyms": [
+      "defame"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "scapegoat",
+    "pos": "n.",
+    "meaning": "代罪羔羊",
+    "example": "The junior employee became a scapegoat for management's mistakes.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "fall guy"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "subversive",
+    "pos": "adj.",
+    "meaning": "顛覆性的",
+    "example": "Authorities banned the novel for containing subversive political ideas.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "sub- (次要/下)",
+    "synonyms": [
+      "seditious"
+    ],
+    "antonyms": []
+  },
+  {
+    "word": "sanctimonious",
+    "pos": "adj.",
+    "meaning": "假裝正義的;偽善",
+    "example": "His sanctimonious lectures about morality annoyed his colleagues.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "hypocritical"
+    ],
+    "antonyms": [
+      "genuine"
+    ]
+  },
+  {
+    "word": "authoritarianism",
+    "pos": "n.",
+    "meaning": "威權主義",
+    "example": "The country slid toward authoritarianism after the coup.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [
+      "autocracy"
+    ],
+    "antonyms": [
+      "democracy"
+    ]
+  },
+  {
+    "word": "totalitarianism",
+    "pos": "n.",
+    "meaning": "極權主義",
+    "example": "Totalitarianism suppresses all forms of political opposition.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "pluralism"
+    ]
+  },
+  {
+    "word": "impunity",
+    "pos": "n.",
+    "meaning": "免受懲罰",
+    "example": "Corrupt officials often acted with impunity for years.",
+    "level": "中高階",
+    "theme": "society",
+    "root": null,
+    "synonyms": [],
+    "antonyms": [
+      "accountability"
+    ]
+  },
+  {
+    "word": "acculturation",
+    "pos": "n.",
+    "meaning": "文化適應",
+    "example": "Acculturation allows immigrants to adopt aspects of a new culture while retaining their own.",
+    "level": "中高階",
+    "theme": "society",
+    "root": "-tion/-sion (名詞化:動作結果)",
+    "synonyms": [],
+    "antonyms": []
   }
 ]
