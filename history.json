@@ -406,5 +406,65 @@
     "source": "bank",
     "cluster_mode": "theme",
     "cluster_key": "customer_service"
+  },
+  {
+    "date": "2026-07-19",
+    "pushed_at": "2026-07-19 23:16:33.643941",
+    "trigger": "manual",
+    "word": "renegotiate",
+    "pos": "v.",
+    "meaning": "重新談判",
+    "example": "Rising costs forced both parties to renegotiate the terms.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "re- (再次)"
+  },
+  {
+    "date": "2026-07-19",
+    "pushed_at": "2026-07-19 23:16:33.643941",
+    "trigger": "manual",
+    "word": "reconcile",
+    "pos": "v.",
+    "meaning": "對帳",
+    "example": "The accountant reconciled the bank statement with the ledger.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "re- (再次)"
+  },
+  {
+    "date": "2026-07-19",
+    "pushed_at": "2026-07-19 23:16:33.643941",
+    "trigger": "manual",
+    "word": "rebrand",
+    "pos": "v.",
+    "meaning": "品牌重塑",
+    "example": "The company decided to rebrand after the merger.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "re- (再次)"
+  },
+  {
+    "date": "2026-07-19",
+    "pushed_at": "2026-07-19 23:16:33.643941",
+    "trigger": "manual",
+    "word": "replenishment",
+    "pos": "n.",
+    "meaning": "補貨",
+    "example": "Automated replenishment keeps shelves consistently stocked.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "re- (再次)"
+  },
+  {
+    "date": "2026-07-19",
+    "pushed_at": "2026-07-19 23:16:33.643941",
+    "trigger": "manual",
+    "word": "restructuring",
+    "pos": "n.",
+    "meaning": "企業重組",
+    "example": "The company underwent restructuring to reduce debt.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "re- (再次)"
   }
 ]
