@@ -30,6 +30,13 @@ LINE_CHANNEL_ID = os.environ.get("LINE_CHANNEL_ID")
 LINE_CHANNEL_SECRET = os.environ.get("LINE_CHANNEL_SECRET")
 LINE_USER_ID = os.environ.get("LINE_USER_ID")
 
+# GitHub Actions 會帶 github.event_name（schedule / workflow_dispatch）進來。
+# 手動觸發（workflow_dispatch）視為「使用者想加推一組」，略過「一天一次」的防重複保護；
+# 排程觸發（schedule）維持保證一天一次、不重複。本機執行沒帶這個變數時當作排程。
+PUSH_TRIGGER = os.environ.get("PUSH_TRIGGER", "").strip()
+IS_MANUAL_PUSH = PUSH_TRIGGER == "workflow_dispatch"
+TRIGGER_LABEL = "manual" if IS_MANUAL_PUSH else ("schedule" if PUSH_TRIGGER == "schedule" else "local")
+
 GEMINI_MODEL = "gemini-2.0-flash"
 GEMINI_URL = (
     f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
@@ -65,6 +72,24 @@ def today_taiwan() -> str:
     return datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
 
 
+def now_taiwan_iso() -> str:
+    """這次推播的時間戳（台灣時間），同一次推播的 5 個字共用，用來分辨同一天的不同組推播。
+
+    帶到微秒，確保同一秒內的連續推播也有唯一的 pushed_at（否則會被誤當成同一組、
+    模式輪替也會算錯）。網頁顯示時只取到分鐘即可。
+    """
+    return datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M:%S.%f")
+
+
+def push_instance_count(history: list[dict]) -> int:
+    """歷史上總共推播過幾「組」。
+
+    新資料每筆有 pushed_at（同一組共用），舊資料沒有就用 date 當代表（過去是一天一組）。
+    用來讓關聯模式「每推一組就輪替」，而不是「每天才輪替」。
+    """
+    return len({h.get("pushed_at") or h["date"] for h in history})
+
+
 def norm(w: str) -> str:
     return w.strip().lower()
 
@@ -98,8 +123,8 @@ def theme_key(theme: str | None) -> str | None:
 
 
 def determine_mode(history: list[dict]) -> str:
-    day_count = len({h["date"] for h in history})
-    return CLUSTER_MODES[day_count % len(CLUSTER_MODES)]
+    # 依「已推播組數」輪替，這樣同一天多推幾組也會換不同關聯模式
+    return CLUSTER_MODES[push_instance_count(history) % len(CLUSTER_MODES)]
 
 
 def fill_cluster(cluster: list[dict], available: list[dict], prefer_theme: str | None) -> list[dict]:
@@ -342,9 +367,16 @@ def main() -> None:
     used_words = {norm(h["word"]) for h in history}
 
     date_str = today_taiwan()
-    if any(h["date"] == date_str for h in history):
-        print(f"[info] {date_str} 已經推播過，略過重複執行。")
-        return
+    # 排程觸發：保證一天一次，若今天已經有「排程推播」就略過（避免 cron 偶發重複觸發時重複推）。
+    # 手動觸發（workflow_dispatch）：使用者主動加推，不受此限，每次都會推一組新的字。
+    if not IS_MANUAL_PUSH:
+        scheduled_today = any(
+            h["date"] == date_str and h.get("trigger", "schedule") == "schedule"
+            for h in history
+        )
+        if scheduled_today:
+            print(f"[info] {date_str} 今日排程推播已完成，略過重複執行。")
+            return
 
     mode = determine_mode(history)
     cluster, (cluster_mode, cluster_key) = pick_cluster(words, used_words, mode)
@@ -360,10 +392,13 @@ def main() -> None:
         print("[error] 單字庫已用完且 Gemini 生成失敗，請補充 words.json 或檢查 API 金鑰。")
         sys.exit(1)
 
+    pushed_at = now_taiwan_iso()
     for w in cluster:
         history.append(
             {
                 "date": date_str,
+                "pushed_at": pushed_at,
+                "trigger": TRIGGER_LABEL,
                 "word": w["word"],
                 "pos": w["pos"],
                 "meaning": w["meaning"],
@@ -377,7 +412,7 @@ def main() -> None:
     save_json(DOCS_HISTORY_PATH, history)  # docs/ 是 GitHub Pages 實際發布的內容，需同步一份
 
     words_summary = "、".join(w["word"] for w in cluster)
-    print(f"[info] 今日單字組（來源: {source}, 模式: {cluster_mode}/{cluster_key}）: {words_summary}")
+    print(f"[info] 推播單字組（來源: {source}, 觸發: {TRIGGER_LABEL}, 模式: {cluster_mode}/{cluster_key}）: {words_summary}")
 
     message = build_message(cluster, cluster_mode, cluster_key)
     message = append_listening_reminder(message, pick_listening_reminder(history))

@@ -8,6 +8,11 @@ on:
 permissions:
   contents: write
 
+# 讓多次快速的手動加推排隊依序執行，避免同時 git push 撞車（non-fast-forward）
+concurrency:
+  group: daily-push
+  cancel-in-progress: false
+
 jobs:
   push-word:
     runs-on: ubuntu-latest
@@ -29,6 +34,7 @@ jobs:
           LINE_CHANNEL_ID: ${{ secrets.LINE_CHANNEL_ID }}
           LINE_CHANNEL_SECRET: ${{ secrets.LINE_CHANNEL_SECRET }}
           LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
+          PUSH_TRIGGER: ${{ github.event_name }}
         run: python push.py
 
       - name: Retry enriching any pending personal notes

@@ -407,17 +407,21 @@ function renderTodayPushStatus() {
   const el = document.getElementById('todayPushStatus');
   const today = todayTaiwanDateString();
   const todaysWords = historyData.filter(h => h.date === today);
+  // 同一天可能有多組加推，用 pushed_at（舊資料退回 date）算今天推了幾組
+  const todaysPushes = new Set(todaysWords.map(h => h.pushed_at || h.date)).size;
 
   if (todaysWords.length > 0) {
     el.innerHTML = `
-      ✅ <strong>今天（${escapeHtml(today)}）已經推播過了</strong>
-      <div class="subtitle" style="margin-top:6px;">${todaysWords.map(w => escapeHtml(w.word)).join('、')}</div>
+      ✅ <strong>今天（${escapeHtml(today)}）已經推播 ${todaysPushes} 組</strong>
+      <div class="subtitle" style="margin:6px 0;">${todaysWords.map(w => escapeHtml(w.word)).join('、')}</div>
+      <div class="subtitle" style="margin:8px 0;">還想再多學一組？點下面按鈕開啟 GitHub Actions，登入後點「Run workflow」就會再加推一組新的字。</div>
+      <a class="btn" href="${ACTIONS_URL}" target="_blank" rel="noopener">➕ 再加推一組</a>
     `;
   } else {
     el.innerHTML = `
       <div>今天（${escapeHtml(today)}）還沒有推播</div>
-      <div class="subtitle" style="margin:8px 0;">點下面按鈕會開啟 GitHub Actions 頁面，登入後點選「Run workflow」即可手動觸發今日推播（一天只會推播一次）</div>
-      <a class="btn primary" href="${ACTIONS_URL}" target="_blank" rel="noopener">🚀 手動觸發今日推播</a>
+      <div class="subtitle" style="margin:8px 0;">點下面按鈕會開啟 GitHub Actions 頁面，登入後點選「Run workflow」即可手動觸發推播。之後想多學也可以再按，一次加推一組。</div>
+      <a class="btn primary" href="${ACTIONS_URL}" target="_blank" rel="noopener">🚀 手動觸發推播</a>
     `;
   }
 }
@@ -477,20 +481,26 @@ function renderList() {
     return;
   }
 
-  const byDate = new Map();
+  // 以「一組推播」為單位分卡片：優先用 pushed_at（同一天可能有多組加推），
+  // 舊資料沒有 pushed_at 就退回用 date（過去一天只有一組）。保留原本陣列順序當同組內順序。
+  const byPush = new Map();
+  const order = [];
   for (const h of items) {
-    if (!byDate.has(h.date)) byDate.set(h.date, []);
-    byDate.get(h.date).push(h);
+    const key = h.pushed_at || h.date;
+    if (!byPush.has(key)) { byPush.set(key, []); order.push(key); }
+    byPush.get(key).push(h);
   }
 
-  let dates = Array.from(byDate.keys());
-  dates.sort((a, b) => sortDesc ? b.localeCompare(a) : a.localeCompare(b));
+  order.sort((a, b) => sortDesc ? b.localeCompare(a) : a.localeCompare(b));
 
-  list.innerHTML = dates.map(date => {
-    const group = byDate.get(date);
+  list.innerHTML = order.map(key => {
+    const group = byPush.get(key);
     const first = group[0];
     const modeLabel = MODE_LABELS[first.cluster_mode] || '';
     const keyLabel = first.cluster_key ? `${modeLabel} - ${escapeHtml(first.cluster_key)}` : modeLabel;
+    // 標題顯示日期；若是同一天多組加推，附上時間（時:分）以區分
+    const timePart = (first.pushed_at && first.pushed_at.length > 10) ? first.pushed_at.slice(11, 16) : '';
+    const dateLabel = timePart ? `${first.date} ${timePart}` : first.date;
 
     const wordsHtml = group.map(h => `
       <div class="word-row">
@@ -505,7 +515,7 @@ function renderList() {
     return `
       <div class="card">
         <div class="row1">
-          <div class="date">${escapeHtml(date)}</div>
+          <div class="date">${escapeHtml(dateLabel)}</div>
           ${keyLabel ? `<span class="pos">${keyLabel}</span>` : ''}
         </div>
         ${wordsHtml}
