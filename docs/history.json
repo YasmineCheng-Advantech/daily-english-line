@@ -356,5 +356,55 @@
     "source": "bank",
     "cluster_mode": "antonym",
     "cluster_key": "disincentive"
+  },
+  {
+    "date": "2026-07-19",
+    "word": "inquiry",
+    "pos": "n.",
+    "meaning": "詢問",
+    "example": "The support team responded to the inquiry within an hour.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "customer_service"
+  },
+  {
+    "date": "2026-07-19",
+    "word": "complaint",
+    "pos": "n.",
+    "meaning": "投訴",
+    "example": "The company logged every customer complaint for review.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "customer_service"
+  },
+  {
+    "date": "2026-07-19",
+    "word": "complainant",
+    "pos": "n.",
+    "meaning": "投訴人",
+    "example": "The complainant received a full refund the next day.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "customer_service"
+  },
+  {
+    "date": "2026-07-19",
+    "word": "resolution",
+    "pos": "n.",
+    "meaning": "解決方案",
+    "example": "The dispute reached a resolution within a week.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "customer_service"
+  },
+  {
+    "date": "2026-07-19",
+    "word": "unresolved",
+    "pos": "adj.",
+    "meaning": "未解決的",
+    "example": "Several customer issues remained unresolved for days.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "customer_service"
   }
 ]
