@@ -466,5 +466,65 @@
     "source": "bank",
     "cluster_mode": "root",
     "cluster_key": "re- (再次)"
+  },
+  {
+    "date": "2026-07-20",
+    "pushed_at": "2026-07-20 09:56:52.812411",
+    "trigger": "manual",
+    "word": "paradigm",
+    "pos": "n.",
+    "meaning": "範式;典範",
+    "example": "The discovery led to a paradigm shift in physics.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "paradigm"
+  },
+  {
+    "date": "2026-07-20",
+    "pushed_at": "2026-07-20 09:56:52.812411",
+    "trigger": "manual",
+    "word": "framework",
+    "pos": "n.",
+    "meaning": "架構",
+    "example": "The talk was organized around a simple three-step framework.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "paradigm"
+  },
+  {
+    "date": "2026-07-20",
+    "pushed_at": "2026-07-20 09:56:52.812411",
+    "trigger": "manual",
+    "word": "comprehensive",
+    "pos": "adj.",
+    "meaning": "全面的;廣泛的",
+    "example": "The report offers a comprehensive analysis of the data.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "paradigm"
+  },
+  {
+    "date": "2026-07-20",
+    "pushed_at": "2026-07-20 09:56:52.812411",
+    "trigger": "manual",
+    "word": "inevitable",
+    "pos": "adj.",
+    "meaning": "不可避免的",
+    "example": "Given current trends, a price increase seems inevitable.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "paradigm"
+  },
+  {
+    "date": "2026-07-20",
+    "pushed_at": "2026-07-20 09:56:52.812411",
+    "trigger": "manual",
+    "word": "plausible",
+    "pos": "adj.",
+    "meaning": "似乎合理的",
+    "example": "His explanation sounded plausible but lacked proof.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "paradigm"
   }
 ]
