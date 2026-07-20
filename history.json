@@ -526,5 +526,65 @@
     "source": "bank",
     "cluster_mode": "synonym",
     "cluster_key": "paradigm"
+  },
+  {
+    "date": "2026-07-20",
+    "pushed_at": "2026-07-20 12:01:50.304731",
+    "trigger": "schedule",
+    "word": "soft news",
+    "pos": "n.",
+    "meaning": "軟性新聞",
+    "example": "Soft news segments cover lifestyle and celebrity topics.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "soft news"
+  },
+  {
+    "date": "2026-07-20",
+    "pushed_at": "2026-07-20 12:01:50.304731",
+    "trigger": "schedule",
+    "word": "hard news",
+    "pos": "n.",
+    "meaning": "硬性重大新聞",
+    "example": "The front page is reserved for hard news, not entertainment gossip.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "soft news"
+  },
+  {
+    "date": "2026-07-20",
+    "pushed_at": "2026-07-20 12:01:50.304731",
+    "trigger": "schedule",
+    "word": "airtime",
+    "pos": "n.",
+    "meaning": "廣播時段",
+    "example": "The campaign bought extra airtime during the evening news.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "soft news"
+  },
+  {
+    "date": "2026-07-20",
+    "pushed_at": "2026-07-20 12:01:50.304731",
+    "trigger": "schedule",
+    "word": "prime time",
+    "pos": "n.",
+    "meaning": "黃金時段",
+    "example": "The new drama will premiere in prime time on Thursday.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "soft news"
+  },
+  {
+    "date": "2026-07-20",
+    "pushed_at": "2026-07-20 12:01:50.304731",
+    "trigger": "schedule",
+    "word": "simulcast",
+    "pos": "n.",
+    "meaning": "同步轉播",
+    "example": "The award show aired as a simulcast on three networks.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "soft news"
   }
 ]
