@@ -219,17 +219,55 @@
     color: #fff;
     border-color: var(--accent);
   }
+
+  /* 語言分頁：比一般 tabs 更醒目，強調兩種語言是完全分開的兩份資料 */
+  .lang-tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 18px;
+  }
+  .lang-tabs button {
+    flex: 1;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 12px 10px;
+  }
+  .lang-tabs button.active {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+
+  /* 越南文專用：拼音與文法點 */
+  .rom {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    color: var(--accent);
+    font-size: 0.92rem;
+    margin-top: 2px;
+  }
+  .tone-note, .grammar {
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-top: 4px;
+  }
+  .grammar::before { content: "📐 "; }
+  .tone-note::before { content: "🔊 "; }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header class="header-row">
     <div>
-      <h1>📘 每日商用英文單字回顧</h1>
-      <div class="subtitle">資料來源：history.json（每日 LINE 推播紀錄）</div>
+      <h1 id="pageTitle">📘 每日商用英文單字回顧</h1>
+      <div class="subtitle" id="pageSubtitle">資料來源：history.json（每日 LINE 推播紀錄）</div>
     </div>
     <button id="themeToggle" aria-label="切換淺色/深色主題">🌙 深色</button>
   </header>
+
+  <div class="lang-tabs" id="langTabs">
+    <button id="langEn" class="active">📘 English</button>
+    <button id="langVi">🇻🇳 Tiếng Việt</button>
+  </div>
 
   <div class="stats">
     <div class="stat-tile"><div class="num" id="statTotal">0</div><div class="label">累積單字數</div></div>
@@ -266,9 +304,13 @@
       <div class="date" id="reviewDate"></div>
       <div class="word" id="reviewWord">-</div>
       <span class="pos" id="reviewPos"></span>
+      <div class="rom" id="reviewRom"></div>
       <div class="hidden-part" id="reviewHidden">
         <div class="meaning" id="reviewMeaning"></div>
         <div class="example" id="reviewExample"></div>
+        <div class="rom" id="reviewExampleRom"></div>
+        <div class="subtitle" id="reviewExampleZh"></div>
+        <div class="grammar" id="reviewGrammar"></div>
       </div>
       <div class="reveal-btn">
         <button class="primary" id="revealBtn">顯示意思與例句</button>
@@ -353,15 +395,64 @@ themeToggle.addEventListener('click', () => {
   updateThemeToggleLabel();
 });
 
-let historyData = [];
-let wordsData = null; // null = 尚未載入完成；[] = 已載入但是空的
-let wordsLoadingPromise = null;
+let historyData = [];   // 全部語言的紀錄；渲染前一律經過 langHistory() 過濾
+const wordsByLang = { en: null, vi: null };          // null = 尚未載入完成；[] = 已載入但是空的
+const wordsLoadingPromises = { en: null, vi: null };
 let notesData = [];
 let sortDesc = true;
 let reviewSource = 'history'; // 'history' | 'bank'
 let noteFilterValue = '';
 
 const REPO_URL = 'https://github.com/YasmineCheng-Advantech/daily-english-line';
+
+// ---------------------------------------------------------------------------
+// 語言分頁：英文與越南文是完全獨立的兩份資料，只共用同一個 UI 骨架
+// ---------------------------------------------------------------------------
+
+const LANG_KEY = 'daily-english-line-lang';
+let currentLang = localStorage.getItem(LANG_KEY) === 'vi' ? 'vi' : 'en';
+
+const LANG_CONFIG = {
+  en: {
+    title: '📘 每日商用英文單字回顧',
+    subtitle: '資料來源：每日 LINE 推播紀錄（英文）',
+    wordsFile: './words.json',
+    workflow: 'daily.yml',
+    searchPlaceholder: '搜尋單字或中文意思…',
+    bankEmptyText: '英文單字庫目前是空的。',
+    historyEmptyText: '目前還沒有任何英文推播紀錄可以複習。',
+    listEmptyText: '找不到符合的單字，或尚無英文推播紀錄。',
+    // 個人單字紀錄（notes.json）目前只有英文的流程，越南文尚未支援
+    showNotes: true,
+  },
+  vi: {
+    title: '🇻🇳 每日越南文回顧',
+    subtitle: '資料來源：每日 LINE 推播紀錄（越南文，北部／河內腔）',
+    wordsFile: './words.vi.json',
+    workflow: 'daily-vi.yml',
+    searchPlaceholder: '搜尋越南文、羅馬拼音或中文意思…',
+    bankEmptyText: '越南文單字庫目前是空的。',
+    historyEmptyText: '目前還沒有任何越南文推播紀錄可以複習。',
+    listEmptyText: '找不到符合的單字，或尚無越南文推播紀錄。',
+    showNotes: false,
+  },
+};
+
+function langCfg() { return LANG_CONFIG[currentLang]; }
+
+// 早期資料（多語言化之前）沒有 lang 欄位，一律視為英文
+function langHistory() {
+  return historyData.filter(h => (h.lang || 'en') === currentLang);
+}
+
+// 越南文單字庫用 text / meaning_zh / type，推播紀錄則已由 push.py 轉成 word / meaning / pos。
+// 這裡統一成同一個形狀，渲染邏輯就只要寫一份。
+function normalizeItem(item) {
+  if (item.word === undefined && item.text !== undefined) {
+    return { ...item, word: item.text, pos: item.type || '', meaning: item.meaning_zh || '' };
+  }
+  return item;
+}
 
 async function loadHistory() {
   try {
@@ -373,8 +464,9 @@ async function loadHistory() {
   renderStats();
   renderList();
   renderTodayPushStatus();
-  // words.json 比較大，不擋主要畫面渲染，背景先預載，等使用者切到「整個單字庫」時大機率已經載完
-  ensureWordsLoaded();
+  // 單字庫檔案比較大（英文超過 1MB），不擋主要畫面渲染，
+  // 背景先預載目前語言的那份，等使用者切到「整個單字庫」時大機率已經載完
+  ensureWordsLoaded(currentLang);
   loadNotes();
 }
 
@@ -389,7 +481,10 @@ async function loadNotes() {
 }
 
 // 今日推播狀態：跟 push.py 的 today_taiwan() 邏輯一致，用台灣時間（UTC+8）判斷「今天」
-const ACTIONS_URL = 'https://github.com/YasmineCheng-Advantech/daily-english-line/actions/workflows/daily.yml';
+// 兩種語言各有自己的 workflow，手動加推要導到對的那一支
+function actionsUrl() {
+  return `${REPO_URL}/actions/workflows/${langCfg().workflow}`;
+}
 
 function todayTaiwanDateString() {
   // Date.getTime() 本身就是 UTC 為基準的絕對時間戳，不用再管訪客瀏覽器的當地時區，
@@ -406,7 +501,7 @@ function todayTaiwanDateString() {
 function renderTodayPushStatus() {
   const el = document.getElementById('todayPushStatus');
   const today = todayTaiwanDateString();
-  const todaysWords = historyData.filter(h => h.date === today);
+  const todaysWords = langHistory().filter(h => h.date === today);
   // 同一天可能有多組加推，用 pushed_at（舊資料退回 date）算今天推了幾組
   const todaysPushes = new Set(todaysWords.map(h => h.pushed_at || h.date)).size;
 
@@ -415,33 +510,34 @@ function renderTodayPushStatus() {
       ✅ <strong>今天（${escapeHtml(today)}）已經推播 ${todaysPushes} 組</strong>
       <div class="subtitle" style="margin:6px 0;">${todaysWords.map(w => escapeHtml(w.word)).join('、')}</div>
       <div class="subtitle" style="margin:8px 0;">還想再多學一組？點下面按鈕開啟 GitHub Actions，登入後點「Run workflow」就會再加推一組新的字。</div>
-      <a class="btn" href="${ACTIONS_URL}" target="_blank" rel="noopener">➕ 再加推一組</a>
+      <a class="btn" href="${actionsUrl()}" target="_blank" rel="noopener">➕ 再加推一組</a>
     `;
   } else {
     el.innerHTML = `
       <div>今天（${escapeHtml(today)}）還沒有推播</div>
       <div class="subtitle" style="margin:8px 0;">點下面按鈕會開啟 GitHub Actions 頁面，登入後點選「Run workflow」即可手動觸發推播。之後想多學也可以再按，一次加推一組。</div>
-      <a class="btn primary" href="${ACTIONS_URL}" target="_blank" rel="noopener">🚀 手動觸發推播</a>
+      <a class="btn primary" href="${actionsUrl()}" target="_blank" rel="noopener">🚀 手動觸發推播</a>
     `;
   }
 }
 
-function ensureWordsLoaded() {
-  if (wordsData !== null) return Promise.resolve(wordsData);
-  if (!wordsLoadingPromise) {
-    wordsLoadingPromise = fetch('./words.json', { cache: 'no-store' })
+function ensureWordsLoaded(lang) {
+  if (wordsByLang[lang] !== null) return Promise.resolve(wordsByLang[lang]);
+  if (!wordsLoadingPromises[lang]) {
+    wordsLoadingPromises[lang] = fetch(LANG_CONFIG[lang].wordsFile, { cache: 'no-store' })
       .then(res => res.json())
-      .then(data => { wordsData = data; return data; })
-      .catch(() => { wordsData = []; return wordsData; });
+      .then(data => { wordsByLang[lang] = data; return data; })
+      .catch(() => { wordsByLang[lang] = []; return wordsByLang[lang]; });
   }
-  return wordsLoadingPromise;
+  return wordsLoadingPromises[lang];
 }
 
 function renderStats() {
-  document.getElementById('statTotal').textContent = historyData.length;
-  const days = new Set(historyData.map(h => h.date)).size;
+  const data = langHistory();
+  document.getElementById('statTotal').textContent = data.length;
+  const days = new Set(data.map(h => h.date)).size;
   document.getElementById('statDays').textContent = days;
-  const latest = historyData.reduce((max, h) => (!max || h.date > max) ? h.date : max, null);
+  const latest = data.reduce((max, h) => (!max || h.date > max) ? h.date : max, null);
   document.getElementById('statLatest').textContent = latest || '-';
 }
 
@@ -450,6 +546,7 @@ const MODE_LABELS = {
   root: '字根字首字尾',
   synonym: '相似字',
   antonym: '反義字',
+  topic: '主題',   // 越南文只依 topic 分組
   random: '精選',
 };
 
@@ -463,21 +560,23 @@ function renderList() {
   const query = document.getElementById('searchInput').value.trim().toLowerCase();
 
   const hint = document.getElementById('browseHint');
+  const data = langHistory();
   let items;
   if (query) {
-    items = historyData.filter(h =>
-      h.word.toLowerCase().includes(query) ||
-      (h.meaning || '').toLowerCase().includes(query)
+    items = data.filter(h =>
+      (h.word || '').toLowerCase().includes(query) ||
+      (h.meaning || '').toLowerCase().includes(query) ||
+      (h.romanization || '').toLowerCase().includes(query)
     );
     hint.textContent = `搜尋全部紀錄中，符合 ${items.length} 筆`;
   } else {
-    const latestDates = latestNDatesSet(historyData, 3);
-    items = historyData.filter(h => latestDates.has(h.date));
+    const latestDates = latestNDatesSet(data, 3);
+    items = data.filter(h => latestDates.has(h.date));
     hint.textContent = '預設顯示最新 3 天，輸入關鍵字可搜尋全部紀錄';
   }
 
   if (items.length === 0) {
-    list.innerHTML = '<div class="empty">找不到符合的單字，或尚無推播紀錄。</div>';
+    list.innerHTML = `<div class="empty">${escapeHtml(langCfg().listEmptyText)}</div>`;
     return;
   }
 
@@ -502,15 +601,7 @@ function renderList() {
     const timePart = (first.pushed_at && first.pushed_at.length > 10) ? first.pushed_at.slice(11, 16) : '';
     const dateLabel = timePart ? `${first.date} ${timePart}` : first.date;
 
-    const wordsHtml = group.map(h => `
-      <div class="word-row">
-        <div class="row1">
-          <div><span class="word">${escapeHtml(h.word)}</span><span class="pos">${escapeHtml(h.pos || '')}</span></div>
-        </div>
-        <div class="meaning">${escapeHtml(h.meaning || '')}</div>
-        <div class="example">${escapeHtml(h.example || '')}</div>
-      </div>
-    `).join('');
+    const wordsHtml = group.map(wordRowHtml).join('');
 
     return `
       <div class="card">
@@ -522,6 +613,28 @@ function renderList() {
       </div>
     `;
   }).join('');
+}
+
+// 一列單字。越南文特有的欄位（拼音、聲調提醒、例句翻譯、文法點）在英文資料上不存在，
+// 對應的區塊會自動不顯示，所以兩種語言共用同一個渲染函式。
+function wordRowHtml(raw) {
+  const h = normalizeItem(raw);
+  const optional = (value, cls) =>
+    value ? `<div class="${cls}">${escapeHtml(value)}</div>` : '';
+  return `
+    <div class="word-row">
+      <div class="row1">
+        <div><span class="word">${escapeHtml(h.word)}</span><span class="pos">${escapeHtml(h.pos || '')}</span></div>
+      </div>
+      ${optional(h.romanization, 'rom')}
+      <div class="meaning">${escapeHtml(h.meaning || '')}</div>
+      ${optional(h.tone_note, 'tone-note')}
+      <div class="example">${escapeHtml(h.example || '')}</div>
+      ${optional(h.example_rom, 'rom')}
+      ${optional(h.example_zh, 'subtitle')}
+      ${optional(h.grammar_point, 'grammar')}
+    </div>
+  `;
 }
 
 function escapeHtml(str) {
@@ -560,6 +673,43 @@ tabReview.addEventListener('click', () => {
   pickRandom();
 });
 tabNotes.addEventListener('click', () => activateTab({ btn: tabNotes }));
+
+// 語言分頁
+const langEnBtn = document.getElementById('langEn');
+const langViBtn = document.getElementById('langVi');
+
+function applyLangUi() {
+  const cfg = langCfg();
+  document.getElementById('pageTitle').textContent = cfg.title;
+  document.getElementById('pageSubtitle').textContent = cfg.subtitle;
+  document.getElementById('searchInput').placeholder = cfg.searchPlaceholder;
+  langEnBtn.classList.toggle('active', currentLang === 'en');
+  langViBtn.classList.toggle('active', currentLang === 'vi');
+  document.documentElement.lang = currentLang === 'vi' ? 'vi' : 'zh-Hant';
+
+  // 個人紀錄目前只有英文的流程，越南文先不開這個分頁；
+  // 若使用者正停在該分頁時切到越南文，退回「瀏覽 / 搜尋」避免看到空白畫面
+  tabNotes.style.display = cfg.showNotes ? '' : 'none';
+  if (!cfg.showNotes && notesView.style.display !== 'none') {
+    activateTab({ btn: tabBrowse });
+  }
+}
+
+function switchLang(lang) {
+  if (lang === currentLang) return;
+  currentLang = lang;
+  localStorage.setItem(LANG_KEY, lang);
+  bankReviewSample = null;   // 換語言等於換一份單字庫，複習樣本要重抽
+  applyLangUi();
+  renderStats();
+  renderList();
+  renderTodayPushStatus();
+  ensureWordsLoaded(lang);
+  if (reviewView.style.display !== 'none') pickRandom();
+}
+
+langEnBtn.addEventListener('click', () => switchLang('en'));
+langViBtn.addEventListener('click', () => switchLang('vi'));
 
 // Random review
 let currentPick = null;
@@ -621,41 +771,57 @@ function pickRandom() {
   const card = document.getElementById('reviewCard');
   const empty = document.getElementById('reviewEmpty');
 
-  if (reviewSource === 'bank' && wordsData === null) {
+  const lang = currentLang;
+
+  if (reviewSource === 'bank' && wordsByLang[lang] === null) {
     card.style.display = 'none';
     empty.style.display = '';
     empty.textContent = '單字庫載入中…';
-    ensureWordsLoaded().then(() => {
-      if (reviewSource === 'bank') pickRandom(); // 載入完成時使用者可能已經切走，只在還在同個來源時才補渲染
+    ensureWordsLoaded(lang).then(() => {
+      // 載入完成時使用者可能已經切走（換來源或換語言），只在情境沒變時才補渲染
+      if (reviewSource === 'bank' && currentLang === lang) pickRandom();
     });
     return;
   }
 
   if (reviewSource === 'bank' && bankReviewSample === null) {
-    bankReviewSample = sampleRandom(wordsData.concat(notesAsReviewItems()), REVIEW_SAMPLE_SIZE);
+    // 個人紀錄目前只有英文，越南文的單字庫複習不混入
+    const extra = langCfg().showNotes ? notesAsReviewItems() : [];
+    bankReviewSample = sampleRandom(wordsByLang[lang].concat(extra), REVIEW_SAMPLE_SIZE);
   }
 
-  const pool = reviewSource === 'bank' ? bankReviewSample : historyData.slice(-REVIEW_SAMPLE_SIZE);
+  const pool = reviewSource === 'bank' ? bankReviewSample : langHistory().slice(-REVIEW_SAMPLE_SIZE);
 
   if (pool.length === 0) {
     card.style.display = 'none';
     empty.style.display = '';
     empty.textContent = reviewSource === 'bank'
-      ? '單字庫目前是空的。'
-      : '目前還沒有任何推播紀錄可以複習。';
+      ? langCfg().bankEmptyText
+      : langCfg().historyEmptyText;
     return;
   }
   card.style.display = 'block';
   empty.style.display = 'none';
 
-  currentPick = pool[Math.floor(Math.random() * pool.length)];
+  currentPick = normalizeItem(pool[Math.floor(Math.random() * pool.length)]);
+  const p = currentPick;
+  const setText = (id, value) => {
+    const el = document.getElementById(id);
+    el.textContent = value || '';
+    el.style.display = value ? '' : 'none';
+  };
+
   document.getElementById('reviewDate').textContent = reviewSource === 'bank'
-    ? (currentPick.theme ? `主題：${currentPick.theme}` : '')
-    : currentPick.date;
-  document.getElementById('reviewWord').textContent = currentPick.word;
-  document.getElementById('reviewPos').textContent = currentPick.pos || '';
-  document.getElementById('reviewMeaning').textContent = currentPick.meaning || '';
-  document.getElementById('reviewExample').textContent = currentPick.example || '';
+    ? (p.theme || p.topic ? `主題：${p.theme || p.topic}` : '')
+    : p.date;
+  document.getElementById('reviewWord').textContent = p.word;
+  document.getElementById('reviewPos').textContent = p.pos || '';
+  setText('reviewRom', p.romanization);
+  setText('reviewMeaning', p.meaning);
+  setText('reviewExample', p.example);
+  setText('reviewExampleRom', p.example_rom);
+  setText('reviewExampleZh', p.example_zh);
+  setText('reviewGrammar', p.grammar_point);
   document.getElementById('reviewHidden').style.display = 'none';
   document.getElementById('revealBtn').textContent = '顯示意思與例句';
 }
@@ -789,6 +955,7 @@ document.getElementById('noteSubmitBtn').addEventListener('click', () => {
   window.open(url, '_blank', 'noopener');
 });
 
+applyLangUi();
 loadHistory();
 </script>
 </body>
