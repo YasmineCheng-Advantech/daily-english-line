@@ -1,6 +1,8 @@
-# 每日商用英文單字 LINE 推播
+# 每日單字 LINE 推播（多語言）
 
-全免費、無伺服器的每日英文單字推播系統。每天自動從單字庫挑 5 個「彼此相關」的中階到中高階商用英文單字推播到 LINE，並記錄歷史，可透過網頁回顧與複習。
+全免費、無伺服器的每日單字推播系統。每天自動從單字庫挑 5 個「彼此相關」的單字推播到 LINE，並記錄歷史，可透過網頁回顧與複習。
+
+目前支援 **英文**（中階～中高階商用英文，每天 08:17）與 **越南文**（北部／河內腔，每晚 21:00）。
 
 詳細設計請見 [PROJECT_PLAN.md](./PROJECT_PLAN.md)。
 
@@ -8,30 +10,51 @@
 
 ```
 .
-├── .github/workflows/daily.yml  # 每日 cron 排程
+├── data/
+│   ├── en/words.json            # 商用英文單字庫（主題/字根/相似字/反義字標籤，目前 3635 字）
+│   ├── vi/words.json            # 越南文單字庫（北部音，含羅馬拼音與文法點）
+│   └── history.json             # 每日推播紀錄（= 資料庫），各語言共用，靠 lang 欄位區分
+├── push.py                      # 每日抽字 + 推播主程式（--lang en|vi、--dry-run）
+├── formatters.py                # 各語言的推播訊息排版（format_message）
 ├── docs/
 │   ├── index.html               # 回顧網頁（GitHub Pages 只發布這個資料夾）
-│   ├── words.json               # words.json 的同步副本，網頁靠這份讀取
-│   └── history.json             # history.json 的同步副本，網頁靠這份讀取
-├── words.json                   # 中階～中高階商用英文單字庫（含主題/字根/相似字/反義字標籤，目前 3135 字）
-├── history.json                 # 每日推播紀錄（= 資料庫）
+│   ├── words.json               # data/en/words.json 的同步副本，網頁靠這份讀取
+│   ├── history.json             # data/history.json 的同步副本，網頁靠這份讀取
+│   └── notes.json               # notes.json 的同步副本
 ├── notes.json                   # 個人單字紀錄（從影片/Podcast/短影音等自己記錄的字）
-├── push.py                      # 每日抽字 + 推播主程式
 ├── scripts/
-│   ├── merge_words.py           # 把新一批單字合併進 words.json（驗證格式 + 去重）
+│   ├── merge_words.py           # 把新一批單字合併進單字庫（--lang en|vi，驗證格式 + 去重）
 │   ├── process_note_issue.py    # 解析「個人單字紀錄」GitHub Issue，拆多字寫進 notes.json
 │   └── enrich_notes.py          # 用 Gemini 把待補充的個人紀錄補齊成完整欄位
+├── .github/workflows/
+│   ├── daily.yml                # 英文每日 cron 排程（台灣時間 08:17）
+│   ├── daily-vi.yml             # 越南文每日 cron 排程（台灣時間 21:00）
+│   └── process-note.yml         # 偵測到新的 vocab-note issue 就自動處理
 ├── .github/ISSUE_TEMPLATE/vocab-note.yml  # 個人單字紀錄的 GitHub Issue Form 樣板
-├── .github/workflows/process-note.yml     # 偵測到新的 vocab-note issue 就自動處理
-├── PROMPT_TEMPLATE.md           # 給其他 LLM 生成單字用的固定格式提示詞
+├── PROMPT_TEMPLATE.md           # 給其他 LLM 生成英文單字用的固定格式提示詞
+├── PROMPT_TEMPLATE_VI.md        # 同上，越南文版
 └── requirements.txt
 ```
 
-> **注意**：GitHub Pages 設定成只發布 `/docs` 資料夾，所以根目錄的 `words.json`／`history.json`／`notes.json` 不會被公開網站讀到。`push.py`、`scripts/merge_words.py`、`scripts/process_note_issue.py` 都會在更新根目錄檔案的同時，自動把同一份內容也寫進 `docs/`，兩邊必須保持同步——如果手動修改了根目錄的 JSON，記得同時 `cp words.json docs/words.json`（history.json、notes.json 同理），否則網頁看到的會是舊資料。
+> **注意**：GitHub Pages 設定成只發布 `/docs` 資料夾，所以 `data/` 底下的檔案不會被公開網站讀到。`push.py`、`scripts/merge_words.py`、`scripts/process_note_issue.py` 都會在更新來源檔案的同時，自動把同一份內容也寫進 `docs/`，兩邊必須保持同步——如果手動修改了 `data/` 裡的 JSON，記得同時 `cp data/en/words.json docs/words.json`（`data/history.json` → `docs/history.json`、`notes.json` → `docs/notes.json` 同理），否則網頁看到的會是舊資料。
+>
+> 越南文單字庫**不會**同步到 `docs/words.json`——那份是英文 schema，混進不同結構的資料網頁會解析不出來。越南文的推播紀錄則照常寫進 `data/history.json` 與 `docs/history.json`。
+
+## 執行方式
+
+```bash
+python3 push.py                        # 等同 --lang en
+python3 push.py --lang vi              # 推越南文
+python3 push.py --lang vi --dry-run    # 只印出排版結果，不寫紀錄也不發送
+```
+
+`--dry-run` 完全不會讀取 LINE 金鑰、不呼叫發送函式、不寫入 `data/history.json`，所以在沒設定任何環境變數的機器上也能安全預覽。
 
 ## 單字庫資料格式
 
-`words.json` 每個單字物件包含：
+### 英文（`data/en/words.json`）
+
+每個單字物件包含：
 
 ```json
 {
@@ -43,23 +66,55 @@
   "theme": "negotiation",
   "root": null,
   "synonyms": ["advantage", "clout"],
-  "antonyms": ["disadvantage"]
+  "antonyms": ["disadvantage"],
+  "lang": "en"
 }
 ```
 
 - `theme`：分類 slug，用來找同主題的字。清單是開放式的——目前常用的有 negotiation、finance、marketing、hr、semiconductor、tech_industry、creative、media 等，新主題可以隨時加入，不限定只能用固定清單裡的。`push.py` 聚類時會正規化大小寫/空白/連字號差異（見 `theme_key()`），盡量讓同一個主題不同寫法還是能歸在一起，但同一個概念建議沿用既有的 slug，避免拆成太多相近主題
 - `root`：字根/字首/字尾標籤（例如 `"re- (再次)"`），沒有明顯字根則為 `null`。這個清單也是開放式的，不限定只能用某幾個固定詞綴——`push.py` 聚類時只比對括號前的詞綴本身（見 `root_key()`），忽略括號內中文解釋的寫法差異，所以新字根只要格式一致（`"詞綴 (解釋)"`），累積到 2 個以上就能被抽出來湊一組
 - `synonyms` / `antonyms`：純英文字串，不需要保證在單字庫裡也找得到，推播時程式會自動比對是否存在
+- `lang`：固定 `"en"`，由 `merge_words.py` 自動補上，不用 LLM 產生
+
+### 越南文（`data/vi/words.json`）
+
+```json
+{
+  "id": "vi-0001",
+  "lang": "vi",
+  "region": "north",
+  "type": "phrase",
+  "topic": "打招呼",
+  "text": "xin chào",
+  "meaning_zh": "你好（較正式）",
+  "romanization": "sin chow",
+  "tone_note": "chào 尾音往下降；日常也常只說「chào」+ 稱謂，不加 xin",
+  "example": "Xin chào, rất vui được gặp bạn.",
+  "example_zh": "你好，很高興認識你。",
+  "example_rom": "sin chow, zut vui duoc gap ban",
+  "grammar_point": "xin 是禮貌前綴，讓招呼更客氣"
+}
+```
+
+- `region`：音系標籤，目前全部是 `"north"`（北部／河內腔）
+- `romanization` / `example_rom`：**英文式近似拼音，不是 IPA**，給看不懂音標的人直接照著唸
+- `topic`：主題分類（繁體中文）。越南文標籤只有 topic，沒有字根/相似字/反義字，所以 `push.py` 對越南文統一依 topic 分組，不做模式輪替
+- `id` / `lang` / `region` 三個欄位都由 `merge_words.py` 自動補上，不用 LLM 產生
+
+> **關於音系**：專案原本規劃南部音，但當初規格把「r 發 z 音」寫成南部特徵，實際上那是**北部**音；南部音的 `r` 保留捲舌、近英文 r，只有 `d`／`gi` 才發 y 音。兩者不能混用，所以整批統一成北部音。日後要做南部音版本，請另外開一批 `--region south` 的資料。
 
 ## 擴充單字庫
 
-想自己去其他 LLM（ChatGPT、Gemini…）生成更多單字補進來，可以用 [PROMPT_TEMPLATE.md](./PROMPT_TEMPLATE.md) 裡現成的提示詞，拿到 JSON 後執行：
+想自己去其他 LLM（ChatGPT、Gemini…）生成更多單字補進來，用現成的提示詞範本：
 
-```bash
-python3 scripts/merge_words.py new_batch.json
-```
+| 語言 | 範本 | 合併指令 |
+|---|---|---|
+| 英文 | [PROMPT_TEMPLATE.md](./PROMPT_TEMPLATE.md) | `python3 scripts/merge_words.py new_batch.json` |
+| 越南文 | [PROMPT_TEMPLATE_VI.md](./PROMPT_TEMPLATE_VI.md) | `python3 scripts/merge_words.py --lang vi vi_batch.json` |
 
-這支腳本會驗證格式、自動去除跟現有單字庫重複的字，並印出新增/跳過的統計。
+這支腳本會驗證格式、自動去除跟現有單字庫重複的字、補上 `lang`（越南文還會自動編 `id` 與補 `region`），並印出新增/跳過的統計。
+
+> **越南文單字庫目前只有 10 筆**，而 `daily-vi.yml` 每晚推 5 筆，所以第 3 天起就會開始重複第一輪內容（`source` 會標成 `bank-recycled`）。建議先擴充到 50 筆以上再讓排程長期跑。
 
 ## 設定步驟
 
@@ -94,7 +149,11 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-# 不設定 LINE_* 環境變數時，push.py 只會印出今天抽到的字，不會真的推播
+# 只想看排版結果、不寫紀錄也不發送（不需要任何環境變數）
+python push.py --lang en --dry-run
+python push.py --lang vi --dry-run
+
+# 不設定 LINE_* 環境變數時，push.py 會照常寫入紀錄，但只印出訊息不真的推播
 python push.py
 ```
 
@@ -170,19 +229,30 @@ https://<你的帳號>.github.io/<repo 名稱>/
 
 ## 抽字邏輯
 
-`push.py` 每天執行時：
+`push.py` 每次執行時：
 
-1. 讀取 `words.json` 與 `history.json`，算出已經推播過的單字集合
-2. 決定今天的**關聯模式**：`theme`（主題）→ `root`（字根字首字尾）→ `synonym`（相似字）→ `antonym`（反義字），依推播天數輪替
-3. 依模式從單字庫中挑一個「種子字」，再找出跟它同主題 / 同字根 / 互為相似字 / 互為反義字、且尚未推播過的字，湊成 5 個一組（不夠 5 個時用同主題的字補滿）
-4. 若單字庫已經完全用完（可用字不足 5 個），才會**呼叫 Gemini** 即時生成一組新的相關單字備援
-5. 把這一組 5 個字 append 進 `history.json`（同一天 5 筆，共用同一個 `cluster_mode` / `cluster_key`）並 commit
-6. 用 `LINE_CHANNEL_ID` + `LINE_CHANNEL_SECRET` 換一個短期 access token，把 5 個字合併成一則 LINE 訊息推播（若未設定 LINE 金鑰，僅在本機印出結果方便測試）
+1. 依 `--lang` 讀取 `data/{lang}/words.json` 與 `data/history.json`，從 history 篩出**該語言**已推播過的集合
+   （英文比對 `word`，越南文比對 `id`；各語言進度互不影響）
+2. 決定這次的**關聯模式**：
+   - 英文：`theme`（主題）→ `root`（字根字首字尾）→ `synonym`（相似字）→ `antonym`（反義字），依推播組數輪替
+   - 越南文：標籤只有 `topic`，統一依主題分組，不做輪替
+3. 從單字庫挑一個「種子字」，找出跟它同組、且尚未推播過的字，湊成 5 個一組（不夠 5 個時用其他組的字補滿）
+4. 單字庫用完時：英文會**呼叫 Gemini** 即時生成一組備援；越南文則直接重新循環（`source` 標成 `bank-recycled`）
+5. 把這一組 5 個字 append 進 `data/history.json`（同一次推播共用同一個 `pushed_at` / `cluster_mode` / `cluster_key`），同步一份到 `docs/history.json` 並 commit
+6. 交給 `formatters.format_message(lang, items, meta)` 排版，再用 `LINE_CHANNEL_ID` + `LINE_CHANNEL_SECRET` 換一個短期 access token 推播
+   （若未設定 LINE 金鑰，僅在本機印出結果方便測試）
+
+加上 `--dry-run` 時，流程走到第 5 步之前就停住並印出排版結果：不寫任何檔案、不讀 LINE 金鑰、不呼叫發送函式。
+
+> **已知取捨**：history 是**先寫入再推播**。若 LINE 發送失敗，那 5 個字仍會被記為已推播。這是為了避免推播成功但寫檔失敗時重複推同一組字。
 
 ## 待辦檢查點
 
 - [x] 四組金鑰申請完成、存入 Secrets
 - [x] 本機執行 `python push.py` 能正確印出/推播今日單字
-- [x] GitHub Actions 手動觸發成功，且 `history.json`（含 `docs/history.json`）有被 commit 回 repo
+- [x] GitHub Actions 手動觸發成功，且 `data/history.json`（含 `docs/history.json`）有被 commit 回 repo
 - [x] GitHub Pages 網頁上線可回顧
 - [ ] 觀察排程是否穩定準時自動觸發（cron 已從整點改到 00:17 UTC，持續觀察中）
+- [ ] 越南文單字庫擴充到 50 筆以上（目前 10 筆，第 3 天起會開始重複）
+- [ ] 手動觸發 `daily-vi.yml` 確認越南文推播能實際送達 LINE
+- [ ] 回顧網頁加語言切換（目前越南文紀錄會跟英文混在同一個列表）

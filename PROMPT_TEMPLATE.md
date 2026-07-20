@@ -1,8 +1,10 @@
-# 單字生成 Prompt 範本
+# 英文單字生成 Prompt 範本
 
-拿去貼給任何 LLM（ChatGPT、Gemini、Claude.ai 等）都可以，請它輸出 JSON，存成一個新檔案（例如 `new_batch.json`），再用 `scripts/merge_words.py` 合併進 `words.json`。
+> 越南文的版本請看 `PROMPT_TEMPLATE_VI.md`。
 
-不需要在 prompt 裡貼你現有的 2000 多字清單當排除名單——重複的字交給 `merge_words.py` 自動比對現有 `words.json` 過濾掉即可，省事也不會受限於 LLM 的 context 長度。
+拿去貼給任何 LLM（ChatGPT、Gemini、Claude.ai 等）都可以，請它輸出 JSON，存成一個新檔案（例如 `new_batch.json`），再用 `scripts/merge_words.py` 合併進 `data/en/words.json`。
+
+不需要在 prompt 裡貼你現有的 3000 多字清單當排除名單——重複的字交給 `merge_words.py` 自動比對現有單字庫過濾掉即可，省事也不會受限於 LLM 的 context 長度。
 
 ---
 
@@ -14,7 +16,8 @@
 
 避免過於基礎的字（不要 meeting、email、boss、job、money、price 這類）。
 
-輸出一個 JSON 陣列，每個物件必須恰好包含這 9 個欄位：
+輸出一個 JSON 陣列，每個物件必須恰好包含這 9 個欄位
+（不要自己加 "lang" 欄位，合併腳本會自動補上）：
 
 - "word": 英文單字或片語（小寫，除非本來就需要大寫）
 - "pos": 詞性縮寫，如 "n." "v." "adj." "adv." "phr."
@@ -46,13 +49,16 @@ negotiation, contracts_legal, finance, accounting, marketing, sales, management,
    ```bash
    python3 scripts/merge_words.py new_batch.json
    ```
+   （`--lang` 預設就是 `en`，英文不用特別指定）
 3. 腳本會自動：
    - 驗證格式（9 個 key、level 是否合法、theme/root 是否為非空字串）
-   - 跟現有 `words.json` 比對，過濾掉重複的字（不分大小寫）
+   - 跟現有 `data/en/words.json` 比對，過濾掉重複的字（不分大小寫）
+   - 補上 `"lang": "en"` 欄位
    - 印出「新增幾個、跳過幾個重複、跳過幾個格式錯誤」的統計
-   - 把結果寫回 `words.json`
+   - 把結果寫回 `data/en/words.json`，並同步一份到 `docs/words.json`（網頁用）
 
    `theme` 和 `root` 都是開放式清單——新主題、新字根都會直接被記錄下來，`push.py` 聚類時會正規化大小寫/空白/連字號差異（見 `theme_key()` / `root_key()`），所以同一個主題或字根即使不同批次寫法略有出入，累積到 2 個以上還是湊得起來。
-4. 檢查一下統計數字合理後，`git add words.json && git commit -m "..." && git push`
+4. 檢查一下統計數字合理後，先用 `python3 push.py --lang en --dry-run` 預覽排版，
+   確認沒問題再 `git add data/en/words.json docs/words.json && git commit -m "..." && git push`
 
 如果一次生成的量很大（例如你想要一次上千字），可以分成好幾個小檔案分次丟給腳本合併，或是把這個 prompt 拆成好幾次、每次指定不同主題子集，效果會比一次要求 LLM 生成太多字時品質更穩定（LLM 一次生成上百字容易開始重複或亂湊字根）。建議一次抓 100-300 字左右品質最穩定。

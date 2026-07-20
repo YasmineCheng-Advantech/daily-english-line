@@ -2,6 +2,13 @@
 
 > 目標：一個全免費、無伺服器的系統，每天自動抽一個英文單字推播到 LINE，並記錄歷史供網頁回顧。
 
+> ⚠️ **這是專案最初的單語言規劃文件，保留作為設計紀錄。**
+> 實作後有兩處與本文不同，以 [README.md](./README.md) 為準：
+> 1. **資料路徑**：`words.json` / `history.json` 已從根目錄搬進 `data/`
+>    （`data/en/words.json`、`data/vi/words.json`、`data/history.json`），本文第 2~4 節提到的根目錄路徑都已過期。
+> 2. **每次推 5 個字**，不是本文寫的 1 個；而且已擴充成多語言（英文 + 越南文），
+>    見 [VIETNAMESE_EXTENSION_PLAN.md](./VIETNAMESE_EXTENSION_PLAN.md)。
+
 ---
 
 ## 1. 專案概覽
@@ -141,16 +148,23 @@
 daily-english-line/
 ├── .github/
 │   └── workflows/
-│       └── daily.yml
+│       ├── daily.yml         # 英文（台灣時間 08:17）
+│       └── daily-vi.yml      # 越南文（台灣時間 21:00）
+├── data/
+│   ├── en/words.json         # 英文單字庫
+│   ├── vi/words.json         # 越南文單字庫
+│   └── history.json          # 共用推播紀錄，靠 lang 欄位區分語言
 ├── docs/
 │   └── index.html
-├── words.json
-├── history.json
-├── push.py
+├── push.py                   # --lang en|vi、--dry-run
+├── formatters.py             # 各語言排版
 ├── requirements.txt
 ├── .gitignore
 └── README.md
 ```
+
+> 本節原本規劃的是單語言架構（`words.json` / `history.json` 放在根目錄）。
+> 多語言化之後資料統一收進 `data/`，詳細搬遷與 schema 請見 `VIETNAMESE_EXTENSION_PLAN.md` 與 `README.md`。
 
 ---
 
