@@ -5,7 +5,8 @@
     "pos": "adj.",
     "meaning": "專有的",
     "example": "The formula is protected as proprietary information.",
-    "source": "bank"
+    "source": "bank",
+    "lang": "en"
   },
   {
     "date": "2026-07-12",
@@ -15,7 +16,8 @@
     "example": "We should consult legal before signing the amended terms.",
     "source": "bank",
     "cluster_mode": "root",
-    "cluster_key": "con- (共同)"
+    "cluster_key": "con- (共同)",
+    "lang": "en"
   },
   {
     "date": "2026-07-12",
@@ -25,7 +27,8 @@
     "example": "The campaign performed well because it converted leads at a higher rate.",
     "source": "bank",
     "cluster_mode": "root",
-    "cluster_key": "con- (共同)"
+    "cluster_key": "con- (共同)",
+    "lang": "en"
   },
   {
     "date": "2026-07-12",
@@ -35,7 +38,8 @@
     "example": "During negotiation, both sides conceded a point to reach agreement.",
     "source": "bank",
     "cluster_mode": "root",
-    "cluster_key": "con- (共同)"
+    "cluster_key": "con- (共同)",
+    "lang": "en"
   },
   {
     "date": "2026-07-12",
@@ -45,7 +49,8 @@
     "example": "The internal team will conduct an audit of vendor payments.",
     "source": "bank",
     "cluster_mode": "root",
-    "cluster_key": "con- (共同)"
+    "cluster_key": "con- (共同)",
+    "lang": "en"
   },
   {
     "date": "2026-07-12",
@@ -55,7 +60,8 @@
     "example": "Finance concurred with the revised forecast.",
     "source": "bank",
     "cluster_mode": "root",
-    "cluster_key": "con- (共同)"
+    "cluster_key": "con- (共同)",
+    "lang": "en"
   },
   {
     "date": "2026-07-13",
@@ -65,7 +71,8 @@
     "example": "A headhunter approached her about the executive role.",
     "source": "bank",
     "cluster_mode": "synonym",
-    "cluster_key": "headhunter"
+    "cluster_key": "headhunter",
+    "lang": "en"
   },
   {
     "date": "2026-07-13",
@@ -75,7 +82,8 @@
     "example": "The recruiter screened over two hundred applications.",
     "source": "bank",
     "cluster_mode": "synonym",
-    "cluster_key": "headhunter"
+    "cluster_key": "headhunter",
+    "lang": "en"
   },
   {
     "date": "2026-07-13",
@@ -85,7 +93,8 @@
     "example": "The mentorship program pairs new hires with senior staff.",
     "source": "bank",
     "cluster_mode": "synonym",
-    "cluster_key": "headhunter"
+    "cluster_key": "headhunter",
+    "lang": "en"
   },
   {
     "date": "2026-07-13",
@@ -95,7 +104,8 @@
     "example": "The onboarding process helps new hires adjust quickly.",
     "source": "bank",
     "cluster_mode": "synonym",
-    "cluster_key": "headhunter"
+    "cluster_key": "headhunter",
+    "lang": "en"
   },
   {
     "date": "2026-07-13",
@@ -105,7 +115,8 @@
     "example": "High attrition rates prompted a review of employee benefits.",
     "source": "bank",
     "cluster_mode": "synonym",
-    "cluster_key": "headhunter"
+    "cluster_key": "headhunter",
+    "lang": "en"
   },
   {
     "date": "2026-07-14",
@@ -115,7 +126,8 @@
     "example": "Both sides reached a compromise after lengthy discussions.",
     "source": "bank",
     "cluster_mode": "antonym",
-    "cluster_key": "compromise"
+    "cluster_key": "compromise",
+    "lang": "en"
   },
   {
     "date": "2026-07-14",
@@ -125,7 +137,8 @@
     "example": "Talks reached a stalemate over pricing terms.",
     "source": "bank",
     "cluster_mode": "antonym",
-    "cluster_key": "compromise"
+    "cluster_key": "compromise",
+    "lang": "en"
   },
   {
     "date": "2026-07-14",
@@ -135,7 +148,8 @@
     "example": "Having multiple suppliers gives us leverage in price negotiations.",
     "source": "bank",
     "cluster_mode": "antonym",
-    "cluster_key": "compromise"
+    "cluster_key": "compromise",
+    "lang": "en"
   },
   {
     "date": "2026-07-14",
@@ -145,7 +159,8 @@
     "example": "Neither side was willing to make a concession on price.",
     "source": "bank",
     "cluster_mode": "antonym",
-    "cluster_key": "compromise"
+    "cluster_key": "compromise",
+    "lang": "en"
   },
   {
     "date": "2026-07-14",
@@ -155,7 +170,8 @@
     "example": "The seller rejected our bid and sent a counteroffer.",
     "source": "bank",
     "cluster_mode": "antonym",
-    "cluster_key": "compromise"
+    "cluster_key": "compromise",
+    "lang": "en"
   },
   {
     "date": "2026-07-15",
@@ -165,7 +181,8 @@
     "example": "The app’s aesthetics strongly influence user engagement.",
     "source": "bank",
     "cluster_mode": "theme",
-    "cluster_key": "creative"
+    "cluster_key": "creative",
+    "lang": "en"
   },
   {
     "date": "2026-07-15",
@@ -175,7 +192,8 @@
     "example": "Asymmetry adds visual interest to the layout.",
     "source": "bank",
     "cluster_mode": "theme",
-    "cluster_key": "creative"
+    "cluster_key": "creative",
+    "lang": "en"
   },
   {
     "date": "2026-07-15",
@@ -185,7 +203,8 @@
     "example": "The design achieves balance between text and visuals.",
     "source": "bank",
     "cluster_mode": "theme",
-    "cluster_key": "creative"
+    "cluster_key": "creative",
+    "lang": "en"
   },
   {
     "date": "2026-07-15",
@@ -195,7 +214,8 @@
     "example": "High contrast improves accessibility in UI design.",
     "source": "bank",
     "cluster_mode": "theme",
-    "cluster_key": "creative"
+    "cluster_key": "creative",
+    "lang": "en"
   },
   {
     "date": "2026-07-15",
@@ -205,7 +225,8 @@
     "example": "Typography choices affect readability and tone.",
     "source": "bank",
     "cluster_mode": "theme",
-    "cluster_key": "creative"
+    "cluster_key": "creative",
+    "lang": "en"
   },
   {
     "date": "2026-07-16",
@@ -215,7 +236,8 @@
     "example": "The dispute was resolved through binding arbitration.",
     "source": "bank",
     "cluster_mode": "root",
-    "cluster_key": "-tion/-sion (名詞化:動作結果)"
+    "cluster_key": "-tion/-sion (名詞化:動作結果)",
+    "lang": "en"
   },
   {
     "date": "2026-07-16",
@@ -225,7 +247,8 @@
     "example": "The contract specifies that disputes fall under Taiwan's jurisdiction.",
     "source": "bank",
     "cluster_mode": "root",
-    "cluster_key": "-tion/-sion (名詞化:動作結果)"
+    "cluster_key": "-tion/-sion (名詞化:動作結果)",
+    "lang": "en"
   },
   {
     "date": "2026-07-16",
@@ -235,7 +258,8 @@
     "example": "The two firms opted for mediation instead of a lawsuit.",
     "source": "bank",
     "cluster_mode": "root",
-    "cluster_key": "-tion/-sion (名詞化:動作結果)"
+    "cluster_key": "-tion/-sion (名詞化:動作結果)",
+    "lang": "en"
   },
   {
     "date": "2026-07-16",
@@ -245,7 +269,8 @@
     "example": "The startup's valuation doubled after the latest funding round.",
     "source": "bank",
     "cluster_mode": "root",
-    "cluster_key": "-tion/-sion (名詞化:動作結果)"
+    "cluster_key": "-tion/-sion (名詞化:動作結果)",
+    "lang": "en"
   },
   {
     "date": "2026-07-16",
@@ -255,7 +280,8 @@
     "example": "The property saw significant appreciation over the decade.",
     "source": "bank",
     "cluster_mode": "root",
-    "cluster_key": "-tion/-sion (名詞化:動作結果)"
+    "cluster_key": "-tion/-sion (名詞化:動作結果)",
+    "lang": "en"
   },
   {
     "date": "2026-07-17",
@@ -265,7 +291,8 @@
     "example": "All staff must follow the safety protocol.",
     "source": "bank",
     "cluster_mode": "synonym",
-    "cluster_key": "protocol"
+    "cluster_key": "protocol",
+    "lang": "en"
   },
   {
     "date": "2026-07-17",
@@ -275,7 +302,8 @@
     "example": "The new hire was trained on standard procedure.",
     "source": "bank",
     "cluster_mode": "synonym",
-    "cluster_key": "protocol"
+    "cluster_key": "protocol",
+    "lang": "en"
   },
   {
     "date": "2026-07-17",
@@ -285,7 +313,8 @@
     "example": "We use industry benchmarks to evaluate our performance.",
     "source": "bank",
     "cluster_mode": "synonym",
-    "cluster_key": "protocol"
+    "cluster_key": "protocol",
+    "lang": "en"
   },
   {
     "date": "2026-07-17",
@@ -295,7 +324,8 @@
     "example": "Effective managers know how to delegate tasks.",
     "source": "bank",
     "cluster_mode": "synonym",
-    "cluster_key": "protocol"
+    "cluster_key": "protocol",
+    "lang": "en"
   },
   {
     "date": "2026-07-17",
@@ -305,7 +335,8 @@
     "example": "The new policy increases accountability at every level.",
     "source": "bank",
     "cluster_mode": "synonym",
-    "cluster_key": "protocol"
+    "cluster_key": "protocol",
+    "lang": "en"
   },
   {
     "date": "2026-07-18",
@@ -315,7 +346,8 @@
     "example": "High penalties are a disincentive to cutting corners.",
     "source": "bank",
     "cluster_mode": "antonym",
-    "cluster_key": "disincentive"
+    "cluster_key": "disincentive",
+    "lang": "en"
   },
   {
     "date": "2026-07-18",
@@ -325,7 +357,8 @@
     "example": "Performance incentives boosted overall productivity.",
     "source": "bank",
     "cluster_mode": "antonym",
-    "cluster_key": "disincentive"
+    "cluster_key": "disincentive",
+    "lang": "en"
   },
   {
     "date": "2026-07-18",
@@ -335,7 +368,8 @@
     "example": "The whistleblower reported the accounting irregularities.",
     "source": "bank",
     "cluster_mode": "antonym",
-    "cluster_key": "disincentive"
+    "cluster_key": "disincentive",
+    "lang": "en"
   },
   {
     "date": "2026-07-18",
@@ -345,7 +379,8 @@
     "example": "The company faces liability for the defective product.",
     "source": "bank",
     "cluster_mode": "antonym",
-    "cluster_key": "disincentive"
+    "cluster_key": "disincentive",
+    "lang": "en"
   },
   {
     "date": "2026-07-18",
@@ -355,7 +390,8 @@
     "example": "The dispute resulted in years of costly litigation.",
     "source": "bank",
     "cluster_mode": "antonym",
-    "cluster_key": "disincentive"
+    "cluster_key": "disincentive",
+    "lang": "en"
   },
   {
     "date": "2026-07-19",
@@ -365,7 +401,8 @@
     "example": "The support team responded to the inquiry within an hour.",
     "source": "bank",
     "cluster_mode": "theme",
-    "cluster_key": "customer_service"
+    "cluster_key": "customer_service",
+    "lang": "en"
   },
   {
     "date": "2026-07-19",
@@ -375,7 +412,8 @@
     "example": "The company logged every customer complaint for review.",
     "source": "bank",
     "cluster_mode": "theme",
-    "cluster_key": "customer_service"
+    "cluster_key": "customer_service",
+    "lang": "en"
   },
   {
     "date": "2026-07-19",
@@ -385,7 +423,8 @@
     "example": "The complainant received a full refund the next day.",
     "source": "bank",
     "cluster_mode": "theme",
-    "cluster_key": "customer_service"
+    "cluster_key": "customer_service",
+    "lang": "en"
   },
   {
     "date": "2026-07-19",
@@ -395,7 +434,8 @@
     "example": "The dispute reached a resolution within a week.",
     "source": "bank",
     "cluster_mode": "theme",
-    "cluster_key": "customer_service"
+    "cluster_key": "customer_service",
+    "lang": "en"
   },
   {
     "date": "2026-07-19",
@@ -405,7 +445,8 @@
     "example": "Several customer issues remained unresolved for days.",
     "source": "bank",
     "cluster_mode": "theme",
-    "cluster_key": "customer_service"
+    "cluster_key": "customer_service",
+    "lang": "en"
   },
   {
     "date": "2026-07-19",
@@ -417,7 +458,8 @@
     "example": "Rising costs forced both parties to renegotiate the terms.",
     "source": "bank",
     "cluster_mode": "root",
-    "cluster_key": "re- (再次)"
+    "cluster_key": "re- (再次)",
+    "lang": "en"
   },
   {
     "date": "2026-07-19",
@@ -429,7 +471,8 @@
     "example": "The accountant reconciled the bank statement with the ledger.",
     "source": "bank",
     "cluster_mode": "root",
-    "cluster_key": "re- (再次)"
+    "cluster_key": "re- (再次)",
+    "lang": "en"
   },
   {
     "date": "2026-07-19",
@@ -441,7 +484,8 @@
     "example": "The company decided to rebrand after the merger.",
     "source": "bank",
     "cluster_mode": "root",
-    "cluster_key": "re- (再次)"
+    "cluster_key": "re- (再次)",
+    "lang": "en"
   },
   {
     "date": "2026-07-19",
@@ -453,7 +497,8 @@
     "example": "Automated replenishment keeps shelves consistently stocked.",
     "source": "bank",
     "cluster_mode": "root",
-    "cluster_key": "re- (再次)"
+    "cluster_key": "re- (再次)",
+    "lang": "en"
   },
   {
     "date": "2026-07-19",
@@ -465,7 +510,8 @@
     "example": "The company underwent restructuring to reduce debt.",
     "source": "bank",
     "cluster_mode": "root",
-    "cluster_key": "re- (再次)"
+    "cluster_key": "re- (再次)",
+    "lang": "en"
   },
   {
     "date": "2026-07-20",
@@ -477,7 +523,8 @@
     "example": "The discovery led to a paradigm shift in physics.",
     "source": "bank",
     "cluster_mode": "synonym",
-    "cluster_key": "paradigm"
+    "cluster_key": "paradigm",
+    "lang": "en"
   },
   {
     "date": "2026-07-20",
@@ -489,7 +536,8 @@
     "example": "The talk was organized around a simple three-step framework.",
     "source": "bank",
     "cluster_mode": "synonym",
-    "cluster_key": "paradigm"
+    "cluster_key": "paradigm",
+    "lang": "en"
   },
   {
     "date": "2026-07-20",
@@ -501,7 +549,8 @@
     "example": "The report offers a comprehensive analysis of the data.",
     "source": "bank",
     "cluster_mode": "synonym",
-    "cluster_key": "paradigm"
+    "cluster_key": "paradigm",
+    "lang": "en"
   },
   {
     "date": "2026-07-20",
@@ -513,7 +562,8 @@
     "example": "Given current trends, a price increase seems inevitable.",
     "source": "bank",
     "cluster_mode": "synonym",
-    "cluster_key": "paradigm"
+    "cluster_key": "paradigm",
+    "lang": "en"
   },
   {
     "date": "2026-07-20",
@@ -525,7 +575,73 @@
     "example": "His explanation sounded plausible but lacked proof.",
     "source": "bank",
     "cluster_mode": "synonym",
-    "cluster_key": "paradigm"
+    "cluster_key": "paradigm",
+    "lang": "en"
+  },
+  {
+    "date": "2026-07-20",
+    "pushed_at": "2026-07-20 11:13:32.385018",
+    "trigger": "local",
+    "word": "rehearsed",
+    "pos": "adj.",
+    "meaning": "排練過的",
+    "example": "The answer sounded a little too rehearsed to feel genuine.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "rehearsed",
+    "lang": "en"
+  },
+  {
+    "date": "2026-07-20",
+    "pushed_at": "2026-07-20 11:13:32.385018",
+    "trigger": "local",
+    "word": "spontaneous",
+    "pos": "adj.",
+    "meaning": "即興的",
+    "example": "His spontaneous joke lightened the mood instantly.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "rehearsed",
+    "lang": "en"
+  },
+  {
+    "date": "2026-07-20",
+    "pushed_at": "2026-07-20 11:13:32.385018",
+    "trigger": "local",
+    "word": "eloquent",
+    "pos": "adj.",
+    "meaning": "口才流利的",
+    "example": "The eloquent speech impressed the entire audience.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "rehearsed",
+    "lang": "en"
+  },
+  {
+    "date": "2026-07-20",
+    "pushed_at": "2026-07-20 11:13:32.385018",
+    "trigger": "local",
+    "word": "keynote",
+    "pos": "n.",
+    "meaning": "主題演講",
+    "example": "The CEO delivered the keynote at the conference.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "rehearsed",
+    "lang": "en"
+  },
+  {
+    "date": "2026-07-20",
+    "pushed_at": "2026-07-20 11:13:32.385018",
+    "trigger": "local",
+    "word": "anecdote",
+    "pos": "n.",
+    "meaning": "軼事",
+    "example": "He used a personal anecdote to illustrate the point.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "rehearsed",
+    "lang": "en"
   },
   {
     "date": "2026-07-20",
@@ -537,7 +653,8 @@
     "example": "Soft news segments cover lifestyle and celebrity topics.",
     "source": "bank",
     "cluster_mode": "antonym",
-    "cluster_key": "soft news"
+    "cluster_key": "soft news",
+    "lang": "en"
   },
   {
     "date": "2026-07-20",
@@ -549,7 +666,8 @@
     "example": "The front page is reserved for hard news, not entertainment gossip.",
     "source": "bank",
     "cluster_mode": "antonym",
-    "cluster_key": "soft news"
+    "cluster_key": "soft news",
+    "lang": "en"
   },
   {
     "date": "2026-07-20",
@@ -561,7 +679,8 @@
     "example": "The campaign bought extra airtime during the evening news.",
     "source": "bank",
     "cluster_mode": "antonym",
-    "cluster_key": "soft news"
+    "cluster_key": "soft news",
+    "lang": "en"
   },
   {
     "date": "2026-07-20",
@@ -573,7 +692,8 @@
     "example": "The new drama will premiere in prime time on Thursday.",
     "source": "bank",
     "cluster_mode": "antonym",
-    "cluster_key": "soft news"
+    "cluster_key": "soft news",
+    "lang": "en"
   },
   {
     "date": "2026-07-20",
@@ -585,6 +705,7 @@
     "example": "The award show aired as a simulcast on three networks.",
     "source": "bank",
     "cluster_mode": "antonym",
-    "cluster_key": "soft news"
+    "cluster_key": "soft news",
+    "lang": "en"
   }
 ]

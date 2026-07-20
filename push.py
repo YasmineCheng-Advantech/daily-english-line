@@ -1,15 +1,23 @@
-"""每日商用英文單字推播主程式。
+"""每日單字推播主程式（多語言）。
+
+用 --lang 決定推哪一種語言，預設 en：
+
+    python push.py            # 等同 --lang en
+    python push.py --lang vi
 
 流程：
-1. 讀 words.json（單字庫，含 theme/root/synonyms/antonyms 標籤）與 history.json（推播紀錄）
-2. 決定今天的「關聯模式」（主題 / 字根字首 / 相似字 / 反義字，四種輪替）
-3. 依模式從單字庫挑出 5 個彼此相關、且尚未推播過的字組成一組
-4. 若單字庫可用字不足 5 個，退回呼叫 Gemini 生成一組新字（極少數情況才會發生）
-5. append 5 筆進 history.json
+1. 讀 data/{lang}/words.json（單字庫）與 data/history.json（推播紀錄，靠 lang 欄位區分語言）
+2. 決定這次的「關聯模式」；英文是主題 / 字根字首 / 相似字 / 反義字四種輪替，
+   越南文標籤較少，統一依 topic 分組
+3. 依模式挑出 5 個彼此相關、且該語言尚未推播過的字組成一組
+4. 單字庫用完時：英文退回呼叫 Gemini 生成（極少數情況）；越南文則重新循環
+5. append 5 筆進 data/history.json（每筆都帶 lang）
 6. 用 LINE_CHANNEL_ID + LINE_CHANNEL_SECRET 換一個短期 access token，
-   把 5 個字合併成一則訊息推播到 LINE（若未設定 LINE 金鑰，僅在本機印出結果方便測試）
+   把 5 個字交給 formatters.format_message 排版後推播到 LINE
+   （若未設定 LINE 金鑰，僅在本機印出結果方便測試）
 """
 
+import argparse
 import json
 import os
 import random
@@ -19,16 +27,25 @@ from pathlib import Path
 
 import requests
 
+from formatters import format_message
+
 BASE_DIR = Path(__file__).resolve().parent
-WORDS_PATH = BASE_DIR / "words.json"
-HISTORY_PATH = BASE_DIR / "history.json"
+DATA_DIR = BASE_DIR / "data"
+HISTORY_PATH = DATA_DIR / "history.json"
 DOCS_HISTORY_PATH = BASE_DIR / "docs" / "history.json"
 NOTES_PATH = BASE_DIR / "notes.json"
 
+SUPPORTED_LANGS = ["en", "vi"]
+
+
+def words_path(lang: str) -> Path:
+    return DATA_DIR / lang / "words.json"
+
+
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
-LINE_CHANNEL_ID = os.environ.get("LINE_CHANNEL_ID")
-LINE_CHANNEL_SECRET = os.environ.get("LINE_CHANNEL_SECRET")
-LINE_USER_ID = os.environ.get("LINE_USER_ID")
+
+# LINE 相關的環境變數刻意不在這裡讀，改在 get_line_access_token() / push_line() 內部讀。
+# 這樣 --dry-run 這種「只排版不發送」的路徑，結構上就不會碰到任何金鑰。
 
 # GitHub Actions 會帶 github.event_name（schedule / workflow_dispatch）進來。
 # 手動觸發（workflow_dispatch）視為「使用者想加推一組」，略過「一天一次」的防重複保護；
@@ -46,13 +63,8 @@ LINE_TOKEN_URL = "https://api.line.me/v2/oauth/accessToken"
 REQUIRED_KEYS = {"word", "pos", "meaning", "example"}
 CLUSTER_SIZE = 5
 CLUSTER_MODES = ["theme", "root", "synonym", "antonym"]
-MODE_LABELS = {
-    "theme": "主題",
-    "root": "字根字首字尾",
-    "synonym": "相似字",
-    "antonym": "反義字",
-    "random": "精選",
-}
+# 越南文的標籤只有 topic，沒有字根/相似字/反義字，所以不做模式輪替
+VI_CLUSTER_MODES = ["topic"]
 
 
 def load_json(path: Path, default):
@@ -92,6 +104,26 @@ def push_instance_count(history: list[dict]) -> int:
 
 def norm(w: str) -> str:
     return w.strip().lower()
+
+
+def entries_for_lang(history: list[dict], lang: str) -> list[dict]:
+    """只取該語言的推播紀錄。
+
+    早期資料（多語言化之前）沒有 lang 欄位，一律視為英文。
+    """
+    return [h for h in history if h.get("lang", "en") == lang]
+
+
+def history_key(entry: dict, lang: str) -> str | None:
+    """紀錄在「推過沒」比對時的識別值。
+
+    英文單字庫沒有 id，從一開始就是拿單字本身比對，沿用；
+    越南文每筆都有 id，用 id 比對（同一個字可能有不同語境的多筆）。
+    """
+    if lang == "vi":
+        return entry.get("id")
+    word = entry.get("word")
+    return norm(word) if word else None
 
 
 def root_key(root: str | None) -> str | None:
@@ -200,6 +232,47 @@ def pick_cluster(words: list[dict], used_words: set[str], mode: str):
 
 
 # ---------------------------------------------------------------------------
+# 越南文挑選（標籤只有 topic，不做模式輪替）
+# ---------------------------------------------------------------------------
+
+
+def fill_cluster_vi(cluster: list[dict], available: list[dict], prefer_topic: str | None) -> list[dict]:
+    have = {w["id"] for w in cluster}
+    pool = [w for w in available if w["id"] not in have]
+    prefer_key = theme_key(prefer_topic)
+    if prefer_key:
+        pool.sort(key=lambda w: 0 if theme_key(w.get("topic")) == prefer_key else 1)
+    for w in pool:
+        if len(cluster) >= CLUSTER_SIZE:
+            break
+        cluster.append(w)
+    return cluster
+
+
+def pick_cluster_vi(words: list[dict], used_keys: set[str]):
+    """挑一組同 topic 的越南文，湊不滿 5 個就用其他 topic 補齊。"""
+    available = [w for w in words if w["id"] not in used_keys]
+    if not available:
+        return None, (None, None)
+
+    shuffled = available[:]
+    random.shuffle(shuffled)
+
+    for seed in shuffled:
+        key = theme_key(seed.get("topic"))
+        if not key:
+            continue
+        group = [w for w in available if theme_key(w.get("topic")) == key]
+        if group:
+            cluster = fill_cluster_vi(group[:CLUSTER_SIZE], available, seed.get("topic"))
+            return cluster, ("topic", seed.get("topic"))
+
+    seed = shuffled[0]
+    cluster = fill_cluster_vi([seed], available, seed.get("topic"))
+    return cluster, ("random", None)
+
+
+# ---------------------------------------------------------------------------
 # Gemini 備援（單字庫完全用完時才會觸發）
 # ---------------------------------------------------------------------------
 
@@ -260,7 +333,9 @@ def get_line_access_token() -> str | None:
     比起在 LINE Developers Console 手動 Issue 長效 token，這個方式完全靠 API，
     每次執行都重新換發，永遠不會過期失效，也不用手動更新。
     """
-    if not LINE_CHANNEL_ID or not LINE_CHANNEL_SECRET:
+    channel_id = os.environ.get("LINE_CHANNEL_ID")
+    channel_secret = os.environ.get("LINE_CHANNEL_SECRET")
+    if not channel_id or not channel_secret:
         return None
 
     try:
@@ -269,8 +344,8 @@ def get_line_access_token() -> str | None:
             headers={"Content-Type": "application/x-www-form-urlencoded"},
             data={
                 "grant_type": "client_credentials",
-                "client_id": LINE_CHANNEL_ID,
-                "client_secret": LINE_CHANNEL_SECRET,
+                "client_id": channel_id,
+                "client_secret": channel_secret,
             },
             timeout=15,
         )
@@ -281,18 +356,35 @@ def get_line_access_token() -> str | None:
         return None
 
 
-def build_message(cluster: list[dict], mode: str, key: str | None) -> str:
-    label = MODE_LABELS.get(mode, "精選")
-    header = f"📘 今日 5 個商用英文單字（關聯：{label}"
-    header += f" - {key}）" if key else "）"
+def make_history_entry(item: dict, lang: str, base: dict, tail: dict) -> dict:
+    """把單字庫項目轉成一筆 history 紀錄（base 在前、tail 在後，維持既有欄位順序）。
 
-    lines = [header, ""]
-    for i, w in enumerate(cluster, start=1):
-        lines.append(f"{i}. {w['word']} ({w['pos']})")
-        lines.append(f"   意思：{w['meaning']}")
-        lines.append(f"   例句：{w['example']}")
-        lines.append("")
-    return "\n".join(lines).rstrip()
+    回顧網頁（docs/index.html）是靠 word / pos / meaning / example 四個欄位渲染卡片的，
+    所以越南文也要填這四個欄位（用 text / type / meaning_zh / example 對應），
+    否則新推的越南文在網頁上會變成空白卡。拼音等越南文專屬欄位另外附在後面。
+    """
+    if lang == "vi":
+        return {
+            **base,
+            "id": item["id"],
+            "word": item["text"],
+            "pos": item.get("type", ""),
+            "meaning": item["meaning_zh"],
+            "example": item["example"],
+            **tail,
+            "romanization": item.get("romanization", ""),
+            "example_rom": item.get("example_rom", ""),
+            "example_zh": item.get("example_zh", ""),
+            "grammar_point": item.get("grammar_point", ""),
+        }
+    return {
+        **base,
+        "word": item["word"],
+        "pos": item["pos"],
+        "meaning": item["meaning"],
+        "example": item["example"],
+        **tail,
+    }
 
 
 def pick_listening_reminder(history: list[dict]):
@@ -332,7 +424,8 @@ def append_listening_reminder(message: str, reminder: dict | None) -> str:
 
 
 def push_line(message: str) -> None:
-    if not LINE_USER_ID:
+    line_user_id = os.environ.get("LINE_USER_ID")
+    if not line_user_id:
         print("[info] 尚未設定 LINE_USER_ID，略過推播（本機測試模式）")
         print(message)
         return
@@ -349,7 +442,7 @@ def push_line(message: str) -> None:
             "Content-Type": "application/json",
             "Authorization": f"Bearer {access_token}",
         },
-        json={"to": LINE_USER_ID, "messages": [{"type": "text", "text": message}]},
+        json={"to": line_user_id, "messages": [{"type": "text", "text": message}]},
         timeout=15,
     )
     resp.raise_for_status()
@@ -361,61 +454,114 @@ def push_line(message: str) -> None:
 # ---------------------------------------------------------------------------
 
 
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="每日單字 LINE 推播（多語言）")
+    parser.add_argument(
+        "--lang",
+        choices=SUPPORTED_LANGS,
+        default="en",
+        help="要推播的語言（預設 en）",
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="只印出排版後的推播內容，不寫入 history、不發送 LINE",
+    )
+    return parser.parse_args()
+
+
 def main() -> None:
-    words = load_json(WORDS_PATH, [])
+    args = parse_args()
+    lang = args.lang
+
+    words = load_json(words_path(lang), [])
+    if not words:
+        rel = words_path(lang).relative_to(BASE_DIR)
+        print(f"[error] {rel} 不存在或是空的，請先建立 {lang} 的單字庫。")
+        sys.exit(1)
+
     history = load_json(HISTORY_PATH, [])
-    used_words = {norm(h["word"]) for h in history}
+    # 各語言各自算「推過沒」與模式輪替，推了英文不會影響越南文的進度
+    lang_history = entries_for_lang(history, lang)
+    used_keys = {k for k in (history_key(h, lang) for h in lang_history) if k}
 
     date_str = today_taiwan()
-    # 排程觸發：保證一天一次，若今天已經有「排程推播」就略過（避免 cron 偶發重複觸發時重複推）。
+    # 排程觸發：保證一天一次，若今天該語言已經有「排程推播」就略過
+    #（避免 cron 偶發重複觸發時重複推）。
     # 手動觸發（workflow_dispatch）：使用者主動加推，不受此限，每次都會推一組新的字。
     if not IS_MANUAL_PUSH:
         scheduled_today = any(
             h["date"] == date_str and h.get("trigger", "schedule") == "schedule"
-            for h in history
+            for h in lang_history
         )
         if scheduled_today:
-            print(f"[info] {date_str} 今日排程推播已完成，略過重複執行。")
+            print(f"[info] {date_str} 今日 {lang} 排程推播已完成，略過重複執行。")
             return
 
-    mode = determine_mode(history)
-    cluster, (cluster_mode, cluster_key) = pick_cluster(words, used_words, mode)
     source = "bank"
 
-    if not cluster or len(cluster) < CLUSTER_SIZE:
-        gemini_result = generate_cluster_with_gemini(used_words)
-        if gemini_result:
-            cluster, (cluster_mode, cluster_key) = gemini_result
-            source = "gemini"
+    if lang == "vi":
+        cluster, (cluster_mode, cluster_key) = pick_cluster_vi(words, used_keys)
+        if not cluster:
+            # 越南文單字庫小，用完就從頭再循環一輪（不呼叫 Gemini）
+            print("[info] 越南文單字庫已整輪推播過，重新循環。")
+            cluster, (cluster_mode, cluster_key) = pick_cluster_vi(words, set())
+            source = "bank-recycled"
+    else:
+        mode = determine_mode(lang_history)
+        cluster, (cluster_mode, cluster_key) = pick_cluster(words, used_keys, mode)
+
+        if not cluster or len(cluster) < CLUSTER_SIZE:
+            gemini_result = generate_cluster_with_gemini(used_keys)
+            if gemini_result:
+                cluster, (cluster_mode, cluster_key) = gemini_result
+                source = "gemini"
 
     if not cluster:
-        print("[error] 單字庫已用完且 Gemini 生成失敗，請補充 words.json 或檢查 API 金鑰。")
+        print("[error] 單字庫已用完且 Gemini 生成失敗，請補充 data/en/words.json 或檢查 API 金鑰。")
         sys.exit(1)
 
     pushed_at = now_taiwan_iso()
-    for w in cluster:
-        history.append(
-            {
-                "date": date_str,
-                "pushed_at": pushed_at,
-                "trigger": TRIGGER_LABEL,
-                "word": w["word"],
-                "pos": w["pos"],
-                "meaning": w["meaning"],
-                "example": w["example"],
-                "source": source,
-                "cluster_mode": cluster_mode,
-                "cluster_key": cluster_key,
-            }
+    base = {
+        "date": date_str,
+        "pushed_at": pushed_at,
+        "trigger": TRIGGER_LABEL,
+        "lang": lang,
+    }
+    tail = {
+        "source": source,
+        "cluster_mode": cluster_mode,
+        "cluster_key": cluster_key,
+    }
+    new_entries = [make_history_entry(w, lang, base, tail) for w in cluster]
+
+    words_summary = "、".join(w["text"] if lang == "vi" else w["word"] for w in cluster)
+    action = "選出（dry-run）" if args.dry_run else "推播"
+    print(
+        f"[info] {action} {lang} 單字組（來源: {source}, 觸發: {TRIGGER_LABEL}, "
+        f"模式: {cluster_mode}/{cluster_key}）: {words_summary}"
+    )
+
+    message = format_message(lang, cluster, {"cluster_mode": cluster_mode, "cluster_key": cluster_key})
+    if lang == "en":
+        # 聽力複習提醒來自英文的個人單字紀錄（notes.json），只在英文推播帶上。
+        # 它的輪替是看「含這次在內」的推播天數，所以要用 history + new_entries 算，
+        # dry-run 才會印出跟實際推播一字不差的內容。
+        message = append_listening_reminder(
+            message, pick_listening_reminder(entries_for_lang(history + new_entries, lang))
         )
+
+    if args.dry_run:
+        print("[dry-run] 以下為排版結果，不會寫入 history，也不會發送 LINE：")
+        print("-" * 50)
+        print(message)
+        print("-" * 50)
+        return
+
+    history.extend(new_entries)
     save_json(HISTORY_PATH, history)
     save_json(DOCS_HISTORY_PATH, history)  # docs/ 是 GitHub Pages 實際發布的內容，需同步一份
 
-    words_summary = "、".join(w["word"] for w in cluster)
-    print(f"[info] 推播單字組（來源: {source}, 觸發: {TRIGGER_LABEL}, 模式: {cluster_mode}/{cluster_key}）: {words_summary}")
-
-    message = build_message(cluster, cluster_mode, cluster_key)
-    message = append_listening_reminder(message, pick_listening_reminder(history))
     push_line(message)
 
 
