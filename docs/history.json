@@ -1287,5 +1287,70 @@
     "example_rom": "ngon nyung dat",
     "example_zh": "好吃但貴。",
     "grammar_point": ""
+  },
+  {
+    "date": "2026-07-21",
+    "pushed_at": "2026-07-21 21:52:59.562513",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "rough cut",
+    "pos": "n.",
+    "meaning": "初剪版本",
+    "example": "The editor sent over a rough cut of the commercial for feedback.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "rough cut"
+  },
+  {
+    "date": "2026-07-21",
+    "pushed_at": "2026-07-21 21:52:59.562513",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "final cut",
+    "pos": "n.",
+    "meaning": "最終剪輯版",
+    "example": "The final cut was locked just in time for the client's deadline.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "rough cut"
+  },
+  {
+    "date": "2026-07-21",
+    "pushed_at": "2026-07-21 21:52:59.562513",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "legibility",
+    "pos": "n.",
+    "meaning": "易讀性",
+    "example": "Legibility is critical for mobile interfaces.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "rough cut"
+  },
+  {
+    "date": "2026-07-21",
+    "pushed_at": "2026-07-21 21:52:59.562513",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "proportion",
+    "pos": "n.",
+    "meaning": "比例",
+    "example": "Good proportion ensures visual harmony.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "rough cut"
+  },
+  {
+    "date": "2026-07-21",
+    "pushed_at": "2026-07-21 21:52:59.562513",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "composition",
+    "pos": "n.",
+    "meaning": "構圖",
+    "example": "The composition directs attention to key elements.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "rough cut"
   }
 ]
