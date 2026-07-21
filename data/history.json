@@ -1132,5 +1132,70 @@
     "source": "bank",
     "cluster_mode": "root",
     "cluster_key": "multi- (多)"
+  },
+  {
+    "date": "2026-07-21",
+    "pushed_at": "2026-07-21 11:42:13.964375",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "infer",
+    "pos": "v.",
+    "meaning": "推論",
+    "example": "We can infer from the data that sales will rise next quarter.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "infer"
+  },
+  {
+    "date": "2026-07-21",
+    "pushed_at": "2026-07-21 11:42:13.964375",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "deduce",
+    "pos": "v.",
+    "meaning": "推論;演繹",
+    "example": "Detectives deduced the culprit from the clues.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "infer"
+  },
+  {
+    "date": "2026-07-21",
+    "pushed_at": "2026-07-21 11:42:13.964375",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "articulate",
+    "pos": "v.",
+    "meaning": "清楚表達",
+    "example": "She articulated the strategy clearly to the board.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "infer"
+  },
+  {
+    "date": "2026-07-21",
+    "pushed_at": "2026-07-21 11:42:13.964375",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "elaborate",
+    "pos": "v.",
+    "meaning": "詳細說明",
+    "example": "Could you elaborate on the budget projections?",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "infer"
+  },
+  {
+    "date": "2026-07-21",
+    "pushed_at": "2026-07-21 11:42:13.964375",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "concise",
+    "pos": "adj.",
+    "meaning": "簡潔的",
+    "example": "Keep the executive summary concise and to the point.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "infer"
   }
 ]
