@@ -1067,5 +1067,70 @@
     "example_rom": "thit heo",
     "example_zh": "豬肉",
     "grammar_point": ""
+  },
+  {
+    "date": "2026-07-21",
+    "pushed_at": "2026-07-21 08:35:38.366489",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "multichannel",
+    "pos": "adj.",
+    "meaning": "多通路的",
+    "example": "A multichannel approach reaches customers on several platforms at once.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "multi- (多)"
+  },
+  {
+    "date": "2026-07-21",
+    "pushed_at": "2026-07-21 08:35:38.366489",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "multitask",
+    "pos": "v.",
+    "meaning": "同時處理多項任務",
+    "example": "Employees are often expected to multitask.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "multi- (多)"
+  },
+  {
+    "date": "2026-07-21",
+    "pushed_at": "2026-07-21 08:35:38.366489",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "multifaceted",
+    "pos": "adj.",
+    "meaning": "多面向的",
+    "example": "The problem is multifaceted and needs several solutions.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "multi- (多)"
+  },
+  {
+    "date": "2026-07-21",
+    "pushed_at": "2026-07-21 08:35:38.366489",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "multilateral",
+    "pos": "adj.",
+    "meaning": "多邊的",
+    "example": "They signed a multilateral trade agreement.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "multi- (多)"
+  },
+  {
+    "date": "2026-07-21",
+    "pushed_at": "2026-07-21 08:35:38.366489",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "multitasking",
+    "pos": "n.",
+    "meaning": "多工處理",
+    "example": "Multitasking across stations helped cover the shortage.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "multi- (多)"
   }
 ]
