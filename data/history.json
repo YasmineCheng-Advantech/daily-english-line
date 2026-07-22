@@ -1507,5 +1507,70 @@
     "source": "bank",
     "cluster_mode": "theme",
     "cluster_key": "strategy"
+  },
+  {
+    "date": "2026-07-22",
+    "pushed_at": "2026-07-22 11:43:07.296028",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "conversion",
+    "pos": "n.",
+    "meaning": "轉換率",
+    "example": "The new landing page improved the conversion rate significantly.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "-tion/-sion (名詞化:動作結果)"
+  },
+  {
+    "date": "2026-07-22",
+    "pushed_at": "2026-07-22 11:43:07.296028",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "segmentation",
+    "pos": "n.",
+    "meaning": "市場區隔",
+    "example": "Customer segmentation allows for more targeted campaigns.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "-tion/-sion (名詞化:動作結果)"
+  },
+  {
+    "date": "2026-07-22",
+    "pushed_at": "2026-07-22 11:43:07.296028",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "lead generation",
+    "pos": "phr.",
+    "meaning": "潛在客戶開發",
+    "example": "Webinars became a key channel for lead generation.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "-tion/-sion (名詞化:動作結果)"
+  },
+  {
+    "date": "2026-07-22",
+    "pushed_at": "2026-07-22 11:43:07.296028",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "call to action",
+    "pos": "phr.",
+    "meaning": "行動呼籲",
+    "example": "Every email ends with a clear call to action.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "-tion/-sion (名詞化:動作結果)"
+  },
+  {
+    "date": "2026-07-22",
+    "pushed_at": "2026-07-22 11:43:07.296028",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "market saturation",
+    "pos": "phr.",
+    "meaning": "市場飽和",
+    "example": "Market saturation made it harder to acquire new customers.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "-tion/-sion (名詞化:動作結果)"
   }
 ]
