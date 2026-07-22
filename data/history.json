@@ -1442,5 +1442,70 @@
     "example_rom": "di som",
     "example_zh": "早點去",
     "grammar_point": ""
+  },
+  {
+    "date": "2026-07-22",
+    "pushed_at": "2026-07-22 09:28:32.115842",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "strategic foresight",
+    "pos": "phr.",
+    "meaning": "策略遠見",
+    "example": "Strategic foresight helped the firm anticipate market shifts.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "strategy"
+  },
+  {
+    "date": "2026-07-22",
+    "pushed_at": "2026-07-22 09:28:32.115842",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "capitalize on",
+    "pos": "phr.",
+    "meaning": "善用；把握",
+    "example": "The firm capitalized on the market gap early on.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "strategy"
+  },
+  {
+    "date": "2026-07-22",
+    "pushed_at": "2026-07-22 09:28:32.115842",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "synergy",
+    "pos": "n.",
+    "meaning": "綜效",
+    "example": "The merger was expected to create significant synergy.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "strategy"
+  },
+  {
+    "date": "2026-07-22",
+    "pushed_at": "2026-07-22 09:28:32.115842",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "diversify",
+    "pos": "v.",
+    "meaning": "多角化經營",
+    "example": "The conglomerate diversified into renewable energy.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "strategy"
+  },
+  {
+    "date": "2026-07-22",
+    "pushed_at": "2026-07-22 09:28:32.115842",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "consolidate",
+    "pos": "v.",
+    "meaning": "整併",
+    "example": "The two divisions were consolidated to cut costs.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "strategy"
   }
 ]
