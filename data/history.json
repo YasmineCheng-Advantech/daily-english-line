@@ -1817,5 +1817,70 @@
     "example_rom": "zau luoc",
     "example_zh": "水煮青菜",
     "grammar_point": ""
+  },
+  {
+    "date": "2026-07-23",
+    "pushed_at": "2026-07-23 11:41:40.030747",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "disenfranchise",
+    "pos": "v.",
+    "meaning": "剝奪公民權",
+    "example": "Strict ID laws may disenfranchise elderly voters.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "disenfranchise"
+  },
+  {
+    "date": "2026-07-23",
+    "pushed_at": "2026-07-23 11:41:40.030747",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "enfranchise",
+    "pos": "v.",
+    "meaning": "賦予公民權",
+    "example": "The amendment enfranchised women across the nation.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "disenfranchise"
+  },
+  {
+    "date": "2026-07-23",
+    "pushed_at": "2026-07-23 11:41:40.030747",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "veto",
+    "pos": "n./v.",
+    "meaning": "否決(權)",
+    "example": "The president threatened to veto the spending bill.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "disenfranchise"
+  },
+  {
+    "date": "2026-07-23",
+    "pushed_at": "2026-07-23 11:41:40.030747",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "ideology",
+    "pos": "n.",
+    "meaning": "意識形態",
+    "example": "The two parties differ sharply in ideology.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "disenfranchise"
+  },
+  {
+    "date": "2026-07-23",
+    "pushed_at": "2026-07-23 11:41:40.030747",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "lobbying",
+    "pos": "n.",
+    "meaning": "遊說",
+    "example": "Lobbying by oil companies influenced the energy bill.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "disenfranchise"
   }
 ]
