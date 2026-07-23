@@ -1662,5 +1662,70 @@
     "example_rom": "man kwa",
     "example_zh": "太鹹",
     "grammar_point": ""
+  },
+  {
+    "date": "2026-07-23",
+    "pushed_at": "2026-07-23 10:05:51.053622",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "inspection",
+    "pos": "n.",
+    "meaning": "檢查",
+    "example": "Inspection results showed no major defects on the lot.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "inspection"
+  },
+  {
+    "date": "2026-07-23",
+    "pushed_at": "2026-07-23 10:05:51.053622",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "review",
+    "pos": "n.",
+    "meaning": "評論",
+    "example": "Positive reviews boosted the store's reputation.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "inspection"
+  },
+  {
+    "date": "2026-07-23",
+    "pushed_at": "2026-07-23 10:05:51.053622",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "semiconductor",
+    "pos": "n.",
+    "meaning": "半導體",
+    "example": "Semiconductor companies must control quality at every process stage.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "inspection"
+  },
+  {
+    "date": "2026-07-23",
+    "pushed_at": "2026-07-23 10:05:51.053622",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "wafer",
+    "pos": "n.",
+    "meaning": "晶圓",
+    "example": "The wafer moved to the next process after inspection.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "inspection"
+  },
+  {
+    "date": "2026-07-23",
+    "pushed_at": "2026-07-23 10:05:51.053622",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "die",
+    "pos": "n.",
+    "meaning": "晶粒",
+    "example": "Each die was tested before packaging.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "inspection"
   }
 ]
