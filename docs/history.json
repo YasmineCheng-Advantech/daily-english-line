@@ -1972,5 +1972,70 @@
     "example_rom": "it duong",
     "example_zh": "少糖",
     "grammar_point": ""
+  },
+  {
+    "date": "2026-07-24",
+    "pushed_at": "2026-07-24 11:40:38.358967",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "stipulate",
+    "pos": "v.",
+    "meaning": "明文規定",
+    "example": "The contract stipulates that payment must be made within 30 days.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "contracts_legal"
+  },
+  {
+    "date": "2026-07-24",
+    "pushed_at": "2026-07-24 11:40:38.358967",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "clause",
+    "pos": "n.",
+    "meaning": "條款",
+    "example": "Please review the termination clause before signing.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "contracts_legal"
+  },
+  {
+    "date": "2026-07-24",
+    "pushed_at": "2026-07-24 11:40:38.358967",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "breach",
+    "pos": "n./v.",
+    "meaning": "違反(合約)",
+    "example": "Failing to deliver on time constitutes a breach of contract.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "contracts_legal"
+  },
+  {
+    "date": "2026-07-24",
+    "pushed_at": "2026-07-24 11:40:38.358967",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "waiver",
+    "pos": "n.",
+    "meaning": "棄權聲明",
+    "example": "The client signed a waiver releasing us from liability.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "contracts_legal"
+  },
+  {
+    "date": "2026-07-24",
+    "pushed_at": "2026-07-24 11:40:38.358967",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "addendum",
+    "pos": "n.",
+    "meaning": "附加條款",
+    "example": "An addendum was attached to extend the delivery deadline.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "contracts_legal"
   }
 ]
