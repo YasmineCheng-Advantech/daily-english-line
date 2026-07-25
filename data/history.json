@@ -2127,5 +2127,70 @@
     "example_rom": "fu bo nong",
     "example_zh": "牛肉河粉熱的",
     "grammar_point": ""
+  },
+  {
+    "date": "2026-07-25",
+    "pushed_at": "2026-07-25 11:34:46.062379",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "impression",
+    "pos": "n.",
+    "meaning": "曝光次數",
+    "example": "The ad generated over a million impressions online.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "-tion/-sion (名詞化:動作結果)"
+  },
+  {
+    "date": "2026-07-25",
+    "pushed_at": "2026-07-25 11:34:46.062379",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "penetration",
+    "pos": "n.",
+    "meaning": "市場滲透",
+    "example": "The firm aims for deeper market penetration in Asia.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "-tion/-sion (名詞化:動作結果)"
+  },
+  {
+    "date": "2026-07-25",
+    "pushed_at": "2026-07-25 11:34:46.062379",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "retention",
+    "pos": "n.",
+    "meaning": "留才",
+    "example": "Better benefits improved employee retention significantly.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "-tion/-sion (名詞化:動作結果)"
+  },
+  {
+    "date": "2026-07-25",
+    "pushed_at": "2026-07-25 11:34:46.062379",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "succession planning",
+    "pos": "phr.",
+    "meaning": "接班規劃",
+    "example": "Succession planning ensures leadership continuity.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "-tion/-sion (名詞化:動作結果)"
+  },
+  {
+    "date": "2026-07-25",
+    "pushed_at": "2026-07-25 11:34:46.062379",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "probation period",
+    "pos": "phr.",
+    "meaning": "試用期",
+    "example": "New employees undergo a three-month probation period.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "-tion/-sion (名詞化:動作結果)"
   }
 ]
