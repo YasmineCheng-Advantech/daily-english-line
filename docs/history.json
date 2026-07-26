@@ -2282,5 +2282,70 @@
     "example_rom": "chi ten zi",
     "example_zh": "姐你叫什麼？",
     "grammar_point": "對年紀稍長女性用chị"
+  },
+  {
+    "date": "2026-07-26",
+    "pushed_at": "2026-07-26 11:52:47.818394",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "charismatic",
+    "pos": "adj.",
+    "meaning": "有領袖魅力的",
+    "example": "He is a charismatic speaker who energizes any room.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "charismatic"
+  },
+  {
+    "date": "2026-07-26",
+    "pushed_at": "2026-07-26 11:52:47.818394",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "magnetic",
+    "pos": "adj.",
+    "meaning": "有魅力的",
+    "example": "She has a magnetic personality that draws people in.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "charismatic"
+  },
+  {
+    "date": "2026-07-26",
+    "pushed_at": "2026-07-26 11:52:47.818394",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "spearhead",
+    "pos": "v.",
+    "meaning": "率先推動",
+    "example": "She spearheaded the company's digital transformation.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "charismatic"
+  },
+  {
+    "date": "2026-07-26",
+    "pushed_at": "2026-07-26 11:52:47.818394",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "empower",
+    "pos": "v.",
+    "meaning": "賦權",
+    "example": "The company empowers employees to make independent decisions.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "charismatic"
+  },
+  {
+    "date": "2026-07-26",
+    "pushed_at": "2026-07-26 11:52:47.818394",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "visionary",
+    "pos": "adj.",
+    "meaning": "有遠見的",
+    "example": "The visionary CEO transformed the struggling company.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "charismatic"
   }
 ]
