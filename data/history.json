@@ -2527,5 +2527,70 @@
     "example_rom": "kai moi",
     "example_zh": "新的。",
     "grammar_point": ""
+  },
+  {
+    "date": "2026-07-27",
+    "pushed_at": "2026-07-27 09:50:13.631455",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "SRAM",
+    "pos": "n.",
+    "meaning": "靜態隨機存取記憶體",
+    "example": "SRAM is often used in cache applications.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "SRAM"
+  },
+  {
+    "date": "2026-07-27",
+    "pushed_at": "2026-07-27 09:50:13.631455",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "DRAM",
+    "pos": "n.",
+    "meaning": "動態隨機存取記憶體",
+    "example": "DRAM demand often rises with server and AI workloads.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "SRAM"
+  },
+  {
+    "date": "2026-07-27",
+    "pushed_at": "2026-07-27 09:50:13.631455",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "fab",
+    "pos": "n.",
+    "meaning": "晶圓廠",
+    "example": "The fab increased output to meet strong demand.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "SRAM"
+  },
+  {
+    "date": "2026-07-27",
+    "pushed_at": "2026-07-27 09:50:13.631455",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "foundry",
+    "pos": "n.",
+    "meaning": "代工廠",
+    "example": "The foundry accepted new orders from several fabless clients.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "SRAM"
+  },
+  {
+    "date": "2026-07-27",
+    "pushed_at": "2026-07-27 09:50:13.631455",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "fabless",
+    "pos": "adj.",
+    "meaning": "無廠的",
+    "example": "Fabless firms depend on external manufacturing partners.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "SRAM"
   }
 ]
