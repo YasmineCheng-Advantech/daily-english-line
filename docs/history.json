@@ -2592,5 +2592,70 @@
     "source": "bank",
     "cluster_mode": "antonym",
     "cluster_key": "SRAM"
+  },
+  {
+    "date": "2026-07-27",
+    "pushed_at": "2026-07-27 11:59:32.323920",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "affiliate station",
+    "pos": "n.",
+    "meaning": "加盟電視台",
+    "example": "Local affiliate stations carry the network's morning show.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "media"
+  },
+  {
+    "date": "2026-07-27",
+    "pushed_at": "2026-07-27 11:59:32.323920",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "call sign",
+    "pos": "n.",
+    "meaning": "電台呼號",
+    "example": "Every licensed broadcaster must identify its call sign hourly.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "media"
+  },
+  {
+    "date": "2026-07-27",
+    "pushed_at": "2026-07-27 11:59:32.323920",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "live feed",
+    "pos": "n.",
+    "meaning": "現場直播訊號",
+    "example": "The control room switched to the live feed from the stadium.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "media"
+  },
+  {
+    "date": "2026-07-27",
+    "pushed_at": "2026-07-27 11:59:32.323920",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "on-air",
+    "pos": "adj.",
+    "meaning": "正在播出的",
+    "example": "The host raised her hand to signal she was on-air.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "media"
+  },
+  {
+    "date": "2026-07-27",
+    "pushed_at": "2026-07-27 11:59:32.323920",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "off-air",
+    "pos": "adj.",
+    "meaning": "未在播出的",
+    "example": "The anchors joked around during the off-air commercial break.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "media"
   }
 ]
