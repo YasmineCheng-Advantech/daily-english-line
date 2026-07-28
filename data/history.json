@@ -2812,5 +2812,70 @@
     "source": "bank",
     "cluster_mode": "root",
     "cluster_key": "pre- (事前)"
+  },
+  {
+    "date": "2026-07-28",
+    "pushed_at": "2026-07-28 11:32:16.865404",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "turnaround",
+    "pos": "n.",
+    "meaning": "業績轉虧為盈",
+    "example": "The new CEO engineered a remarkable turnaround.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "turnaround"
+  },
+  {
+    "date": "2026-07-28",
+    "pushed_at": "2026-07-28 11:32:16.865404",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "rebound",
+    "pos": "n.",
+    "meaning": "反彈",
+    "example": "Sales rebounded after the slow first quarter.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "turnaround"
+  },
+  {
+    "date": "2026-07-28",
+    "pushed_at": "2026-07-28 11:32:16.865404",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "conglomerate",
+    "pos": "n.",
+    "meaning": "企業集團",
+    "example": "The conglomerate operates businesses across many industries.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "turnaround"
+  },
+  {
+    "date": "2026-07-28",
+    "pushed_at": "2026-07-28 11:32:16.865404",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "subsidiary",
+    "pos": "n.",
+    "meaning": "子公司",
+    "example": "The subsidiary reports directly to the parent company.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "turnaround"
+  },
+  {
+    "date": "2026-07-28",
+    "pushed_at": "2026-07-28 11:32:16.865404",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "merger",
+    "pos": "n.",
+    "meaning": "合併",
+    "example": "The merger created the largest firm in the sector.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "turnaround"
   }
 ]
