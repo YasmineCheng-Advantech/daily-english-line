@@ -2747,5 +2747,70 @@
     "example_rom": "toi biet",
     "example_zh": "我知道。",
     "grammar_point": "biết也表「會(某技能)」"
+  },
+  {
+    "date": "2026-07-28",
+    "pushed_at": "2026-07-28 10:41:20.922462",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "premium pricing",
+    "pos": "phr.",
+    "meaning": "溢價策略",
+    "example": "The brand relies on premium pricing to signal quality.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "pre- (事前)"
+  },
+  {
+    "date": "2026-07-28",
+    "pushed_at": "2026-07-28 10:41:20.922462",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "precondition",
+    "pos": "n.",
+    "meaning": "先決條件",
+    "example": "Approval from headquarters was a precondition for the deal.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "pre- (事前)"
+  },
+  {
+    "date": "2026-07-28",
+    "pushed_at": "2026-07-28 10:41:20.922462",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "prerequisite",
+    "pos": "n.",
+    "meaning": "先決條件",
+    "example": "A signed NDA was a prerequisite to further talks.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "pre- (事前)"
+  },
+  {
+    "date": "2026-07-28",
+    "pushed_at": "2026-07-28 10:41:20.922462",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "preliminary talks",
+    "pos": "n.",
+    "meaning": "初步會談",
+    "example": "Preliminary talks began before the formal negotiation.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "pre- (事前)"
+  },
+  {
+    "date": "2026-07-28",
+    "pushed_at": "2026-07-28 10:41:20.922462",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "precedent",
+    "pos": "n.",
+    "meaning": "判例/先例",
+    "example": "The ruling set a precedent for future disputes.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "pre- (事前)"
   }
 ]
