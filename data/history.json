@@ -2967,5 +2967,70 @@
     "example_rom": "kon chao me",
     "example_zh": "媽我回來了。",
     "grammar_point": "對父母時自稱con"
+  },
+  {
+    "date": "2026-07-29",
+    "pushed_at": "2026-07-29 11:36:11.956487",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "capable",
+    "pos": "adj.",
+    "meaning": "有能力的",
+    "example": "She is fully capable of leading the department.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "capable"
+  },
+  {
+    "date": "2026-07-29",
+    "pushed_at": "2026-07-29 11:36:11.956487",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "incapable",
+    "pos": "adj.",
+    "meaning": "沒有能力的",
+    "example": "He seemed incapable of meeting the deadline.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "capable"
+  },
+  {
+    "date": "2026-07-29",
+    "pushed_at": "2026-07-29 11:36:11.956487",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "severance",
+    "pos": "n.",
+    "meaning": "資遣費",
+    "example": "Laid-off staff received a severance package.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "capable"
+  },
+  {
+    "date": "2026-07-29",
+    "pushed_at": "2026-07-29 11:36:11.956487",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "grievance",
+    "pos": "n.",
+    "meaning": "申訴",
+    "example": "Employees can file a grievance with the HR department.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "capable"
+  },
+  {
+    "date": "2026-07-29",
+    "pushed_at": "2026-07-29 11:36:11.956487",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "appraisal",
+    "pos": "n.",
+    "meaning": "績效考核",
+    "example": "Annual appraisals determine eligibility for a raise.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "capable"
   }
 ]
