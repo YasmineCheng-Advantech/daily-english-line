@@ -3187,5 +3187,70 @@
     "source": "bank",
     "cluster_mode": "theme",
     "cluster_key": "project_management"
+  },
+  {
+    "date": "2026-07-30",
+    "pushed_at": "2026-07-30 11:25:25.094108",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "multi-sourcing",
+    "pos": "n.",
+    "meaning": "多方採購來源",
+    "example": "Multi-sourcing spreads risk across several suppliers.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "multi- (多)"
+  },
+  {
+    "date": "2026-07-30",
+    "pushed_at": "2026-07-30 11:25:25.094108",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "multimodal",
+    "pos": "adj.",
+    "meaning": "多式的",
+    "example": "A multimodal route cut transport costs by a third.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "multi- (多)"
+  },
+  {
+    "date": "2026-07-30",
+    "pushed_at": "2026-07-30 11:25:25.094108",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "multidisciplinary",
+    "pos": "adj.",
+    "meaning": "跨領域的",
+    "example": "A multidisciplinary team handled design, coding, and testing.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "multi- (多)"
+  },
+  {
+    "date": "2026-07-30",
+    "pushed_at": "2026-07-30 11:25:25.094108",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "multi-project management",
+    "pos": "n.",
+    "meaning": "多專案管理",
+    "example": "Multi-project management required careful resource sharing.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "multi- (多)"
+  },
+  {
+    "date": "2026-07-30",
+    "pushed_at": "2026-07-30 11:25:25.094108",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "multilateral trade",
+    "pos": "n.",
+    "meaning": "多邊貿易",
+    "example": "Multilateral trade talks stalled over farm subsidies.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "multi- (多)"
   }
 ]
