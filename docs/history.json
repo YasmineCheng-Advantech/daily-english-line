@@ -3122,5 +3122,70 @@
     "example_rom": "banh seo zion",
     "example_zh": "煎餅酥脆",
     "grammar_point": ""
+  },
+  {
+    "date": "2026-07-30",
+    "pushed_at": "2026-07-30 10:02:31.528505",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "scope creep",
+    "pos": "n.",
+    "meaning": "範疇蔓延",
+    "example": "Scope creep pushed the deadline back by a month.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "project_management"
+  },
+  {
+    "date": "2026-07-30",
+    "pushed_at": "2026-07-30 10:02:31.528505",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "gantt chart",
+    "pos": "n.",
+    "meaning": "甘特圖",
+    "example": "The gantt chart showed every task and its deadline.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "project_management"
+  },
+  {
+    "date": "2026-07-30",
+    "pushed_at": "2026-07-30 10:02:31.528505",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "critical path",
+    "pos": "n.",
+    "meaning": "關鍵路徑",
+    "example": "Delaying any task on the critical path delays the whole project.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "project_management"
+  },
+  {
+    "date": "2026-07-30",
+    "pushed_at": "2026-07-30 10:02:31.528505",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "dependency",
+    "pos": "n.",
+    "meaning": "相依性",
+    "example": "A dependency between two tasks caused the hold-up.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "project_management"
+  },
+  {
+    "date": "2026-07-30",
+    "pushed_at": "2026-07-30 10:02:31.528505",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "predecessor",
+    "pos": "n.",
+    "meaning": "前置作業",
+    "example": "Each task lists its predecessor before it can start.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "project_management"
   }
 ]
