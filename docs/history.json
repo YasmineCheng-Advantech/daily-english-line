@@ -3342,5 +3342,70 @@
     "example_rom": "choi mua",
     "example_zh": "下雨了。",
     "grammar_point": ""
+  },
+  {
+    "date": "2026-07-31",
+    "pushed_at": "2026-07-31 11:47:37.348891",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "deviate",
+    "pos": "v.",
+    "meaning": "偏離",
+    "example": "The team should not deviate from the agreed budget.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "deviate"
+  },
+  {
+    "date": "2026-07-31",
+    "pushed_at": "2026-07-31 11:47:37.348891",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "diverge",
+    "pos": "v.",
+    "meaning": "分歧;分岔",
+    "example": "Opinions diverge sharply on this issue.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "deviate"
+  },
+  {
+    "date": "2026-07-31",
+    "pushed_at": "2026-07-31 11:47:37.348891",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "initiative",
+    "pos": "n.",
+    "meaning": "主動性；新計畫",
+    "example": "He took the initiative to redesign the workflow.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "deviate"
+  },
+  {
+    "date": "2026-07-31",
+    "pushed_at": "2026-07-31 11:47:37.348891",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "oversight",
+    "pos": "n.",
+    "meaning": "監督",
+    "example": "The committee provides oversight of budget spending.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "deviate"
+  },
+  {
+    "date": "2026-07-31",
+    "pushed_at": "2026-07-31 11:47:37.348891",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "autonomy",
+    "pos": "n.",
+    "meaning": "自主權",
+    "example": "Remote teams are given considerable autonomy over their schedules.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "deviate"
   }
 ]
