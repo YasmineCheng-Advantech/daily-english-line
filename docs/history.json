@@ -3497,5 +3497,70 @@
     "example_rom": "za san bay",
     "example_zh": "去機場",
     "grammar_point": ""
+  },
+  {
+    "date": "2026-08-01",
+    "pushed_at": "2026-08-01 11:47:21.088414",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "deprioritize",
+    "pos": "v.",
+    "meaning": "降低優先順序",
+    "example": "Management chose to deprioritize the minor upgrade.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "deprioritize"
+  },
+  {
+    "date": "2026-08-01",
+    "pushed_at": "2026-08-01 11:47:21.088414",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "prioritize",
+    "pos": "v.",
+    "meaning": "排列優先順序",
+    "example": "Managers must prioritize tasks when resources are limited.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "deprioritize"
+  },
+  {
+    "date": "2026-08-01",
+    "pushed_at": "2026-08-01 11:47:21.088414",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "streamline",
+    "pos": "v.",
+    "meaning": "簡化流程",
+    "example": "The new software helped streamline the approval process.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "deprioritize"
+  },
+  {
+    "date": "2026-08-01",
+    "pushed_at": "2026-08-01 11:47:21.088414",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "inventory",
+    "pos": "n.",
+    "meaning": "庫存",
+    "example": "Inventory levels are monitored to avoid stockouts.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "deprioritize"
+  },
+  {
+    "date": "2026-08-01",
+    "pushed_at": "2026-08-01 11:47:21.088414",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "throughput",
+    "pos": "n.",
+    "meaning": "產出量",
+    "example": "The new machinery increased factory throughput.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "deprioritize"
   }
 ]
