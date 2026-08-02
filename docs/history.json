@@ -3652,5 +3652,70 @@
     "example_rom": "kon gai toi",
     "example_zh": "我女兒。",
     "grammar_point": "gái=女"
+  },
+  {
+    "date": "2026-08-02",
+    "pushed_at": "2026-08-02 11:50:00.085574",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "churn",
+    "pos": "n.",
+    "meaning": "客戶流失率",
+    "example": "High churn among subscribers hurt monthly recurring revenue.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "sales"
+  },
+  {
+    "date": "2026-08-02",
+    "pushed_at": "2026-08-02 11:50:00.085574",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "upsell",
+    "pos": "v.",
+    "meaning": "追加銷售",
+    "example": "Sales reps are trained to upsell premium service plans.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "sales"
+  },
+  {
+    "date": "2026-08-02",
+    "pushed_at": "2026-08-02 11:50:00.085574",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "cross-sell",
+    "pos": "v.",
+    "meaning": "交叉銷售",
+    "example": "The bank tried to cross-sell insurance products to loan customers.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "sales"
+  },
+  {
+    "date": "2026-08-02",
+    "pushed_at": "2026-08-02 11:50:00.085574",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "prospect",
+    "pos": "n.",
+    "meaning": "潛在客戶",
+    "example": "The sales rep called a promising prospect from the trade show list.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "sales"
+  },
+  {
+    "date": "2026-08-02",
+    "pushed_at": "2026-08-02 11:50:00.085574",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "lead",
+    "pos": "n.",
+    "meaning": "潛在客戶名單",
+    "example": "The event generated dozens of new sales leads.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "sales"
   }
 ]
