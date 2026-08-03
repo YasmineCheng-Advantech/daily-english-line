@@ -3807,5 +3807,70 @@
     "example_rom": "noi cham",
     "example_zh": "說慢一點",
     "grammar_point": ""
+  },
+  {
+    "date": "2026-08-03",
+    "pushed_at": "2026-08-03 09:45:49.785986",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "depreciation",
+    "pos": "n.",
+    "meaning": "折舊",
+    "example": "Depreciation of equipment is recorded annually on the balance sheet.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "de- (去除/相反)"
+  },
+  {
+    "date": "2026-08-03",
+    "pushed_at": "2026-08-03 09:45:49.785986",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "decisive",
+    "pos": "adj.",
+    "meaning": "果斷的",
+    "example": "A decisive leader kept the project on schedule.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "de- (去除/相反)"
+  },
+  {
+    "date": "2026-08-03",
+    "pushed_at": "2026-08-03 09:45:49.785986",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "defect rate",
+    "pos": "phr.",
+    "meaning": "瑕疵率",
+    "example": "The defect rate dropped after the process overhaul.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "de- (去除/相反)"
+  },
+  {
+    "date": "2026-08-03",
+    "pushed_at": "2026-08-03 09:45:49.785986",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "divestiture",
+    "pos": "n.",
+    "meaning": "資產剝離",
+    "example": "The divestiture of non-core assets improved cash flow.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "de- (去除/相反)"
+  },
+  {
+    "date": "2026-08-03",
+    "pushed_at": "2026-08-03 09:45:49.785986",
+    "trigger": "manual",
+    "lang": "en",
+    "word": "deflation",
+    "pos": "n.",
+    "meaning": "通貨緊縮",
+    "example": "Deflation can discourage consumer spending.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "de- (去除/相反)"
   }
 ]
