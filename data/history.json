@@ -3872,5 +3872,70 @@
     "source": "bank",
     "cluster_mode": "root",
     "cluster_key": "de- (去除/相反)"
+  },
+  {
+    "date": "2026-08-03",
+    "pushed_at": "2026-08-03 11:52:00.929575",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "inconvenience",
+    "pos": "n.",
+    "meaning": "不便",
+    "example": "We apologize for any inconvenience this may cause.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "inconvenience"
+  },
+  {
+    "date": "2026-08-03",
+    "pushed_at": "2026-08-03 11:52:00.929575",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "disruption",
+    "pos": "n.",
+    "meaning": "中斷干擾",
+    "example": "A supply disruption forced the plant to find a new vendor.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "inconvenience"
+  },
+  {
+    "date": "2026-08-03",
+    "pushed_at": "2026-08-03 11:52:00.929575",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "attentiveness",
+    "pos": "n.",
+    "meaning": "細心周到",
+    "example": "Her attentiveness made the client feel valued.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "inconvenience"
+  },
+  {
+    "date": "2026-08-03",
+    "pushed_at": "2026-08-03 11:52:00.929575",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "courteous",
+    "pos": "adj.",
+    "meaning": "有禮貌的",
+    "example": "Even during complaints, staff remain courteous.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "inconvenience"
+  },
+  {
+    "date": "2026-08-03",
+    "pushed_at": "2026-08-03 11:52:00.929575",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "courtesy",
+    "pos": "n.",
+    "meaning": "禮貌",
+    "example": "Basic courtesy goes a long way with upset customers.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "inconvenience"
   }
 ]
