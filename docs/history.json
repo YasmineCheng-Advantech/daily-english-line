@@ -4027,5 +4027,70 @@
     "example_rom": "toi khong ko tien",
     "example_zh": "我沒錢。",
     "grammar_point": ""
+  },
+  {
+    "date": "2026-08-04",
+    "pushed_at": "2026-08-04 11:34:10.880354",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "decentralize",
+    "pos": "v.",
+    "meaning": "使分散化",
+    "example": "The organization decided to decentralize decision making.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "decentralize"
+  },
+  {
+    "date": "2026-08-04",
+    "pushed_at": "2026-08-04 11:34:10.880354",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "centralize",
+    "pos": "v.",
+    "meaning": "使集中化",
+    "example": "The company chose to centralize its purchasing function.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "decentralize"
+  },
+  {
+    "date": "2026-08-04",
+    "pushed_at": "2026-08-04 11:34:10.880354",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "proactive",
+    "pos": "adj.",
+    "meaning": "主動積極的",
+    "example": "A proactive approach to risk helped avoid major setbacks.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "decentralize"
+  },
+  {
+    "date": "2026-08-04",
+    "pushed_at": "2026-08-04 11:34:10.880354",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "consensus",
+    "pos": "n.",
+    "meaning": "共識",
+    "example": "The team reached a consensus after a lengthy discussion.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "decentralize"
+  },
+  {
+    "date": "2026-08-04",
+    "pushed_at": "2026-08-04 11:34:10.880354",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "chain of command",
+    "pos": "phr.",
+    "meaning": "指揮系統",
+    "example": "Requests must follow the proper chain of command.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "decentralize"
   }
 ]
