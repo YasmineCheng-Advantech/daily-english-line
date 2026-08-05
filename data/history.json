@@ -4182,5 +4182,70 @@
     "example_rom": "lay kai kia",
     "example_zh": "拿那個",
     "grammar_point": ""
+  },
+  {
+    "date": "2026-08-05",
+    "pushed_at": "2026-08-05 11:29:29.223202",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "arbitrary",
+    "pos": "adj.",
+    "meaning": "武斷的;隨意的",
+    "example": "The rules seemed arbitrary and inconsistent.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "academic"
+  },
+  {
+    "date": "2026-08-05",
+    "pushed_at": "2026-08-05 11:29:29.223202",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "empirical",
+    "pos": "adj.",
+    "meaning": "實證的;經驗主義的",
+    "example": "The theory is based on empirical evidence rather than speculation.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "academic"
+  },
+  {
+    "date": "2026-08-05",
+    "pushed_at": "2026-08-05 11:29:29.223202",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "meticulous",
+    "pos": "adj.",
+    "meaning": "一絲不苟的",
+    "example": "He is meticulous about checking every detail before submission.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "academic"
+  },
+  {
+    "date": "2026-08-05",
+    "pushed_at": "2026-08-05 11:29:29.223202",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "profound",
+    "pos": "adj.",
+    "meaning": "深刻的;深遠的",
+    "example": "The experience had a profound impact on her worldview.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "academic"
+  },
+  {
+    "date": "2026-08-05",
+    "pushed_at": "2026-08-05 11:29:29.223202",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "versatile",
+    "pos": "adj.",
+    "meaning": "多才多藝的;多用途的",
+    "example": "This tool is versatile enough for many different tasks.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "academic"
   }
 ]
