@@ -4337,5 +4337,70 @@
     "example_rom": "o gok",
     "example_zh": "在角落",
     "grammar_point": ""
+  },
+  {
+    "date": "2026-08-06",
+    "pushed_at": "2026-08-06 11:33:32.804003",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "trade deficit",
+    "pos": "phr.",
+    "meaning": "貿易逆差",
+    "example": "The country's trade deficit widened last quarter.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "de- (去除/相反)"
+  },
+  {
+    "date": "2026-08-06",
+    "pushed_at": "2026-08-06 11:33:32.804003",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "currency devaluation",
+    "pos": "phr.",
+    "meaning": "貨幣貶值",
+    "example": "Currency devaluation made imports significantly more expensive.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "de- (去除/相反)"
+  },
+  {
+    "date": "2026-08-06",
+    "pushed_at": "2026-08-06 11:33:32.804003",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "deference",
+    "pos": "n.",
+    "meaning": "順從/尊重",
+    "example": "Junior staff showed deference to the lead negotiator's judgment.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "de- (去除/相反)"
+  },
+  {
+    "date": "2026-08-06",
+    "pushed_at": "2026-08-06 11:33:32.804003",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "defer",
+    "pos": "v.",
+    "meaning": "順從/延後",
+    "example": "They deferred the final decision to next week.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "de- (去除/相反)"
+  },
+  {
+    "date": "2026-08-06",
+    "pushed_at": "2026-08-06 11:33:32.804003",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "de-escalate",
+    "pos": "v.",
+    "meaning": "緩和",
+    "example": "The mediator worked to de-escalate the dispute.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "de- (去除/相反)"
   }
 ]
