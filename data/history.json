@@ -4492,5 +4492,70 @@
     "example_rom": "kai ban thap",
     "example_zh": "矮桌子。",
     "grammar_point": ""
+  },
+  {
+    "date": "2026-08-07",
+    "pushed_at": "2026-08-07 11:13:33.870902",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "brand",
+    "pos": "n.",
+    "meaning": "品牌",
+    "example": "The company spent years building a trustworthy brand.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "brand"
+  },
+  {
+    "date": "2026-08-07",
+    "pushed_at": "2026-08-07 11:13:33.870902",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "trademark",
+    "pos": "n.",
+    "meaning": "商標",
+    "example": "The trademark was registered in three countries.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "brand"
+  },
+  {
+    "date": "2026-08-07",
+    "pushed_at": "2026-08-07 11:13:33.870902",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "differentiate",
+    "pos": "v.",
+    "meaning": "差異化",
+    "example": "The brand differentiates itself through sustainable packaging.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "brand"
+  },
+  {
+    "date": "2026-08-07",
+    "pushed_at": "2026-08-07 11:13:33.870902",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "positioning",
+    "pos": "n.",
+    "meaning": "市場定位",
+    "example": "Strong positioning helped the product stand out from competitors.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "brand"
+  },
+  {
+    "date": "2026-08-07",
+    "pushed_at": "2026-08-07 11:13:33.870902",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "endorsement",
+    "pos": "n.",
+    "meaning": "代言；背書",
+    "example": "The athlete's endorsement boosted the brand's visibility.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "brand"
   }
 ]
