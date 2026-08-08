@@ -4647,5 +4647,70 @@
     "example_rom": "thang nay",
     "example_zh": "這個月",
     "grammar_point": ""
+  },
+  {
+    "date": "2026-08-08",
+    "pushed_at": "2026-08-08 10:19:24.475077",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "hard currency",
+    "pos": "n.",
+    "meaning": "強勢貨幣",
+    "example": "Exporters prefer payment in hard currency.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "hard currency"
+  },
+  {
+    "date": "2026-08-08",
+    "pushed_at": "2026-08-08 10:19:24.475077",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "soft currency",
+    "pos": "n.",
+    "meaning": "弱勢貨幣",
+    "example": "The soft currency lost value against the dollar.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "hard currency"
+  },
+  {
+    "date": "2026-08-08",
+    "pushed_at": "2026-08-08 10:19:24.475077",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "liquidity",
+    "pos": "n.",
+    "meaning": "流動性",
+    "example": "The company maintained strong liquidity to cover short-term debts.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "hard currency"
+  },
+  {
+    "date": "2026-08-08",
+    "pushed_at": "2026-08-08 10:19:24.475077",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "equity",
+    "pos": "n.",
+    "meaning": "股權",
+    "example": "Investors received equity in exchange for early funding.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "hard currency"
+  },
+  {
+    "date": "2026-08-08",
+    "pushed_at": "2026-08-08 10:19:24.475077",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "dividend",
+    "pos": "n.",
+    "meaning": "股利",
+    "example": "The board approved a dividend increase for shareholders.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "hard currency"
   }
 ]
