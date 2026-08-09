@@ -4802,5 +4802,70 @@
     "example_rom": "tinh tyen nye",
     "example_zh": "結帳喔",
     "grammar_point": ""
+  },
+  {
+    "date": "2026-08-09",
+    "pushed_at": "2026-08-09 10:26:31.071202",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "filibuster",
+    "pos": "n./v.",
+    "meaning": "阻撓議事",
+    "example": "The senator used a filibuster to delay the vote.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "politics"
+  },
+  {
+    "date": "2026-08-09",
+    "pushed_at": "2026-08-09 10:26:31.071202",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "statesman",
+    "pos": "n.",
+    "meaning": "政治家",
+    "example": "He is remembered as a wise statesman who valued diplomacy.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "politics"
+  },
+  {
+    "date": "2026-08-09",
+    "pushed_at": "2026-08-09 10:26:31.071202",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "populism",
+    "pos": "n.",
+    "meaning": "民粹主義",
+    "example": "Populism has reshaped political discourse in many countries.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "politics"
+  },
+  {
+    "date": "2026-08-09",
+    "pushed_at": "2026-08-09 10:26:31.071202",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "enact",
+    "pos": "v.",
+    "meaning": "制定(法律)",
+    "example": "Lawmakers enacted new voting regulations last spring.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "politics"
+  },
+  {
+    "date": "2026-08-09",
+    "pushed_at": "2026-08-09 10:26:31.071202",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "repeal",
+    "pos": "v./n.",
+    "meaning": "廢除(法律)",
+    "example": "The senate voted to repeal the outdated law.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "politics"
   }
 ]
