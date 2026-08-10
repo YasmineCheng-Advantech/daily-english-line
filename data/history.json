@@ -4957,5 +4957,70 @@
     "example_rom": "zam za duoc khong",
     "example_zh": "可以算便宜點嗎？",
     "grammar_point": "…được không?=可以…嗎"
+  },
+  {
+    "date": "2026-08-10",
+    "pushed_at": "2026-08-10 10:31:48.624229",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "reciprocate",
+    "pos": "v.",
+    "meaning": "回報/互惠",
+    "example": "If you offer a discount, we will reciprocate with a bulk order.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "re- (再次)"
+  },
+  {
+    "date": "2026-08-10",
+    "pushed_at": "2026-08-10 10:31:48.624229",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "reciprocal",
+    "pos": "adj.",
+    "meaning": "互惠的",
+    "example": "The two firms signed a reciprocal trade arrangement.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "re- (再次)"
+  },
+  {
+    "date": "2026-08-10",
+    "pushed_at": "2026-08-10 10:31:48.624229",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "redraft",
+    "pos": "v.",
+    "meaning": "重新草擬",
+    "example": "The legal team redrafted the clause after negotiations.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "re- (再次)"
+  },
+  {
+    "date": "2026-08-10",
+    "pushed_at": "2026-08-10 10:31:48.624229",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "revise",
+    "pos": "v.",
+    "meaning": "修訂",
+    "example": "They revised the offer twice before agreement.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "re- (再次)"
+  },
+  {
+    "date": "2026-08-10",
+    "pushed_at": "2026-08-10 10:31:48.624229",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "reassure",
+    "pos": "v.",
+    "meaning": "使安心",
+    "example": "The manager reassured the vendor about future orders.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "re- (再次)"
   }
 ]
