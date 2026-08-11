@@ -5112,5 +5112,70 @@
     "example_rom": "cha ka nong",
     "example_zh": "魚餅熱的",
     "grammar_point": ""
+  },
+  {
+    "date": "2026-08-11",
+    "pushed_at": "2026-08-11 10:25:21.010114",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "tactful",
+    "pos": "adj.",
+    "meaning": "圓融得體的",
+    "example": "She was tactful when addressing the client's complaint.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "tactful"
+  },
+  {
+    "date": "2026-08-11",
+    "pushed_at": "2026-08-11 10:25:21.010114",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "diplomatic",
+    "pos": "adj.",
+    "meaning": "圓滑的",
+    "example": "A diplomatic response avoided further conflict.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "tactful"
+  },
+  {
+    "date": "2026-08-11",
+    "pushed_at": "2026-08-11 10:25:21.010114",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "considerate",
+    "pos": "adj.",
+    "meaning": "體貼的",
+    "example": "The considerate agent checked in after the issue was fixed.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "tactful"
+  },
+  {
+    "date": "2026-08-11",
+    "pushed_at": "2026-08-11 10:25:21.010114",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "rapport",
+    "pos": "n.",
+    "meaning": "融洽關係",
+    "example": "The sales rep built rapport with the client quickly.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "tactful"
+  },
+  {
+    "date": "2026-08-11",
+    "pushed_at": "2026-08-11 10:25:21.010114",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "persuasive",
+    "pos": "adj.",
+    "meaning": "有說服力的",
+    "example": "His persuasive pitch won over the investors.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "tactful"
   }
 ]
