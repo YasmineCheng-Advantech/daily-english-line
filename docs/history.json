@@ -5267,5 +5267,70 @@
     "example_rom": "toi kan bak si",
     "example_zh": "我需要醫生。",
     "grammar_point": ""
+  },
+  {
+    "date": "2026-08-12",
+    "pushed_at": "2026-08-12 10:41:33.650640",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "import",
+    "pos": "v.",
+    "meaning": "進口",
+    "example": "They import most of their raw materials from abroad.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "import"
+  },
+  {
+    "date": "2026-08-12",
+    "pushed_at": "2026-08-12 10:41:33.650640",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "export",
+    "pos": "v.",
+    "meaning": "出口",
+    "example": "The company began to export its products to Asia.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "import"
+  },
+  {
+    "date": "2026-08-12",
+    "pushed_at": "2026-08-12 10:41:33.650640",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "procurement",
+    "pos": "n.",
+    "meaning": "採購",
+    "example": "The procurement team negotiated lower prices with suppliers.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "import"
+  },
+  {
+    "date": "2026-08-12",
+    "pushed_at": "2026-08-12 10:41:33.650640",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "logistics",
+    "pos": "n.",
+    "meaning": "物流",
+    "example": "Efficient logistics reduced delivery times by half.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "import"
+  },
+  {
+    "date": "2026-08-12",
+    "pushed_at": "2026-08-12 10:41:33.650640",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "vendor",
+    "pos": "n.",
+    "meaning": "供應商",
+    "example": "The company switched to a more reliable vendor.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "import"
   }
 ]
