@@ -5422,5 +5422,70 @@
     "example_rom": "tam biet, hen gap lai!",
     "example_zh": "再見，下次見！",
     "grammar_point": "hẹn gặp lại = 期待再相見（下次見的固定說法）"
+  },
+  {
+    "date": "2026-08-13",
+    "pushed_at": "2026-08-13 10:44:33.685053",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "delegation",
+    "pos": "n.",
+    "meaning": "代表團",
+    "example": "A delegation from the UN visited the war-torn region.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "politics"
+  },
+  {
+    "date": "2026-08-13",
+    "pushed_at": "2026-08-13 10:44:33.685053",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "autocracy",
+    "pos": "n.",
+    "meaning": "獨裁政體",
+    "example": "Critics argue the country is sliding toward autocracy.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "politics"
+  },
+  {
+    "date": "2026-08-13",
+    "pushed_at": "2026-08-13 10:44:33.685053",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "plutocracy",
+    "pos": "n.",
+    "meaning": "財閥統治",
+    "example": "Critics claim campaign donations have created a plutocracy.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "politics"
+  },
+  {
+    "date": "2026-08-13",
+    "pushed_at": "2026-08-13 10:44:33.685053",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "oligarchy",
+    "pos": "n.",
+    "meaning": "寡頭政治",
+    "example": "Power in the country is concentrated in an oligarchy of business elites.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "politics"
+  },
+  {
+    "date": "2026-08-13",
+    "pushed_at": "2026-08-13 10:44:33.685053",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "theocracy",
+    "pos": "n.",
+    "meaning": "神權政治",
+    "example": "The nation is governed as a theocracy under religious law.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "politics"
   }
 ]
