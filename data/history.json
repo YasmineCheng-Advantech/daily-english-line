@@ -5577,5 +5577,70 @@
     "example_rom": "hoi dat",
     "example_zh": "有點貴。",
     "grammar_point": "hơi+形容詞=有點…"
+  },
+  {
+    "date": "2026-08-14",
+    "pushed_at": "2026-08-14 10:43:18.379671",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "renewal",
+    "pos": "n.",
+    "meaning": "續約",
+    "example": "Automatic renewal applies unless cancelled in writing.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "re- (再次)"
+  },
+  {
+    "date": "2026-08-14",
+    "pushed_at": "2026-08-14 10:43:18.379671",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "renew",
+    "pos": "v.",
+    "meaning": "續約",
+    "example": "They chose to renew the licensing contract.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "re- (再次)"
+  },
+  {
+    "date": "2026-08-14",
+    "pushed_at": "2026-08-14 10:43:18.379671",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "restitution",
+    "pos": "n.",
+    "meaning": "賠償/歸還",
+    "example": "The court ordered restitution of the deposit.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "re- (再次)"
+  },
+  {
+    "date": "2026-08-14",
+    "pushed_at": "2026-08-14 10:43:18.379671",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "retrospective",
+    "pos": "adj.",
+    "meaning": "回顧性的",
+    "example": "A retrospective amendment altered the earlier terms.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "re- (再次)"
+  },
+  {
+    "date": "2026-08-14",
+    "pushed_at": "2026-08-14 10:43:18.379671",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "redress",
+    "pos": "n.",
+    "meaning": "補救/賠償",
+    "example": "The contract outlines redress for late delivery.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "re- (再次)"
   }
 ]
