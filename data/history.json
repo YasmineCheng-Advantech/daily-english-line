@@ -5732,5 +5732,70 @@
     "example_rom": "tam zo",
     "example_zh": "八點",
     "grammar_point": ""
+  },
+  {
+    "date": "2026-08-15",
+    "pushed_at": "2026-08-15 09:47:42.570610",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "mobilize",
+    "pos": "v.",
+    "meaning": "動員",
+    "example": "Management mobilized resources quickly after the setback.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "mobilize"
+  },
+  {
+    "date": "2026-08-15",
+    "pushed_at": "2026-08-15 09:47:42.570610",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "rally",
+    "pos": "n.",
+    "meaning": "反彈",
+    "example": "Stocks staged a rally after the earnings beat.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "mobilize"
+  },
+  {
+    "date": "2026-08-15",
+    "pushed_at": "2026-08-15 09:47:42.570610",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "micromanage",
+    "pos": "v.",
+    "meaning": "微觀管理",
+    "example": "Employees resented being micromanaged on every task.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "mobilize"
+  },
+  {
+    "date": "2026-08-15",
+    "pushed_at": "2026-08-15 09:47:42.570610",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "cross-functional",
+    "pos": "adj.",
+    "meaning": "跨部門的",
+    "example": "A cross-functional team was formed to launch the product.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "mobilize"
+  },
+  {
+    "date": "2026-08-15",
+    "pushed_at": "2026-08-15 09:47:42.570610",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "stakeholder",
+    "pos": "n.",
+    "meaning": "利害關係人",
+    "example": "All stakeholders were consulted before the policy change.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "mobilize"
   }
 ]
