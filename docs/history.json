@@ -5887,5 +5887,70 @@
     "example_rom": "song zoi",
     "example_zh": "好了。",
     "grammar_point": ""
+  },
+  {
+    "date": "2026-08-16",
+    "pushed_at": "2026-08-16 09:55:42.581333",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "impede",
+    "pos": "v.",
+    "meaning": "妨礙;阻礙",
+    "example": "Heavy traffic impeded our progress to the airport.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "impede"
+  },
+  {
+    "date": "2026-08-16",
+    "pushed_at": "2026-08-16 09:55:42.581333",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "facilitate",
+    "pos": "v.",
+    "meaning": "促進；協助",
+    "example": "The consultant facilitated discussions between departments.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "impede"
+  },
+  {
+    "date": "2026-08-16",
+    "pushed_at": "2026-08-16 09:55:42.581333",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "cumbersome",
+    "pos": "adj.",
+    "meaning": "笨重的;繁瑣的",
+    "example": "The process was cumbersome and time-consuming.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "impede"
+  },
+  {
+    "date": "2026-08-16",
+    "pushed_at": "2026-08-16 09:55:42.581333",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "intricate",
+    "pos": "adj.",
+    "meaning": "複雜精細的",
+    "example": "The watch has an intricate mechanism inside.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "impede"
+  },
+  {
+    "date": "2026-08-16",
+    "pushed_at": "2026-08-16 09:55:42.581333",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "paradox",
+    "pos": "n.",
+    "meaning": "悖論;矛盾",
+    "example": "It's a paradox that the more we know, the more questions arise.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "impede"
   }
 ]
