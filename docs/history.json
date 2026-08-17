@@ -6042,5 +6042,70 @@
     "example_rom": "zung o day nhe",
     "example_zh": "停這裡。",
     "grammar_point": "dừng=停"
+  },
+  {
+    "date": "2026-08-17",
+    "pushed_at": "2026-08-17 09:53:45.447508",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "impasse",
+    "pos": "n.",
+    "meaning": "談判僵局",
+    "example": "Talks reached an impasse over pricing terms.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "negotiation"
+  },
+  {
+    "date": "2026-08-17",
+    "pushed_at": "2026-08-17 09:53:45.447508",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "good faith",
+    "pos": "phr.",
+    "meaning": "誠信",
+    "example": "Both sides negotiated in good faith to reach an agreement.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "negotiation"
+  },
+  {
+    "date": "2026-08-17",
+    "pushed_at": "2026-08-17 09:53:45.447508",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "deadlock",
+    "pos": "n.",
+    "meaning": "僵局",
+    "example": "Negotiations hit a deadlock after three rounds of talks.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "negotiation"
+  },
+  {
+    "date": "2026-08-17",
+    "pushed_at": "2026-08-17 09:53:45.447508",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "bargaining chip",
+    "pos": "phr.",
+    "meaning": "談判籌碼",
+    "example": "Exclusive distribution rights became our main bargaining chip.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "negotiation"
+  },
+  {
+    "date": "2026-08-17",
+    "pushed_at": "2026-08-17 09:53:45.447508",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "tender",
+    "pos": "n.",
+    "meaning": "投標",
+    "example": "The company submitted a tender for the construction project.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "negotiation"
   }
 ]
