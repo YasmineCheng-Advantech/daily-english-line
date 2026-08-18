@@ -6197,5 +6197,70 @@
     "example_rom": "zut vui duoc gap anh",
     "example_zh": "很高興認識你哥。",
     "grammar_point": "rất=很，程度副詞放形容詞前"
+  },
+  {
+    "date": "2026-08-18",
+    "pushed_at": "2026-08-18 09:48:41.080644",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "disciplinary action",
+    "pos": "phr.",
+    "meaning": "懲戒行動",
+    "example": "Repeated violations may result in disciplinary action.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "-tion/-sion (名詞化:動作結果)"
+  },
+  {
+    "date": "2026-08-18",
+    "pushed_at": "2026-08-18 09:48:41.080644",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "diversity and inclusion",
+    "pos": "phr.",
+    "meaning": "多元共融",
+    "example": "The firm launched a diversity and inclusion initiative.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "-tion/-sion (名詞化:動作結果)"
+  },
+  {
+    "date": "2026-08-18",
+    "pushed_at": "2026-08-18 09:48:41.080644",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "remuneration",
+    "pos": "n.",
+    "meaning": "薪酬",
+    "example": "The remuneration package includes stock options.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "-tion/-sion (名詞化:動作結果)"
+  },
+  {
+    "date": "2026-08-18",
+    "pushed_at": "2026-08-18 09:48:41.080644",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "induction",
+    "pos": "n.",
+    "meaning": "新進人員訓練",
+    "example": "The induction session covers company policies and culture.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "-tion/-sion (名詞化:動作結果)"
+  },
+  {
+    "date": "2026-08-18",
+    "pushed_at": "2026-08-18 09:48:41.080644",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "distribution channel",
+    "pos": "phr.",
+    "meaning": "配銷通路",
+    "example": "Online sales opened a new distribution channel.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "-tion/-sion (名詞化:動作結果)"
   }
 ]
