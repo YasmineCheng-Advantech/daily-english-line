@@ -6352,5 +6352,70 @@
     "example_rom": "zao buoi sang anh",
     "example_zh": "早安（對男性）",
     "grammar_point": ""
+  },
+  {
+    "date": "2026-08-19",
+    "pushed_at": "2026-08-19 09:50:54.775576",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "GAA",
+    "pos": "n.",
+    "meaning": "環繞式閘極",
+    "example": "GAA is expected to replace FinFET in future nodes.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "GAA"
+  },
+  {
+    "date": "2026-08-19",
+    "pushed_at": "2026-08-19 09:50:54.775576",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "gate-all-around",
+    "pos": "n.",
+    "meaning": "環繞閘極",
+    "example": "Gate-all-around transistors surround the channel on all sides for better control.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "GAA"
+  },
+  {
+    "date": "2026-08-19",
+    "pushed_at": "2026-08-19 09:50:54.775576",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "defect",
+    "pos": "n.",
+    "meaning": "缺陷",
+    "example": "A defect in the line can affect final device performance.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "GAA"
+  },
+  {
+    "date": "2026-08-19",
+    "pushed_at": "2026-08-19 09:50:54.775576",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "particle",
+    "pos": "n.",
+    "meaning": "微粒污染",
+    "example": "Particle control is critical in the cleanroom.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "GAA"
+  },
+  {
+    "date": "2026-08-19",
+    "pushed_at": "2026-08-19 09:50:54.775576",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "cleanroom",
+    "pos": "n.",
+    "meaning": "無塵室",
+    "example": "Strict gowning rules apply inside the cleanroom.",
+    "source": "bank",
+    "cluster_mode": "synonym",
+    "cluster_key": "GAA"
   }
 ]
