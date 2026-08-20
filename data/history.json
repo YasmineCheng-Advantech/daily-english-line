@@ -6507,5 +6507,70 @@
     "example_rom": "buoi sang",
     "example_zh": "早上。",
     "grammar_point": ""
+  },
+  {
+    "date": "2026-08-20",
+    "pushed_at": "2026-08-20 09:49:39.035114",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "coerce",
+    "pos": "v.",
+    "meaning": "脅迫;強制",
+    "example": "Employees should never be coerced into working overtime.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "coerce"
+  },
+  {
+    "date": "2026-08-20",
+    "pushed_at": "2026-08-20 09:49:39.035114",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "persuade",
+    "pos": "v.",
+    "meaning": "說服",
+    "example": "He persuaded the supplier to extend the payment deadline.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "coerce"
+  },
+  {
+    "date": "2026-08-20",
+    "pushed_at": "2026-08-20 09:49:39.035114",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "notion",
+    "pos": "n.",
+    "meaning": "觀念;想法",
+    "example": "The notion that money buys happiness is debatable.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "coerce"
+  },
+  {
+    "date": "2026-08-20",
+    "pushed_at": "2026-08-20 09:49:39.035114",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "underlying",
+    "pos": "adj.",
+    "meaning": "潛在的;根本的",
+    "example": "We need to address the underlying cause of the problem.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "coerce"
+  },
+  {
+    "date": "2026-08-20",
+    "pushed_at": "2026-08-20 09:49:39.035114",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "prevalent",
+    "pos": "adj.",
+    "meaning": "普遍的;盛行的",
+    "example": "This belief is prevalent among younger generations.",
+    "source": "bank",
+    "cluster_mode": "antonym",
+    "cluster_key": "coerce"
   }
 ]
