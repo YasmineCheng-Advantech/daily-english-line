@@ -6662,5 +6662,70 @@
     "example_rom": "den zoi",
     "example_zh": "到了",
     "grammar_point": ""
+  },
+  {
+    "date": "2026-08-21",
+    "pushed_at": "2026-08-21 09:55:37.920992",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "scalability",
+    "pos": "n.",
+    "meaning": "可擴展性",
+    "example": "The platform was built with scalability in mind.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "technology_it"
+  },
+  {
+    "date": "2026-08-21",
+    "pushed_at": "2026-08-21 09:55:37.920992",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "server",
+    "pos": "n.",
+    "meaning": "伺服器",
+    "example": "The server crashed during peak traffic hours.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "technology_it"
+  },
+  {
+    "date": "2026-08-21",
+    "pushed_at": "2026-08-21 09:55:37.920992",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "cloud computing",
+    "pos": "n.",
+    "meaning": "雲端運算",
+    "example": "Cloud computing let the firm scale storage on demand.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "technology_it"
+  },
+  {
+    "date": "2026-08-21",
+    "pushed_at": "2026-08-21 09:55:37.920992",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "cloud infrastructure",
+    "pos": "n.",
+    "meaning": "雲端基礎設施",
+    "example": "The company migrated its cloud infrastructure to a new provider.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "technology_it"
+  },
+  {
+    "date": "2026-08-21",
+    "pushed_at": "2026-08-21 09:55:37.920992",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "infrastructure",
+    "pos": "n.",
+    "meaning": "基礎設施",
+    "example": "Aging infrastructure slowed the system's response time.",
+    "source": "bank",
+    "cluster_mode": "theme",
+    "cluster_key": "technology_it"
   }
 ]
