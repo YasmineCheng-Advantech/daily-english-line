@@ -6817,5 +6817,70 @@
     "example_rom": "zung o day",
     "example_zh": "停這裡。",
     "grammar_point": ""
+  },
+  {
+    "date": "2026-08-22",
+    "pushed_at": "2026-08-22 09:48:23.176097",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "reinstate",
+    "pos": "v.",
+    "meaning": "恢復效力",
+    "example": "The parties agreed to reinstate the suspended contract.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "re- (再次)"
+  },
+  {
+    "date": "2026-08-22",
+    "pushed_at": "2026-08-22 09:48:23.176097",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "reinstatement",
+    "pos": "n.",
+    "meaning": "恢復",
+    "example": "Reinstatement of the agreement required board approval.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "re- (再次)"
+  },
+  {
+    "date": "2026-08-22",
+    "pushed_at": "2026-08-22 09:48:23.176097",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "refinance",
+    "pos": "v.",
+    "meaning": "再融資",
+    "example": "They refinanced the mortgage at a lower rate.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "re- (再次)"
+  },
+  {
+    "date": "2026-08-22",
+    "pushed_at": "2026-08-22 09:48:23.176097",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "refinancing",
+    "pos": "n.",
+    "meaning": "再融資",
+    "example": "Refinancing reduced their monthly payments.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "re- (再次)"
+  },
+  {
+    "date": "2026-08-22",
+    "pushed_at": "2026-08-22 09:48:23.176097",
+    "trigger": "schedule",
+    "lang": "en",
+    "word": "repossess",
+    "pos": "v.",
+    "meaning": "收回",
+    "example": "The lender repossessed the vehicle after default.",
+    "source": "bank",
+    "cluster_mode": "root",
+    "cluster_key": "re- (再次)"
   }
 ]
